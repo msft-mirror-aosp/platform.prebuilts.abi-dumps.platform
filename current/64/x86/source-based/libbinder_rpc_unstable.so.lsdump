@@ -15,7 +15,6 @@
   {
    "alignment" : 1,
    "is_integral" : true,
-   "is_unsigned" : true,
    "linker_set_key" : "_ZTIc",
    "name" : "char",
    "referenced_type" : "_ZTIc",
@@ -40,16 +39,6 @@
    "referenced_type" : "_ZTIj",
    "self_type" : "_ZTIj",
    "size" : 4
-  },
-  {
-   "alignment" : 8,
-   "is_integral" : true,
-   "is_unsigned" : true,
-   "linker_set_key" : "_ZTIm",
-   "name" : "unsigned long",
-   "referenced_type" : "_ZTIm",
-   "self_type" : "_ZTIm",
-   "size" : 8
   },
   {
    "linker_set_key" : "_ZTIv",
@@ -236,66 +225,66 @@
  "pointer_types" :
  [
   {
-   "alignment" : 8,
+   "alignment" : 4,
    "linker_set_key" : "_ZTIP10ARpcServer",
    "name" : "ARpcServer *",
    "referenced_type" : "_ZTI10ARpcServer",
    "self_type" : "_ZTIP10ARpcServer",
-   "size" : 8,
+   "size" : 4,
    "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
   },
   {
-   "alignment" : 8,
+   "alignment" : 4,
    "linker_set_key" : "_ZTIP11ARpcSession",
    "name" : "ARpcSession *",
    "referenced_type" : "_ZTI11ARpcSession",
    "self_type" : "_ZTIP11ARpcSession",
-   "size" : 8,
+   "size" : 4,
    "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
   },
   {
-   "alignment" : 8,
+   "alignment" : 4,
    "linker_set_key" : "_ZTIP8AIBinder",
    "name" : "AIBinder *",
    "referenced_type" : "_ZTI8AIBinder",
    "self_type" : "_ZTIP8AIBinder",
-   "size" : 8,
+   "size" : 4,
    "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
   },
   {
-   "alignment" : 8,
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPFiPvE",
    "name" : "int (*)(void *)",
    "referenced_type" : "_ZTIFiPvE",
    "self_type" : "_ZTIPFiPvE",
-   "size" : 8,
+   "size" : 4,
    "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
   },
   {
-   "alignment" : 8,
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPK39ARpcSession_FileDescriptorTransportMode",
    "name" : "const ARpcSession_FileDescriptorTransportMode *",
    "referenced_type" : "_ZTIK39ARpcSession_FileDescriptorTransportMode",
    "self_type" : "_ZTIPK39ARpcSession_FileDescriptorTransportMode",
-   "size" : 8,
+   "size" : 4,
    "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
   },
   {
-   "alignment" : 8,
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPKc",
    "name" : "const char *",
    "referenced_type" : "_ZTIKc",
    "self_type" : "_ZTIPKc",
-   "size" : 8,
+   "size" : 4,
    "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
   },
   {
-   "alignment" : 8,
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPv",
    "name" : "void *",
    "referenced_type" : "_ZTIv",
    "self_type" : "_ZTIPv",
-   "size" : 8,
+   "size" : 4,
    "source_file" : "frameworks/native/libs/binder/include_rpc_unstable/binder_rpc_unstable.hpp"
   }
  ],
