@@ -1410,6 +1410,10 @@
      "name" : "ADATASPACE_BT2020_ITU_HLG"
     },
     {
+     "enum_field_value" : 142999552,
+     "name" : "ADATASPACE_DISPLAY_BT2020"
+    },
+    {
      "enum_field_value" : 4096,
      "name" : "ADATASPACE_DEPTH"
     },
@@ -3004,7 +3008,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP58ADynamicInstrumentationManager_ExecutableMethodFileOffsets"
+     "referenced_type" : "_ZTIPK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets"
     }
    ],
    "return_type" : "_ZTIv",
@@ -3022,7 +3026,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP58ADynamicInstrumentationManager_ExecutableMethodFileOffsets"
+     "referenced_type" : "_ZTIPK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets"
     }
    ],
    "return_type" : "_ZTIy",
@@ -3040,7 +3044,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP58ADynamicInstrumentationManager_ExecutableMethodFileOffsets"
+     "referenced_type" : "_ZTIPK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets"
     }
    ],
    "return_type" : "_ZTIPKc",
@@ -3058,7 +3062,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP58ADynamicInstrumentationManager_ExecutableMethodFileOffsets"
+     "referenced_type" : "_ZTIPK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets"
     }
    ],
    "return_type" : "_ZTIy",
@@ -3103,7 +3107,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP47ADynamicInstrumentationManager_MethodDescriptor"
+     "referenced_type" : "_ZTIPK47ADynamicInstrumentationManager_MethodDescriptor"
     }
    ],
    "return_type" : "_ZTIv",
@@ -3145,7 +3149,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP44ADynamicInstrumentationManager_TargetProcess"
+     "referenced_type" : "_ZTIPK44ADynamicInstrumentationManager_TargetProcess"
     }
    ],
    "return_type" : "_ZTIv",
@@ -3169,7 +3173,7 @@
      "referenced_type" : "_ZTIPK47ADynamicInstrumentationManager_MethodDescriptor"
     },
     {
-     "referenced_type" : "_ZTIPP58ADynamicInstrumentationManager_ExecutableMethodFileOffsets"
+     "referenced_type" : "_ZTIPPK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets"
     }
    ],
    "return_type" : "_ZTIi",
@@ -3695,14 +3699,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIP58ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
-   "name" : "ADynamicInstrumentationManager_ExecutableMethodFileOffsets *",
-   "referenced_type" : "_ZTI58ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
-   "size" : 4,
-   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIP5ARect",
    "name" : "ARect *",
    "referenced_type" : "_ZTI5ARect",
@@ -3887,6 +3883,14 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
+   "name" : "const ADynamicInstrumentationManager_ExecutableMethodFileOffsets *",
+   "referenced_type" : "_ZTIK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
+   "size" : 4,
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPK5ARect",
    "name" : "const ARect *",
    "referenced_type" : "_ZTIK5ARect",
@@ -3991,9 +3995,9 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPP58ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
-   "name" : "ADynamicInstrumentationManager_ExecutableMethodFileOffsets **",
-   "referenced_type" : "_ZTIP58ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
+   "linker_set_key" : "_ZTIPPK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
+   "name" : "const ADynamicInstrumentationManager_ExecutableMethodFileOffsets **",
+   "referenced_type" : "_ZTIPK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
    "size" : 4,
    "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
   },
@@ -4116,6 +4120,15 @@
    "name" : "const ADynamicInstrumentationManager_MethodDescriptor",
    "referenced_type" : "_ZTI47ADynamicInstrumentationManager_MethodDescriptor",
    "size" : 36,
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
+   "name" : "const ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
+   "referenced_type" : "_ZTI58ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
+   "size" : 32,
    "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
   },
   {
