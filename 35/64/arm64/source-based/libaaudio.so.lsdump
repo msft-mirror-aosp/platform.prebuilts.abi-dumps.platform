@@ -503,6 +503,12 @@
  "elf_functions" :
  [
   {
+   "name" : "AAudioStreamBuilder_addTag"
+  },
+  {
+   "name" : "AAudioStreamBuilder_clearTags"
+  },
+  {
    "name" : "AAudioStreamBuilder_delete"
   },
   {
@@ -573,9 +579,6 @@
   },
   {
    "name" : "AAudioStreamBuilder_setSpatializationBehavior"
-  },
-  {
-   "name" : "AAudioStreamBuilder_setTags"
   },
   {
    "name" : "AAudioStreamBuilder_setUsage"
@@ -656,9 +659,6 @@
    "name" : "AAudioStream_getState"
   },
   {
-   "name" : "AAudioStream_getTags"
-  },
-  {
    "name" : "AAudioStream_getTimestamp"
   },
   {
@@ -677,10 +677,16 @@
    "name" : "AAudioStream_isPrivacySensitive"
   },
   {
+   "name" : "AAudioStream_obtainTags"
+  },
+  {
    "name" : "AAudioStream_read"
   },
   {
    "name" : "AAudioStream_release"
+  },
+  {
+   "name" : "AAudioStream_releaseTags"
   },
   {
    "name" : "AAudioStream_requestFlush"
@@ -873,7 +879,7 @@
    "linker_set_key" : "_ZTI17AAudio_DeviceType",
    "name" : "AAudio_DeviceType",
    "size" : 4,
-   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudioTesting.h",
+   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -1436,7 +1442,7 @@
    "linker_set_key" : "_ZTI21$AAUDIO_POLICY_ALWAYS",
    "name" : "(unnamed)",
    "size" : 4,
-   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudioTesting.h",
+   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h",
    "underlying_type" : "_ZTIj"
   },
   {
@@ -1469,6 +1475,73 @@
    "size" : 4,
    "source_file" : "system/core/libutils/include/utils/Timers.h",
    "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : -1,
+     "name" : "AAUDIO_FORMAT_INVALID"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "AAUDIO_FORMAT_UNSPECIFIED"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "AAUDIO_FORMAT_PCM_I16"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "AAUDIO_FORMAT_PCM_FLOAT"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "AAUDIO_FORMAT_PCM_I24_PACKED"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "AAUDIO_FORMAT_PCM_I32"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "AAUDIO_FORMAT_IEC61937"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "AAUDIO_FORMAT_MP3"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "AAUDIO_FORMAT_AAC_LC"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "AAUDIO_FORMAT_AAC_HE_V1"
+    },
+    {
+     "enum_field_value" : 9,
+     "name" : "AAUDIO_FORMAT_AAC_HE_V2"
+    },
+    {
+     "enum_field_value" : 10,
+     "name" : "AAUDIO_FORMAT_AAC_ELD"
+    },
+    {
+     "enum_field_value" : 11,
+     "name" : "AAUDIO_FORMAT_AAC_XHE"
+    },
+    {
+     "enum_field_value" : 12,
+     "name" : "AAUDIO_FORMAT_OPUS"
+    }
+   ],
+   "linker_set_key" : "_ZTI22$AAUDIO_FORMAT_AAC_ELD",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h",
+   "underlying_type" : "_ZTIi"
   },
   {
    "alignment" : 4,
@@ -1618,45 +1691,6 @@
    "size" : 4,
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h",
    "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : -1,
-     "name" : "AAUDIO_FORMAT_INVALID"
-    },
-    {
-     "enum_field_value" : 0,
-     "name" : "AAUDIO_FORMAT_UNSPECIFIED"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "AAUDIO_FORMAT_PCM_I16"
-    },
-    {
-     "enum_field_value" : 2,
-     "name" : "AAUDIO_FORMAT_PCM_FLOAT"
-    },
-    {
-     "enum_field_value" : 3,
-     "name" : "AAUDIO_FORMAT_PCM_I24_PACKED"
-    },
-    {
-     "enum_field_value" : 4,
-     "name" : "AAUDIO_FORMAT_PCM_I32"
-    },
-    {
-     "enum_field_value" : 5,
-     "name" : "AAUDIO_FORMAT_IEC61937"
-    }
-   ],
-   "linker_set_key" : "_ZTI23$AAUDIO_FORMAT_IEC61937",
-   "name" : "(unnamed)",
-   "size" : 4,
-   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h",
-   "underlying_type" : "_ZTIi"
   },
   {
    "alignment" : 4,
@@ -2423,6 +2457,10 @@
     {
      "enum_field_value" : 12,
      "name" : "AAUDIO_PERFORMANCE_MODE_LOW_LATENCY"
+    },
+    {
+     "enum_field_value" : 13,
+     "name" : "AAUDIO_PERFORMANCE_MODE_POWER_SAVING_OFFLOADED"
     }
    ],
    "linker_set_key" : "_ZTI36$AAUDIO_PERFORMANCE_MODE_LOW_LATENCY",
@@ -4433,6 +4471,10 @@
     {
      "enum_field_value" : 133,
      "name" : "android::media::audio::common::AudioDeviceType::OUT_BUS"
+    },
+    {
+     "enum_field_value" : 147,
+     "name" : "android::media::audio::common::AudioDeviceType::OUT_MULTICHANNEL_GROUP"
     }
    ],
    "linker_set_key" : "_ZTIN7android5media5audio6common15AudioDeviceTypeE",
@@ -6228,47 +6270,183 @@
    "underlying_type" : "_ZTIi"
   },
   {
+   "alignment" : 1,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory::NONE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory::SPEAKER"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory::HEADPHONES"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory::BT_A2DP"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory::ANALOG_DOCK"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory::DIGITAL_DOCK"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory::WIRED_ACCESSORY"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory::NO_BT_A2DP"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryE",
+   "name" : "android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory",
+   "size" : 1,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPolicyForceUse.h",
+   "underlying_type" : "_ZTIa"
+  },
+  {
+   "alignment" : 1,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig::UNSPECIFIED"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig::NEVER"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig::ALWAYS"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig::MANUAL"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigE",
+   "name" : "android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig",
+   "size" : 1,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPolicyForceUse.h",
+   "underlying_type" : "_ZTIa"
+  },
+  {
+   "alignment" : 1,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory::NONE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory::SPEAKER"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory::BT_SCO"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory::BT_BLE"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory::WIRED_ACCESSORY"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryE",
+   "name" : "android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory",
+   "size" : 1,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPolicyForceUse.h",
+   "underlying_type" : "_ZTIa"
+  },
+  {
    "alignment" : 4,
    "enum_fields" :
    [
     {
      "enum_field_value" : 0,
-     "name" : "android::media::audio::common::AudioPolicyForceUse::COMMUNICATION"
+     "name" : "android::media::audio::common::AudioPolicyForceUse::Tag::forMedia"
     },
     {
      "enum_field_value" : 1,
-     "name" : "android::media::audio::common::AudioPolicyForceUse::MEDIA"
+     "name" : "android::media::audio::common::AudioPolicyForceUse::Tag::forCommunication"
     },
     {
      "enum_field_value" : 2,
-     "name" : "android::media::audio::common::AudioPolicyForceUse::RECORD"
+     "name" : "android::media::audio::common::AudioPolicyForceUse::Tag::forRecord"
     },
     {
      "enum_field_value" : 3,
-     "name" : "android::media::audio::common::AudioPolicyForceUse::DOCK"
+     "name" : "android::media::audio::common::AudioPolicyForceUse::Tag::forVibrateRinging"
     },
     {
      "enum_field_value" : 4,
-     "name" : "android::media::audio::common::AudioPolicyForceUse::SYSTEM"
+     "name" : "android::media::audio::common::AudioPolicyForceUse::Tag::dock"
     },
     {
      "enum_field_value" : 5,
-     "name" : "android::media::audio::common::AudioPolicyForceUse::HDMI_SYSTEM_AUDIO"
+     "name" : "android::media::audio::common::AudioPolicyForceUse::Tag::systemSounds"
     },
     {
      "enum_field_value" : 6,
-     "name" : "android::media::audio::common::AudioPolicyForceUse::ENCODED_SURROUND"
+     "name" : "android::media::audio::common::AudioPolicyForceUse::Tag::hdmiSystemAudio"
     },
     {
      "enum_field_value" : 7,
-     "name" : "android::media::audio::common::AudioPolicyForceUse::VIBRATE_RINGING"
+     "name" : "android::media::audio::common::AudioPolicyForceUse::Tag::encodedSurround"
     }
    ],
-   "linker_set_key" : "_ZTIN7android5media5audio6common19AudioPolicyForceUseE",
-   "name" : "android::media::audio::common::AudioPolicyForceUse",
+   "linker_set_key" : "_ZTIN7android5media5audio6common19AudioPolicyForceUse3TagE",
+   "name" : "android::media::audio::common::AudioPolicyForceUse::Tag",
    "size" : 4,
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPolicyForceUse.h",
    "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 1,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::DockType::NONE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::DockType::BT_CAR_DOCK"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::DockType::BT_DESK_DOCK"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::DockType::ANALOG_DOCK"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::DockType::DIGITAL_DOCK"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "android::media::audio::common::AudioPolicyForceUse::DockType::WIRED_ACCESSORY"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android5media5audio6common19AudioPolicyForceUse8DockTypeE",
+   "name" : "android::media::audio::common::AudioPolicyForceUse::DockType",
+   "size" : 1,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPolicyForceUse.h",
+   "underlying_type" : "_ZTIa"
   },
   {
    "alignment" : 4,
@@ -6280,11 +6458,11 @@
     },
     {
      "enum_field_value" : 1,
-     "name" : "android::media::audio::common::AudioHalCapParameter::Tag::strategyDeviceAddress"
+     "name" : "android::media::audio::common::AudioHalCapParameter::Tag::selectedInputSourceDevice"
     },
     {
      "enum_field_value" : 2,
-     "name" : "android::media::audio::common::AudioHalCapParameter::Tag::selectedInputSourceDevice"
+     "name" : "android::media::audio::common::AudioHalCapParameter::Tag::strategyDeviceAddress"
     },
     {
      "enum_field_value" : 3,
@@ -6389,41 +6567,10 @@
     {
      "enum_field_value" : 5,
      "name" : "android::media::audio::common::AudioHalCapCriterionV2::Tag::forceConfigForUse"
-    },
-    {
-     "enum_field_value" : 6,
-     "name" : "android::media::audio::common::AudioHalCapCriterionV2::Tag::type"
     }
    ],
    "linker_set_key" : "_ZTIN7android5media5audio6common22AudioHalCapCriterionV23TagE",
    "name" : "android::media::audio::common::AudioHalCapCriterionV2::Tag",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionV2.h",
-   "underlying_type" : "_ZTIi"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::media::audio::common::AudioHalCapCriterionV2::Type::Tag::availableDevicesType"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "android::media::audio::common::AudioHalCapCriterionV2::Type::Tag::availableDevicesAddressesType"
-    },
-    {
-     "enum_field_value" : 2,
-     "name" : "android::media::audio::common::AudioHalCapCriterionV2::Type::Tag::telephonyModeType"
-    },
-    {
-     "enum_field_value" : 3,
-     "name" : "android::media::audio::common::AudioHalCapCriterionV2::Type::Tag::forcedConfigType"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android5media5audio6common22AudioHalCapCriterionV24Type3TagE",
-   "name" : "android::media::audio::common::AudioHalCapCriterionV2::Type::Tag",
    "size" : 4,
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionV2.h",
    "underlying_type" : "_ZTIi"
@@ -6464,85 +6611,6 @@
    "name" : "android::media::audio::common::AudioHalProductStrategy::(unnamed)",
    "size" : 4,
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioHalProductStrategy.h",
-   "underlying_type" : "_ZTIi"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::NONE"
-    },
-    {
-     "enum_field_value" : 1,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::SPEAKER"
-    },
-    {
-     "enum_field_value" : 2,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::HEADPHONES"
-    },
-    {
-     "enum_field_value" : 3,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::BT_SCO"
-    },
-    {
-     "enum_field_value" : 4,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::BT_A2DP"
-    },
-    {
-     "enum_field_value" : 5,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::WIRED_ACCESSORY"
-    },
-    {
-     "enum_field_value" : 6,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::BT_CAR_DOCK"
-    },
-    {
-     "enum_field_value" : 7,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::BT_DESK_DOCK"
-    },
-    {
-     "enum_field_value" : 8,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::ANALOG_DOCK"
-    },
-    {
-     "enum_field_value" : 9,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::DIGITAL_DOCK"
-    },
-    {
-     "enum_field_value" : 10,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::NO_BT_A2DP"
-    },
-    {
-     "enum_field_value" : 11,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::SYSTEM_ENFORCED"
-    },
-    {
-     "enum_field_value" : 12,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::HDMI_SYSTEM_AUDIO_ENFORCED"
-    },
-    {
-     "enum_field_value" : 13,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::ENCODED_SURROUND_NEVER"
-    },
-    {
-     "enum_field_value" : 14,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::ENCODED_SURROUND_ALWAYS"
-    },
-    {
-     "enum_field_value" : 15,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::ENCODED_SURROUND_MANUAL"
-    },
-    {
-     "enum_field_value" : 16,
-     "name" : "android::media::audio::common::AudioPolicyForcedConfig::BT_BLE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android5media5audio6common23AudioPolicyForcedConfigE",
-   "name" : "android::media::audio::common::AudioPolicyForcedConfig",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPolicyForcedConfig.h",
    "underlying_type" : "_ZTIi"
   },
   {
@@ -7437,6 +7505,21 @@
    [
     {
      "enum_field_value" : 1,
+     "name" : "android::internal::details::IsIterable<std::vector<android::media::audio::common::AudioPolicyForceUse>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS_5media5audio6common19AudioPolicyForceUseENS3_9allocatorIS8_EEEEE6$valueE",
+   "name" : "android::internal::details::IsIterable<std::vector<android::media::audio::common::AudioPolicyForceUse, std::allocator<android::media::audio::common::AudioPolicyForceUse>>>::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
      "name" : "android::internal::details::IsIterable<std::vector<android::media::audio::common::AudioHalCapCriterion>>::value"
     }
    ],
@@ -7557,21 +7640,6 @@
    [
     {
      "enum_field_value" : 1,
-     "name" : "android::internal::details::IsIterable<std::vector<android::media::audio::common::AudioPolicyForcedConfig>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS_5media5audio6common23AudioPolicyForcedConfigENS3_9allocatorIS8_EEEEE6$valueE",
-   "name" : "android::internal::details::IsIterable<std::vector<android::media::audio::common::AudioPolicyForcedConfig, std::allocator<android::media::audio::common::AudioPolicyForcedConfig>>>::(unnamed)",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 1,
      "name" : "android::internal::details::IsIterable<std::vector<android::media::audio::common::AudioHalCapConfiguration>>::value"
     }
    ],
@@ -7682,21 +7750,6 @@
    ],
    "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorIhNS3_9allocatorIhEEEEE6$valueE",
    "name" : "android::internal::details::IsIterable<std::vector<unsigned char, std::allocator<unsigned char>>>::(unnamed)",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 1,
-     "name" : "android::internal::details::IsIterable<std::vector<int>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorIiNS3_9allocatorIiEEEEE6$valueE",
-   "name" : "android::internal::details::IsIterable<std::vector<int, std::allocator<int>>>::(unnamed)",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -8592,6 +8645,66 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryEE6$valueE",
+   "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory>::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigEE6$valueE",
+   "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig>::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryEE6$valueE",
+   "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory>::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForceUse::DockType>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_5media5audio6common19AudioPolicyForceUse8DockTypeEE6$valueE",
+   "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForceUse::DockType>::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForceUse>::value"
     }
    ],
@@ -8892,21 +9005,6 @@
    [
     {
      "enum_field_value" : 0,
-     "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioHalCapCriterionV2::Type>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_5media5audio6common22AudioHalCapCriterionV24TypeEE6$valueE",
-   "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioHalCapCriterionV2::Type>::(unnamed)",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
      "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioHalCapCriterionV2>::value"
     }
    ],
@@ -8957,21 +9055,6 @@
    ],
    "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_5media5audio6common23AudioHalProductStrategyEE6$valueE",
    "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioHalProductStrategy>::(unnamed)",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForcedConfig>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_5media5audio6common23AudioPolicyForcedConfigEE6$valueE",
-   "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForcedConfig>::(unnamed)",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -9477,6 +9560,21 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "android::internal::details::IsPointerLike<std::vector<android::media::audio::common::AudioPolicyForceUse>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS_5media5audio6common19AudioPolicyForceUseENS3_9allocatorIS8_EEEEE6$valueE",
+   "name" : "android::internal::details::IsPointerLike<std::vector<android::media::audio::common::AudioPolicyForceUse, std::allocator<android::media::audio::common::AudioPolicyForceUse>>>::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "android::internal::details::IsPointerLike<std::vector<android::media::audio::common::AudioHalCapCriterion>>::value"
     }
    ],
@@ -9587,21 +9685,6 @@
    ],
    "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS_5media5audio6common23AudioHalProductStrategyENS3_9allocatorIS8_EEEEE6$valueE",
    "name" : "android::internal::details::IsPointerLike<std::vector<android::media::audio::common::AudioHalProductStrategy, std::allocator<android::media::audio::common::AudioHalProductStrategy>>>::(unnamed)",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::internal::details::IsPointerLike<std::vector<android::media::audio::common::AudioPolicyForcedConfig>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS_5media5audio6common23AudioPolicyForcedConfigENS3_9allocatorIS8_EEEEE6$valueE",
-   "name" : "android::internal::details::IsPointerLike<std::vector<android::media::audio::common::AudioPolicyForcedConfig, std::allocator<android::media::audio::common::AudioPolicyForcedConfig>>>::(unnamed)",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -10842,6 +10925,66 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryEE6$valueE",
+   "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory>::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigEE6$valueE",
+   "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig>::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryEE6$valueE",
+   "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory>::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForceUse::DockType>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_5media5audio6common19AudioPolicyForceUse8DockTypeEE6$valueE",
+   "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForceUse::DockType>::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
      "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForceUse>::value"
     }
    ],
@@ -11142,21 +11285,6 @@
    [
     {
      "enum_field_value" : 1,
-     "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioHalCapCriterionV2::Type>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_5media5audio6common22AudioHalCapCriterionV24TypeEE6$valueE",
-   "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioHalCapCriterionV2::Type>::(unnamed)",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 1,
      "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioHalCapCriterionV2>::value"
     }
    ],
@@ -11207,21 +11335,6 @@
    ],
    "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_5media5audio6common23AudioHalProductStrategyEE6$valueE",
    "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioHalProductStrategy>::(unnamed)",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForcedConfig>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_5media5audio6common23AudioPolicyForcedConfigEE6$valueE",
-   "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForcedConfig>::(unnamed)",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -11727,6 +11840,21 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "android::internal::details::HasToStringMethod<std::vector<android::media::audio::common::AudioPolicyForceUse>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS_5media5audio6common19AudioPolicyForceUseENS3_9allocatorIS8_EEEEE6$valueE",
+   "name" : "android::internal::details::HasToStringMethod<std::vector<android::media::audio::common::AudioPolicyForceUse, std::allocator<android::media::audio::common::AudioPolicyForceUse>>>::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "android::internal::details::HasToStringMethod<std::vector<android::media::audio::common::AudioHalCapCriterion>>::value"
     }
    ],
@@ -11837,21 +11965,6 @@
    ],
    "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS_5media5audio6common23AudioHalProductStrategyENS3_9allocatorIS8_EEEEE6$valueE",
    "name" : "android::internal::details::HasToStringMethod<std::vector<android::media::audio::common::AudioHalProductStrategy, std::allocator<android::media::audio::common::AudioHalProductStrategy>>>::(unnamed)",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::internal::details::HasToStringMethod<std::vector<android::media::audio::common::AudioPolicyForcedConfig>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS_5media5audio6common23AudioPolicyForcedConfigENS3_9allocatorIS8_EEEEE6$valueE",
-   "name" : "android::internal::details::HasToStringMethod<std::vector<android::media::audio::common::AudioPolicyForcedConfig, std::allocator<android::media::audio::common::AudioPolicyForcedConfig>>>::(unnamed)",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -12252,11 +12365,56 @@
    [
     {
      "enum_field_value" : 1,
-     "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForceUse>::value"
+     "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory>::value"
     }
    ],
-   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINS_5media5audio6common19AudioPolicyForceUseEE6$valueE",
-   "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForceUse>::(unnamed)",
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINS_5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryEE6$valueE",
+   "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory>::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINS_5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigEE6$valueE",
+   "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig>::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINS_5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryEE6$valueE",
+   "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory>::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForceUse::DockType>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINS_5media5audio6common19AudioPolicyForceUse8DockTypeEE6$valueE",
+   "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForceUse::DockType>::(unnamed)",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -12302,21 +12460,6 @@
    ],
    "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINS_5media5audio6common22AudioHalCapCriterionV218LogicalDisjunctionEE6$valueE",
    "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioHalCapCriterionV2::LogicalDisjunction>::(unnamed)",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 1,
-     "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForcedConfig>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINS_5media5audio6common23AudioPolicyForcedConfigEE6$valueE",
-   "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForcedConfig>::(unnamed)",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -12717,6 +12860,21 @@
    [
     {
      "enum_field_value" : 0,
+     "name" : "android::internal::details::HasToStringFunction<std::vector<android::media::audio::common::AudioPolicyForceUse>>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS_5media5audio6common19AudioPolicyForceUseENS3_9allocatorIS8_EEEEE6$valueE",
+   "name" : "android::internal::details::HasToStringFunction<std::vector<android::media::audio::common::AudioPolicyForceUse, std::allocator<android::media::audio::common::AudioPolicyForceUse>>>::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
      "name" : "android::internal::details::HasToStringFunction<std::vector<android::media::audio::common::AudioHalCapCriterion>>::value"
     }
    ],
@@ -12827,21 +12985,6 @@
    ],
    "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS_5media5audio6common23AudioHalProductStrategyENS3_9allocatorIS8_EEEEE6$valueE",
    "name" : "android::internal::details::HasToStringFunction<std::vector<android::media::audio::common::AudioHalProductStrategy, std::allocator<android::media::audio::common::AudioHalProductStrategy>>>::(unnamed)",
-   "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "underlying_type" : "_ZTIj"
-  },
-  {
-   "alignment" : 4,
-   "enum_fields" :
-   [
-    {
-     "enum_field_value" : 0,
-     "name" : "android::internal::details::HasToStringFunction<std::vector<android::media::audio::common::AudioPolicyForcedConfig>>::value"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS_5media5audio6common23AudioPolicyForcedConfigENS3_9allocatorIS8_EEEEE6$valueE",
-   "name" : "android::internal::details::HasToStringFunction<std::vector<android::media::audio::common::AudioPolicyForcedConfig, std::allocator<android::media::audio::common::AudioPolicyForcedConfig>>>::(unnamed)",
    "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "underlying_type" : "_ZTIj"
@@ -12971,7 +13114,7 @@
    "enum_fields" :
    [
     {
-     "enum_field_value" : 0,
+     "enum_field_value" : 1,
      "name" : "android::internal::details::HasToStringFunction<std::vector<int>>::value"
     }
    ],
@@ -13056,6 +13199,22 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIFvP18AAudioStreamStructPvE",
+   "name" : "void (AAudioStreamStruct *, void *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18AAudioStreamStruct"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIFvP18AAudioStreamStructPviE",
    "name" : "void (AAudioStreamStruct *, void *, int)",
    "parameters" :
@@ -13099,6 +13258,39 @@
  "functions" :
  [
   {
+   "function_name" : "AAudioStreamBuilder_addTag",
+   "linker_set_key" : "AAudioStreamBuilder_addTag",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP25AAudioStreamBuilderStruct"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/av/media/libaaudio/include/system/aaudio/AAudio.h"
+  },
+  {
+   "function_name" : "AAudioStreamBuilder_clearTags",
+   "linker_set_key" : "AAudioStreamBuilder_clearTags",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP25AAudioStreamBuilderStruct"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/libaaudio/include/system/aaudio/AAudio.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_delete",
    "linker_set_key" : "AAudioStreamBuilder_delete",
    "parameters" :
@@ -13111,6 +13303,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_openStream",
    "linker_set_key" : "AAudioStreamBuilder_openStream",
    "parameters" :
@@ -13126,6 +13324,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setAllowedCapturePolicy",
    "linker_set_key" : "AAudioStreamBuilder_setAllowedCapturePolicy",
    "parameters" :
@@ -13141,6 +13345,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setAttributionTag",
    "linker_set_key" : "AAudioStreamBuilder_setAttributionTag",
    "parameters" :
@@ -13156,6 +13366,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setBufferCapacityInFrames",
    "linker_set_key" : "AAudioStreamBuilder_setBufferCapacityInFrames",
    "parameters" :
@@ -13171,6 +13387,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setChannelCount",
    "linker_set_key" : "AAudioStreamBuilder_setChannelCount",
    "parameters" :
@@ -13186,6 +13408,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 32
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setChannelMask",
    "linker_set_key" : "AAudioStreamBuilder_setChannelMask",
    "parameters" :
@@ -13201,6 +13429,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 28
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setContentType",
    "linker_set_key" : "AAudioStreamBuilder_setContentType",
    "parameters" :
@@ -13216,6 +13450,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setDataCallback",
    "linker_set_key" : "AAudioStreamBuilder_setDataCallback",
    "parameters" :
@@ -13234,6 +13474,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setDeviceId",
    "linker_set_key" : "AAudioStreamBuilder_setDeviceId",
    "parameters" :
@@ -13249,6 +13495,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setDirection",
    "linker_set_key" : "AAudioStreamBuilder_setDirection",
    "parameters" :
@@ -13264,6 +13516,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setErrorCallback",
    "linker_set_key" : "AAudioStreamBuilder_setErrorCallback",
    "parameters" :
@@ -13282,6 +13540,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setFormat",
    "linker_set_key" : "AAudioStreamBuilder_setFormat",
    "parameters" :
@@ -13297,6 +13561,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setFramesPerDataCallback",
    "linker_set_key" : "AAudioStreamBuilder_setFramesPerDataCallback",
    "parameters" :
@@ -13312,6 +13582,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 28
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setInputPreset",
    "linker_set_key" : "AAudioStreamBuilder_setInputPreset",
    "parameters" :
@@ -13327,6 +13603,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 32
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setIsContentSpatialized",
    "linker_set_key" : "AAudioStreamBuilder_setIsContentSpatialized",
    "parameters" :
@@ -13342,6 +13624,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setPackageName",
    "linker_set_key" : "AAudioStreamBuilder_setPackageName",
    "parameters" :
@@ -13357,6 +13645,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setPerformanceMode",
    "linker_set_key" : "AAudioStreamBuilder_setPerformanceMode",
    "parameters" :
@@ -13372,6 +13666,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setPrivacySensitive",
    "linker_set_key" : "AAudioStreamBuilder_setPrivacySensitive",
    "parameters" :
@@ -13387,6 +13687,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setSampleRate",
    "linker_set_key" : "AAudioStreamBuilder_setSampleRate",
    "parameters" :
@@ -13402,6 +13708,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setSamplesPerFrame",
    "linker_set_key" : "AAudioStreamBuilder_setSamplesPerFrame",
    "parameters" :
@@ -13417,6 +13729,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 28
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setSessionId",
    "linker_set_key" : "AAudioStreamBuilder_setSessionId",
    "parameters" :
@@ -13432,6 +13750,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setSharingMode",
    "linker_set_key" : "AAudioStreamBuilder_setSharingMode",
    "parameters" :
@@ -13447,6 +13771,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 32
+    }
+   ],
    "function_name" : "AAudioStreamBuilder_setSpatializationBehavior",
    "linker_set_key" : "AAudioStreamBuilder_setSpatializationBehavior",
    "parameters" :
@@ -13462,21 +13792,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
-   "function_name" : "AAudioStreamBuilder_setTags",
-   "linker_set_key" : "AAudioStreamBuilder_setTags",
-   "parameters" :
+   "availability_attrs" :
    [
     {
-     "referenced_type" : "_ZTIP25AAudioStreamBuilderStruct"
-    },
-    {
-     "referenced_type" : "_ZTIPKc"
+     "introduced_major" : 28
     }
    ],
-   "return_type" : "_ZTIi",
-   "source_file" : "frameworks/av/media/libaaudio/include/system/aaudio/AAudio.h"
-  },
-  {
    "function_name" : "AAudioStreamBuilder_setUsage",
    "linker_set_key" : "AAudioStreamBuilder_setUsage",
    "parameters" :
@@ -13492,6 +13813,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_close",
    "linker_set_key" : "AAudioStream_close",
    "parameters" :
@@ -13504,6 +13831,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    }
+   ],
    "function_name" : "AAudioStream_getAllowedCapturePolicy",
    "linker_set_key" : "AAudioStream_getAllowedCapturePolicy",
    "parameters" :
@@ -13516,6 +13849,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_getBufferCapacityInFrames",
    "linker_set_key" : "AAudioStream_getBufferCapacityInFrames",
    "parameters" :
@@ -13528,6 +13867,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_getBufferSizeInFrames",
    "linker_set_key" : "AAudioStream_getBufferSizeInFrames",
    "parameters" :
@@ -13540,6 +13885,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_getChannelCount",
    "linker_set_key" : "AAudioStream_getChannelCount",
    "parameters" :
@@ -13552,6 +13903,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 32
+    }
+   ],
    "function_name" : "AAudioStream_getChannelMask",
    "linker_set_key" : "AAudioStream_getChannelMask",
    "parameters" :
@@ -13564,6 +13921,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 28
+    }
+   ],
    "function_name" : "AAudioStream_getContentType",
    "linker_set_key" : "AAudioStream_getContentType",
    "parameters" :
@@ -13576,6 +13939,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_getDeviceId",
    "linker_set_key" : "AAudioStream_getDeviceId",
    "parameters" :
@@ -13588,6 +13957,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_getDirection",
    "linker_set_key" : "AAudioStream_getDirection",
    "parameters" :
@@ -13600,6 +13975,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_getFormat",
    "linker_set_key" : "AAudioStream_getFormat",
    "parameters" :
@@ -13612,6 +13993,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_getFramesPerBurst",
    "linker_set_key" : "AAudioStream_getFramesPerBurst",
    "parameters" :
@@ -13624,6 +14011,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_getFramesPerDataCallback",
    "linker_set_key" : "AAudioStream_getFramesPerDataCallback",
    "parameters" :
@@ -13636,6 +14029,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_getFramesRead",
    "linker_set_key" : "AAudioStream_getFramesRead",
    "parameters" :
@@ -13648,6 +14047,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_getFramesWritten",
    "linker_set_key" : "AAudioStream_getFramesWritten",
    "parameters" :
@@ -13660,6 +14065,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 34
+    }
+   ],
    "function_name" : "AAudioStream_getHardwareChannelCount",
    "linker_set_key" : "AAudioStream_getHardwareChannelCount",
    "parameters" :
@@ -13672,6 +14083,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 34
+    }
+   ],
    "function_name" : "AAudioStream_getHardwareFormat",
    "linker_set_key" : "AAudioStream_getHardwareFormat",
    "parameters" :
@@ -13684,6 +14101,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 34
+    }
+   ],
    "function_name" : "AAudioStream_getHardwareSampleRate",
    "linker_set_key" : "AAudioStream_getHardwareSampleRate",
    "parameters" :
@@ -13696,6 +14119,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 28
+    }
+   ],
    "function_name" : "AAudioStream_getInputPreset",
    "linker_set_key" : "AAudioStream_getInputPreset",
    "parameters" :
@@ -13708,6 +14137,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_getPerformanceMode",
    "linker_set_key" : "AAudioStream_getPerformanceMode",
    "parameters" :
@@ -13720,6 +14155,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_getSampleRate",
    "linker_set_key" : "AAudioStream_getSampleRate",
    "parameters" :
@@ -13732,6 +14173,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_getSamplesPerFrame",
    "linker_set_key" : "AAudioStream_getSamplesPerFrame",
    "parameters" :
@@ -13744,6 +14191,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 28
+    }
+   ],
    "function_name" : "AAudioStream_getSessionId",
    "linker_set_key" : "AAudioStream_getSessionId",
    "parameters" :
@@ -13756,6 +14209,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_getSharingMode",
    "linker_set_key" : "AAudioStream_getSharingMode",
    "parameters" :
@@ -13768,6 +14227,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 32
+    }
+   ],
    "function_name" : "AAudioStream_getSpatializationBehavior",
    "linker_set_key" : "AAudioStream_getSpatializationBehavior",
    "parameters" :
@@ -13780,6 +14245,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_getState",
    "linker_set_key" : "AAudioStream_getState",
    "parameters" :
@@ -13792,21 +14263,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
-   "function_name" : "AAudioStream_getTags",
-   "linker_set_key" : "AAudioStream_getTags",
-   "parameters" :
+   "availability_attrs" :
    [
     {
-     "referenced_type" : "_ZTIP18AAudioStreamStruct"
-    },
-    {
-     "referenced_type" : "_ZTIPc"
+     "introduced_major" : 26
     }
    ],
-   "return_type" : "_ZTIi",
-   "source_file" : "frameworks/av/media/libaaudio/include/system/aaudio/AAudio.h"
-  },
-  {
    "function_name" : "AAudioStream_getTimestamp",
    "linker_set_key" : "AAudioStream_getTimestamp",
    "parameters" :
@@ -13828,6 +14290,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 28
+    }
+   ],
    "function_name" : "AAudioStream_getUsage",
    "linker_set_key" : "AAudioStream_getUsage",
    "parameters" :
@@ -13840,6 +14308,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_getXRunCount",
    "linker_set_key" : "AAudioStream_getXRunCount",
    "parameters" :
@@ -13852,6 +14326,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 32
+    }
+   ],
    "function_name" : "AAudioStream_isContentSpatialized",
    "linker_set_key" : "AAudioStream_isContentSpatialized",
    "parameters" :
@@ -13876,6 +14356,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudioTesting.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
    "function_name" : "AAudioStream_isPrivacySensitive",
    "linker_set_key" : "AAudioStream_isPrivacySensitive",
    "parameters" :
@@ -13888,6 +14374,27 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "function_name" : "AAudioStream_obtainTags",
+   "linker_set_key" : "AAudioStream_obtainTags",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18AAudioStreamStruct"
+    },
+    {
+     "referenced_type" : "_ZTIPPPc"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/av/media/libaaudio/include/system/aaudio/AAudio.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_read",
    "linker_set_key" : "AAudioStream_read",
    "parameters" :
@@ -13909,6 +14416,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
    "function_name" : "AAudioStream_release",
    "linker_set_key" : "AAudioStream_release",
    "parameters" :
@@ -13921,6 +14434,27 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "function_name" : "AAudioStream_releaseTags",
+   "linker_set_key" : "AAudioStream_releaseTags",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18AAudioStreamStruct"
+    },
+    {
+     "referenced_type" : "_ZTIPPc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/libaaudio/include/system/aaudio/AAudio.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_requestFlush",
    "linker_set_key" : "AAudioStream_requestFlush",
    "parameters" :
@@ -13933,6 +14467,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_requestPause",
    "linker_set_key" : "AAudioStream_requestPause",
    "parameters" :
@@ -13945,6 +14485,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_requestStart",
    "linker_set_key" : "AAudioStream_requestStart",
    "parameters" :
@@ -13957,6 +14503,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_requestStop",
    "linker_set_key" : "AAudioStream_requestStop",
    "parameters" :
@@ -13969,6 +14521,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_setBufferSizeInFrames",
    "linker_set_key" : "AAudioStream_setBufferSizeInFrames",
    "parameters" :
@@ -13984,6 +14542,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_waitForStateChange",
    "linker_set_key" : "AAudioStream_waitForStateChange",
    "parameters" :
@@ -14005,6 +14569,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudioStream_write",
    "linker_set_key" : "AAudioStream_write",
    "parameters" :
@@ -14026,6 +14596,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudio_convertResultToText",
    "linker_set_key" : "AAudio_convertResultToText",
    "parameters" :
@@ -14038,6 +14614,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudio_convertStreamStateToText",
    "linker_set_key" : "AAudio_convertStreamStateToText",
    "parameters" :
@@ -14050,6 +14632,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AAudio_createStreamBuilder",
    "linker_set_key" : "AAudio_createStreamBuilder",
    "parameters" :
@@ -15109,6 +15697,38 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIRKN7android5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryE",
+   "name" : "const android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory &",
+   "referenced_type" : "_ZTIKN7android5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryE",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKN7android5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigE",
+   "name" : "const android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig &",
+   "referenced_type" : "_ZTIKN7android5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigE",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKN7android5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryE",
+   "name" : "const android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory &",
+   "referenced_type" : "_ZTIKN7android5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryE",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKN7android5media5audio6common19AudioPolicyForceUse8DockTypeE",
+   "name" : "const android::media::audio::common::AudioPolicyForceUse::DockType &",
+   "referenced_type" : "_ZTIKN7android5media5audio6common19AudioPolicyForceUse8DockTypeE",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKN7android5media5audio6common19AudioPolicyForceUseE",
    "name" : "const android::media::audio::common::AudioPolicyForceUse &",
    "referenced_type" : "_ZTIKN7android5media5audio6common19AudioPolicyForceUseE",
@@ -15269,14 +15889,6 @@
   },
   {
    "alignment" : 8,
-   "linker_set_key" : "_ZTIRKN7android5media5audio6common22AudioHalCapCriterionV24TypeE",
-   "name" : "const android::media::audio::common::AudioHalCapCriterionV2::Type &",
-   "referenced_type" : "_ZTIKN7android5media5audio6common22AudioHalCapCriterionV24TypeE",
-   "size" : 8,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
-  },
-  {
-   "alignment" : 8,
    "linker_set_key" : "_ZTIRKN7android5media5audio6common22AudioHalCapCriterionV2E",
    "name" : "const android::media::audio::common::AudioHalCapCriterionV2 &",
    "referenced_type" : "_ZTIKN7android5media5audio6common22AudioHalCapCriterionV2E",
@@ -15304,14 +15916,6 @@
    "linker_set_key" : "_ZTIRKN7android5media5audio6common23AudioHalProductStrategyE",
    "name" : "const android::media::audio::common::AudioHalProductStrategy &",
    "referenced_type" : "_ZTIKN7android5media5audio6common23AudioHalProductStrategyE",
-   "size" : 8,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRKN7android5media5audio6common23AudioPolicyForcedConfigE",
-   "name" : "const android::media::audio::common::AudioPolicyForcedConfig &",
-   "referenced_type" : "_ZTIKN7android5media5audio6common23AudioPolicyForcedConfigE",
    "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
@@ -15941,6 +16545,14 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIRKNSt3__16vectorIN7android5media5audio6common19AudioPolicyForceUseENS_9allocatorIS5_EEEE",
+   "name" : "const std::vector<android::media::audio::common::AudioPolicyForceUse, std::allocator<android::media::audio::common::AudioPolicyForceUse>> &",
+   "referenced_type" : "_ZTIKNSt3__16vectorIN7android5media5audio6common19AudioPolicyForceUseENS_9allocatorIS5_EEEE",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIRKNSt3__16vectorIN7android5media5audio6common20AudioHalCapCriterionENS_9allocatorIS5_EEEE",
    "name" : "const std::vector<android::media::audio::common::AudioHalCapCriterion, std::allocator<android::media::audio::common::AudioHalCapCriterion>> &",
    "referenced_type" : "_ZTIKNSt3__16vectorIN7android5media5audio6common20AudioHalCapCriterionENS_9allocatorIS5_EEEE",
@@ -16000,14 +16612,6 @@
    "linker_set_key" : "_ZTIRKNSt3__16vectorIN7android5media5audio6common23AudioHalProductStrategyENS_9allocatorIS5_EEEE",
    "name" : "const std::vector<android::media::audio::common::AudioHalProductStrategy, std::allocator<android::media::audio::common::AudioHalProductStrategy>> &",
    "referenced_type" : "_ZTIKNSt3__16vectorIN7android5media5audio6common23AudioHalProductStrategyENS_9allocatorIS5_EEEE",
-   "size" : 8,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIRKNSt3__16vectorIN7android5media5audio6common23AudioPolicyForcedConfigENS_9allocatorIS5_EEEE",
-   "name" : "const std::vector<android::media::audio::common::AudioPolicyForcedConfig, std::allocator<android::media::audio::common::AudioPolicyForcedConfig>> &",
-   "referenced_type" : "_ZTIKNSt3__16vectorIN7android5media5audio6common23AudioPolicyForcedConfigENS_9allocatorIS5_EEEE",
    "size" : 8,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
@@ -16760,6 +17364,14 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPFvP18AAudioStreamStructPvE",
+   "name" : "void (*)(AAudioStreamStruct *, void *)",
+   "referenced_type" : "_ZTIFvP18AAudioStreamStructPvE",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPFvP18AAudioStreamStructPviE",
    "name" : "void (*)(AAudioStreamStruct *, void *, int)",
    "referenced_type" : "_ZTIFvP18AAudioStreamStructPviE",
@@ -17440,6 +18052,14 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN7android5media5audio6common19AudioPolicyForceUseE",
+   "name" : "const android::media::audio::common::AudioPolicyForceUse *",
+   "referenced_type" : "_ZTIKN7android5media5audio6common19AudioPolicyForceUseE",
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPolicyForceUse.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPKN7android5media5audio6common20AudioHalCapCriterionE",
    "name" : "const android::media::audio::common::AudioHalCapCriterion *",
    "referenced_type" : "_ZTIKN7android5media5audio6common20AudioHalCapCriterionE",
@@ -17563,14 +18183,6 @@
    "linker_set_key" : "_ZTIPKN7android5media5audio6common22AudioHalCapCriterionV225AvailableDevicesAddressesE",
    "name" : "const android::media::audio::common::AudioHalCapCriterionV2::AvailableDevicesAddresses *",
    "referenced_type" : "_ZTIKN7android5media5audio6common22AudioHalCapCriterionV225AvailableDevicesAddressesE",
-   "size" : 8,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionV2.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPKN7android5media5audio6common22AudioHalCapCriterionV24TypeE",
-   "name" : "const android::media::audio::common::AudioHalCapCriterionV2::Type *",
-   "referenced_type" : "_ZTIKN7android5media5audio6common22AudioHalCapCriterionV24TypeE",
    "size" : 8,
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionV2.h"
   },
@@ -18616,19 +19228,19 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android5media5audio6common19AudioPolicyForceUseE",
+   "name" : "android::media::audio::common::AudioPolicyForceUse *",
+   "referenced_type" : "_ZTIN7android5media5audio6common19AudioPolicyForceUseE",
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPolicyForceUse.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPN7android5media5audio6common20AudioHalCapParameterE",
    "name" : "android::media::audio::common::AudioHalCapParameter *",
    "referenced_type" : "_ZTIN7android5media5audio6common20AudioHalCapParameterE",
    "size" : 8,
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioHalCapParameter.h"
-  },
-  {
-   "alignment" : 8,
-   "linker_set_key" : "_ZTIPN7android5media5audio6common22AudioHalCapCriterionV24TypeE",
-   "name" : "android::media::audio::common::AudioHalCapCriterionV2::Type *",
-   "referenced_type" : "_ZTIN7android5media5audio6common22AudioHalCapCriterionV24TypeE",
-   "size" : 8,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionV2.h"
   },
   {
    "alignment" : 8,
@@ -19304,6 +19916,22 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPPPc",
+   "name" : "char ***",
+   "referenced_type" : "_ZTIPPc",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/libaaudio/include/system/aaudio/AAudio.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPPc",
+   "name" : "char **",
+   "referenced_type" : "_ZTIPc",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/libaaudio/include/system/aaudio/AAudio.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPa",
    "name" : "signed char *",
    "referenced_type" : "_ZTIa",
@@ -19945,7 +20573,7 @@
    "linker_set_key" : "_ZTIKN6aaudio13StreamRequestE",
    "name" : "const aaudio::StreamRequest",
    "referenced_type" : "_ZTIN6aaudio13StreamRequestE",
-   "size" : 352,
+   "size" : 376,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaaudio/src/aaudio-aidl-cpp-source/gen/include/aaudio/StreamRequest.h"
   },
   {
@@ -19954,7 +20582,7 @@
    "linker_set_key" : "_ZTIKN6aaudio16StreamParametersE",
    "name" : "const aaudio::StreamParameters",
    "referenced_type" : "_ZTIN6aaudio16StreamParametersE",
-   "size" : 184,
+   "size" : 208,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
@@ -20557,7 +21185,7 @@
    "linker_set_key" : "_ZTIKN7android5media11AudioPortFwE",
    "name" : "const android::media::AudioPortFw",
    "referenced_type" : "_ZTIN7android5media11AudioPortFwE",
-   "size" : 800,
+   "size" : 848,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioclient-types-aidl-cpp-source/gen/include/android/media/AudioPortFw.h"
   },
   {
@@ -20584,7 +21212,7 @@
    "linker_set_key" : "_ZTIKN7android5media12AudioPortSysE",
    "name" : "const android::media::AudioPortSys",
    "referenced_type" : "_ZTIN7android5media12AudioPortSysE",
-   "size" : 512,
+   "size" : 536,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
@@ -20701,7 +21329,7 @@
    "linker_set_key" : "_ZTIKN7android5media17AudioPortConfigFwE",
    "name" : "const android::media::AudioPortConfigFw",
    "referenced_type" : "_ZTIN7android5media17AudioPortConfigFwE",
-   "size" : 416,
+   "size" : 440,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
@@ -20836,7 +21464,7 @@
    "linker_set_key" : "_ZTIKN7android5media5audio6common12AudioPortExtE",
    "name" : "const android::media::audio::common::AudioPortExt",
    "referenced_type" : "_ZTIN7android5media5audio6common12AudioPortExtE",
-   "size" : 152,
+   "size" : 176,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
@@ -21016,7 +21644,7 @@
    "linker_set_key" : "_ZTIKN7android5media5audio6common15AudioHalCapRule13CriterionRuleE",
    "name" : "const android::media::audio::common::AudioHalCapRule::CriterionRule",
    "referenced_type" : "_ZTIN7android5media5audio6common15AudioHalCapRule13CriterionRuleE",
-   "size" : 144,
+   "size" : 88,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
@@ -21043,7 +21671,7 @@
    "linker_set_key" : "_ZTIKN7android5media5audio6common15AudioPortConfigE",
    "name" : "const android::media::audio::common::AudioPortConfig",
    "referenced_type" : "_ZTIN7android5media5audio6common15AudioPortConfigE",
-   "size" : 360,
+   "size" : 384,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
@@ -21124,7 +21752,7 @@
    "linker_set_key" : "_ZTIKN7android5media5audio6common18AudioPortDeviceExtE",
    "name" : "const android::media::audio::common::AudioPortDeviceExt",
    "referenced_type" : "_ZTIN7android5media5audio6common18AudioPortDeviceExtE",
-   "size" : 136,
+   "size" : 160,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
@@ -21173,12 +21801,57 @@
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicyInfo.h"
   },
   {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryE",
+   "name" : "const android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory",
+   "referenced_type" : "_ZTIN7android5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigE",
+   "name" : "const android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig",
+   "referenced_type" : "_ZTIN7android5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryE",
+   "name" : "const android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory",
+   "referenced_type" : "_ZTIN7android5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
    "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android5media5audio6common19AudioPolicyForceUse3TagE",
+   "name" : "const android::media::audio::common::AudioPolicyForceUse::Tag",
+   "referenced_type" : "_ZTIN7android5media5audio6common19AudioPolicyForceUse3TagE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPolicyForceUse.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android5media5audio6common19AudioPolicyForceUse8DockTypeE",
+   "name" : "const android::media::audio::common::AudioPolicyForceUse::DockType",
+   "referenced_type" : "_ZTIN7android5media5audio6common19AudioPolicyForceUse8DockTypeE",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "alignment" : 8,
    "is_const" : true,
    "linker_set_key" : "_ZTIKN7android5media5audio6common19AudioPolicyForceUseE",
    "name" : "const android::media::audio::common::AudioPolicyForceUse",
    "referenced_type" : "_ZTIN7android5media5audio6common19AudioPolicyForceUseE",
-   "size" : 4,
+   "size" : 16,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
@@ -21340,7 +22013,7 @@
    "linker_set_key" : "_ZTIKN7android5media5audio6common22AudioHalCapCriterionV217ForceConfigForUseE",
    "name" : "const android::media::audio::common::AudioHalCapCriterionV2::ForceConfigForUse",
    "referenced_type" : "_ZTIN7android5media5audio6common22AudioHalCapCriterionV217ForceConfigForUseE",
-   "size" : 48,
+   "size" : 56,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
@@ -21369,24 +22042,6 @@
    "referenced_type" : "_ZTIN7android5media5audio6common22AudioHalCapCriterionV23TagE",
    "size" : 4,
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionV2.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android5media5audio6common22AudioHalCapCriterionV24Type3TagE",
-   "name" : "const android::media::audio::common::AudioHalCapCriterionV2::Type::Tag",
-   "referenced_type" : "_ZTIN7android5media5audio6common22AudioHalCapCriterionV24Type3TagE",
-   "size" : 4,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionV2.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android5media5audio6common22AudioHalCapCriterionV24TypeE",
-   "name" : "const android::media::audio::common::AudioHalCapCriterionV2::Type",
-   "referenced_type" : "_ZTIN7android5media5audio6common22AudioHalCapCriterionV24TypeE",
-   "size" : 56,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
    "alignment" : 8,
@@ -21431,15 +22086,6 @@
    "name" : "const android::media::audio::common::AudioHalProductStrategy",
    "referenced_type" : "_ZTIN7android5media5audio6common23AudioHalProductStrategyE",
    "size" : 72,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android5media5audio6common23AudioPolicyForcedConfigE",
-   "name" : "const android::media::audio::common::AudioPolicyForcedConfig",
-   "referenced_type" : "_ZTIN7android5media5audio6common23AudioPolicyForcedConfigE",
-   "size" : 4,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
@@ -21502,7 +22148,7 @@
    "linker_set_key" : "_ZTIKN7android5media5audio6common9AudioPortE",
    "name" : "const android::media::audio::common::AudioPort",
    "referenced_type" : "_ZTIN7android5media5audio6common9AudioPortE",
-   "size" : 280,
+   "size" : 304,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
   {
@@ -22174,10 +22820,10 @@
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common15AudioDeviceTypeELm35EEE",
-   "name" : "const std::array<android::media::audio::common::AudioDeviceType, 35>",
-   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common15AudioDeviceTypeELm35EEE",
-   "size" : 140,
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common15AudioDeviceTypeELm36EEE",
+   "name" : "const std::array<android::media::audio::common::AudioDeviceType, 36>",
+   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common15AudioDeviceTypeELm36EEE",
+   "size" : 144,
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioDeviceType.h"
   },
   {
@@ -22280,12 +22926,48 @@
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioMMapPolicyType.h"
   },
   {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryELm8EEE",
+   "name" : "const std::array<android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory, 8>",
+   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryELm8EEE",
+   "size" : 8,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPolicyForceUse.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigELm4EEE",
+   "name" : "const std::array<android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig, 4>",
+   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigELm4EEE",
+   "size" : 4,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPolicyForceUse.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryELm5EEE",
+   "name" : "const std::array<android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory, 5>",
+   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryELm5EEE",
+   "size" : 5,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPolicyForceUse.h"
+  },
+  {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common19AudioPolicyForceUseELm8EEE",
-   "name" : "const std::array<android::media::audio::common::AudioPolicyForceUse, 8>",
-   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common19AudioPolicyForceUseELm8EEE",
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common19AudioPolicyForceUse3TagELm8EEE",
+   "name" : "const std::array<android::media::audio::common::AudioPolicyForceUse::Tag, 8>",
+   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common19AudioPolicyForceUse3TagELm8EEE",
    "size" : 32,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPolicyForceUse.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common19AudioPolicyForceUse8DockTypeELm6EEE",
+   "name" : "const std::array<android::media::audio::common::AudioPolicyForceUse::DockType, 6>",
+   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common19AudioPolicyForceUse8DockTypeELm6EEE",
+   "size" : 6,
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPolicyForceUse.h"
   },
   {
@@ -22327,19 +23009,10 @@
   {
    "alignment" : 4,
    "is_const" : true,
-   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common22AudioHalCapCriterionV23TagELm7EEE",
-   "name" : "const std::array<android::media::audio::common::AudioHalCapCriterionV2::Tag, 7>",
-   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common22AudioHalCapCriterionV23TagELm7EEE",
-   "size" : 28,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionV2.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common22AudioHalCapCriterionV24Type3TagELm4EEE",
-   "name" : "const std::array<android::media::audio::common::AudioHalCapCriterionV2::Type::Tag, 4>",
-   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common22AudioHalCapCriterionV24Type3TagELm4EEE",
-   "size" : 16,
+   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common22AudioHalCapCriterionV23TagELm6EEE",
+   "name" : "const std::array<android::media::audio::common::AudioHalCapCriterionV2::Tag, 6>",
+   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common22AudioHalCapCriterionV23TagELm6EEE",
+   "size" : 24,
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionV2.h"
   },
   {
@@ -22350,15 +23023,6 @@
    "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common22AudioPortMixExtUseCase3TagELm3EEE",
    "size" : 12,
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPortMixExtUseCase.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKNSt3__15arrayIN7android5media5audio6common23AudioPolicyForcedConfigELm17EEE",
-   "name" : "const std::array<android::media::audio::common::AudioPolicyForcedConfig, 17>",
-   "referenced_type" : "_ZTINSt3__15arrayIN7android5media5audio6common23AudioPolicyForcedConfigELm17EEE",
-   "size" : 68,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPolicyForcedConfig.h"
   },
   {
    "alignment" : 1,
@@ -22588,6 +23252,15 @@
   {
    "alignment" : 8,
    "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__16vectorIN7android5media5audio6common19AudioPolicyForceUseENS_9allocatorIS5_EEEE",
+   "name" : "const std::vector<android::media::audio::common::AudioPolicyForceUse, std::allocator<android::media::audio::common::AudioPolicyForceUse>>",
+   "referenced_type" : "_ZTINSt3__16vectorIN7android5media5audio6common19AudioPolicyForceUseENS_9allocatorIS5_EEEE",
+   "size" : 24,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
    "linker_set_key" : "_ZTIKNSt3__16vectorIN7android5media5audio6common20AudioHalCapCriterionENS_9allocatorIS5_EEEE",
    "name" : "const std::vector<android::media::audio::common::AudioHalCapCriterion, std::allocator<android::media::audio::common::AudioHalCapCriterion>>",
    "referenced_type" : "_ZTINSt3__16vectorIN7android5media5audio6common20AudioHalCapCriterionENS_9allocatorIS5_EEEE",
@@ -22654,15 +23327,6 @@
    "linker_set_key" : "_ZTIKNSt3__16vectorIN7android5media5audio6common23AudioHalProductStrategyENS_9allocatorIS5_EEEE",
    "name" : "const std::vector<android::media::audio::common::AudioHalProductStrategy, std::allocator<android::media::audio::common::AudioHalProductStrategy>>",
    "referenced_type" : "_ZTINSt3__16vectorIN7android5media5audio6common23AudioHalProductStrategyENS_9allocatorIS5_EEEE",
-   "size" : 24,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
-  },
-  {
-   "alignment" : 8,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKNSt3__16vectorIN7android5media5audio6common23AudioPolicyForcedConfigENS_9allocatorIS5_EEEE",
-   "name" : "const std::vector<android::media::audio::common::AudioPolicyForcedConfig, std::allocator<android::media::audio::common::AudioPolicyForcedConfig>>",
-   "referenced_type" : "_ZTINSt3__16vectorIN7android5media5audio6common23AudioPolicyForcedConfigENS_9allocatorIS5_EEEE",
    "size" : 24,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h"
   },
@@ -24111,24 +24775,24 @@
     },
     {
      "field_name" : "attributionSource",
-     "field_offset" : 1536,
+     "field_offset" : 1728,
      "referenced_type" : "_ZTIN7android7content22AttributionSourceStateE"
     },
     {
      "field_name" : "sharingModeMatchRequired",
-     "field_offset" : 2752,
+     "field_offset" : 2944,
      "referenced_type" : "_ZTIb"
     },
     {
      "field_name" : "inService",
-     "field_offset" : 2760,
+     "field_offset" : 2952,
      "referenced_type" : "_ZTIb"
     }
    ],
    "linker_set_key" : "_ZTIN6aaudio13StreamRequestE",
    "name" : "aaudio::StreamRequest",
    "record_kind" : "class",
-   "size" : 352,
+   "size" : 376,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaaudio/src/aaudio-aidl-cpp-source/gen/include/aaudio/StreamRequest.h",
    "vtable_components" :
    [
@@ -24179,95 +24843,95 @@
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "deviceId",
+     "field_name" : "deviceIds",
      "field_offset" : 128,
-     "referenced_type" : "_ZTIi"
+     "referenced_type" : "_ZTINSt3__16vectorIiNS_9allocatorIiEEEE"
     },
     {
      "field_name" : "sharingMode",
-     "field_offset" : 160,
+     "field_offset" : 320,
      "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "audioFormat",
-     "field_offset" : 192,
+     "field_offset" : 384,
      "referenced_type" : "_ZTIN7android5media5audio6common22AudioFormatDescriptionE"
     },
     {
      "field_name" : "direction",
-     "field_offset" : 512,
+     "field_offset" : 704,
      "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "usage",
-     "field_offset" : 544,
+     "field_offset" : 736,
      "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "contentType",
-     "field_offset" : 576,
+     "field_offset" : 768,
      "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "tags",
-     "field_offset" : 640,
-     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+     "field_offset" : 832,
+     "referenced_type" : "_ZTINSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE"
     },
     {
      "field_name" : "spatializationBehavior",
-     "field_offset" : 832,
+     "field_offset" : 1024,
      "referenced_type" : "_ZTIi"
     },
     {
      "field_name" : "isContentSpatialized",
-     "field_offset" : 864,
+     "field_offset" : 1056,
      "referenced_type" : "_ZTIb"
     },
     {
      "field_name" : "inputPreset",
-     "field_offset" : 896,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "bufferCapacity",
-     "field_offset" : 928,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "allowedCapturePolicy",
-     "field_offset" : 960,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "sessionId",
-     "field_offset" : 992,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "isPrivacySensitive",
-     "field_offset" : 1024,
-     "referenced_type" : "_ZTIb"
-    },
-    {
-     "field_name" : "hardwareSamplesPerFrame",
-     "field_offset" : 1056,
-     "referenced_type" : "_ZTIi"
-    },
-    {
-     "field_name" : "hardwareSampleRate",
      "field_offset" : 1088,
      "referenced_type" : "_ZTIi"
     },
     {
-     "field_name" : "hardwareAudioFormat",
+     "field_name" : "bufferCapacity",
+     "field_offset" : 1120,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "allowedCapturePolicy",
      "field_offset" : 1152,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "sessionId",
+     "field_offset" : 1184,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "isPrivacySensitive",
+     "field_offset" : 1216,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "field_name" : "hardwareSamplesPerFrame",
+     "field_offset" : 1248,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "hardwareSampleRate",
+     "field_offset" : 1280,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "hardwareAudioFormat",
+     "field_offset" : 1344,
      "referenced_type" : "_ZTIN7android5media5audio6common22AudioFormatDescriptionE"
     }
    ],
    "linker_set_key" : "_ZTIN6aaudio16StreamParametersE",
    "name" : "aaudio::StreamParameters",
    "record_kind" : "class",
-   "size" : 184,
+   "size" : 208,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaaudio/src/aaudio-aidl-cpp-source/gen/include/aaudio/StreamParameters.h",
    "vtable_components" :
    [
@@ -28108,14 +28772,14 @@
     },
     {
      "field_name" : "sys",
-     "field_offset" : 2304,
+     "field_offset" : 2496,
      "referenced_type" : "_ZTIN7android5media12AudioPortSysE"
     }
    ],
    "linker_set_key" : "_ZTIN7android5media11AudioPortFwE",
    "name" : "android::media::AudioPortFw",
    "record_kind" : "class",
-   "size" : 800,
+   "size" : 848,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioclient-types-aidl-cpp-source/gen/include/android/media/AudioPortFw.h",
    "vtable_components" :
    [
@@ -28295,14 +28959,14 @@
     },
     {
      "field_name" : "ext",
-     "field_offset" : 3840,
+     "field_offset" : 4032,
      "referenced_type" : "_ZTIN7android5media15AudioPortExtSysE"
     }
    ],
    "linker_set_key" : "_ZTIN7android5media12AudioPortSysE",
    "name" : "android::media::AudioPortSys",
    "record_kind" : "class",
-   "size" : 512,
+   "size" : 536,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioclient-types-aidl-cpp-source/gen/include/android/media/AudioPortSys.h",
    "vtable_components" :
    [
@@ -28828,14 +29492,14 @@
     },
     {
      "field_name" : "sys",
-     "field_offset" : 2944,
+     "field_offset" : 3136,
      "referenced_type" : "_ZTIN7android5media18AudioPortConfigSysE"
     }
    ],
    "linker_set_key" : "_ZTIN7android5media17AudioPortConfigFwE",
    "name" : "android::media::AudioPortConfigFw",
    "record_kind" : "class",
-   "size" : 416,
+   "size" : 440,
    "source_file" : "out/soong/.intermediates/frameworks/av/media/libaudioclient/audioclient-types-aidl-cpp-source/gen/include/android/media/AudioPortConfigFw.h",
    "vtable_components" :
    [
@@ -29313,7 +29977,7 @@
    "linker_set_key" : "_ZTIN7android5media5audio6common12AudioPortExtE",
    "name" : "android::media::audio::common::AudioPortExt",
    "record_kind" : "class",
-   "size" : 152,
+   "size" : 176,
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPortExt.h",
    "vtable_components" :
    [
@@ -30023,20 +30687,15 @@
      "referenced_type" : "_ZTIN7android5media5audio6common15AudioHalCapRule12MatchingRuleE"
     },
     {
-     "field_name" : "criterion",
+     "field_name" : "criterionAndValue",
      "field_offset" : 128,
      "referenced_type" : "_ZTIN7android5media5audio6common22AudioHalCapCriterionV2E"
-    },
-    {
-     "field_name" : "criterionTypeValue",
-     "field_offset" : 704,
-     "referenced_type" : "_ZTIN7android5media5audio6common22AudioHalCapCriterionV24TypeE"
     }
    ],
    "linker_set_key" : "_ZTIN7android5media5audio6common15AudioHalCapRule13CriterionRuleE",
    "name" : "android::media::audio::common::AudioHalCapRule::CriterionRule",
    "record_kind" : "class",
-   "size" : 144,
+   "size" : 88,
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioHalCapRule.h",
    "vtable_components" :
    [
@@ -30179,7 +30838,7 @@
    "linker_set_key" : "_ZTIN7android5media5audio6common15AudioPortConfigE",
    "name" : "android::media::audio::common::AudioPortConfig",
    "record_kind" : "class",
-   "size" : 360,
+   "size" : 384,
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPortConfig.h",
    "vtable_components" :
    [
@@ -30466,12 +31125,17 @@
      "field_name" : "encapsulationMetadataTypes",
      "field_offset" : 1056,
      "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "speakerLayout",
+     "field_offset" : 1088,
+     "referenced_type" : "_ZTINSt3__18optionalIN7android5media5audio6common18AudioChannelLayoutEEE"
     }
    ],
    "linker_set_key" : "_ZTIN7android5media5audio6common18AudioPortDeviceExtE",
    "name" : "android::media::audio::common::AudioPortDeviceExt",
    "record_kind" : "class",
-   "size" : 136,
+   "size" : 160,
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPortDeviceExt.h",
    "vtable_components" :
    [
@@ -30724,6 +31388,56 @@
     },
     {
      "mangled_component_name" : "_ZNK7android5media5audio6common19AudioMMapPolicyInfo12getStabilityEv"
+    }
+   ]
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android10ParcelableE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "_value",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTINSt3__17variantIJN7android5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryENS5_27CommunicationDeviceCategoryES7_S7_NS5_8DockTypeEbbNS5_21EncodedSurroundConfigEEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android5media5audio6common19AudioPolicyForceUseE",
+   "name" : "android::media::audio::common::AudioPolicyForceUse",
+   "record_kind" : "class",
+   "size" : 16,
+   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPolicyForceUse.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android5media5audio6common19AudioPolicyForceUseE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android5media5audio6common19AudioPolicyForceUseD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android5media5audio6common19AudioPolicyForceUseD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android5media5audio6common19AudioPolicyForceUse13writeToParcelEPNS_6ParcelE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android5media5audio6common19AudioPolicyForceUse14readFromParcelEPKNS_6ParcelE"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android5media5audio6common19AudioPolicyForceUse12getStabilityEv"
     }
    ]
   },
@@ -31026,7 +31740,7 @@
      "access" : "private",
      "field_name" : "_value",
      "field_offset" : 64,
-     "referenced_type" : "_ZTINSt3__17variantIJN7android5media5audio6common20AudioHalCapParameter14StrategyDeviceENS5_21StrategyDeviceAddressENS5_17InputSourceDeviceENS5_19StreamVolumeProfileEEEE"
+     "referenced_type" : "_ZTINSt3__17variantIJN7android5media5audio6common20AudioHalCapParameter14StrategyDeviceENS5_17InputSourceDeviceENS5_21StrategyDeviceAddressENS5_19StreamVolumeProfileEEEE"
     }
    ],
    "linker_set_key" : "_ZTIN7android5media5audio6common20AudioHalCapParameterE",
@@ -31540,30 +32254,25 @@
    "fields" :
    [
     {
-     "field_name" : "forceUse",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTIN7android5media5audio6common19AudioPolicyForceUseE"
-    },
-    {
      "field_name" : "values",
-     "field_offset" : 128,
-     "referenced_type" : "_ZTINSt3__16vectorIN7android5media5audio6common23AudioPolicyForcedConfigENS_9allocatorIS5_EEEE"
+     "field_offset" : 64,
+     "referenced_type" : "_ZTINSt3__16vectorIN7android5media5audio6common19AudioPolicyForceUseENS_9allocatorIS5_EEEE"
     },
     {
      "field_name" : "defaultValue",
-     "field_offset" : 320,
-     "referenced_type" : "_ZTIN7android5media5audio6common23AudioPolicyForcedConfigE"
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIN7android5media5audio6common19AudioPolicyForceUseE"
     },
     {
      "field_name" : "logic",
-     "field_offset" : 352,
+     "field_offset" : 384,
      "referenced_type" : "_ZTIN7android5media5audio6common22AudioHalCapCriterionV218LogicalDisjunctionE"
     }
    ],
    "linker_set_key" : "_ZTIN7android5media5audio6common22AudioHalCapCriterionV217ForceConfigForUseE",
    "name" : "android::media::audio::common::AudioHalCapCriterionV2::ForceConfigForUse",
    "record_kind" : "class",
-   "size" : 48,
+   "size" : 56,
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionV2.h",
    "vtable_components" :
    [
@@ -31661,57 +32370,7 @@
      "access" : "private",
      "field_name" : "_value",
      "field_offset" : 64,
-     "referenced_type" : "_ZTINSt3__17variantIJN7android5media5audio6common22AudioDeviceDescriptionENS4_18AudioDeviceAddressENS4_9AudioModeENS4_23AudioPolicyForcedConfigEEEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android5media5audio6common22AudioHalCapCriterionV24TypeE",
-   "name" : "android::media::audio::common::AudioHalCapCriterionV2::Type",
-   "record_kind" : "class",
-   "size" : 56,
-   "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioHalCapCriterionV2.h",
-   "vtable_components" :
-   [
-    {
-     "kind" : "offset_to_top"
-    },
-    {
-     "kind" : "rtti",
-     "mangled_component_name" : "_ZTIN7android5media5audio6common22AudioHalCapCriterionV24TypeE"
-    },
-    {
-     "kind" : "complete_dtor_pointer",
-     "mangled_component_name" : "_ZN7android5media5audio6common22AudioHalCapCriterionV24TypeD1Ev"
-    },
-    {
-     "kind" : "deleting_dtor_pointer",
-     "mangled_component_name" : "_ZN7android5media5audio6common22AudioHalCapCriterionV24TypeD0Ev"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android5media5audio6common22AudioHalCapCriterionV24Type13writeToParcelEPNS_6ParcelE"
-    },
-    {
-     "mangled_component_name" : "_ZN7android5media5audio6common22AudioHalCapCriterionV24Type14readFromParcelEPKNS_6ParcelE"
-    },
-    {
-     "mangled_component_name" : "_ZNK7android5media5audio6common22AudioHalCapCriterionV24Type12getStabilityEv"
-    }
-   ]
-  },
-  {
-   "alignment" : 8,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTIN7android10ParcelableE"
-    }
-   ],
-   "fields" :
-   [
-    {
-     "access" : "private",
-     "field_name" : "_value",
-     "field_offset" : 64,
-     "referenced_type" : "_ZTINSt3__17variantIJN7android5media5audio6common22AudioHalCapCriterionV216AvailableDevicesES6_NS5_25AvailableDevicesAddressesES7_NS5_13TelephonyModeENS5_17ForceConfigForUseENS5_4TypeEEEE"
+     "referenced_type" : "_ZTINSt3__17variantIJN7android5media5audio6common22AudioHalCapCriterionV216AvailableDevicesES6_NS5_25AvailableDevicesAddressesES7_NS5_13TelephonyModeENS5_17ForceConfigForUseEEEE"
     }
    ],
    "linker_set_key" : "_ZTIN7android5media5audio6common22AudioHalCapCriterionV2E",
@@ -32220,7 +32879,7 @@
    "linker_set_key" : "_ZTIN7android5media5audio6common9AudioPortE",
    "name" : "android::media::audio::common::AudioPort",
    "record_kind" : "class",
-   "size" : 280,
+   "size" : 304,
    "source_file" : "out/soong/.intermediates/system/hardware/interfaces/media/android.media.audio.common.types-V4-cpp-source/gen/include/android/media/audio/common/AudioPort.h",
    "vtable_components" :
    [
@@ -34512,6 +35171,18 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS_5media5audio6common19AudioPolicyForceUseENS3_9allocatorIS8_EEEEEE",
+   "name" : "android::internal::details::IsIterable<std::vector<android::media::audio::common::AudioPolicyForceUse, std::allocator<android::media::audio::common::AudioPolicyForceUse>>>",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN7android5media5audio6common19AudioPolicyForceUseENS_9allocatorIS5_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS_5media5audio6common20AudioHalCapCriterionENS3_9allocatorIS8_EEEEEE",
    "name" : "android::internal::details::IsIterable<std::vector<android::media::audio::common::AudioHalCapCriterion, std::allocator<android::media::audio::common::AudioHalCapCriterion>>>",
    "record_kind" : "class",
@@ -34608,18 +35279,6 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS_5media5audio6common23AudioPolicyForcedConfigENS3_9allocatorIS8_EEEEEE",
-   "name" : "android::internal::details::IsIterable<std::vector<android::media::audio::common::AudioPolicyForcedConfig, std::allocator<android::media::audio::common::AudioPolicyForcedConfig>>>",
-   "record_kind" : "class",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTINSt3__16vectorIN7android5media5audio6common23AudioPolicyForcedConfigENS_9allocatorIS5_EEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorINS_5media5audio6common24AudioHalCapConfigurationENS3_9allocatorIS8_EEEEEE",
    "name" : "android::internal::details::IsIterable<std::vector<android::media::audio::common::AudioHalCapConfiguration, std::allocator<android::media::audio::common::AudioHalCapConfiguration>>>",
    "record_kind" : "class",
@@ -34712,18 +35371,6 @@
    "template_args" :
    [
     "_ZTINSt3__16vectorIhNS_9allocatorIhEEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android8internal7details10IsIterableINSt3__16vectorIiNS3_9allocatorIiEEEEEE",
-   "name" : "android::internal::details::IsIterable<std::vector<int, std::allocator<int>>>",
-   "record_kind" : "class",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTINSt3__16vectorIiNS_9allocatorIiEEEE"
    ]
   },
   {
@@ -35436,6 +36083,54 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryEEE",
+   "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory>",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigEEE",
+   "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig>",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryEEE",
+   "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory>",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_5media5audio6common19AudioPolicyForceUse8DockTypeEEE",
+   "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForceUse::DockType>",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse8DockTypeE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_5media5audio6common19AudioPolicyForceUseEEE",
    "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForceUse>",
    "record_kind" : "class",
@@ -35676,18 +36371,6 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_5media5audio6common22AudioHalCapCriterionV24TypeEEE",
-   "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioHalCapCriterionV2::Type>",
-   "record_kind" : "class",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTIN7android5media5audio6common22AudioHalCapCriterionV24TypeE"
-   ]
-  },
-  {
-   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_5media5audio6common22AudioHalCapCriterionV2EEE",
    "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioHalCapCriterionV2>",
    "record_kind" : "class",
@@ -35732,18 +36415,6 @@
    "template_args" :
    [
     "_ZTIN7android5media5audio6common23AudioHalProductStrategyE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINS_5media5audio6common23AudioPolicyForcedConfigEEE",
-   "name" : "android::internal::details::IsPointerLike<android::media::audio::common::AudioPolicyForcedConfig>",
-   "record_kind" : "class",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTIN7android5media5audio6common23AudioPolicyForcedConfigE"
    ]
   },
   {
@@ -36144,6 +36815,18 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS_5media5audio6common19AudioPolicyForceUseENS3_9allocatorIS8_EEEEEE",
+   "name" : "android::internal::details::IsPointerLike<std::vector<android::media::audio::common::AudioPolicyForceUse, std::allocator<android::media::audio::common::AudioPolicyForceUse>>>",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN7android5media5audio6common19AudioPolicyForceUseENS_9allocatorIS5_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS_5media5audio6common20AudioHalCapCriterionENS3_9allocatorIS8_EEEEEE",
    "name" : "android::internal::details::IsPointerLike<std::vector<android::media::audio::common::AudioHalCapCriterion, std::allocator<android::media::audio::common::AudioHalCapCriterion>>>",
    "record_kind" : "class",
@@ -36236,18 +36919,6 @@
    "template_args" :
    [
     "_ZTINSt3__16vectorIN7android5media5audio6common23AudioHalProductStrategyENS_9allocatorIS5_EEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android8internal7details13IsPointerLikeINSt3__16vectorINS_5media5audio6common23AudioPolicyForcedConfigENS3_9allocatorIS8_EEEEEE",
-   "name" : "android::internal::details::IsPointerLike<std::vector<android::media::audio::common::AudioPolicyForcedConfig, std::allocator<android::media::audio::common::AudioPolicyForcedConfig>>>",
-   "record_kind" : "class",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTINSt3__16vectorIN7android5media5audio6common23AudioPolicyForcedConfigENS_9allocatorIS5_EEEE"
    ]
   },
   {
@@ -37236,6 +37907,54 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryEEE",
+   "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory>",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigEEE",
+   "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig>",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryEEE",
+   "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory>",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_5media5audio6common19AudioPolicyForceUse8DockTypeEEE",
+   "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForceUse::DockType>",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse8DockTypeE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_5media5audio6common19AudioPolicyForceUseEEE",
    "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForceUse>",
    "record_kind" : "class",
@@ -37476,18 +38195,6 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_5media5audio6common22AudioHalCapCriterionV24TypeEEE",
-   "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioHalCapCriterionV2::Type>",
-   "record_kind" : "class",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTIN7android5media5audio6common22AudioHalCapCriterionV24TypeE"
-   ]
-  },
-  {
-   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_5media5audio6common22AudioHalCapCriterionV2EEE",
    "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioHalCapCriterionV2>",
    "record_kind" : "class",
@@ -37532,18 +38239,6 @@
    "template_args" :
    [
     "_ZTIN7android5media5audio6common23AudioHalProductStrategyE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINS_5media5audio6common23AudioPolicyForcedConfigEEE",
-   "name" : "android::internal::details::HasToStringMethod<android::media::audio::common::AudioPolicyForcedConfig>",
-   "record_kind" : "class",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTIN7android5media5audio6common23AudioPolicyForcedConfigE"
    ]
   },
   {
@@ -37944,6 +38639,18 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS_5media5audio6common19AudioPolicyForceUseENS3_9allocatorIS8_EEEEEE",
+   "name" : "android::internal::details::HasToStringMethod<std::vector<android::media::audio::common::AudioPolicyForceUse, std::allocator<android::media::audio::common::AudioPolicyForceUse>>>",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN7android5media5audio6common19AudioPolicyForceUseENS_9allocatorIS5_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS_5media5audio6common20AudioHalCapCriterionENS3_9allocatorIS8_EEEEEE",
    "name" : "android::internal::details::HasToStringMethod<std::vector<android::media::audio::common::AudioHalCapCriterion, std::allocator<android::media::audio::common::AudioHalCapCriterion>>>",
    "record_kind" : "class",
@@ -38036,18 +38743,6 @@
    "template_args" :
    [
     "_ZTINSt3__16vectorIN7android5media5audio6common23AudioHalProductStrategyENS_9allocatorIS5_EEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android8internal7details17HasToStringMethodINSt3__16vectorINS_5media5audio6common23AudioPolicyForcedConfigENS3_9allocatorIS8_EEEEEE",
-   "name" : "android::internal::details::HasToStringMethod<std::vector<android::media::audio::common::AudioPolicyForcedConfig, std::allocator<android::media::audio::common::AudioPolicyForcedConfig>>>",
-   "record_kind" : "class",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTINSt3__16vectorIN7android5media5audio6common23AudioPolicyForcedConfigENS_9allocatorIS5_EEEE"
    ]
   },
   {
@@ -42178,6 +42873,278 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryENS_2spEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory, android::sp>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryENSt3__110shared_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory, std::shared_ptr>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryENSt3__110unique_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory, std::unique_ptr>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryENSt3__18optionalEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory, std::optional>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigENS_2spEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig, android::sp>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigENSt3__110shared_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig, std::shared_ptr>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigENSt3__110unique_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig, std::unique_ptr>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigENSt3__18optionalEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig, std::optional>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryENS_2spEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory, android::sp>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryENSt3__110shared_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory, std::shared_ptr>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryENSt3__110unique_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory, std::unique_ptr>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryENSt3__18optionalEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory, std::optional>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUse8DockTypeENS_2spEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse::DockType, android::sp>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse8DockTypeE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUse8DockTypeENSt3__110shared_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse::DockType, std::shared_ptr>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse8DockTypeE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUse8DockTypeENSt3__110unique_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse::DockType, std::unique_ptr>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse8DockTypeE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUse8DockTypeENSt3__18optionalEEE",
+   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse::DockType, std::optional>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse8DockTypeE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common19AudioPolicyForceUseENS_2spEEE",
    "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForceUse, android::sp>",
    "size" : 1,
@@ -43538,74 +44505,6 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
-   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common22AudioHalCapCriterionV24TypeENS_2spEEE",
-   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioHalCapCriterionV2::Type, android::sp>",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTIN7android5media5audio6common22AudioHalCapCriterionV24TypeE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common22AudioHalCapCriterionV24TypeENSt3__110shared_ptrEEE",
-   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioHalCapCriterionV2::Type, std::shared_ptr>",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTIN7android5media5audio6common22AudioHalCapCriterionV24TypeE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common22AudioHalCapCriterionV24TypeENSt3__110unique_ptrEEE",
-   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioHalCapCriterionV2::Type, std::unique_ptr>",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTIN7android5media5audio6common22AudioHalCapCriterionV24TypeE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common22AudioHalCapCriterionV24TypeENSt3__18optionalEEE",
-   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioHalCapCriterionV2::Type, std::optional>",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTIN7android5media5audio6common22AudioHalCapCriterionV24TypeE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
-    }
-   ],
    "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common22AudioHalCapCriterionV2ENS_2spEEE",
    "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioHalCapCriterionV2, android::sp>",
    "size" : 1,
@@ -43868,74 +44767,6 @@
    "template_args" :
    [
     "_ZTIN7android5media5audio6common23AudioHalProductStrategyE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common23AudioPolicyForcedConfigENS_2spEEE",
-   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForcedConfig, android::sp>",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTIN7android5media5audio6common23AudioPolicyForcedConfigE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common23AudioPolicyForcedConfigENSt3__110shared_ptrEEE",
-   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForcedConfig, std::shared_ptr>",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTIN7android5media5audio6common23AudioPolicyForcedConfigE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common23AudioPolicyForcedConfigENSt3__110unique_ptrEEE",
-   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForcedConfig, std::unique_ptr>",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTIN7android5media5audio6common23AudioPolicyForcedConfigE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINS_5media5audio6common23AudioPolicyForcedConfigENSt3__18optionalEEE",
-   "name" : "android::internal::details::IsInstantiationOf<android::media::audio::common::AudioPolicyForcedConfig, std::optional>",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTIN7android5media5audio6common23AudioPolicyForcedConfigE"
    ]
   },
   {
@@ -46190,6 +47021,74 @@
      "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
     }
    ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_5media5audio6common19AudioPolicyForceUseENS3_9allocatorIS8_EEEENS3_10shared_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::vector<android::media::audio::common::AudioPolicyForceUse, std::allocator<android::media::audio::common::AudioPolicyForceUse>>, std::shared_ptr>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN7android5media5audio6common19AudioPolicyForceUseENS_9allocatorIS5_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_5media5audio6common19AudioPolicyForceUseENS3_9allocatorIS8_EEEENS3_10unique_ptrEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::vector<android::media::audio::common::AudioPolicyForceUse, std::allocator<android::media::audio::common::AudioPolicyForceUse>>, std::unique_ptr>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN7android5media5audio6common19AudioPolicyForceUseENS_9allocatorIS5_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_5media5audio6common19AudioPolicyForceUseENS3_9allocatorIS8_EEEENS3_8optionalEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::vector<android::media::audio::common::AudioPolicyForceUse, std::allocator<android::media::audio::common::AudioPolicyForceUse>>, std::optional>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN7android5media5audio6common19AudioPolicyForceUseENS_9allocatorIS5_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_5media5audio6common19AudioPolicyForceUseENS3_9allocatorIS8_EEEENS_2spEEE",
+   "name" : "android::internal::details::IsInstantiationOf<std::vector<android::media::audio::common::AudioPolicyForceUse, std::allocator<android::media::audio::common::AudioPolicyForceUse>>, android::sp>",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN7android5media5audio6common19AudioPolicyForceUseENS_9allocatorIS5_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
    "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_5media5audio6common20AudioHalCapCriterionENS3_9allocatorIS8_EEEENS3_10shared_ptrEEE",
    "name" : "android::internal::details::IsInstantiationOf<std::vector<android::media::audio::common::AudioHalCapCriterion, std::allocator<android::media::audio::common::AudioHalCapCriterion>>, std::shared_ptr>",
    "size" : 1,
@@ -46724,74 +47623,6 @@
    "template_args" :
    [
     "_ZTINSt3__16vectorIN7android5media5audio6common23AudioHalProductStrategyENS_9allocatorIS5_EEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_5media5audio6common23AudioPolicyForcedConfigENS3_9allocatorIS8_EEEENS3_10shared_ptrEEE",
-   "name" : "android::internal::details::IsInstantiationOf<std::vector<android::media::audio::common::AudioPolicyForcedConfig, std::allocator<android::media::audio::common::AudioPolicyForcedConfig>>, std::shared_ptr>",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTINSt3__16vectorIN7android5media5audio6common23AudioPolicyForcedConfigENS_9allocatorIS5_EEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_5media5audio6common23AudioPolicyForcedConfigENS3_9allocatorIS8_EEEENS3_10unique_ptrEEE",
-   "name" : "android::internal::details::IsInstantiationOf<std::vector<android::media::audio::common::AudioPolicyForcedConfig, std::allocator<android::media::audio::common::AudioPolicyForcedConfig>>, std::unique_ptr>",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTINSt3__16vectorIN7android5media5audio6common23AudioPolicyForcedConfigENS_9allocatorIS5_EEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_5media5audio6common23AudioPolicyForcedConfigENS3_9allocatorIS8_EEEENS3_8optionalEEE",
-   "name" : "android::internal::details::IsInstantiationOf<std::vector<android::media::audio::common::AudioPolicyForcedConfig, std::allocator<android::media::audio::common::AudioPolicyForcedConfig>>, std::optional>",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTINSt3__16vectorIN7android5media5audio6common23AudioPolicyForcedConfigENS_9allocatorIS5_EEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "base_specifiers" :
-   [
-    {
-     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android8internal7details17IsInstantiationOfINSt3__16vectorINS_5media5audio6common23AudioPolicyForcedConfigENS3_9allocatorIS8_EEEENS_2spEEE",
-   "name" : "android::internal::details::IsInstantiationOf<std::vector<android::media::audio::common::AudioPolicyForcedConfig, std::allocator<android::media::audio::common::AudioPolicyForcedConfig>>, android::sp>",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTINSt3__16vectorIN7android5media5audio6common23AudioPolicyForcedConfigENS_9allocatorIS5_EEEE"
    ]
   },
   {
@@ -48632,14 +49463,50 @@
   },
   {
    "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINS_5media5audio6common19AudioPolicyForceUseEEE",
-   "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForceUse>",
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINS_5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryEEE",
+   "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForceUse::MediaDeviceCategory>",
    "record_kind" : "class",
    "size" : 1,
    "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
    "template_args" :
    [
-    "_ZTIN7android5media5audio6common19AudioPolicyForceUseE"
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse19MediaDeviceCategoryE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINS_5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigEEE",
+   "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForceUse::EncodedSurroundConfig>",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse21EncodedSurroundConfigE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINS_5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryEEE",
+   "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForceUse::CommunicationDeviceCategory>",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse27CommunicationDeviceCategoryE"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINS_5media5audio6common19AudioPolicyForceUse8DockTypeEEE",
+   "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForceUse::DockType>",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTIN7android5media5audio6common19AudioPolicyForceUse8DockTypeE"
    ]
   },
   {
@@ -48676,18 +49543,6 @@
    "template_args" :
    [
     "_ZTIN7android5media5audio6common22AudioHalCapCriterionV218LogicalDisjunctionE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINS_5media5audio6common23AudioPolicyForcedConfigEEE",
-   "name" : "android::internal::details::HasToStringFunction<android::media::audio::common::AudioPolicyForcedConfig>",
-   "record_kind" : "class",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTIN7android5media5audio6common23AudioPolicyForcedConfigE"
    ]
   },
   {
@@ -49004,6 +49859,18 @@
   },
   {
    "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS_5media5audio6common19AudioPolicyForceUseENS3_9allocatorIS8_EEEEEE",
+   "name" : "android::internal::details::HasToStringFunction<std::vector<android::media::audio::common::AudioPolicyForceUse, std::allocator<android::media::audio::common::AudioPolicyForceUse>>>",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
+   "template_args" :
+   [
+    "_ZTINSt3__16vectorIN7android5media5audio6common19AudioPolicyForceUseENS_9allocatorIS5_EEEE"
+   ]
+  },
+  {
+   "alignment" : 1,
    "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS_5media5audio6common20AudioHalCapCriterionENS3_9allocatorIS8_EEEEEE",
    "name" : "android::internal::details::HasToStringFunction<std::vector<android::media::audio::common::AudioHalCapCriterion, std::allocator<android::media::audio::common::AudioHalCapCriterion>>>",
    "record_kind" : "class",
@@ -49096,18 +49963,6 @@
    "template_args" :
    [
     "_ZTINSt3__16vectorIN7android5media5audio6common23AudioHalProductStrategyENS_9allocatorIS5_EEEE"
-   ]
-  },
-  {
-   "alignment" : 1,
-   "linker_set_key" : "_ZTIN7android8internal7details19HasToStringFunctionINSt3__16vectorINS_5media5audio6common23AudioPolicyForcedConfigENS3_9allocatorIS8_EEEEEE",
-   "name" : "android::internal::details::HasToStringFunction<std::vector<android::media::audio::common::AudioPolicyForcedConfig, std::allocator<android::media::audio::common::AudioPolicyForcedConfig>>>",
-   "record_kind" : "class",
-   "size" : 1,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_cpp/android/binder_to_string.h",
-   "template_args" :
-   [
-    "_ZTINSt3__16vectorIN7android5media5audio6common23AudioPolicyForcedConfigENS_9allocatorIS5_EEEE"
    ]
   },
   {
