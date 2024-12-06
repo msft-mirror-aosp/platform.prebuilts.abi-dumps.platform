@@ -438,6 +438,10 @@
      "name" : "ADATASPACE_BT2020_ITU_HLG"
     },
     {
+     "enum_field_value" : 142999552,
+     "name" : "ADATASPACE_DISPLAY_BT2020"
+    },
+    {
      "enum_field_value" : 4096,
      "name" : "ADATASPACE_DEPTH"
     },
@@ -620,6 +624,10 @@
     {
      "enum_field_value" : 54,
      "name" : "AHARDWAREBUFFER_FORMAT_YCbCr_P010"
+    },
+    {
+     "enum_field_value" : 60,
+     "name" : "AHARDWAREBUFFER_FORMAT_YCbCr_P210"
     },
     {
      "enum_field_value" : 56,
@@ -1372,7 +1380,7 @@
    "underlying_type" : "_ZTIj"
   },
   {
-   "alignment" : 4,
+   "alignment" : 1,
    "enum_fields" :
    [
     {
@@ -1386,9 +1394,9 @@
    ],
    "linker_set_key" : "_ZTI37ANativeWindow_ChangeFrameRateStrategy",
    "name" : "ANativeWindow_ChangeFrameRateStrategy",
-   "size" : 4,
+   "size" : 1,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h",
-   "underlying_type" : "_ZTIj"
+   "underlying_type" : "_ZTIa"
   },
   {
    "alignment" : 4,
@@ -1742,6 +1750,12 @@
  "functions" :
  [
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AHardwareBuffer_acquire",
    "linker_set_key" : "AHardwareBuffer_acquire",
    "parameters" :
@@ -1754,6 +1768,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AHardwareBuffer_allocate",
    "linker_set_key" : "AHardwareBuffer_allocate",
    "parameters" :
@@ -1769,6 +1789,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 35
+    }
+   ],
    "function_name" : "AHardwareBuffer_allocateWithOptions",
    "linker_set_key" : "AHardwareBuffer_allocateWithOptions",
    "parameters" :
@@ -1811,6 +1837,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AHardwareBuffer_describe",
    "linker_set_key" : "AHardwareBuffer_describe",
    "parameters" :
@@ -1826,6 +1858,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 35
+    }
+   ],
    "function_name" : "AHardwareBuffer_getDataSpace",
    "linker_set_key" : "AHardwareBuffer_getDataSpace",
    "parameters" :
@@ -1838,6 +1876,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
    "function_name" : "AHardwareBuffer_getId",
    "linker_set_key" : "AHardwareBuffer_getId",
    "parameters" :
@@ -1865,6 +1909,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    }
+   ],
    "function_name" : "AHardwareBuffer_isSupported",
    "linker_set_key" : "AHardwareBuffer_isSupported",
    "parameters" :
@@ -1877,6 +1927,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AHardwareBuffer_lock",
    "linker_set_key" : "AHardwareBuffer_lock",
    "parameters" :
@@ -1901,6 +1957,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    }
+   ],
    "function_name" : "AHardwareBuffer_lockAndGetInfo",
    "linker_set_key" : "AHardwareBuffer_lockAndGetInfo",
    "parameters" :
@@ -1931,6 +1993,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    }
+   ],
    "function_name" : "AHardwareBuffer_lockPlanes",
    "linker_set_key" : "AHardwareBuffer_lockPlanes",
    "parameters" :
@@ -1955,6 +2023,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 34
+    }
+   ],
    "function_name" : "AHardwareBuffer_readFromParcel",
    "linker_set_key" : "AHardwareBuffer_readFromParcel",
    "parameters" :
@@ -1970,6 +2044,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer_aidl.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AHardwareBuffer_recvHandleFromUnixSocket",
    "linker_set_key" : "AHardwareBuffer_recvHandleFromUnixSocket",
    "parameters" :
@@ -1985,6 +2065,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AHardwareBuffer_release",
    "linker_set_key" : "AHardwareBuffer_release",
    "parameters" :
@@ -1997,6 +2083,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AHardwareBuffer_sendHandleToUnixSocket",
    "linker_set_key" : "AHardwareBuffer_sendHandleToUnixSocket",
    "parameters" :
@@ -2012,6 +2104,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 35
+    }
+   ],
    "function_name" : "AHardwareBuffer_setDataSpace",
    "linker_set_key" : "AHardwareBuffer_setDataSpace",
    "parameters" :
@@ -2027,6 +2125,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AHardwareBuffer_unlock",
    "linker_set_key" : "AHardwareBuffer_unlock",
    "parameters" :
@@ -2042,6 +2146,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 34
+    }
+   ],
    "function_name" : "AHardwareBuffer_writeToParcel",
    "linker_set_key" : "AHardwareBuffer_writeToParcel",
    "parameters" :
@@ -2069,6 +2179,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 28
+    }
+   ],
    "function_name" : "ANativeWindow_getBuffersDataSpace",
    "linker_set_key" : "ANativeWindow_getBuffersDataSpace",
    "parameters" :
@@ -2081,6 +2197,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 34
+    }
+   ],
    "function_name" : "ANativeWindow_getBuffersDefaultDataSpace",
    "linker_set_key" : "ANativeWindow_getBuffersDefaultDataSpace",
    "parameters" :
@@ -2183,6 +2305,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 34
+    }
+   ],
    "function_name" : "ANativeWindow_readFromParcel",
    "linker_set_key" : "ANativeWindow_readFromParcel",
    "parameters" :
@@ -2210,6 +2338,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 28
+    }
+   ],
    "function_name" : "ANativeWindow_setBuffersDataSpace",
    "linker_set_key" : "ANativeWindow_setBuffersDataSpace",
    "parameters" :
@@ -2246,6 +2380,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "ANativeWindow_setBuffersTransform",
    "linker_set_key" : "ANativeWindow_setBuffersTransform",
    "parameters" :
@@ -2312,6 +2452,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/apex/window.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
    "function_name" : "ANativeWindow_setFrameRate",
    "linker_set_key" : "ANativeWindow_setFrameRate",
    "parameters" :
@@ -2330,6 +2476,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
    "function_name" : "ANativeWindow_setFrameRateWithChangeStrategy",
    "linker_set_key" : "ANativeWindow_setFrameRateWithChangeStrategy",
    "parameters" :
@@ -2387,6 +2539,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/apex/window.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
    "function_name" : "ANativeWindow_tryAllocateBuffers",
    "linker_set_key" : "ANativeWindow_tryAllocateBuffers",
    "parameters" :
@@ -2411,6 +2569,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 34
+    }
+   ],
    "function_name" : "ANativeWindow_writeToParcel",
    "linker_set_key" : "ANativeWindow_writeToParcel",
    "parameters" :
