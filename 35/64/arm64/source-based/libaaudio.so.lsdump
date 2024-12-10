@@ -587,6 +587,9 @@
    "name" : "AAudioStream_close"
   },
   {
+   "name" : "AAudioStream_destroyTags"
+  },
+  {
    "name" : "AAudioStream_getAllowedCapturePolicy"
   },
   {
@@ -684,9 +687,6 @@
   },
   {
    "name" : "AAudioStream_release"
-  },
-  {
-   "name" : "AAudioStream_releaseTags"
   },
   {
    "name" : "AAudioStream_requestFlush"
@@ -13831,6 +13831,21 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "function_name" : "AAudioStream_destroyTags",
+   "linker_set_key" : "AAudioStream_destroyTags",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP18AAudioStreamStruct"
+    },
+    {
+     "referenced_type" : "_ZTIPPc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/libaaudio/include/system/aaudio/AAudio.h"
+  },
+  {
    "availability_attrs" :
    [
     {
@@ -14344,6 +14359,12 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
    "function_name" : "AAudioStream_isMMapUsed",
    "linker_set_key" : "AAudioStream_isMMapUsed",
    "parameters" :
@@ -14353,7 +14374,7 @@
     }
    ],
    "return_type" : "_ZTIb",
-   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudioTesting.h"
+   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
    "availability_attrs" :
@@ -14432,21 +14453,6 @@
    ],
    "return_type" : "_ZTIi",
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
-  },
-  {
-   "function_name" : "AAudioStream_releaseTags",
-   "linker_set_key" : "AAudioStream_releaseTags",
-   "parameters" :
-   [
-    {
-     "referenced_type" : "_ZTIP18AAudioStreamStruct"
-    },
-    {
-     "referenced_type" : "_ZTIPPc"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "frameworks/av/media/libaaudio/include/system/aaudio/AAudio.h"
   },
   {
    "availability_attrs" :
@@ -14650,12 +14656,24 @@
    "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
    "function_name" : "AAudio_getMMapPolicy",
    "linker_set_key" : "AAudio_getMMapPolicy",
    "return_type" : "_ZTIi",
-   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudioTesting.h"
+   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
    "function_name" : "AAudio_setMMapPolicy",
    "linker_set_key" : "AAudio_setMMapPolicy",
    "parameters" :
@@ -14665,7 +14683,7 @@
     }
    ],
    "return_type" : "_ZTIi",
-   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudioTesting.h"
+   "source_file" : "frameworks/av/media/libaaudio/include/aaudio/AAudio.h"
   }
  ],
  "global_vars" : [],
@@ -27232,6 +27250,10 @@
     {
      "is_pure" : true,
      "mangled_component_name" : "_ZN7android15IServiceManager19getServiceDebugInfoEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager21enableAddServiceCacheEb"
     },
     {
      "kind" : "vcall_offset"
