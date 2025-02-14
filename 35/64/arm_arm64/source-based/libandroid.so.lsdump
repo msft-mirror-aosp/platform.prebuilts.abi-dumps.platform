@@ -385,6 +385,33 @@
    "name" : "AConfiguration_setUiModeType"
   },
   {
+   "name" : "ADynamicInstrumentationManager_ExecutableMethodFileOffsets_destroy"
+  },
+  {
+   "name" : "ADynamicInstrumentationManager_ExecutableMethodFileOffsets_getContainerOffset"
+  },
+  {
+   "name" : "ADynamicInstrumentationManager_ExecutableMethodFileOffsets_getContainerPath"
+  },
+  {
+   "name" : "ADynamicInstrumentationManager_ExecutableMethodFileOffsets_getMethodOffset"
+  },
+  {
+   "name" : "ADynamicInstrumentationManager_MethodDescriptor_create"
+  },
+  {
+   "name" : "ADynamicInstrumentationManager_MethodDescriptor_destroy"
+  },
+  {
+   "name" : "ADynamicInstrumentationManager_TargetProcess_create"
+  },
+  {
+   "name" : "ADynamicInstrumentationManager_TargetProcess_destroy"
+  },
+  {
+   "name" : "ADynamicInstrumentationManager_getExecutableMethodFileOffsets"
+  },
+  {
    "name" : "AFontMatcher_create"
   },
   {
@@ -1383,6 +1410,10 @@
      "name" : "ADATASPACE_BT2020_ITU_HLG"
     },
     {
+     "enum_field_value" : 142999552,
+     "name" : "ADATASPACE_DISPLAY_BT2020"
+    },
+    {
      "enum_field_value" : 4096,
      "name" : "ADATASPACE_DEPTH"
     },
@@ -1698,6 +1729,10 @@
      "name" : "AHARDWAREBUFFER_FORMAT_YCbCr_P010"
     },
     {
+     "enum_field_value" : 60,
+     "name" : "AHARDWAREBUFFER_FORMAT_YCbCr_P210"
+    },
+    {
      "enum_field_value" : 56,
      "name" : "AHARDWAREBUFFER_FORMAT_R8_UNORM"
     },
@@ -1996,7 +2031,7 @@
      "name" : "AHARDWAREBUFFER_USAGE_GPU_MIPMAP_COMPLETE"
     },
     {
-     "enum_field_value" : 2147483648,
+     "enum_field_value" : 4294967296,
      "name" : "AHARDWAREBUFFER_USAGE_FRONT_BUFFER"
     },
     {
@@ -2495,7 +2530,7 @@
    "underlying_type" : "_ZTIj"
   },
   {
-   "alignment" : 4,
+   "alignment" : 1,
    "enum_fields" :
    [
     {
@@ -2509,9 +2544,9 @@
    ],
    "linker_set_key" : "_ZTI37ANativeWindow_ChangeFrameRateStrategy",
    "name" : "ANativeWindow_ChangeFrameRateStrategy",
-   "size" : 4,
+   "size" : 1,
    "source_file" : "frameworks/native/libs/nativewindow/include/android/native_window.h",
-   "underlying_type" : "_ZTIj"
+   "underlying_type" : "_ZTIa"
   },
   {
    "alignment" : 4,
@@ -2884,6 +2919,12 @@
  "functions" :
  [
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
    "function_name" : "AActivityManager_addUidImportanceListener",
    "linker_set_key" : "AActivityManager_addUidImportanceListener",
    "parameters" :
@@ -2902,6 +2943,12 @@
    "source_file" : "frameworks/base/native/android/include_platform/android/activity_manager.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
    "function_name" : "AActivityManager_getUidImportance",
    "linker_set_key" : "AActivityManager_getUidImportance",
    "parameters" :
@@ -2914,6 +2961,12 @@
    "source_file" : "frameworks/base/native/android/include_platform/android/activity_manager.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
    "function_name" : "AActivityManager_isUidActive",
    "linker_set_key" : "AActivityManager_isUidActive",
    "parameters" :
@@ -2926,6 +2979,12 @@
    "source_file" : "frameworks/base/native/android/include_platform/android/activity_manager.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
    "function_name" : "AActivityManager_removeUidImportanceListener",
    "linker_set_key" : "AActivityManager_removeUidImportanceListener",
    "parameters" :
@@ -2938,6 +2997,195 @@
    "source_file" : "frameworks/base/native/android/include_platform/android/activity_manager.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ADynamicInstrumentationManager_ExecutableMethodFileOffsets_destroy",
+   "linker_set_key" : "ADynamicInstrumentationManager_ExecutableMethodFileOffsets_destroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ADynamicInstrumentationManager_ExecutableMethodFileOffsets_getContainerOffset",
+   "linker_set_key" : "ADynamicInstrumentationManager_ExecutableMethodFileOffsets_getContainerOffset",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets"
+    }
+   ],
+   "return_type" : "_ZTIy",
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ADynamicInstrumentationManager_ExecutableMethodFileOffsets_getContainerPath",
+   "linker_set_key" : "ADynamicInstrumentationManager_ExecutableMethodFileOffsets_getContainerPath",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets"
+    }
+   ],
+   "return_type" : "_ZTIPKc",
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ADynamicInstrumentationManager_ExecutableMethodFileOffsets_getMethodOffset",
+   "linker_set_key" : "ADynamicInstrumentationManager_ExecutableMethodFileOffsets_getMethodOffset",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets"
+    }
+   ],
+   "return_type" : "_ZTIy",
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ADynamicInstrumentationManager_MethodDescriptor_create",
+   "linker_set_key" : "ADynamicInstrumentationManager_MethodDescriptor_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPPKc"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIP47ADynamicInstrumentationManager_MethodDescriptor",
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ADynamicInstrumentationManager_MethodDescriptor_destroy",
+   "linker_set_key" : "ADynamicInstrumentationManager_MethodDescriptor_destroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK47ADynamicInstrumentationManager_MethodDescriptor"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ADynamicInstrumentationManager_TargetProcess_create",
+   "linker_set_key" : "ADynamicInstrumentationManager_TargetProcess_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIP44ADynamicInstrumentationManager_TargetProcess",
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ADynamicInstrumentationManager_TargetProcess_destroy",
+   "linker_set_key" : "ADynamicInstrumentationManager_TargetProcess_destroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK44ADynamicInstrumentationManager_TargetProcess"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ADynamicInstrumentationManager_getExecutableMethodFileOffsets",
+   "linker_set_key" : "ADynamicInstrumentationManager_getExecutableMethodFileOffsets",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK44ADynamicInstrumentationManager_TargetProcess"
+    },
+    {
+     "referenced_type" : "_ZTIPK47ADynamicInstrumentationManager_MethodDescriptor"
+    },
+    {
+     "referenced_type" : "_ZTIPPK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AHardwareBuffer_acquire",
    "linker_set_key" : "AHardwareBuffer_acquire",
    "parameters" :
@@ -2950,6 +3198,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AHardwareBuffer_allocate",
    "linker_set_key" : "AHardwareBuffer_allocate",
    "parameters" :
@@ -2965,6 +3219,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AHardwareBuffer_describe",
    "linker_set_key" : "AHardwareBuffer_describe",
    "parameters" :
@@ -2980,6 +3240,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
    "function_name" : "AHardwareBuffer_getId",
    "linker_set_key" : "AHardwareBuffer_getId",
    "parameters" :
@@ -3007,6 +3273,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    }
+   ],
    "function_name" : "AHardwareBuffer_isSupported",
    "linker_set_key" : "AHardwareBuffer_isSupported",
    "parameters" :
@@ -3019,6 +3291,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AHardwareBuffer_lock",
    "linker_set_key" : "AHardwareBuffer_lock",
    "parameters" :
@@ -3043,6 +3321,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    }
+   ],
    "function_name" : "AHardwareBuffer_lockAndGetInfo",
    "linker_set_key" : "AHardwareBuffer_lockAndGetInfo",
    "parameters" :
@@ -3073,6 +3357,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    }
+   ],
    "function_name" : "AHardwareBuffer_lockPlanes",
    "linker_set_key" : "AHardwareBuffer_lockPlanes",
    "parameters" :
@@ -3097,6 +3387,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AHardwareBuffer_recvHandleFromUnixSocket",
    "linker_set_key" : "AHardwareBuffer_recvHandleFromUnixSocket",
    "parameters" :
@@ -3112,6 +3408,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AHardwareBuffer_release",
    "linker_set_key" : "AHardwareBuffer_release",
    "parameters" :
@@ -3124,6 +3426,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AHardwareBuffer_sendHandleToUnixSocket",
    "linker_set_key" : "AHardwareBuffer_sendHandleToUnixSocket",
    "parameters" :
@@ -3139,6 +3447,12 @@
    "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
   },
   {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 26
+    }
+   ],
    "function_name" : "AHardwareBuffer_unlock",
    "linker_set_key" : "AHardwareBuffer_unlock",
    "parameters" :
@@ -3369,6 +3683,22 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIP44ADynamicInstrumentationManager_TargetProcess",
+   "name" : "ADynamicInstrumentationManager_TargetProcess *",
+   "referenced_type" : "_ZTI44ADynamicInstrumentationManager_TargetProcess",
+   "size" : 4,
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP47ADynamicInstrumentationManager_MethodDescriptor",
+   "name" : "ADynamicInstrumentationManager_MethodDescriptor *",
+   "referenced_type" : "_ZTI47ADynamicInstrumentationManager_MethodDescriptor",
+   "size" : 4,
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIP5ARect",
    "name" : "ARect *",
    "referenced_type" : "_ZTI5ARect",
@@ -3537,6 +3867,30 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPK44ADynamicInstrumentationManager_TargetProcess",
+   "name" : "const ADynamicInstrumentationManager_TargetProcess *",
+   "referenced_type" : "_ZTIK44ADynamicInstrumentationManager_TargetProcess",
+   "size" : 4,
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK47ADynamicInstrumentationManager_MethodDescriptor",
+   "name" : "const ADynamicInstrumentationManager_MethodDescriptor *",
+   "referenced_type" : "_ZTIK47ADynamicInstrumentationManager_MethodDescriptor",
+   "size" : 4,
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
+   "name" : "const ADynamicInstrumentationManager_ExecutableMethodFileOffsets *",
+   "referenced_type" : "_ZTIK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
+   "size" : 4,
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPK5ARect",
    "name" : "const ARect *",
    "referenced_type" : "_ZTIK5ARect",
@@ -3581,7 +3935,7 @@
    "name" : "const char *",
    "referenced_type" : "_ZTIKc",
    "size" : 4,
-   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
   },
   {
    "alignment" : 4,
@@ -3638,6 +3992,22 @@
    "referenced_type" : "_ZTIP19ANativeWindowBuffer",
    "size" : 4,
    "source_file" : "frameworks/native/libs/nativewindow/include/system/window.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPPK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
+   "name" : "const ADynamicInstrumentationManager_ExecutableMethodFileOffsets **",
+   "referenced_type" : "_ZTIPK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
+   "size" : 4,
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPPKc",
+   "name" : "const char **",
+   "referenced_type" : "_ZTIPKc",
+   "size" : 4,
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
   },
   {
    "alignment" : 4,
@@ -3737,6 +4107,33 @@
   {
    "alignment" : 4,
    "is_const" : true,
+   "linker_set_key" : "_ZTIK44ADynamicInstrumentationManager_TargetProcess",
+   "name" : "const ADynamicInstrumentationManager_TargetProcess",
+   "referenced_type" : "_ZTI44ADynamicInstrumentationManager_TargetProcess",
+   "size" : 20,
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK47ADynamicInstrumentationManager_MethodDescriptor",
+   "name" : "const ADynamicInstrumentationManager_MethodDescriptor",
+   "referenced_type" : "_ZTI47ADynamicInstrumentationManager_MethodDescriptor",
+   "size" : 36,
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK58ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
+   "name" : "const ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
+   "referenced_type" : "_ZTI58ADynamicInstrumentationManager_ExecutableMethodFileOffsets",
+   "size" : 32,
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
    "linker_set_key" : "_ZTIK5ARect",
    "name" : "const ARect",
    "referenced_type" : "_ZTI5ARect",
@@ -3784,7 +4181,7 @@
    "name" : "const char",
    "referenced_type" : "_ZTIc",
    "size" : 1,
-   "source_file" : "frameworks/native/libs/nativewindow/include/vndk/hardware_buffer.h"
+   "source_file" : "frameworks/base/native/android/include_platform/android/dynamic_instrumentation_manager.h"
   },
   {
    "alignment" : 4,
