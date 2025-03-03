@@ -1,0 +1,2317 @@
+{
+ "array_types" :
+ [
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIA1_c",
+   "name" : "char[1]",
+   "referenced_type" : "_ZTIc",
+   "size" : 1,
+   "source_file" : "system/libbase/include/android-base/no_destructor.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIA4_21AHardwareBuffer_Plane",
+   "name" : "AHardwareBuffer_Plane[4]",
+   "referenced_type" : "_ZTI21AHardwareBuffer_Plane",
+   "size" : 64,
+   "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
+  }
+ ],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIf",
+   "name" : "float",
+   "size" : 4
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "size" : 8
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "ApexCodec_Buffer_clear"
+  },
+  {
+   "name" : "ApexCodec_Buffer_create"
+  },
+  {
+   "name" : "ApexCodec_Buffer_destroy"
+  },
+  {
+   "name" : "ApexCodec_Buffer_getBufferInfo"
+  },
+  {
+   "name" : "ApexCodec_Buffer_getConfigUpdates"
+  },
+  {
+   "name" : "ApexCodec_Buffer_getGraphicBuffer"
+  },
+  {
+   "name" : "ApexCodec_Buffer_getLinearBuffer"
+  },
+  {
+   "name" : "ApexCodec_Buffer_getType"
+  },
+  {
+   "name" : "ApexCodec_Buffer_setBufferInfo"
+  },
+  {
+   "name" : "ApexCodec_Buffer_setConfigUpdates"
+  },
+  {
+   "name" : "ApexCodec_Buffer_setGraphicBuffer"
+  },
+  {
+   "name" : "ApexCodec_Buffer_setLinearBuffer"
+  },
+  {
+   "name" : "ApexCodec_Component_create"
+  },
+  {
+   "name" : "ApexCodec_Component_destroy"
+  },
+  {
+   "name" : "ApexCodec_Component_flush"
+  },
+  {
+   "name" : "ApexCodec_Component_getConfigurable"
+  },
+  {
+   "name" : "ApexCodec_Component_process"
+  },
+  {
+   "name" : "ApexCodec_Component_reset"
+  },
+  {
+   "name" : "ApexCodec_Component_start"
+  },
+  {
+   "name" : "ApexCodec_Configurable_config"
+  },
+  {
+   "name" : "ApexCodec_Configurable_query"
+  },
+  {
+   "name" : "ApexCodec_Configurable_querySupportedParams"
+  },
+  {
+   "name" : "ApexCodec_Configurable_querySupportedValues"
+  },
+  {
+   "name" : "ApexCodec_GetComponentStore"
+  },
+  {
+   "name" : "ApexCodec_ParamDescriptors_destroy"
+  },
+  {
+   "name" : "ApexCodec_ParamDescriptors_getDescriptor"
+  },
+  {
+   "name" : "ApexCodec_ParamDescriptors_getIndices"
+  },
+  {
+   "name" : "ApexCodec_SettingResults_destroy"
+  },
+  {
+   "name" : "ApexCodec_SettingResults_getResultAtIndex"
+  },
+  {
+   "name" : "ApexCodec_SupportedValues_destroy"
+  },
+  {
+   "name" : "ApexCodec_SupportedValues_getTypeAndValues"
+  },
+  {
+   "name" : "ApexCodec_Traits_get"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ADATASPACE_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 4128768,
+     "name" : "ADATASPACE_STANDARD_MASK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "ADATASPACE_STANDARD_UNSPECIFIED"
+    },
+    {
+     "enum_field_value" : 65536,
+     "name" : "ADATASPACE_STANDARD_BT709"
+    },
+    {
+     "enum_field_value" : 131072,
+     "name" : "ADATASPACE_STANDARD_BT601_625"
+    },
+    {
+     "enum_field_value" : 196608,
+     "name" : "ADATASPACE_STANDARD_BT601_625_UNADJUSTED"
+    },
+    {
+     "enum_field_value" : 262144,
+     "name" : "ADATASPACE_STANDARD_BT601_525"
+    },
+    {
+     "enum_field_value" : 327680,
+     "name" : "ADATASPACE_STANDARD_BT601_525_UNADJUSTED"
+    },
+    {
+     "enum_field_value" : 393216,
+     "name" : "ADATASPACE_STANDARD_BT2020"
+    },
+    {
+     "enum_field_value" : 458752,
+     "name" : "ADATASPACE_STANDARD_BT2020_CONSTANT_LUMINANCE"
+    },
+    {
+     "enum_field_value" : 524288,
+     "name" : "ADATASPACE_STANDARD_BT470M"
+    },
+    {
+     "enum_field_value" : 589824,
+     "name" : "ADATASPACE_STANDARD_FILM"
+    },
+    {
+     "enum_field_value" : 655360,
+     "name" : "ADATASPACE_STANDARD_DCI_P3"
+    },
+    {
+     "enum_field_value" : 720896,
+     "name" : "ADATASPACE_STANDARD_ADOBE_RGB"
+    },
+    {
+     "enum_field_value" : 130023424,
+     "name" : "ADATASPACE_TRANSFER_MASK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "ADATASPACE_TRANSFER_UNSPECIFIED"
+    },
+    {
+     "enum_field_value" : 4194304,
+     "name" : "ADATASPACE_TRANSFER_LINEAR"
+    },
+    {
+     "enum_field_value" : 8388608,
+     "name" : "ADATASPACE_TRANSFER_SRGB"
+    },
+    {
+     "enum_field_value" : 12582912,
+     "name" : "ADATASPACE_TRANSFER_SMPTE_170M"
+    },
+    {
+     "enum_field_value" : 16777216,
+     "name" : "ADATASPACE_TRANSFER_GAMMA2_2"
+    },
+    {
+     "enum_field_value" : 20971520,
+     "name" : "ADATASPACE_TRANSFER_GAMMA2_6"
+    },
+    {
+     "enum_field_value" : 25165824,
+     "name" : "ADATASPACE_TRANSFER_GAMMA2_8"
+    },
+    {
+     "enum_field_value" : 29360128,
+     "name" : "ADATASPACE_TRANSFER_ST2084"
+    },
+    {
+     "enum_field_value" : 33554432,
+     "name" : "ADATASPACE_TRANSFER_HLG"
+    },
+    {
+     "enum_field_value" : 939524096,
+     "name" : "ADATASPACE_RANGE_MASK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "ADATASPACE_RANGE_UNSPECIFIED"
+    },
+    {
+     "enum_field_value" : 134217728,
+     "name" : "ADATASPACE_RANGE_FULL"
+    },
+    {
+     "enum_field_value" : 268435456,
+     "name" : "ADATASPACE_RANGE_LIMITED"
+    },
+    {
+     "enum_field_value" : 402653184,
+     "name" : "ADATASPACE_RANGE_EXTENDED"
+    },
+    {
+     "enum_field_value" : 406913024,
+     "name" : "ADATASPACE_SCRGB_LINEAR"
+    },
+    {
+     "enum_field_value" : 142671872,
+     "name" : "ADATASPACE_SRGB"
+    },
+    {
+     "enum_field_value" : 411107328,
+     "name" : "ADATASPACE_SCRGB"
+    },
+    {
+     "enum_field_value" : 143261696,
+     "name" : "ADATASPACE_DISPLAY_P3"
+    },
+    {
+     "enum_field_value" : 163971072,
+     "name" : "ADATASPACE_BT2020_PQ"
+    },
+    {
+     "enum_field_value" : 298188800,
+     "name" : "ADATASPACE_BT2020_ITU_PQ"
+    },
+    {
+     "enum_field_value" : 151715840,
+     "name" : "ADATASPACE_ADOBE_RGB"
+    },
+    {
+     "enum_field_value" : 146931712,
+     "name" : "ADATASPACE_JFIF"
+    },
+    {
+     "enum_field_value" : 281149440,
+     "name" : "ADATASPACE_BT601_625"
+    },
+    {
+     "enum_field_value" : 281280512,
+     "name" : "ADATASPACE_BT601_525"
+    },
+    {
+     "enum_field_value" : 147193856,
+     "name" : "ADATASPACE_BT2020"
+    },
+    {
+     "enum_field_value" : 281083904,
+     "name" : "ADATASPACE_BT709"
+    },
+    {
+     "enum_field_value" : 155844608,
+     "name" : "ADATASPACE_DCI_P3"
+    },
+    {
+     "enum_field_value" : 138477568,
+     "name" : "ADATASPACE_SRGB_LINEAR"
+    },
+    {
+     "enum_field_value" : 168165376,
+     "name" : "ADATASPACE_BT2020_HLG"
+    },
+    {
+     "enum_field_value" : 302383104,
+     "name" : "ADATASPACE_BT2020_ITU_HLG"
+    },
+    {
+     "enum_field_value" : 142999552,
+     "name" : "ADATASPACE_DISPLAY_BT2020"
+    },
+    {
+     "enum_field_value" : 4096,
+     "name" : "ADATASPACE_DEPTH"
+    },
+    {
+     "enum_field_value" : 4098,
+     "name" : "ADATASPACE_DYNAMIC_DEPTH"
+    }
+   ],
+   "linker_set_key" : "_ZTI10ADataSpace",
+   "name" : "ADataSpace",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/android/data_space.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "APEXCODEC_KIND_OTHER"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "APEXCODEC_KIND_DECODER"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "APEXCODEC_KIND_ENCODER"
+    }
+   ],
+   "linker_set_key" : "_ZTI14ApexCodec_Kind",
+   "name" : "ApexCodec_Kind",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "APEXCODEC_DOMAIN_OTHER"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "APEXCODEC_DOMAIN_VIDEO"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "APEXCODEC_DOMAIN_AUDIO"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "APEXCODEC_DOMAIN_IMAGE"
+    }
+   ],
+   "linker_set_key" : "_ZTI16ApexCodec_Domain",
+   "name" : "ApexCodec_Domain",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "APEXCODEC_STATUS_OK"
+    },
+    {
+     "enum_field_value" : 22,
+     "name" : "APEXCODEC_STATUS_BAD_VALUE"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "APEXCODEC_STATUS_BAD_INDEX"
+    },
+    {
+     "enum_field_value" : 95,
+     "name" : "APEXCODEC_STATUS_CANNOT_DO"
+    },
+    {
+     "enum_field_value" : 17,
+     "name" : "APEXCODEC_STATUS_DUPLICATE"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "APEXCODEC_STATUS_NOT_FOUND"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "APEXCODEC_STATUS_BAD_STATE"
+    },
+    {
+     "enum_field_value" : 11,
+     "name" : "APEXCODEC_STATUS_BLOCKING"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "APEXCODEC_STATUS_CANCELED"
+    },
+    {
+     "enum_field_value" : 12,
+     "name" : "APEXCODEC_STATUS_NO_MEMORY"
+    },
+    {
+     "enum_field_value" : 13,
+     "name" : "APEXCODEC_STATUS_REFUSED"
+    },
+    {
+     "enum_field_value" : 110,
+     "name" : "APEXCODEC_STATUS_TIMED_OUT"
+    },
+    {
+     "enum_field_value" : 38,
+     "name" : "APEXCODEC_STATUS_OMITTED"
+    },
+    {
+     "enum_field_value" : 14,
+     "name" : "APEXCODEC_STATUS_CORRUPTED"
+    },
+    {
+     "enum_field_value" : 19,
+     "name" : "APEXCODEC_STATUS_NO_INIT"
+    }
+   ],
+   "linker_set_key" : "_ZTI16ApexCodec_Status",
+   "name" : "ApexCodec_Status",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "APEXCODEC_BUFFER_TYPE_EMPTY"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "APEXCODEC_BUFFER_TYPE_LINEAR"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "APEXCODEC_BUFFER_TYPE_LINEAR_CHUNKS"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "APEXCODEC_BUFFER_TYPE_GRAPHIC"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "APEXCODEC_BUFFER_TYPE_GRAPHIC_CHUNKS"
+    }
+   ],
+   "linker_set_key" : "_ZTI20ApexCodec_BufferType",
+   "name" : "ApexCodec_BufferType",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "APEXCODEC_FLAG_DROP_FRAME"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "APEXCODEC_FLAG_END_OF_STREAM"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "APEXCODEC_FLAG_DISCARD_FRAME"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "APEXCODEC_FLAG_INCOMPLETE"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "APEXCODEC_FLAG_CORRECTED"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "APEXCODEC_FLAG_CORRUPT"
+    },
+    {
+     "enum_field_value" : 2147483648,
+     "name" : "APEXCODEC_FLAG_CODEC_CONFIG"
+    }
+   ],
+   "linker_set_key" : "_ZTI21ApexCodec_BufferFlags",
+   "name" : "ApexCodec_BufferFlags",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "AHARDWAREBUFFER_FORMAT_R8G8B8A8_UNORM"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "AHARDWAREBUFFER_FORMAT_R8G8B8X8_UNORM"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "AHARDWAREBUFFER_FORMAT_R8G8B8_UNORM"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "AHARDWAREBUFFER_FORMAT_R5G6B5_UNORM"
+    },
+    {
+     "enum_field_value" : 22,
+     "name" : "AHARDWAREBUFFER_FORMAT_R16G16B16A16_FLOAT"
+    },
+    {
+     "enum_field_value" : 43,
+     "name" : "AHARDWAREBUFFER_FORMAT_R10G10B10A2_UNORM"
+    },
+    {
+     "enum_field_value" : 33,
+     "name" : "AHARDWAREBUFFER_FORMAT_BLOB"
+    },
+    {
+     "enum_field_value" : 48,
+     "name" : "AHARDWAREBUFFER_FORMAT_D16_UNORM"
+    },
+    {
+     "enum_field_value" : 49,
+     "name" : "AHARDWAREBUFFER_FORMAT_D24_UNORM"
+    },
+    {
+     "enum_field_value" : 50,
+     "name" : "AHARDWAREBUFFER_FORMAT_D24_UNORM_S8_UINT"
+    },
+    {
+     "enum_field_value" : 51,
+     "name" : "AHARDWAREBUFFER_FORMAT_D32_FLOAT"
+    },
+    {
+     "enum_field_value" : 52,
+     "name" : "AHARDWAREBUFFER_FORMAT_D32_FLOAT_S8_UINT"
+    },
+    {
+     "enum_field_value" : 53,
+     "name" : "AHARDWAREBUFFER_FORMAT_S8_UINT"
+    },
+    {
+     "enum_field_value" : 35,
+     "name" : "AHARDWAREBUFFER_FORMAT_Y8Cb8Cr8_420"
+    },
+    {
+     "enum_field_value" : 54,
+     "name" : "AHARDWAREBUFFER_FORMAT_YCbCr_P010"
+    },
+    {
+     "enum_field_value" : 60,
+     "name" : "AHARDWAREBUFFER_FORMAT_YCbCr_P210"
+    },
+    {
+     "enum_field_value" : 56,
+     "name" : "AHARDWAREBUFFER_FORMAT_R8_UNORM"
+    },
+    {
+     "enum_field_value" : 57,
+     "name" : "AHARDWAREBUFFER_FORMAT_R16_UINT"
+    },
+    {
+     "enum_field_value" : 58,
+     "name" : "AHARDWAREBUFFER_FORMAT_R16G16_UINT"
+    },
+    {
+     "enum_field_value" : 59,
+     "name" : "AHARDWAREBUFFER_FORMAT_R10G10B10A10_UNORM"
+    }
+   ],
+   "linker_set_key" : "_ZTI22AHardwareBuffer_Format",
+   "name" : "AHardwareBuffer_Format",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "APEXCODEC_PARAM_IS_REQUIRED"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "APEXCODEC_PARAM_IS_PERSISTENT"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "APEXCODEC_PARAM_IS_STRICT"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "APEXCODEC_PARAM_IS_READ_ONLY"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "APEXCODEC_PARAM_IS_HIDDEN"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "APEXCODEC_PARAM_IS_INTERNAL"
+    },
+    {
+     "enum_field_value" : 72,
+     "name" : "APEXCODEC_PARAM_IS_CONSTANT"
+    }
+   ],
+   "linker_set_key" : "_ZTI24ApexCodec_ParamAttribute",
+   "name" : "ApexCodec_ParamAttribute",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecsParam.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 8,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "AHARDWAREBUFFER_USAGE_CPU_READ_NEVER"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "AHARDWAREBUFFER_USAGE_CPU_READ_RARELY"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "AHARDWAREBUFFER_USAGE_CPU_READ_OFTEN"
+    },
+    {
+     "enum_field_value" : 15,
+     "name" : "AHARDWAREBUFFER_USAGE_CPU_READ_MASK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "AHARDWAREBUFFER_USAGE_CPU_WRITE_NEVER"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "AHARDWAREBUFFER_USAGE_CPU_WRITE_RARELY"
+    },
+    {
+     "enum_field_value" : 48,
+     "name" : "AHARDWAREBUFFER_USAGE_CPU_WRITE_OFTEN"
+    },
+    {
+     "enum_field_value" : 240,
+     "name" : "AHARDWAREBUFFER_USAGE_CPU_WRITE_MASK"
+    },
+    {
+     "enum_field_value" : 256,
+     "name" : "AHARDWAREBUFFER_USAGE_GPU_SAMPLED_IMAGE"
+    },
+    {
+     "enum_field_value" : 512,
+     "name" : "AHARDWAREBUFFER_USAGE_GPU_FRAMEBUFFER"
+    },
+    {
+     "enum_field_value" : 512,
+     "name" : "AHARDWAREBUFFER_USAGE_GPU_COLOR_OUTPUT"
+    },
+    {
+     "enum_field_value" : 2048,
+     "name" : "AHARDWAREBUFFER_USAGE_COMPOSER_OVERLAY"
+    },
+    {
+     "enum_field_value" : 16384,
+     "name" : "AHARDWAREBUFFER_USAGE_PROTECTED_CONTENT"
+    },
+    {
+     "enum_field_value" : 65536,
+     "name" : "AHARDWAREBUFFER_USAGE_VIDEO_ENCODE"
+    },
+    {
+     "enum_field_value" : 8388608,
+     "name" : "AHARDWAREBUFFER_USAGE_SENSOR_DIRECT_DATA"
+    },
+    {
+     "enum_field_value" : 16777216,
+     "name" : "AHARDWAREBUFFER_USAGE_GPU_DATA_BUFFER"
+    },
+    {
+     "enum_field_value" : 33554432,
+     "name" : "AHARDWAREBUFFER_USAGE_GPU_CUBE_MAP"
+    },
+    {
+     "enum_field_value" : 67108864,
+     "name" : "AHARDWAREBUFFER_USAGE_GPU_MIPMAP_COMPLETE"
+    },
+    {
+     "enum_field_value" : 4294967296,
+     "name" : "AHARDWAREBUFFER_USAGE_FRONT_BUFFER"
+    },
+    {
+     "enum_field_value" : 268435456,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_0"
+    },
+    {
+     "enum_field_value" : 536870912,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_1"
+    },
+    {
+     "enum_field_value" : 1073741824,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_2"
+    },
+    {
+     "enum_field_value" : 2147483648,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_3"
+    },
+    {
+     "enum_field_value" : 281474976710656,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_4"
+    },
+    {
+     "enum_field_value" : 562949953421312,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_5"
+    },
+    {
+     "enum_field_value" : 1125899906842624,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_6"
+    },
+    {
+     "enum_field_value" : 2251799813685248,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_7"
+    },
+    {
+     "enum_field_value" : 4503599627370496,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_8"
+    },
+    {
+     "enum_field_value" : 9007199254740992,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_9"
+    },
+    {
+     "enum_field_value" : 18014398509481984,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_10"
+    },
+    {
+     "enum_field_value" : 36028797018963968,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_11"
+    },
+    {
+     "enum_field_value" : 72057594037927936,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_12"
+    },
+    {
+     "enum_field_value" : 144115188075855872,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_13"
+    },
+    {
+     "enum_field_value" : 288230376151711744,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_14"
+    },
+    {
+     "enum_field_value" : 576460752303423488,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_15"
+    },
+    {
+     "enum_field_value" : 1152921504606846976,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_16"
+    },
+    {
+     "enum_field_value" : 2305843009213693952,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_17"
+    },
+    {
+     "enum_field_value" : 4611686018427387904,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_18"
+    },
+    {
+     "enum_field_value" : 9223372036854775808,
+     "name" : "AHARDWAREBUFFER_USAGE_VENDOR_19"
+    }
+   ],
+   "linker_set_key" : "_ZTI26AHardwareBuffer_UsageFlags",
+   "name" : "AHardwareBuffer_UsageFlags",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h",
+   "underlying_type" : "_ZTIm"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "APEXCODEC_SUPPORTED_VALUES_EMPTY"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "APEXCODEC_SUPPORTED_VALUES_RANGE"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "APEXCODEC_SUPPORTED_VALUES_VALUES"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "APEXCODEC_SUPPORTED_VALUES_FLAGS"
+    }
+   ],
+   "linker_set_key" : "_ZTI29ApexCodec_SupportedValuesType",
+   "name" : "ApexCodec_SupportedValuesType",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecsParam.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "APEXCODEC_SETTING_RESULT_BAD_TYPE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "APEXCODEC_SETTING_RESULT_BAD_PORT"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "APEXCODEC_SETTING_RESULT_BAD_INDEX"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "APEXCODEC_SETTING_RESULT_READ_ONLY"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "APEXCODEC_SETTING_RESULT_MISMATCH"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "APEXCODEC_SETTING_RESULT_BAD_VALUE"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "APEXCODEC_SETTING_RESULT_CONFLICT"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "APEXCODEC_SETTING_RESULT_UNSUPPORTED"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "APEXCODEC_SETTING_RESULT_INFO_BAD_VALUE"
+    },
+    {
+     "enum_field_value" : 9,
+     "name" : "APEXCODEC_SETTING_RESULT_INFO_CONFLICT"
+    }
+   ],
+   "linker_set_key" : "_ZTI30ApexCodec_SettingResultFailure",
+   "name" : "ApexCodec_SettingResultFailure",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecsParam.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "APEXCODEC_SUPPORTED_VALUES_QUERY_POSSIBLE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "APEXCODEC_SUPPORTED_VALUES_QUERY_CURRENT"
+    }
+   ],
+   "linker_set_key" : "_ZTI34ApexCodec_SupportedValuesQueryType",
+   "name" : "ApexCodec_SupportedValuesQueryType",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecsParam.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "APEXCODEC_SUPPORTED_VALUES_TYPE_NONE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "APEXCODEC_SUPPORTED_VALUES_TYPE_INT32"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "APEXCODEC_SUPPORTED_VALUES_TYPE_UINT32"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "APEXCODEC_SUPPORTED_VALUES_TYPE_INT64"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "APEXCODEC_SUPPORTED_VALUES_TYPE_UINT64"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "APEXCODEC_SUPPORTED_VALUES_TYPE_FLOAT"
+    }
+   ],
+   "linker_set_key" : "_ZTI35ApexCodec_SupportedValuesNumberType",
+   "name" : "ApexCodec_SupportedValuesNumberType",
+   "size" : 4,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecsParam.h",
+   "underlying_type" : "_ZTIj"
+  }
+ ],
+ "function_types" : [],
+ "functions" :
+ [
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Buffer_clear",
+   "linker_set_key" : "ApexCodec_Buffer_clear",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16ApexCodec_Buffer"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Buffer_create",
+   "linker_set_key" : "ApexCodec_Buffer_create",
+   "return_type" : "_ZTIP16ApexCodec_Buffer",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Buffer_destroy",
+   "linker_set_key" : "ApexCodec_Buffer_destroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16ApexCodec_Buffer"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Buffer_getBufferInfo",
+   "linker_set_key" : "ApexCodec_Buffer_getBufferInfo",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16ApexCodec_Buffer"
+    },
+    {
+     "referenced_type" : "_ZTIP21ApexCodec_BufferFlags"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Buffer_getConfigUpdates",
+   "linker_set_key" : "ApexCodec_Buffer_getConfigUpdates",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16ApexCodec_Buffer"
+    },
+    {
+     "referenced_type" : "_ZTIP22ApexCodec_LinearBuffer"
+    },
+    {
+     "referenced_type" : "_ZTIPb"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Buffer_getGraphicBuffer",
+   "linker_set_key" : "ApexCodec_Buffer_getGraphicBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16ApexCodec_Buffer"
+    },
+    {
+     "referenced_type" : "_ZTIPP15AHardwareBuffer"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Buffer_getLinearBuffer",
+   "linker_set_key" : "ApexCodec_Buffer_getLinearBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16ApexCodec_Buffer"
+    },
+    {
+     "referenced_type" : "_ZTIP22ApexCodec_LinearBuffer"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Buffer_getType",
+   "linker_set_key" : "ApexCodec_Buffer_getType",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16ApexCodec_Buffer"
+    }
+   ],
+   "return_type" : "_ZTI20ApexCodec_BufferType",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Buffer_setBufferInfo",
+   "linker_set_key" : "ApexCodec_Buffer_setBufferInfo",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16ApexCodec_Buffer"
+    },
+    {
+     "referenced_type" : "_ZTI21ApexCodec_BufferFlags"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Buffer_setConfigUpdates",
+   "linker_set_key" : "ApexCodec_Buffer_setConfigUpdates",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16ApexCodec_Buffer"
+    },
+    {
+     "referenced_type" : "_ZTIPK22ApexCodec_LinearBuffer"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Buffer_setGraphicBuffer",
+   "linker_set_key" : "ApexCodec_Buffer_setGraphicBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16ApexCodec_Buffer"
+    },
+    {
+     "referenced_type" : "_ZTIP15AHardwareBuffer"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Buffer_setLinearBuffer",
+   "linker_set_key" : "ApexCodec_Buffer_setLinearBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP16ApexCodec_Buffer"
+    },
+    {
+     "referenced_type" : "_ZTIPK22ApexCodec_LinearBuffer"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Component_create",
+   "linker_set_key" : "ApexCodec_Component_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ApexCodec_ComponentStore"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPP19ApexCodec_Component"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Component_destroy",
+   "linker_set_key" : "ApexCodec_Component_destroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19ApexCodec_Component"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Component_flush",
+   "linker_set_key" : "ApexCodec_Component_flush",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19ApexCodec_Component"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Component_getConfigurable",
+   "linker_set_key" : "ApexCodec_Component_getConfigurable",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19ApexCodec_Component"
+    }
+   ],
+   "return_type" : "_ZTIP22ApexCodec_Configurable",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Component_process",
+   "linker_set_key" : "ApexCodec_Component_process",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19ApexCodec_Component"
+    },
+    {
+     "referenced_type" : "_ZTIPK16ApexCodec_Buffer"
+    },
+    {
+     "referenced_type" : "_ZTIP16ApexCodec_Buffer"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Component_reset",
+   "linker_set_key" : "ApexCodec_Component_reset",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19ApexCodec_Component"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Component_start",
+   "linker_set_key" : "ApexCodec_Component_start",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19ApexCodec_Component"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Configurable_config",
+   "linker_set_key" : "ApexCodec_Configurable_config",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP22ApexCodec_Configurable"
+    },
+    {
+     "referenced_type" : "_ZTIP22ApexCodec_LinearBuffer"
+    },
+    {
+     "referenced_type" : "_ZTIPP24ApexCodec_SettingResults"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Configurable_query",
+   "linker_set_key" : "ApexCodec_Configurable_query",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP22ApexCodec_Configurable"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIP22ApexCodec_LinearBuffer"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Configurable_querySupportedParams",
+   "linker_set_key" : "ApexCodec_Configurable_querySupportedParams",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP22ApexCodec_Configurable"
+    },
+    {
+     "referenced_type" : "_ZTIPP26ApexCodec_ParamDescriptors"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Configurable_querySupportedValues",
+   "linker_set_key" : "ApexCodec_Configurable_querySupportedValues",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP22ApexCodec_Configurable"
+    },
+    {
+     "referenced_type" : "_ZTIP30ApexCodec_SupportedValuesQuery"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_GetComponentStore",
+   "linker_set_key" : "ApexCodec_GetComponentStore",
+   "return_type" : "_ZTIP24ApexCodec_ComponentStore",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_ParamDescriptors_destroy",
+   "linker_set_key" : "ApexCodec_ParamDescriptors_destroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP26ApexCodec_ParamDescriptors"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_ParamDescriptors_getDescriptor",
+   "linker_set_key" : "ApexCodec_ParamDescriptors_getDescriptor",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP26ApexCodec_ParamDescriptors"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIP24ApexCodec_ParamAttribute"
+    },
+    {
+     "referenced_type" : "_ZTIPPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPPj"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_ParamDescriptors_getIndices",
+   "linker_set_key" : "ApexCodec_ParamDescriptors_getIndices",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP26ApexCodec_ParamDescriptors"
+    },
+    {
+     "referenced_type" : "_ZTIPPj"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_SettingResults_destroy",
+   "linker_set_key" : "ApexCodec_SettingResults_destroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ApexCodec_SettingResults"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_SettingResults_getResultAtIndex",
+   "linker_set_key" : "ApexCodec_SettingResults_getResultAtIndex",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ApexCodec_SettingResults"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIP30ApexCodec_SettingResultFailure"
+    },
+    {
+     "referenced_type" : "_ZTIP26ApexCodec_ParamFieldValues"
+    },
+    {
+     "referenced_type" : "_ZTIPP26ApexCodec_ParamFieldValues"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_SupportedValues_destroy",
+   "linker_set_key" : "ApexCodec_SupportedValues_destroy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP25ApexCodec_SupportedValues"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_SupportedValues_getTypeAndValues",
+   "linker_set_key" : "ApexCodec_SupportedValues_getTypeAndValues",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP25ApexCodec_SupportedValues"
+    },
+    {
+     "referenced_type" : "_ZTIP29ApexCodec_SupportedValuesType"
+    },
+    {
+     "referenced_type" : "_ZTIP35ApexCodec_SupportedValuesNumberType"
+    },
+    {
+     "referenced_type" : "_ZTIPP15ApexCodec_Value"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTI16ApexCodec_Status",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 36
+    }
+   ],
+   "function_name" : "ApexCodec_Traits_get",
+   "linker_set_key" : "ApexCodec_Traits_get",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ApexCodec_ComponentStore"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIP25ApexCodec_ComponentTraits",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  }
+ ],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP15AHardwareBuffer",
+   "name" : "AHardwareBuffer *",
+   "referenced_type" : "_ZTI15AHardwareBuffer",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP15ApexCodec_Value",
+   "name" : "ApexCodec_Value *",
+   "referenced_type" : "_ZTI15ApexCodec_Value",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP16ApexCodec_Buffer",
+   "name" : "ApexCodec_Buffer *",
+   "referenced_type" : "_ZTI16ApexCodec_Buffer",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP19ApexCodec_Component",
+   "name" : "ApexCodec_Component *",
+   "referenced_type" : "_ZTI19ApexCodec_Component",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP21ApexCodec_BufferFlags",
+   "name" : "ApexCodec_BufferFlags *",
+   "referenced_type" : "_ZTI21ApexCodec_BufferFlags",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP22ApexCodec_Configurable",
+   "name" : "ApexCodec_Configurable *",
+   "referenced_type" : "_ZTI22ApexCodec_Configurable",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP22ApexCodec_LinearBuffer",
+   "name" : "ApexCodec_LinearBuffer *",
+   "referenced_type" : "_ZTI22ApexCodec_LinearBuffer",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP24ApexCodec_ComponentStore",
+   "name" : "ApexCodec_ComponentStore *",
+   "referenced_type" : "_ZTI24ApexCodec_ComponentStore",
+   "size" : 8,
+   "source_file" : "system/libbase/include/android-base/no_destructor.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP24ApexCodec_ParamAttribute",
+   "name" : "ApexCodec_ParamAttribute *",
+   "referenced_type" : "_ZTI24ApexCodec_ParamAttribute",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP24ApexCodec_SettingResults",
+   "name" : "ApexCodec_SettingResults *",
+   "referenced_type" : "_ZTI24ApexCodec_SettingResults",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP25ApexCodec_ComponentTraits",
+   "name" : "ApexCodec_ComponentTraits *",
+   "referenced_type" : "_ZTI25ApexCodec_ComponentTraits",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP25ApexCodec_SupportedValues",
+   "name" : "ApexCodec_SupportedValues *",
+   "referenced_type" : "_ZTI25ApexCodec_SupportedValues",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecsParam.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP26ApexCodec_ParamDescriptors",
+   "name" : "ApexCodec_ParamDescriptors *",
+   "referenced_type" : "_ZTI26ApexCodec_ParamDescriptors",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP26ApexCodec_ParamFieldValues",
+   "name" : "ApexCodec_ParamFieldValues *",
+   "referenced_type" : "_ZTI26ApexCodec_ParamFieldValues",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP29ApexCodec_SupportedValuesType",
+   "name" : "ApexCodec_SupportedValuesType *",
+   "referenced_type" : "_ZTI29ApexCodec_SupportedValuesType",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP30ApexCodec_SettingResultFailure",
+   "name" : "ApexCodec_SettingResultFailure *",
+   "referenced_type" : "_ZTI30ApexCodec_SettingResultFailure",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP30ApexCodec_SupportedValuesQuery",
+   "name" : "ApexCodec_SupportedValuesQuery *",
+   "referenced_type" : "_ZTI30ApexCodec_SupportedValuesQuery",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP35ApexCodec_SupportedValuesNumberType",
+   "name" : "ApexCodec_SupportedValuesNumberType *",
+   "referenced_type" : "_ZTI35ApexCodec_SupportedValuesNumberType",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK16ApexCodec_Buffer",
+   "name" : "const ApexCodec_Buffer *",
+   "referenced_type" : "_ZTIK16ApexCodec_Buffer",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK22ApexCodec_LinearBuffer",
+   "name" : "const ApexCodec_LinearBuffer *",
+   "referenced_type" : "_ZTIK22ApexCodec_LinearBuffer",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKc",
+   "name" : "const char *",
+   "referenced_type" : "_ZTIKc",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android4base12NoDestructorI24ApexCodec_ComponentStoreEE",
+   "name" : "android::base::NoDestructor<ApexCodec_ComponentStore> *",
+   "referenced_type" : "_ZTIN7android4base12NoDestructorI24ApexCodec_ComponentStoreEE",
+   "size" : 8,
+   "source_file" : "system/libbase/include/android-base/no_destructor.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP15AHardwareBuffer",
+   "name" : "AHardwareBuffer **",
+   "referenced_type" : "_ZTIP15AHardwareBuffer",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP15ApexCodec_Value",
+   "name" : "ApexCodec_Value **",
+   "referenced_type" : "_ZTIP15ApexCodec_Value",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP19ApexCodec_Component",
+   "name" : "ApexCodec_Component **",
+   "referenced_type" : "_ZTIP19ApexCodec_Component",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP24ApexCodec_SettingResults",
+   "name" : "ApexCodec_SettingResults **",
+   "referenced_type" : "_ZTIP24ApexCodec_SettingResults",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP26ApexCodec_ParamDescriptors",
+   "name" : "ApexCodec_ParamDescriptors **",
+   "referenced_type" : "_ZTIP26ApexCodec_ParamDescriptors",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP26ApexCodec_ParamFieldValues",
+   "name" : "ApexCodec_ParamFieldValues **",
+   "referenced_type" : "_ZTIP26ApexCodec_ParamFieldValues",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPPKc",
+   "name" : "const char **",
+   "referenced_type" : "_ZTIPKc",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPPj",
+   "name" : "unsigned int **",
+   "referenced_type" : "_ZTIPj",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPb",
+   "name" : "bool *",
+   "referenced_type" : "_ZTIb",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPh",
+   "name" : "unsigned char *",
+   "referenced_type" : "_ZTIh",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPj",
+   "name" : "unsigned int *",
+   "referenced_type" : "_ZTIj",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPm",
+   "name" : "unsigned long *",
+   "referenced_type" : "_ZTIm",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPv",
+   "name" : "void *",
+   "referenced_type" : "_ZTIv",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK16ApexCodec_Buffer",
+   "name" : "const ApexCodec_Buffer",
+   "referenced_type" : "_ZTI16ApexCodec_Buffer",
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK22ApexCodec_LinearBuffer",
+   "name" : "const ApexCodec_LinearBuffer",
+   "referenced_type" : "_ZTI22ApexCodec_LinearBuffer",
+   "size" : 16,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKc",
+   "name" : "const char",
+   "referenced_type" : "_ZTIc",
+   "size" : 1,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  }
+ ],
+ "record_types" :
+ [
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "i32",
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "u32",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "i64",
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "field_name" : "u64",
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "f",
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "linker_set_key" : "_ZTI15ApexCodec_Value",
+   "name" : "ApexCodec_Value",
+   "record_kind" : "union",
+   "size" : 8,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecsParam.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "width",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "height",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "layers",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "format",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "usage",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "stride",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "rfu0",
+     "field_offset" : 224,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "rfu1",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "linker_set_key" : "_ZTI20AHardwareBuffer_Desc",
+   "name" : "AHardwareBuffer_Desc",
+   "size" : 40,
+   "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "data",
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "pixelStride",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "rowStride",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI21AHardwareBuffer_Plane",
+   "name" : "AHardwareBuffer_Plane",
+   "size" : 16,
+   "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "planeCount",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "planes",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIA4_21AHardwareBuffer_Plane"
+    }
+   ],
+   "linker_set_key" : "_ZTI22AHardwareBuffer_Planes",
+   "name" : "AHardwareBuffer_Planes",
+   "size" : 72,
+   "source_file" : "frameworks/native/libs/nativewindow/include/android/hardware_buffer.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "data",
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "field_name" : "size",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "linker_set_key" : "_ZTI22ApexCodec_LinearBuffer",
+   "name" : "ApexCodec_LinearBuffer",
+   "size" : 16,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "name",
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "mediaType",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "kind",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTI14ApexCodec_Kind"
+    },
+    {
+     "field_name" : "domain",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTI16ApexCodec_Domain"
+    }
+   ],
+   "linker_set_key" : "_ZTI25ApexCodec_ComponentTraits",
+   "name" : "ApexCodec_ComponentTraits",
+   "size" : 24,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "index",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "offset",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "size",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "values",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIP25ApexCodec_SupportedValues"
+    }
+   ],
+   "linker_set_key" : "_ZTI26ApexCodec_ParamFieldValues",
+   "name" : "ApexCodec_ParamFieldValues",
+   "size" : 24,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecsParam.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "index",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "offset",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "type",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTI34ApexCodec_SupportedValuesQueryType"
+    },
+    {
+     "field_name" : "status",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTI16ApexCodec_Status"
+    },
+    {
+     "field_name" : "values",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIP25ApexCodec_SupportedValues"
+    }
+   ],
+   "linker_set_key" : "_ZTI30ApexCodec_SupportedValuesQuery",
+   "name" : "ApexCodec_SupportedValuesQuery",
+   "size" : 32,
+   "source_file" : "frameworks/av/media/module/libapexcodecs/include/apex/ApexCodecs.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "left",
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "top",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "right",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "bottom",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTI5ARect",
+   "name" : "ARect",
+   "size" : 16,
+   "source_file" : "frameworks/native/libs/arect/include/android/rect.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "storage_",
+     "referenced_type" : "_ZTIA1_c"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android4base12NoDestructorI24ApexCodec_ComponentStoreEE",
+   "name" : "android::base::NoDestructor<ApexCodec_ComponentStore>",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "system/libbase/include/android-base/no_destructor.h",
+   "template_args" :
+   [
+    "_ZTI24ApexCodec_ComponentStore"
+   ]
+  }
+ ],
+ "rvalue_reference_types" : []
+}

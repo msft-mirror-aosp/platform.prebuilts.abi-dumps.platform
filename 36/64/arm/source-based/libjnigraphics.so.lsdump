@@ -1,0 +1,2834 @@
+{
+ "array_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA8_j",
+   "name" : "unsigned int[8]",
+   "referenced_type" : "_ZTIj",
+   "size" : 32,
+   "source_file" : "system/core/include/system/graphics.h"
+  },
+  {
+   "is_of_unknown_bound" : true,
+   "linker_set_key" : "_ZTIA_f",
+   "name" : "float[]",
+   "referenced_type" : "_ZTIf",
+   "source_file" : "system/core/include/system/graphics.h"
+  }
+ ],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIf",
+   "name" : "float",
+   "size" : 4
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "size" : 4
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIx",
+   "name" : "long long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIy",
+   "name" : "unsigned long long",
+   "size" : 8
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "AImageDecoderFrameInfo_create"
+  },
+  {
+   "name" : "AImageDecoderFrameInfo_delete"
+  },
+  {
+   "name" : "AImageDecoderFrameInfo_getBlendOp"
+  },
+  {
+   "name" : "AImageDecoderFrameInfo_getDisposeOp"
+  },
+  {
+   "name" : "AImageDecoderFrameInfo_getDuration"
+  },
+  {
+   "name" : "AImageDecoderFrameInfo_getFrameRect"
+  },
+  {
+   "name" : "AImageDecoderFrameInfo_hasAlphaWithinBounds"
+  },
+  {
+   "name" : "AImageDecoderHeaderInfo_getAlphaFlags"
+  },
+  {
+   "name" : "AImageDecoderHeaderInfo_getAndroidBitmapFormat"
+  },
+  {
+   "name" : "AImageDecoderHeaderInfo_getDataSpace"
+  },
+  {
+   "name" : "AImageDecoderHeaderInfo_getHeight"
+  },
+  {
+   "name" : "AImageDecoderHeaderInfo_getMimeType"
+  },
+  {
+   "name" : "AImageDecoderHeaderInfo_getWidth"
+  },
+  {
+   "name" : "AImageDecoder_advanceFrame"
+  },
+  {
+   "name" : "AImageDecoder_computeSampledSize"
+  },
+  {
+   "name" : "AImageDecoder_createFromAAsset"
+  },
+  {
+   "name" : "AImageDecoder_createFromBuffer"
+  },
+  {
+   "name" : "AImageDecoder_createFromFd"
+  },
+  {
+   "name" : "AImageDecoder_decodeImage"
+  },
+  {
+   "name" : "AImageDecoder_delete"
+  },
+  {
+   "name" : "AImageDecoder_getFrameInfo"
+  },
+  {
+   "name" : "AImageDecoder_getHeaderInfo"
+  },
+  {
+   "name" : "AImageDecoder_getMinimumStride"
+  },
+  {
+   "name" : "AImageDecoder_getRepeatCount"
+  },
+  {
+   "name" : "AImageDecoder_isAnimated"
+  },
+  {
+   "name" : "AImageDecoder_resultToString"
+  },
+  {
+   "name" : "AImageDecoder_rewind"
+  },
+  {
+   "name" : "AImageDecoder_setAndroidBitmapFormat"
+  },
+  {
+   "name" : "AImageDecoder_setCrop"
+  },
+  {
+   "name" : "AImageDecoder_setDataSpace"
+  },
+  {
+   "name" : "AImageDecoder_setInternallyHandleDisposePrevious"
+  },
+  {
+   "name" : "AImageDecoder_setTargetSize"
+  },
+  {
+   "name" : "AImageDecoder_setUnpremultipliedRequired"
+  },
+  {
+   "name" : "AndroidBitmap_compress"
+  },
+  {
+   "name" : "AndroidBitmap_getDataSpace"
+  },
+  {
+   "name" : "AndroidBitmap_getHardwareBuffer"
+  },
+  {
+   "name" : "AndroidBitmap_getInfo"
+  },
+  {
+   "name" : "AndroidBitmap_lockPixels"
+  },
+  {
+   "name" : "AndroidBitmap_unlockPixels"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "HAL_HDR_DOLBY_VISION"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "HAL_HDR_HDR10"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "HAL_HDR_HLG"
+    }
+   ],
+   "linker_set_key" : "_ZTI13android_hdr_t",
+   "name" : "android_hdr_t",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics-base-v1.0.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 4,
+     "name" : "HAL_HDR_HDR10_PLUS"
+    }
+   ],
+   "linker_set_key" : "_ZTI18android_hdr_v1_2_t",
+   "name" : "android_hdr_v1_2_t",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics-base-v1.2.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "AASSET_MODE_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "AASSET_MODE_RANDOM"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "AASSET_MODE_STREAMING"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "AASSET_MODE_BUFFER"
+    }
+   ],
+   "linker_set_key" : "_ZTI19$AASSET_MODE_BUFFER",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/asset_manager.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANDROID_BITMAP_FORMAT_NONE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_BITMAP_FORMAT_RGBA_8888"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANDROID_BITMAP_FORMAT_RGB_565"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "ANDROID_BITMAP_FORMAT_RGBA_4444"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ANDROID_BITMAP_FORMAT_A_8"
+    },
+    {
+     "enum_field_value" : 9,
+     "name" : "ANDROID_BITMAP_FORMAT_RGBA_F16"
+    },
+    {
+     "enum_field_value" : 10,
+     "name" : "ANDROID_BITMAP_FORMAT_RGBA_1010102"
+    }
+   ],
+   "linker_set_key" : "_ZTI19AndroidBitmapFormat",
+   "name" : "AndroidBitmapFormat",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/bitmap.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 10,
+     "name" : "EVENT_TYPE_LIST_STOP"
+    },
+    {
+     "enum_field_value" : 63,
+     "name" : "EVENT_TYPE_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "EVENT_TYPE_INT"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "EVENT_TYPE_LONG"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "EVENT_TYPE_STRING"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "EVENT_TYPE_LIST"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "EVENT_TYPE_FLOAT"
+    }
+   ],
+   "linker_set_key" : "_ZTI19AndroidEventLogType",
+   "name" : "AndroidEventLogType",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANDROID_LOG_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_LOG_DEFAULT"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANDROID_LOG_VERBOSE"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANDROID_LOG_DEBUG"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANDROID_LOG_INFO"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "ANDROID_LOG_WARN"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "ANDROID_LOG_ERROR"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "ANDROID_LOG_FATAL"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ANDROID_LOG_SILENT"
+    }
+   ],
+   "linker_set_key" : "_ZTI19android_LogPriority",
+   "name" : "android_LogPriority",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "HAL_DATASPACE_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "HAL_DATASPACE_ARBITRARY"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "HAL_DATASPACE_STANDARD_SHIFT"
+    },
+    {
+     "enum_field_value" : 4128768,
+     "name" : "HAL_DATASPACE_STANDARD_MASK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "HAL_DATASPACE_STANDARD_UNSPECIFIED"
+    },
+    {
+     "enum_field_value" : 65536,
+     "name" : "HAL_DATASPACE_STANDARD_BT709"
+    },
+    {
+     "enum_field_value" : 131072,
+     "name" : "HAL_DATASPACE_STANDARD_BT601_625"
+    },
+    {
+     "enum_field_value" : 196608,
+     "name" : "HAL_DATASPACE_STANDARD_BT601_625_UNADJUSTED"
+    },
+    {
+     "enum_field_value" : 262144,
+     "name" : "HAL_DATASPACE_STANDARD_BT601_525"
+    },
+    {
+     "enum_field_value" : 327680,
+     "name" : "HAL_DATASPACE_STANDARD_BT601_525_UNADJUSTED"
+    },
+    {
+     "enum_field_value" : 393216,
+     "name" : "HAL_DATASPACE_STANDARD_BT2020"
+    },
+    {
+     "enum_field_value" : 458752,
+     "name" : "HAL_DATASPACE_STANDARD_BT2020_CONSTANT_LUMINANCE"
+    },
+    {
+     "enum_field_value" : 524288,
+     "name" : "HAL_DATASPACE_STANDARD_BT470M"
+    },
+    {
+     "enum_field_value" : 589824,
+     "name" : "HAL_DATASPACE_STANDARD_FILM"
+    },
+    {
+     "enum_field_value" : 655360,
+     "name" : "HAL_DATASPACE_STANDARD_DCI_P3"
+    },
+    {
+     "enum_field_value" : 720896,
+     "name" : "HAL_DATASPACE_STANDARD_ADOBE_RGB"
+    },
+    {
+     "enum_field_value" : 22,
+     "name" : "HAL_DATASPACE_TRANSFER_SHIFT"
+    },
+    {
+     "enum_field_value" : 130023424,
+     "name" : "HAL_DATASPACE_TRANSFER_MASK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "HAL_DATASPACE_TRANSFER_UNSPECIFIED"
+    },
+    {
+     "enum_field_value" : 4194304,
+     "name" : "HAL_DATASPACE_TRANSFER_LINEAR"
+    },
+    {
+     "enum_field_value" : 8388608,
+     "name" : "HAL_DATASPACE_TRANSFER_SRGB"
+    },
+    {
+     "enum_field_value" : 12582912,
+     "name" : "HAL_DATASPACE_TRANSFER_SMPTE_170M"
+    },
+    {
+     "enum_field_value" : 16777216,
+     "name" : "HAL_DATASPACE_TRANSFER_GAMMA2_2"
+    },
+    {
+     "enum_field_value" : 20971520,
+     "name" : "HAL_DATASPACE_TRANSFER_GAMMA2_6"
+    },
+    {
+     "enum_field_value" : 25165824,
+     "name" : "HAL_DATASPACE_TRANSFER_GAMMA2_8"
+    },
+    {
+     "enum_field_value" : 29360128,
+     "name" : "HAL_DATASPACE_TRANSFER_ST2084"
+    },
+    {
+     "enum_field_value" : 33554432,
+     "name" : "HAL_DATASPACE_TRANSFER_HLG"
+    },
+    {
+     "enum_field_value" : 27,
+     "name" : "HAL_DATASPACE_RANGE_SHIFT"
+    },
+    {
+     "enum_field_value" : 939524096,
+     "name" : "HAL_DATASPACE_RANGE_MASK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "HAL_DATASPACE_RANGE_UNSPECIFIED"
+    },
+    {
+     "enum_field_value" : 134217728,
+     "name" : "HAL_DATASPACE_RANGE_FULL"
+    },
+    {
+     "enum_field_value" : 268435456,
+     "name" : "HAL_DATASPACE_RANGE_LIMITED"
+    },
+    {
+     "enum_field_value" : 402653184,
+     "name" : "HAL_DATASPACE_RANGE_EXTENDED"
+    },
+    {
+     "enum_field_value" : 512,
+     "name" : "HAL_DATASPACE_SRGB_LINEAR"
+    },
+    {
+     "enum_field_value" : 138477568,
+     "name" : "HAL_DATASPACE_V0_SRGB_LINEAR"
+    },
+    {
+     "enum_field_value" : 406913024,
+     "name" : "HAL_DATASPACE_V0_SCRGB_LINEAR"
+    },
+    {
+     "enum_field_value" : 513,
+     "name" : "HAL_DATASPACE_SRGB"
+    },
+    {
+     "enum_field_value" : 142671872,
+     "name" : "HAL_DATASPACE_V0_SRGB"
+    },
+    {
+     "enum_field_value" : 411107328,
+     "name" : "HAL_DATASPACE_V0_SCRGB"
+    },
+    {
+     "enum_field_value" : 257,
+     "name" : "HAL_DATASPACE_JFIF"
+    },
+    {
+     "enum_field_value" : 146931712,
+     "name" : "HAL_DATASPACE_V0_JFIF"
+    },
+    {
+     "enum_field_value" : 258,
+     "name" : "HAL_DATASPACE_BT601_625"
+    },
+    {
+     "enum_field_value" : 281149440,
+     "name" : "HAL_DATASPACE_V0_BT601_625"
+    },
+    {
+     "enum_field_value" : 259,
+     "name" : "HAL_DATASPACE_BT601_525"
+    },
+    {
+     "enum_field_value" : 281280512,
+     "name" : "HAL_DATASPACE_V0_BT601_525"
+    },
+    {
+     "enum_field_value" : 260,
+     "name" : "HAL_DATASPACE_BT709"
+    },
+    {
+     "enum_field_value" : 281083904,
+     "name" : "HAL_DATASPACE_V0_BT709"
+    },
+    {
+     "enum_field_value" : 139067392,
+     "name" : "HAL_DATASPACE_DCI_P3_LINEAR"
+    },
+    {
+     "enum_field_value" : 155844608,
+     "name" : "HAL_DATASPACE_DCI_P3"
+    },
+    {
+     "enum_field_value" : 139067392,
+     "name" : "HAL_DATASPACE_DISPLAY_P3_LINEAR"
+    },
+    {
+     "enum_field_value" : 143261696,
+     "name" : "HAL_DATASPACE_DISPLAY_P3"
+    },
+    {
+     "enum_field_value" : 151715840,
+     "name" : "HAL_DATASPACE_ADOBE_RGB"
+    },
+    {
+     "enum_field_value" : 138805248,
+     "name" : "HAL_DATASPACE_BT2020_LINEAR"
+    },
+    {
+     "enum_field_value" : 147193856,
+     "name" : "HAL_DATASPACE_BT2020"
+    },
+    {
+     "enum_field_value" : 163971072,
+     "name" : "HAL_DATASPACE_BT2020_PQ"
+    },
+    {
+     "enum_field_value" : 4096,
+     "name" : "HAL_DATASPACE_DEPTH"
+    },
+    {
+     "enum_field_value" : 4097,
+     "name" : "HAL_DATASPACE_SENSOR"
+    }
+   ],
+   "linker_set_key" : "_ZTI19android_dataspace_t",
+   "name" : "android_dataspace_t",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics-base-v1.0.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "FLEX_FORMAT_INVALID"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "FLEX_FORMAT_Y"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "FLEX_FORMAT_YCbCr"
+    },
+    {
+     "enum_field_value" : 1073741831,
+     "name" : "FLEX_FORMAT_YCbCrA"
+    },
+    {
+     "enum_field_value" : 7168,
+     "name" : "FLEX_FORMAT_RGB"
+    },
+    {
+     "enum_field_value" : 1073748992,
+     "name" : "FLEX_FORMAT_RGBA"
+    }
+   ],
+   "linker_set_key" : "_ZTI19android_flex_format",
+   "name" : "android_flex_format",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "HAL_TRANSFORM_FLIP_H"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "HAL_TRANSFORM_FLIP_V"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "HAL_TRANSFORM_ROT_90"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "HAL_TRANSFORM_ROT_180"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "HAL_TRANSFORM_ROT_270"
+    }
+   ],
+   "linker_set_key" : "_ZTI19android_transform_t",
+   "name" : "android_transform_t",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics-base-v1.0.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "HAL_COLOR_MODE_NATIVE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "HAL_COLOR_MODE_STANDARD_BT601_625"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "HAL_COLOR_MODE_STANDARD_BT601_625_UNADJUSTED"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "HAL_COLOR_MODE_STANDARD_BT601_525"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "HAL_COLOR_MODE_STANDARD_BT601_525_UNADJUSTED"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "HAL_COLOR_MODE_STANDARD_BT709"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "HAL_COLOR_MODE_DCI_P3"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "HAL_COLOR_MODE_SRGB"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "HAL_COLOR_MODE_ADOBE_RGB"
+    },
+    {
+     "enum_field_value" : 9,
+     "name" : "HAL_COLOR_MODE_DISPLAY_P3"
+    }
+   ],
+   "linker_set_key" : "_ZTI20android_color_mode_t",
+   "name" : "android_color_mode_t",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics-base-v1.0.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "FLEX_COMPONENT_Y"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "FLEX_COMPONENT_Cb"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "FLEX_COMPONENT_Cr"
+    },
+    {
+     "enum_field_value" : 1024,
+     "name" : "FLEX_COMPONENT_R"
+    },
+    {
+     "enum_field_value" : 2048,
+     "name" : "FLEX_COMPONENT_G"
+    },
+    {
+     "enum_field_value" : 4096,
+     "name" : "FLEX_COMPONENT_B"
+    },
+    {
+     "enum_field_value" : 1073741824,
+     "name" : "FLEX_COMPONENT_A"
+    }
+   ],
+   "linker_set_key" : "_ZTI22android_flex_component",
+   "name" : "android_flex_component",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "HAL_PIXEL_FORMAT_RGBA_8888"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "HAL_PIXEL_FORMAT_RGBX_8888"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "HAL_PIXEL_FORMAT_RGB_888"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "HAL_PIXEL_FORMAT_RGB_565"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "HAL_PIXEL_FORMAT_BGRA_8888"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "HAL_PIXEL_FORMAT_YCBCR_422_SP"
+    },
+    {
+     "enum_field_value" : 17,
+     "name" : "HAL_PIXEL_FORMAT_YCRCB_420_SP"
+    },
+    {
+     "enum_field_value" : 20,
+     "name" : "HAL_PIXEL_FORMAT_YCBCR_422_I"
+    },
+    {
+     "enum_field_value" : 22,
+     "name" : "HAL_PIXEL_FORMAT_RGBA_FP16"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "HAL_PIXEL_FORMAT_RAW16"
+    },
+    {
+     "enum_field_value" : 33,
+     "name" : "HAL_PIXEL_FORMAT_BLOB"
+    },
+    {
+     "enum_field_value" : 34,
+     "name" : "HAL_PIXEL_FORMAT_IMPLEMENTATION_DEFINED"
+    },
+    {
+     "enum_field_value" : 35,
+     "name" : "HAL_PIXEL_FORMAT_YCBCR_420_888"
+    },
+    {
+     "enum_field_value" : 36,
+     "name" : "HAL_PIXEL_FORMAT_RAW_OPAQUE"
+    },
+    {
+     "enum_field_value" : 37,
+     "name" : "HAL_PIXEL_FORMAT_RAW10"
+    },
+    {
+     "enum_field_value" : 38,
+     "name" : "HAL_PIXEL_FORMAT_RAW12"
+    },
+    {
+     "enum_field_value" : 43,
+     "name" : "HAL_PIXEL_FORMAT_RGBA_1010102"
+    },
+    {
+     "enum_field_value" : 538982489,
+     "name" : "HAL_PIXEL_FORMAT_Y8"
+    },
+    {
+     "enum_field_value" : 540422489,
+     "name" : "HAL_PIXEL_FORMAT_Y16"
+    },
+    {
+     "enum_field_value" : 842094169,
+     "name" : "HAL_PIXEL_FORMAT_YV12"
+    }
+   ],
+   "linker_set_key" : "_ZTI22android_pixel_format_t",
+   "name" : "android_pixel_format_t",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics-base-v1.0.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 281411584,
+     "name" : "HAL_DATASPACE_BT2020_ITU"
+    },
+    {
+     "enum_field_value" : 298188800,
+     "name" : "HAL_DATASPACE_BT2020_ITU_PQ"
+    },
+    {
+     "enum_field_value" : 302383104,
+     "name" : "HAL_DATASPACE_BT2020_ITU_HLG"
+    },
+    {
+     "enum_field_value" : 168165376,
+     "name" : "HAL_DATASPACE_BT2020_HLG"
+    }
+   ],
+   "linker_set_key" : "_ZTI24android_dataspace_v1_1_t",
+   "name" : "android_dataspace_v1_1_t",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics-base-v1.1.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 142999552,
+     "name" : "HAL_DATASPACE_DISPLAY_BT2020"
+    },
+    {
+     "enum_field_value" : 4098,
+     "name" : "HAL_DATASPACE_DYNAMIC_DEPTH"
+    },
+    {
+     "enum_field_value" : 4099,
+     "name" : "HAL_DATASPACE_JPEG_APP_SEGMENTS"
+    },
+    {
+     "enum_field_value" : 4100,
+     "name" : "HAL_DATASPACE_HEIF"
+    }
+   ],
+   "linker_set_key" : "_ZTI24android_dataspace_v1_2_t",
+   "name" : "android_dataspace_v1_2_t",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics-base-v1.2.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 10,
+     "name" : "HAL_COLOR_MODE_BT2020"
+    },
+    {
+     "enum_field_value" : 11,
+     "name" : "HAL_COLOR_MODE_BT2100_PQ"
+    },
+    {
+     "enum_field_value" : 12,
+     "name" : "HAL_COLOR_MODE_BT2100_HLG"
+    }
+   ],
+   "linker_set_key" : "_ZTI25android_color_mode_v1_1_t",
+   "name" : "android_color_mode_v1_1_t",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics-base-v1.1.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 13,
+     "name" : "HAL_COLOR_MODE_DISPLAY_BT2020"
+    }
+   ],
+   "linker_set_key" : "_ZTI25android_color_mode_v1_2_t",
+   "name" : "android_color_mode_v1_2_t",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics-base-v1.2.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "HAL_COLOR_TRANSFORM_IDENTITY"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "HAL_COLOR_TRANSFORM_ARBITRARY_MATRIX"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "HAL_COLOR_TRANSFORM_VALUE_INVERSE"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "HAL_COLOR_TRANSFORM_GRAYSCALE"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "HAL_COLOR_TRANSFORM_CORRECT_PROTANOPIA"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "HAL_COLOR_TRANSFORM_CORRECT_DEUTERANOPIA"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "HAL_COLOR_TRANSFORM_CORRECT_TRITANOPIA"
+    }
+   ],
+   "linker_set_key" : "_ZTI25android_color_transform_t",
+   "name" : "android_color_transform_t",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics-base-v1.0.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 39,
+     "name" : "HAL_PIXEL_FORMAT_YCBCR_422_888"
+    },
+    {
+     "enum_field_value" : 40,
+     "name" : "HAL_PIXEL_FORMAT_YCBCR_444_888"
+    },
+    {
+     "enum_field_value" : 41,
+     "name" : "HAL_PIXEL_FORMAT_FLEX_RGB_888"
+    },
+    {
+     "enum_field_value" : 42,
+     "name" : "HAL_PIXEL_FORMAT_FLEX_RGBA_8888"
+    }
+   ],
+   "linker_set_key" : "_ZTI25android_pixel_format_sw_t",
+   "name" : "android_pixel_format_sw_t",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics-sw.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANDROID_BITMAP_COMPRESS_FORMAT_JPEG"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_BITMAP_COMPRESS_FORMAT_PNG"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANDROID_BITMAP_COMPRESS_FORMAT_WEBP_LOSSY"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANDROID_BITMAP_COMPRESS_FORMAT_WEBP_LOSSLESS"
+    }
+   ],
+   "linker_set_key" : "_ZTI27AndroidBitmapCompressFormat",
+   "name" : "AndroidBitmapCompressFormat",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/bitmap.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 48,
+     "name" : "HAL_PIXEL_FORMAT_DEPTH_16"
+    },
+    {
+     "enum_field_value" : 49,
+     "name" : "HAL_PIXEL_FORMAT_DEPTH_24"
+    },
+    {
+     "enum_field_value" : 50,
+     "name" : "HAL_PIXEL_FORMAT_DEPTH_24_STENCIL_8"
+    },
+    {
+     "enum_field_value" : 51,
+     "name" : "HAL_PIXEL_FORMAT_DEPTH_32F"
+    },
+    {
+     "enum_field_value" : 52,
+     "name" : "HAL_PIXEL_FORMAT_DEPTH_32F_STENCIL_8"
+    },
+    {
+     "enum_field_value" : 53,
+     "name" : "HAL_PIXEL_FORMAT_STENCIL_8"
+    },
+    {
+     "enum_field_value" : 54,
+     "name" : "HAL_PIXEL_FORMAT_YCBCR_P010"
+    }
+   ],
+   "linker_set_key" : "_ZTI27android_pixel_format_v1_1_t",
+   "name" : "android_pixel_format_v1_1_t",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics-base-v1.1.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 55,
+     "name" : "HAL_PIXEL_FORMAT_HSV_888"
+    }
+   ],
+   "linker_set_key" : "_ZTI27android_pixel_format_v1_2_t",
+   "name" : "android_pixel_format_v1_2_t",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics-base-v1.2.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "HAL_RENDER_INTENT_COLORIMETRIC"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "HAL_RENDER_INTENT_ENHANCE"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "HAL_RENDER_INTENT_TONE_MAP_COLORIMETRIC"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "HAL_RENDER_INTENT_TONE_MAP_ENHANCE"
+    }
+   ],
+   "linker_set_key" : "_ZTI28android_render_intent_v1_1_t",
+   "name" : "android_render_intent_v1_1_t",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics-base-v1.1.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "ANDROID_IMAGE_DECODER_INFINITE"
+    }
+   ],
+   "linker_set_key" : "_ZTI31$ANDROID_IMAGE_DECODER_INFINITE",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/imagedecoder.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANDROID_BITMAP_FLAGS_ALPHA_PREMUL"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_BITMAP_FLAGS_ALPHA_OPAQUE"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANDROID_BITMAP_FLAGS_ALPHA_UNPREMUL"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANDROID_BITMAP_FLAGS_ALPHA_MASK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "ANDROID_BITMAP_FLAGS_ALPHA_SHIFT"
+    }
+   ],
+   "linker_set_key" : "_ZTI32$ANDROID_BITMAP_FLAGS_ALPHA_MASK",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/bitmap.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : -2147483648,
+     "name" : "ANDROID_BITMAP_FLAGS_IS_HARDWARE"
+    }
+   ],
+   "linker_set_key" : "_ZTI33$ANDROID_BITMAP_FLAGS_IS_HARDWARE",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/bitmap.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_IMAGE_DECODER_BLEND_OP_SRC"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANDROID_IMAGE_DECODER_BLEND_OP_SRC_OVER"
+    }
+   ],
+   "linker_set_key" : "_ZTI35$ANDROID_IMAGE_DECODER_BLEND_OP_SRC",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/imagedecoder.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANDROID_IMAGE_DECODER_SUCCESS"
+    },
+    {
+     "enum_field_value" : -1,
+     "name" : "ANDROID_IMAGE_DECODER_INCOMPLETE"
+    },
+    {
+     "enum_field_value" : -2,
+     "name" : "ANDROID_IMAGE_DECODER_ERROR"
+    },
+    {
+     "enum_field_value" : -3,
+     "name" : "ANDROID_IMAGE_DECODER_INVALID_CONVERSION"
+    },
+    {
+     "enum_field_value" : -4,
+     "name" : "ANDROID_IMAGE_DECODER_INVALID_SCALE"
+    },
+    {
+     "enum_field_value" : -5,
+     "name" : "ANDROID_IMAGE_DECODER_BAD_PARAMETER"
+    },
+    {
+     "enum_field_value" : -6,
+     "name" : "ANDROID_IMAGE_DECODER_INVALID_INPUT"
+    },
+    {
+     "enum_field_value" : -7,
+     "name" : "ANDROID_IMAGE_DECODER_SEEK_ERROR"
+    },
+    {
+     "enum_field_value" : -8,
+     "name" : "ANDROID_IMAGE_DECODER_INTERNAL_ERROR"
+    },
+    {
+     "enum_field_value" : -9,
+     "name" : "ANDROID_IMAGE_DECODER_UNSUPPORTED_FORMAT"
+    },
+    {
+     "enum_field_value" : -10,
+     "name" : "ANDROID_IMAGE_DECODER_FINISHED"
+    },
+    {
+     "enum_field_value" : -11,
+     "name" : "ANDROID_IMAGE_DECODER_INVALID_STATE"
+    }
+   ],
+   "linker_set_key" : "_ZTI36$ANDROID_IMAGE_DECODER_BAD_PARAMETER",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/imagedecoder.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANDROID_BITMAP_RESULT_SUCCESS"
+    },
+    {
+     "enum_field_value" : -1,
+     "name" : "ANDROID_BITMAP_RESULT_BAD_PARAMETER"
+    },
+    {
+     "enum_field_value" : -2,
+     "name" : "ANDROID_BITMAP_RESULT_JNI_EXCEPTION"
+    },
+    {
+     "enum_field_value" : -3,
+     "name" : "ANDROID_BITMAP_RESULT_ALLOCATION_FAILED"
+    }
+   ],
+   "linker_set_key" : "_ZTI40$ANDROID_BITMAP_RESULT_ALLOCATION_FAILED",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/bitmap.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_IMAGE_DECODER_DISPOSE_OP_NONE"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANDROID_IMAGE_DECODER_DISPOSE_OP_BACKGROUND"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANDROID_IMAGE_DECODER_DISPOSE_OP_PREVIOUS"
+    }
+   ],
+   "linker_set_key" : "_ZTI44$ANDROID_IMAGE_DECODER_DISPOSE_OP_BACKGROUND",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/imagedecoder.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "LOG_ID_MIN"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "LOG_ID_MAIN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "LOG_ID_RADIO"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "LOG_ID_EVENTS"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "LOG_ID_SYSTEM"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "LOG_ID_CRASH"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "LOG_ID_STATS"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "LOG_ID_SECURITY"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "LOG_ID_KERNEL"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "LOG_ID_MAX"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "LOG_ID_DEFAULT"
+    }
+   ],
+   "linker_set_key" : "_ZTI6log_id",
+   "name" : "log_id",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h",
+   "underlying_type" : "_ZTIj"
+  }
+ ],
+ "function_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFbPvPKvjE",
+   "name" : "bool (void *, const void *, unsigned int)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  }
+ ],
+ "functions" :
+ [
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
+   "function_name" : "AImageDecoderFrameInfo_create",
+   "linker_set_key" : "AImageDecoderFrameInfo_create",
+   "return_type" : "_ZTIP22AImageDecoderFrameInfo",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
+   "function_name" : "AImageDecoderFrameInfo_delete",
+   "linker_set_key" : "AImageDecoderFrameInfo_delete",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP22AImageDecoderFrameInfo"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
+   "function_name" : "AImageDecoderFrameInfo_getBlendOp",
+   "linker_set_key" : "AImageDecoderFrameInfo_getBlendOp",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK22AImageDecoderFrameInfo"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
+   "function_name" : "AImageDecoderFrameInfo_getDisposeOp",
+   "linker_set_key" : "AImageDecoderFrameInfo_getDisposeOp",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK22AImageDecoderFrameInfo"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
+   "function_name" : "AImageDecoderFrameInfo_getDuration",
+   "linker_set_key" : "AImageDecoderFrameInfo_getDuration",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK22AImageDecoderFrameInfo"
+    }
+   ],
+   "return_type" : "_ZTIx",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
+   "function_name" : "AImageDecoderFrameInfo_getFrameRect",
+   "linker_set_key" : "AImageDecoderFrameInfo_getFrameRect",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK22AImageDecoderFrameInfo"
+    }
+   ],
+   "return_type" : "_ZTI5ARect",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
+   "function_name" : "AImageDecoderFrameInfo_hasAlphaWithinBounds",
+   "linker_set_key" : "AImageDecoderFrameInfo_hasAlphaWithinBounds",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK22AImageDecoderFrameInfo"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoderHeaderInfo_getAlphaFlags",
+   "linker_set_key" : "AImageDecoderHeaderInfo_getAlphaFlags",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK23AImageDecoderHeaderInfo"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoderHeaderInfo_getAndroidBitmapFormat",
+   "linker_set_key" : "AImageDecoderHeaderInfo_getAndroidBitmapFormat",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK23AImageDecoderHeaderInfo"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoderHeaderInfo_getDataSpace",
+   "linker_set_key" : "AImageDecoderHeaderInfo_getDataSpace",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK23AImageDecoderHeaderInfo"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoderHeaderInfo_getHeight",
+   "linker_set_key" : "AImageDecoderHeaderInfo_getHeight",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK23AImageDecoderHeaderInfo"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoderHeaderInfo_getMimeType",
+   "linker_set_key" : "AImageDecoderHeaderInfo_getMimeType",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK23AImageDecoderHeaderInfo"
+    }
+   ],
+   "return_type" : "_ZTIPKc",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoderHeaderInfo_getWidth",
+   "linker_set_key" : "AImageDecoderHeaderInfo_getWidth",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK23AImageDecoderHeaderInfo"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
+   "function_name" : "AImageDecoder_advanceFrame",
+   "linker_set_key" : "AImageDecoder_advanceFrame",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP13AImageDecoder"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoder_computeSampledSize",
+   "linker_set_key" : "AImageDecoder_computeSampledSize",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK13AImageDecoder"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoder_createFromAAsset",
+   "linker_set_key" : "AImageDecoder_createFromAAsset",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP6AAsset"
+    },
+    {
+     "referenced_type" : "_ZTIPP13AImageDecoder"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoder_createFromBuffer",
+   "linker_set_key" : "AImageDecoder_createFromBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPP13AImageDecoder"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoder_createFromFd",
+   "linker_set_key" : "AImageDecoder_createFromFd",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPP13AImageDecoder"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoder_decodeImage",
+   "linker_set_key" : "AImageDecoder_decodeImage",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP13AImageDecoder"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoder_delete",
+   "linker_set_key" : "AImageDecoder_delete",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP13AImageDecoder"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
+   "function_name" : "AImageDecoder_getFrameInfo",
+   "linker_set_key" : "AImageDecoder_getFrameInfo",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP13AImageDecoder"
+    },
+    {
+     "referenced_type" : "_ZTIP22AImageDecoderFrameInfo"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoder_getHeaderInfo",
+   "linker_set_key" : "AImageDecoder_getHeaderInfo",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK13AImageDecoder"
+    }
+   ],
+   "return_type" : "_ZTIPK23AImageDecoderHeaderInfo",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoder_getMinimumStride",
+   "linker_set_key" : "AImageDecoder_getMinimumStride",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP13AImageDecoder"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
+   "function_name" : "AImageDecoder_getRepeatCount",
+   "linker_set_key" : "AImageDecoder_getRepeatCount",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP13AImageDecoder"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
+   "function_name" : "AImageDecoder_isAnimated",
+   "linker_set_key" : "AImageDecoder_isAnimated",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP13AImageDecoder"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
+   "function_name" : "AImageDecoder_resultToString",
+   "linker_set_key" : "AImageDecoder_resultToString",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIPKc",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
+   "function_name" : "AImageDecoder_rewind",
+   "linker_set_key" : "AImageDecoder_rewind",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP13AImageDecoder"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoder_setAndroidBitmapFormat",
+   "linker_set_key" : "AImageDecoder_setAndroidBitmapFormat",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP13AImageDecoder"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoder_setCrop",
+   "linker_set_key" : "AImageDecoder_setCrop",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP13AImageDecoder"
+    },
+    {
+     "referenced_type" : "_ZTI5ARect"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoder_setDataSpace",
+   "linker_set_key" : "AImageDecoder_setDataSpace",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP13AImageDecoder"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    }
+   ],
+   "function_name" : "AImageDecoder_setInternallyHandleDisposePrevious",
+   "linker_set_key" : "AImageDecoder_setInternallyHandleDisposePrevious",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP13AImageDecoder"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoder_setTargetSize",
+   "linker_set_key" : "AImageDecoder_setTargetSize",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP13AImageDecoder"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AImageDecoder_setUnpremultipliedRequired",
+   "linker_set_key" : "AImageDecoder_setUnpremultipliedRequired",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP13AImageDecoder"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AndroidBitmap_compress",
+   "linker_set_key" : "AndroidBitmap_compress",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK17AndroidBitmapInfo"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPFbPvPKvjE"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AndroidBitmap_getDataSpace",
+   "linker_set_key" : "AndroidBitmap_getDataSpace",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP7_JNIEnv"
+    },
+    {
+     "referenced_type" : "_ZTIP8_jobject"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    }
+   ],
+   "function_name" : "AndroidBitmap_getHardwareBuffer",
+   "linker_set_key" : "AndroidBitmap_getHardwareBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP7_JNIEnv"
+    },
+    {
+     "referenced_type" : "_ZTIP8_jobject"
+    },
+    {
+     "referenced_type" : "_ZTIPP15AHardwareBuffer"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  },
+  {
+   "function_name" : "AndroidBitmap_getInfo",
+   "linker_set_key" : "AndroidBitmap_getInfo",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP7_JNIEnv"
+    },
+    {
+     "referenced_type" : "_ZTIP8_jobject"
+    },
+    {
+     "referenced_type" : "_ZTIP17AndroidBitmapInfo"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  },
+  {
+   "function_name" : "AndroidBitmap_lockPixels",
+   "linker_set_key" : "AndroidBitmap_lockPixels",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP7_JNIEnv"
+    },
+    {
+     "referenced_type" : "_ZTIP8_jobject"
+    },
+    {
+     "referenced_type" : "_ZTIPPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  },
+  {
+   "function_name" : "AndroidBitmap_unlockPixels",
+   "linker_set_key" : "AndroidBitmap_unlockPixels",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP7_JNIEnv"
+    },
+    {
+     "referenced_type" : "_ZTIP8_jobject"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  }
+ ],
+ "global_vars" : [],
+ "lvalue_reference_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRK8log_time",
+   "name" : "const log_time &",
+   "referenced_type" : "_ZTIK8log_time",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRK8timespec",
+   "name" : "const timespec &",
+   "referenced_type" : "_ZTIK8timespec",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  }
+ ],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP13AImageDecoder",
+   "name" : "AImageDecoder *",
+   "referenced_type" : "_ZTI13AImageDecoder",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP15AHardwareBuffer",
+   "name" : "AHardwareBuffer *",
+   "referenced_type" : "_ZTI15AHardwareBuffer",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP17AndroidBitmapInfo",
+   "name" : "AndroidBitmapInfo *",
+   "referenced_type" : "_ZTI17AndroidBitmapInfo",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP18android_flex_plane",
+   "name" : "android_flex_plane *",
+   "referenced_type" : "_ZTI18android_flex_plane",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP22AImageDecoderFrameInfo",
+   "name" : "AImageDecoderFrameInfo *",
+   "referenced_type" : "_ZTI22AImageDecoderFrameInfo",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP6AAsset",
+   "name" : "AAsset *",
+   "referenced_type" : "_ZTI6AAsset",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP7_JNIEnv",
+   "name" : "_JNIEnv *",
+   "referenced_type" : "_ZTI7_JNIEnv",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP8_jobject",
+   "name" : "_jobject *",
+   "referenced_type" : "_ZTI8_jobject",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP8log_time",
+   "name" : "log_time *",
+   "referenced_type" : "_ZTI8log_time",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFbPvPKvjE",
+   "name" : "bool (*)(void *, const void *, unsigned int)",
+   "referenced_type" : "_ZTIFbPvPKvjE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK13AImageDecoder",
+   "name" : "const AImageDecoder *",
+   "referenced_type" : "_ZTIK13AImageDecoder",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK17AndroidBitmapInfo",
+   "name" : "const AndroidBitmapInfo *",
+   "referenced_type" : "_ZTIK17AndroidBitmapInfo",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK22AImageDecoderFrameInfo",
+   "name" : "const AImageDecoderFrameInfo *",
+   "referenced_type" : "_ZTIK22AImageDecoderFrameInfo",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK23AImageDecoderHeaderInfo",
+   "name" : "const AImageDecoderHeaderInfo *",
+   "referenced_type" : "_ZTIK23AImageDecoderHeaderInfo",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK8log_time",
+   "name" : "const log_time *",
+   "referenced_type" : "_ZTIK8log_time",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android2spINS_10uirenderer7GainmapEEE",
+   "name" : "const android::sp<android::uirenderer::Gainmap> *",
+   "referenced_type" : "_ZTIKN7android2spINS_10uirenderer7GainmapEEE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/StrongPointer.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKc",
+   "name" : "const char *",
+   "referenced_type" : "_ZTIKc",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKv",
+   "name" : "const void *",
+   "referenced_type" : "_ZTIKv",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android10uirenderer7GainmapE",
+   "name" : "android::uirenderer::Gainmap *",
+   "referenced_type" : "_ZTIN7android10uirenderer7GainmapE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/StrongPointer.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPP13AImageDecoder",
+   "name" : "AImageDecoder **",
+   "referenced_type" : "_ZTIP13AImageDecoder",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPP15AHardwareBuffer",
+   "name" : "AHardwareBuffer **",
+   "referenced_type" : "_ZTIP15AHardwareBuffer",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPPv",
+   "name" : "void **",
+   "referenced_type" : "_ZTIPv",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPh",
+   "name" : "unsigned char *",
+   "referenced_type" : "_ZTIh",
+   "size" : 4,
+   "source_file" : "system/core/include/system/graphics.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPi",
+   "name" : "int *",
+   "referenced_type" : "_ZTIi",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPv",
+   "name" : "void *",
+   "referenced_type" : "_ZTIv",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK13AImageDecoder",
+   "name" : "const AImageDecoder",
+   "referenced_type" : "_ZTI13AImageDecoder",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK17AndroidBitmapInfo",
+   "name" : "const AndroidBitmapInfo",
+   "referenced_type" : "_ZTI17AndroidBitmapInfo",
+   "size" : 20,
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK22AImageDecoderFrameInfo",
+   "name" : "const AImageDecoderFrameInfo",
+   "referenced_type" : "_ZTI22AImageDecoderFrameInfo",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK23AImageDecoderHeaderInfo",
+   "name" : "const AImageDecoderHeaderInfo",
+   "referenced_type" : "_ZTI23AImageDecoderHeaderInfo",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK8log_time",
+   "name" : "const log_time",
+   "referenced_type" : "_ZTI8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK8timespec",
+   "name" : "const timespec",
+   "referenced_type" : "_ZTI8timespec",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android2spINS_10uirenderer7GainmapEEE",
+   "name" : "const android::sp<android::uirenderer::Gainmap>",
+   "referenced_type" : "_ZTIN7android2spINS_10uirenderer7GainmapEEE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/StrongPointer.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKc",
+   "name" : "const char",
+   "referenced_type" : "_ZTIc",
+   "size" : 1,
+   "source_file" : "system/logging/liblog/include/android/log.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKv",
+   "name" : "const void",
+   "referenced_type" : "_ZTIv",
+   "source_file" : "frameworks/native/include/android/imagedecoder.h"
+  }
+ ],
+ "record_types" :
+ [
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "y",
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "cb",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "cr",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "ystride",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "cstride",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "chroma_step",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "reserved",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIA8_j"
+    }
+   ],
+   "linker_set_key" : "_ZTI13android_ycbcr",
+   "name" : "android_ycbcr",
+   "size" : 56,
+   "source_file" : "system/core/include/system/graphics.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "x",
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "field_name" : "y",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "linker_set_key" : "_ZTI16android_xy_color",
+   "name" : "android_xy_color",
+   "size" : 8,
+   "source_file" : "system/core/include/system/graphics.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "width",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "height",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "stride",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "format",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "flags",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI17AndroidBitmapInfo",
+   "name" : "AndroidBitmapInfo",
+   "size" : 20,
+   "source_file" : "frameworks/native/include/android/bitmap.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "top_left",
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "field_name" : "component",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTI22android_flex_component"
+    },
+    {
+     "field_name" : "bits_per_component",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "bits_used",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "h_increment",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "v_increment",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "h_subsampling",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "v_subsampling",
+     "field_offset" : 224,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTI18android_flex_plane",
+   "name" : "android_flex_plane",
+   "size" : 32,
+   "source_file" : "system/core/include/system/graphics.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "format",
+     "referenced_type" : "_ZTI19android_flex_format"
+    },
+    {
+     "field_name" : "num_planes",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "planes",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIP18android_flex_plane"
+    }
+   ],
+   "linker_set_key" : "_ZTI19android_flex_layout",
+   "name" : "android_flex_layout",
+   "size" : 12,
+   "source_file" : "system/core/include/system/graphics.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "num_points",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "reserved",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIA8_j"
+    },
+    {
+     "field_name" : "xyzc_points",
+     "field_offset" : 288,
+     "referenced_type" : "_ZTIA_f"
+    }
+   ],
+   "linker_set_key" : "_ZTI20android_depth_points",
+   "name" : "android_depth_points",
+   "size" : 36,
+   "source_file" : "system/core/include/system/graphics.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "struct_size",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "buffer_id",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "priority",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "tag",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "file",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "line",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "message",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "linker_set_key" : "_ZTI21__android_log_message",
+   "name" : "__android_log_message",
+   "size" : 28,
+   "source_file" : "system/logging/liblog/include/android/log.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "maxContentLightLevel",
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "field_name" : "maxFrameAverageLightLevel",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "linker_set_key" : "_ZTI25android_cta861_3_metadata",
+   "name" : "android_cta861_3_metadata",
+   "size" : 8,
+   "source_file" : "system/core/include/system/graphics.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "displayPrimaryRed",
+     "referenced_type" : "_ZTI16android_xy_color"
+    },
+    {
+     "field_name" : "displayPrimaryGreen",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTI16android_xy_color"
+    },
+    {
+     "field_name" : "displayPrimaryBlue",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTI16android_xy_color"
+    },
+    {
+     "field_name" : "whitePoint",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTI16android_xy_color"
+    },
+    {
+     "field_name" : "maxLuminance",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "field_name" : "minLuminance",
+     "field_offset" : 288,
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "linker_set_key" : "_ZTI26android_smpte2086_metadata",
+   "name" : "android_smpte2086_metadata",
+   "size" : 40,
+   "source_file" : "system/core/include/system/graphics.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "tv_sec",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "tv_nsec",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI8log_time",
+   "name" : "log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "m_ptr",
+     "referenced_type" : "_ZTIPN7android10uirenderer7GainmapE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android2spINS_10uirenderer7GainmapEEE",
+   "name" : "android::sp<android::uirenderer::Gainmap>",
+   "record_kind" : "class",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/StrongPointer.h",
+   "template_args" :
+   [
+    "_ZTIN7android10uirenderer7GainmapE"
+   ]
+  }
+ ],
+ "rvalue_reference_types" : []
+}
