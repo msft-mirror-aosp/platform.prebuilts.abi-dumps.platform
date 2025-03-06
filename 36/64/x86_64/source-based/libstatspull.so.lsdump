@@ -1,0 +1,2860 @@
+{
+ "array_types" : [],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDi",
+   "name" : "char32_t",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIDn",
+   "name" : "std::nullptr_t",
+   "size" : 8
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDs",
+   "name" : "char16_t",
+   "size" : 2
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDu",
+   "name" : "char8_t",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIa",
+   "name" : "signed char",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTId",
+   "name" : "double",
+   "size" : 8
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIf",
+   "name" : "float",
+   "size" : 4
+  },
+  {
+   "alignment" : 16,
+   "linker_set_key" : "_ZTIg",
+   "name" : "long double",
+   "size" : 16
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "size" : 8
+  },
+  {
+   "alignment" : 16,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIn",
+   "name" : "__int128",
+   "size" : 16
+  },
+  {
+   "alignment" : 16,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIo",
+   "name" : "unsigned __int128",
+   "size" : 16
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIs",
+   "name" : "short",
+   "size" : 2
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIt",
+   "name" : "unsigned short",
+   "size" : 2
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIw",
+   "name" : "wchar_t",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIx",
+   "name" : "long long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIy",
+   "name" : "unsigned long long",
+   "size" : 8
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "AStatsEventList_addStatsEvent"
+  },
+  {
+   "name" : "AStatsManager_PullAtomMetadata_getAdditiveFields"
+  },
+  {
+   "name" : "AStatsManager_PullAtomMetadata_getCoolDownMillis"
+  },
+  {
+   "name" : "AStatsManager_PullAtomMetadata_getNumAdditiveFields"
+  },
+  {
+   "name" : "AStatsManager_PullAtomMetadata_getTimeoutMillis"
+  },
+  {
+   "name" : "AStatsManager_PullAtomMetadata_obtain"
+  },
+  {
+   "name" : "AStatsManager_PullAtomMetadata_release"
+  },
+  {
+   "name" : "AStatsManager_PullAtomMetadata_setAdditiveFields"
+  },
+  {
+   "name" : "AStatsManager_PullAtomMetadata_setCoolDownMillis"
+  },
+  {
+   "name" : "AStatsManager_PullAtomMetadata_setTimeoutMillis"
+  },
+  {
+   "name" : "AStatsManager_addSubscription"
+  },
+  {
+   "name" : "AStatsManager_clearPullAtomCallback"
+  },
+  {
+   "name" : "AStatsManager_flushSubscription"
+  },
+  {
+   "name" : "AStatsManager_removeSubscription"
+  },
+  {
+   "name" : "AStatsManager_setPullAtomCallback"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 10,
+     "name" : "EVENT_TYPE_LIST_STOP"
+    },
+    {
+     "enum_field_value" : 63,
+     "name" : "EVENT_TYPE_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "EVENT_TYPE_INT"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "EVENT_TYPE_LONG"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "EVENT_TYPE_STRING"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "EVENT_TYPE_LIST"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "EVENT_TYPE_FLOAT"
+    }
+   ],
+   "linker_set_key" : "_ZTI19AndroidEventLogType",
+   "name" : "AndroidEventLogType",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANDROID_LOG_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_LOG_DEFAULT"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANDROID_LOG_VERBOSE"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANDROID_LOG_DEBUG"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANDROID_LOG_INFO"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "ANDROID_LOG_WARN"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "ANDROID_LOG_ERROR"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "ANDROID_LOG_FATAL"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ANDROID_LOG_SILENT"
+    }
+   ],
+   "linker_set_key" : "_ZTI19android_LogPriority",
+   "name" : "android_LogPriority",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "AStatsManager_PULL_SUCCESS"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "AStatsManager_PULL_SKIP"
+    }
+   ],
+   "linker_set_key" : "_ZTI24$AStatsManager_PULL_SKIP",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "ASTATSMANAGER_SUBSCRIPTION_CALLBACK_REASON_STATSD_INITIATED"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ASTATSMANAGER_SUBSCRIPTION_CALLBACK_REASON_FLUSH_REQUESTED"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ASTATSMANAGER_SUBSCRIPTION_CALLBACK_REASON_SUBSCRIPTION_ENDED"
+    }
+   ],
+   "linker_set_key" : "_ZTI40AStatsManager_SubscriptionCallbackReason",
+   "name" : "AStatsManager_SubscriptionCallbackReason",
+   "size" : 4,
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_subscription.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "LOG_ID_MIN"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "LOG_ID_MAIN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "LOG_ID_RADIO"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "LOG_ID_EVENTS"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "LOG_ID_SYSTEM"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "LOG_ID_CRASH"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "LOG_ID_STATS"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "LOG_ID_SECURITY"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "LOG_ID_KERNEL"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "LOG_ID_MAX"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "LOG_ID_DEFAULT"
+    }
+   ],
+   "linker_set_key" : "_ZTI6log_id",
+   "name" : "log_id",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::OK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "android::NO_ERROR"
+    },
+    {
+     "enum_field_value" : -2147483648,
+     "name" : "android::UNKNOWN_ERROR"
+    },
+    {
+     "enum_field_value" : -12,
+     "name" : "android::NO_MEMORY"
+    },
+    {
+     "enum_field_value" : -38,
+     "name" : "android::INVALID_OPERATION"
+    },
+    {
+     "enum_field_value" : -22,
+     "name" : "android::BAD_VALUE"
+    },
+    {
+     "enum_field_value" : -2147483647,
+     "name" : "android::BAD_TYPE"
+    },
+    {
+     "enum_field_value" : -2,
+     "name" : "android::NAME_NOT_FOUND"
+    },
+    {
+     "enum_field_value" : -1,
+     "name" : "android::PERMISSION_DENIED"
+    },
+    {
+     "enum_field_value" : -19,
+     "name" : "android::NO_INIT"
+    },
+    {
+     "enum_field_value" : -17,
+     "name" : "android::ALREADY_EXISTS"
+    },
+    {
+     "enum_field_value" : -32,
+     "name" : "android::DEAD_OBJECT"
+    },
+    {
+     "enum_field_value" : -2147483646,
+     "name" : "android::FAILED_TRANSACTION"
+    },
+    {
+     "enum_field_value" : -75,
+     "name" : "android::BAD_INDEX"
+    },
+    {
+     "enum_field_value" : -61,
+     "name" : "android::NOT_ENOUGH_DATA"
+    },
+    {
+     "enum_field_value" : -11,
+     "name" : "android::WOULD_BLOCK"
+    },
+    {
+     "enum_field_value" : -110,
+     "name" : "android::TIMED_OUT"
+    },
+    {
+     "enum_field_value" : -74,
+     "name" : "android::UNKNOWN_TRANSACTION"
+    },
+    {
+     "enum_field_value" : -2147483641,
+     "name" : "android::FDS_NOT_ALLOWED"
+    },
+    {
+     "enum_field_value" : -2147483640,
+     "name" : "android::UNEXPECTED_NULL"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android15$ALREADY_EXISTSE",
+   "name" : "android::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/Errors.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<bool>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIbE6$valueE",
+   "name" : "android::trait_trivial_copy<bool>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIcE6$valueE",
+   "name" : "android::trait_trivial_copy<char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<double>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIdE6$valueE",
+   "name" : "android::trait_trivial_copy<double>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<float>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIfE6$valueE",
+   "name" : "android::trait_trivial_copy<float>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIhE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIiE6$valueE",
+   "name" : "android::trait_trivial_copy<int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIjE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIlE6$valueE",
+   "name" : "android::trait_trivial_copy<long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyImE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIsE6$valueE",
+   "name" : "android::trait_trivial_copy<short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyItE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<void>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIvE6$valueE",
+   "name" : "android::trait_trivial_copy<void>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIxE6$valueE",
+   "name" : "android::trait_trivial_copy<long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIyE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<bool>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIbE6$valueE",
+   "name" : "android::trait_trivial_ctor<bool>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIcE6$valueE",
+   "name" : "android::trait_trivial_ctor<char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<double>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIdE6$valueE",
+   "name" : "android::trait_trivial_ctor<double>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<float>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIfE6$valueE",
+   "name" : "android::trait_trivial_ctor<float>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIhE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIiE6$valueE",
+   "name" : "android::trait_trivial_ctor<int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIjE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIlE6$valueE",
+   "name" : "android::trait_trivial_ctor<long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorImE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIsE6$valueE",
+   "name" : "android::trait_trivial_ctor<short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorItE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<void>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIvE6$valueE",
+   "name" : "android::trait_trivial_ctor<void>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIxE6$valueE",
+   "name" : "android::trait_trivial_ctor<long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIyE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<bool>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIbE6$valueE",
+   "name" : "android::trait_trivial_dtor<bool>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIcE6$valueE",
+   "name" : "android::trait_trivial_dtor<char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<double>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIdE6$valueE",
+   "name" : "android::trait_trivial_dtor<double>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<float>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIfE6$valueE",
+   "name" : "android::trait_trivial_dtor<float>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIhE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIiE6$valueE",
+   "name" : "android::trait_trivial_dtor<int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIjE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIlE6$valueE",
+   "name" : "android::trait_trivial_dtor<long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorImE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIsE6$valueE",
+   "name" : "android::trait_trivial_dtor<short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorItE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<void>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIvE6$valueE",
+   "name" : "android::trait_trivial_dtor<void>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIxE6$valueE",
+   "name" : "android::trait_trivial_dtor<long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIyE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<android::String8>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_7String8EE6$valueE",
+   "name" : "android::trait_trivial_move<android::String8>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String8.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<android::String16>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_8String16EE6$valueE",
+   "name" : "android::trait_trivial_move<android::String16>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String16.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<bool>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIbE6$valueE",
+   "name" : "android::trait_trivial_move<bool>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIcE6$valueE",
+   "name" : "android::trait_trivial_move<char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<double>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIdE6$valueE",
+   "name" : "android::trait_trivial_move<double>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<float>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIfE6$valueE",
+   "name" : "android::trait_trivial_move<float>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIhE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIiE6$valueE",
+   "name" : "android::trait_trivial_move<int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIjE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIlE6$valueE",
+   "name" : "android::trait_trivial_move<long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveImE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIsE6$valueE",
+   "name" : "android::trait_trivial_move<short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveItE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<void>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIvE6$valueE",
+   "name" : "android::trait_trivial_move<void>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIxE6$valueE",
+   "name" : "android::trait_trivial_move<long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIyE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  }
+ ],
+ "function_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFiiP15AStatsEventListPvE",
+   "name" : "int (int, AStatsEventList *, void *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIP15AStatsEventList"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvi40AStatsManager_SubscriptionCallbackReasonPhmPvE",
+   "name" : "void (int, AStatsManager_SubscriptionCallbackReason, unsigned char *, unsigned long, void *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTI40AStatsManager_SubscriptionCallbackReason"
+    },
+    {
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_subscription.h"
+  }
+ ],
+ "functions" :
+ [
+  {
+   "function_name" : "AStatsEventList_addStatsEvent",
+   "linker_set_key" : "AStatsEventList_addStatsEvent",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP15AStatsEventList"
+    }
+   ],
+   "return_type" : "_ZTIP11AStatsEvent",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "function_name" : "AStatsManager_PullAtomMetadata_getAdditiveFields",
+   "linker_set_key" : "AStatsManager_PullAtomMetadata_getAdditiveFields",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP30AStatsManager_PullAtomMetadata"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "function_name" : "AStatsManager_PullAtomMetadata_getCoolDownMillis",
+   "linker_set_key" : "AStatsManager_PullAtomMetadata_getCoolDownMillis",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP30AStatsManager_PullAtomMetadata"
+    }
+   ],
+   "return_type" : "_ZTIl",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "function_name" : "AStatsManager_PullAtomMetadata_getNumAdditiveFields",
+   "linker_set_key" : "AStatsManager_PullAtomMetadata_getNumAdditiveFields",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP30AStatsManager_PullAtomMetadata"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "function_name" : "AStatsManager_PullAtomMetadata_getTimeoutMillis",
+   "linker_set_key" : "AStatsManager_PullAtomMetadata_getTimeoutMillis",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP30AStatsManager_PullAtomMetadata"
+    }
+   ],
+   "return_type" : "_ZTIl",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "function_name" : "AStatsManager_PullAtomMetadata_obtain",
+   "linker_set_key" : "AStatsManager_PullAtomMetadata_obtain",
+   "return_type" : "_ZTIP30AStatsManager_PullAtomMetadata",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "function_name" : "AStatsManager_PullAtomMetadata_release",
+   "linker_set_key" : "AStatsManager_PullAtomMetadata_release",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP30AStatsManager_PullAtomMetadata"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "function_name" : "AStatsManager_PullAtomMetadata_setAdditiveFields",
+   "linker_set_key" : "AStatsManager_PullAtomMetadata_setAdditiveFields",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP30AStatsManager_PullAtomMetadata"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "function_name" : "AStatsManager_PullAtomMetadata_setCoolDownMillis",
+   "linker_set_key" : "AStatsManager_PullAtomMetadata_setCoolDownMillis",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP30AStatsManager_PullAtomMetadata"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "function_name" : "AStatsManager_PullAtomMetadata_setTimeoutMillis",
+   "linker_set_key" : "AStatsManager_PullAtomMetadata_setTimeoutMillis",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP30AStatsManager_PullAtomMetadata"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 34
+    }
+   ],
+   "function_name" : "AStatsManager_addSubscription",
+   "linker_set_key" : "AStatsManager_addSubscription",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIKPFvi40AStatsManager_SubscriptionCallbackReasonPhmPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_subscription.h"
+  },
+  {
+   "function_name" : "AStatsManager_clearPullAtomCallback",
+   "linker_set_key" : "AStatsManager_clearPullAtomCallback",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 34
+    }
+   ],
+   "function_name" : "AStatsManager_flushSubscription",
+   "linker_set_key" : "AStatsManager_flushSubscription",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_subscription.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 34
+    }
+   ],
+   "function_name" : "AStatsManager_removeSubscription",
+   "linker_set_key" : "AStatsManager_removeSubscription",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_subscription.h"
+  },
+  {
+   "function_name" : "AStatsManager_setPullAtomCallback",
+   "linker_set_key" : "AStatsManager_setPullAtomCallback",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIP30AStatsManager_PullAtomMetadata"
+    },
+    {
+     "referenced_type" : "_ZTIPFiiP15AStatsEventListPvE"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  }
+ ],
+ "global_vars" : [],
+ "lvalue_reference_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRK8log_time",
+   "name" : "const log_time &",
+   "referenced_type" : "_ZTIK8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRK8timespec",
+   "name" : "const timespec &",
+   "referenced_type" : "_ZTIK8timespec",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKN7android7String8E",
+   "name" : "const android::String8 &",
+   "referenced_type" : "_ZTIKN7android7String8E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKN7android8String16E",
+   "name" : "const android::String16 &",
+   "referenced_type" : "_ZTIKN7android8String16E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKa",
+   "name" : "const signed char &",
+   "referenced_type" : "_ZTIKa",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKb",
+   "name" : "const bool &",
+   "referenced_type" : "_ZTIKb",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKd",
+   "name" : "const double &",
+   "referenced_type" : "_ZTIKd",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKf",
+   "name" : "const float &",
+   "referenced_type" : "_ZTIKf",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKh",
+   "name" : "const unsigned char &",
+   "referenced_type" : "_ZTIKh",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKi",
+   "name" : "const int &",
+   "referenced_type" : "_ZTIKi",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKj",
+   "name" : "const unsigned int &",
+   "referenced_type" : "_ZTIKj",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKl",
+   "name" : "const long &",
+   "referenced_type" : "_ZTIKl",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKm",
+   "name" : "const unsigned long &",
+   "referenced_type" : "_ZTIKm",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKs",
+   "name" : "const short &",
+   "referenced_type" : "_ZTIKs",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKt",
+   "name" : "const unsigned short &",
+   "referenced_type" : "_ZTIKt",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRN7android7String8E",
+   "name" : "android::String8 &",
+   "referenced_type" : "_ZTIN7android7String8E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRN7android8String16E",
+   "name" : "android::String16 &",
+   "referenced_type" : "_ZTIN7android8String16E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String16.h"
+  }
+ ],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP11AStatsEvent",
+   "name" : "AStatsEvent *",
+   "referenced_type" : "_ZTI11AStatsEvent",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP15AStatsEventList",
+   "name" : "AStatsEventList *",
+   "referenced_type" : "_ZTI15AStatsEventList",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP30AStatsManager_PullAtomMetadata",
+   "name" : "AStatsManager_PullAtomMetadata *",
+   "referenced_type" : "_ZTI30AStatsManager_PullAtomMetadata",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP8log_time",
+   "name" : "log_time *",
+   "referenced_type" : "_ZTI8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFiiP15AStatsEventListPvE",
+   "name" : "int (*)(int, AStatsEventList *, void *)",
+   "referenced_type" : "_ZTIFiiP15AStatsEventListPvE",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPFvi40AStatsManager_SubscriptionCallbackReasonPhmPvE",
+   "name" : "void (*)(int, AStatsManager_SubscriptionCallbackReason, unsigned char *, unsigned long, void *)",
+   "referenced_type" : "_ZTIFvi40AStatsManager_SubscriptionCallbackReasonPhmPvE",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_subscription.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK8log_time",
+   "name" : "const log_time *",
+   "referenced_type" : "_ZTIK8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKDs",
+   "name" : "const char16_t *",
+   "referenced_type" : "_ZTIKDs",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN7android7String8E",
+   "name" : "const android::String8 *",
+   "referenced_type" : "_ZTIKN7android7String8E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN7android8String16E",
+   "name" : "const android::String16 *",
+   "referenced_type" : "_ZTIKN7android8String16E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN7android9CallStackE",
+   "name" : "const android::CallStack *",
+   "referenced_type" : "_ZTIKN7android9CallStackE",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/CallStack.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKc",
+   "name" : "const char *",
+   "referenced_type" : "_ZTIKc",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/android/log.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKh",
+   "name" : "const unsigned char *",
+   "referenced_type" : "_ZTIKh",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_subscription.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android7String8E",
+   "name" : "android::String8 *",
+   "referenced_type" : "_ZTIN7android7String8E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android8String16E",
+   "name" : "android::String16 *",
+   "referenced_type" : "_ZTIN7android8String16E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android9CallStack12StackDeleterE",
+   "name" : "android::CallStack::StackDeleter *",
+   "referenced_type" : "_ZTIN7android9CallStack12StackDeleterE",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/CallStack.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android9CallStackE",
+   "name" : "android::CallStack *",
+   "referenced_type" : "_ZTIN7android9CallStackE",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/CallStack.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPh",
+   "name" : "unsigned char *",
+   "referenced_type" : "_ZTIh",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_subscription.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPi",
+   "name" : "int *",
+   "referenced_type" : "_ZTIi",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_pull_atom_callback.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPv",
+   "name" : "void *",
+   "referenced_type" : "_ZTIv",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_subscription.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK8log_time",
+   "name" : "const log_time",
+   "referenced_type" : "_ZTI8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK8timespec",
+   "name" : "const timespec",
+   "referenced_type" : "_ZTI8timespec",
+   "size" : 16,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 2,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKDs",
+   "name" : "const char16_t",
+   "referenced_type" : "_ZTIDs",
+   "size" : 2,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android7String8E",
+   "name" : "const android::String8",
+   "referenced_type" : "_ZTIN7android7String8E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android8String16E",
+   "name" : "const android::String16",
+   "referenced_type" : "_ZTIN7android8String16E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android9CallStackE",
+   "name" : "const android::CallStack",
+   "referenced_type" : "_ZTIN7android9CallStackE",
+   "size" : 40,
+   "source_file" : "system/core/include/utils/CallStack.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKPFvi40AStatsManager_SubscriptionCallbackReasonPhmPvE",
+   "name" : "void (*const)(int, AStatsManager_SubscriptionCallbackReason, unsigned char *, unsigned long, void *)",
+   "referenced_type" : "_ZTIPFvi40AStatsManager_SubscriptionCallbackReasonPhmPvE",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_subscription.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKa",
+   "name" : "const signed char",
+   "referenced_type" : "_ZTIa",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKc",
+   "name" : "const char",
+   "referenced_type" : "_ZTIc",
+   "size" : 1,
+   "source_file" : "system/logging/liblog/include/android/log.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKd",
+   "name" : "const double",
+   "referenced_type" : "_ZTId",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKf",
+   "name" : "const float",
+   "referenced_type" : "_ZTIf",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKh",
+   "name" : "const unsigned char",
+   "referenced_type" : "_ZTIh",
+   "size" : 1,
+   "source_file" : "packages/modules/StatsD/lib/libstatspull/include/stats_subscription.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKj",
+   "name" : "const unsigned int",
+   "referenced_type" : "_ZTIj",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKl",
+   "name" : "const long",
+   "referenced_type" : "_ZTIl",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKm",
+   "name" : "const unsigned long",
+   "referenced_type" : "_ZTIm",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 2,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKs",
+   "name" : "const short",
+   "referenced_type" : "_ZTIs",
+   "size" : 2,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 2,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKt",
+   "name" : "const unsigned short",
+   "referenced_type" : "_ZTIt",
+   "size" : 2,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  }
+ ],
+ "record_types" :
+ [
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "struct_size",
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "buffer_id",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "priority",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "tag",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "file",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "line",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "message",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "linker_set_key" : "_ZTI21__android_log_message",
+   "name" : "__android_log_message",
+   "size" : 48,
+   "source_file" : "system/logging/liblog/include/android/log.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "tv_sec",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "tv_nsec",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI8log_time",
+   "name" : "log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIbEE",
+   "name" : "android::trait_trivial_copy<bool>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIb"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIcEE",
+   "name" : "android::trait_trivial_copy<char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIdEE",
+   "name" : "android::trait_trivial_copy<double>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIfEE",
+   "name" : "android::trait_trivial_copy<float>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIhEE",
+   "name" : "android::trait_trivial_copy<unsigned char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIh"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIiEE",
+   "name" : "android::trait_trivial_copy<int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIjEE",
+   "name" : "android::trait_trivial_copy<unsigned int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIlEE",
+   "name" : "android::trait_trivial_copy<long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIl"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyImEE",
+   "name" : "android::trait_trivial_copy<unsigned long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIsEE",
+   "name" : "android::trait_trivial_copy<short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyItEE",
+   "name" : "android::trait_trivial_copy<unsigned short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIt"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIvEE",
+   "name" : "android::trait_trivial_copy<void>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIxEE",
+   "name" : "android::trait_trivial_copy<long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIx"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIyEE",
+   "name" : "android::trait_trivial_copy<unsigned long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIbEE",
+   "name" : "android::trait_trivial_ctor<bool>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIb"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIcEE",
+   "name" : "android::trait_trivial_ctor<char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIdEE",
+   "name" : "android::trait_trivial_ctor<double>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIfEE",
+   "name" : "android::trait_trivial_ctor<float>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIhEE",
+   "name" : "android::trait_trivial_ctor<unsigned char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIh"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIiEE",
+   "name" : "android::trait_trivial_ctor<int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIjEE",
+   "name" : "android::trait_trivial_ctor<unsigned int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIlEE",
+   "name" : "android::trait_trivial_ctor<long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIl"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorImEE",
+   "name" : "android::trait_trivial_ctor<unsigned long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIsEE",
+   "name" : "android::trait_trivial_ctor<short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorItEE",
+   "name" : "android::trait_trivial_ctor<unsigned short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIt"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIvEE",
+   "name" : "android::trait_trivial_ctor<void>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIxEE",
+   "name" : "android::trait_trivial_ctor<long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIx"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIyEE",
+   "name" : "android::trait_trivial_ctor<unsigned long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIbEE",
+   "name" : "android::trait_trivial_dtor<bool>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIb"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIcEE",
+   "name" : "android::trait_trivial_dtor<char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIdEE",
+   "name" : "android::trait_trivial_dtor<double>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIfEE",
+   "name" : "android::trait_trivial_dtor<float>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIhEE",
+   "name" : "android::trait_trivial_dtor<unsigned char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIh"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIiEE",
+   "name" : "android::trait_trivial_dtor<int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIjEE",
+   "name" : "android::trait_trivial_dtor<unsigned int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIlEE",
+   "name" : "android::trait_trivial_dtor<long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIl"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorImEE",
+   "name" : "android::trait_trivial_dtor<unsigned long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIsEE",
+   "name" : "android::trait_trivial_dtor<short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorItEE",
+   "name" : "android::trait_trivial_dtor<unsigned short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIt"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIvEE",
+   "name" : "android::trait_trivial_dtor<void>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIxEE",
+   "name" : "android::trait_trivial_dtor<long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIx"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIyEE",
+   "name" : "android::trait_trivial_dtor<unsigned long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_7String8EEE",
+   "name" : "android::trait_trivial_move<android::String8>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/String8.h",
+   "template_args" :
+   [
+    "_ZTIN7android7String8E"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_8String16EEE",
+   "name" : "android::trait_trivial_move<android::String16>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/String16.h",
+   "template_args" :
+   [
+    "_ZTIN7android8String16E"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIbEE",
+   "name" : "android::trait_trivial_move<bool>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIb"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIcEE",
+   "name" : "android::trait_trivial_move<char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIdEE",
+   "name" : "android::trait_trivial_move<double>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIfEE",
+   "name" : "android::trait_trivial_move<float>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIhEE",
+   "name" : "android::trait_trivial_move<unsigned char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIh"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIiEE",
+   "name" : "android::trait_trivial_move<int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIjEE",
+   "name" : "android::trait_trivial_move<unsigned int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIlEE",
+   "name" : "android::trait_trivial_move<long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIl"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveImEE",
+   "name" : "android::trait_trivial_move<unsigned long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIsEE",
+   "name" : "android::trait_trivial_move<short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveItEE",
+   "name" : "android::trait_trivial_move<unsigned short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIt"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIvEE",
+   "name" : "android::trait_trivial_move<void>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIxEE",
+   "name" : "android::trait_trivial_move<long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIx"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIyEE",
+   "name" : "android::trait_trivial_move<unsigned long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mString",
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7String8E",
+   "name" : "android::String8",
+   "record_kind" : "class",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mString",
+     "referenced_type" : "_ZTIPKDs"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8String16E",
+   "name" : "android::String16",
+   "record_kind" : "class",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android9CallStack12StackDeleterE",
+   "name" : "android::CallStack::StackDeleter",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/CallStack.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mFrameLines",
+     "referenced_type" : "_ZTIN7android6VectorINS_7String8EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android9CallStackE",
+   "name" : "android::CallStack",
+   "record_kind" : "class",
+   "size" : 40,
+   "source_file" : "system/core/include/utils/CallStack.h"
+  }
+ ],
+ "rvalue_reference_types" : []
+}
