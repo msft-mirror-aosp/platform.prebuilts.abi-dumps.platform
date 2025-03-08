@@ -1,0 +1,6061 @@
+{
+ "array_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA1_PKc",
+   "name" : "const char *[1]",
+   "referenced_type" : "_ZTIPKc",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/IInterface.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA53_PKc",
+   "name" : "const char *[53]",
+   "referenced_type" : "_ZTIPKc",
+   "size" : 212,
+   "source_file" : "frameworks/native/include/binder/IInterface.h"
+  }
+ ],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDi",
+   "name" : "char32_t",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIDn",
+   "name" : "std::nullptr_t",
+   "size" : 4
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDs",
+   "name" : "char16_t",
+   "size" : 2
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDu",
+   "name" : "char8_t",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIa",
+   "name" : "signed char",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTId",
+   "name" : "double",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIe",
+   "name" : "long double",
+   "size" : 8
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIf",
+   "name" : "float",
+   "size" : 4
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "size" : 4
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIs",
+   "name" : "short",
+   "size" : 2
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIt",
+   "name" : "unsigned short",
+   "size" : 2
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIw",
+   "name" : "wchar_t",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIx",
+   "name" : "long long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIy",
+   "name" : "unsigned long long",
+   "size" : 8
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "resolv_gethostbyaddr_from_cache"
+  },
+  {
+   "name" : "resolv_has_nameservers"
+  },
+  {
+   "name" : "resolv_init"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_RESOLV_NO_RETRY"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANDROID_RESOLV_NO_CACHE_STORE"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANDROID_RESOLV_NO_CACHE_LOOKUP"
+    }
+   ],
+   "linker_set_key" : "_ZTI13ResNsendFlags",
+   "name" : "ResNsendFlags",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/multinetwork.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 10,
+     "name" : "EVENT_TYPE_LIST_STOP"
+    },
+    {
+     "enum_field_value" : 63,
+     "name" : "EVENT_TYPE_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "EVENT_TYPE_INT"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "EVENT_TYPE_LONG"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "EVENT_TYPE_STRING"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "EVENT_TYPE_LIST"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "EVENT_TYPE_FLOAT"
+    }
+   ],
+   "linker_set_key" : "_ZTI19AndroidEventLogType",
+   "name" : "AndroidEventLogType",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANDROID_LOG_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_LOG_DEFAULT"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANDROID_LOG_VERBOSE"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANDROID_LOG_DEBUG"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANDROID_LOG_INFO"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "ANDROID_LOG_WARN"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "ANDROID_LOG_ERROR"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "ANDROID_LOG_FATAL"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ANDROID_LOG_SILENT"
+    }
+   ],
+   "linker_set_key" : "_ZTI19android_LogPriority",
+   "name" : "android_LogPriority",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "LOG_ID_MIN"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "LOG_ID_MAIN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "LOG_ID_RADIO"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "LOG_ID_EVENTS"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "LOG_ID_SYSTEM"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "LOG_ID_CRASH"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "LOG_ID_STATS"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "LOG_ID_SECURITY"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "LOG_ID_KERNEL"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "LOG_ID_MAX"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "LOG_ID_DEFAULT"
+    }
+   ],
+   "linker_set_key" : "_ZTI6log_id",
+   "name" : "log_id",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::Parcelable::Stability::STABILITY_LOCAL"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::Parcelable::Stability::STABILITY_VINTF"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android10Parcelable9StabilityE",
+   "name" : "android::Parcelable::Stability",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcelable.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::VectorImpl::HAS_TRIVIAL_CTOR"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::VectorImpl::HAS_TRIVIAL_DTOR"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "android::VectorImpl::HAS_TRIVIAL_COPY"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android10VectorImpl17$HAS_TRIVIAL_COPYE",
+   "name" : "android::VectorImpl::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/VectorImpl.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::ProcessState::DriverFeature::ONEWAY_SPAM_DETECTION"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::ProcessState::DriverFeature::EXTENDED_ERROR"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::ProcessState::DriverFeature::FREEZE_NOTIFICATION"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android12ProcessState13DriverFeatureE",
+   "name" : "android::ProcessState::DriverFeature",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/ProcessState.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::ProcessState::CallRestriction::NONE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::ProcessState::CallRestriction::ERROR_IF_NOT_ONEWAY"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::ProcessState::CallRestriction::FATAL_IF_NOT_ONEWAY"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android12ProcessState15CallRestrictionE",
+   "name" : "android::ProcessState::CallRestriction",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/ProcessState.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::OK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "android::NO_ERROR"
+    },
+    {
+     "enum_field_value" : -2147483648,
+     "name" : "android::UNKNOWN_ERROR"
+    },
+    {
+     "enum_field_value" : -12,
+     "name" : "android::NO_MEMORY"
+    },
+    {
+     "enum_field_value" : -38,
+     "name" : "android::INVALID_OPERATION"
+    },
+    {
+     "enum_field_value" : -22,
+     "name" : "android::BAD_VALUE"
+    },
+    {
+     "enum_field_value" : -2147483647,
+     "name" : "android::BAD_TYPE"
+    },
+    {
+     "enum_field_value" : -2,
+     "name" : "android::NAME_NOT_FOUND"
+    },
+    {
+     "enum_field_value" : -1,
+     "name" : "android::PERMISSION_DENIED"
+    },
+    {
+     "enum_field_value" : -19,
+     "name" : "android::NO_INIT"
+    },
+    {
+     "enum_field_value" : -17,
+     "name" : "android::ALREADY_EXISTS"
+    },
+    {
+     "enum_field_value" : -32,
+     "name" : "android::DEAD_OBJECT"
+    },
+    {
+     "enum_field_value" : -2147483646,
+     "name" : "android::FAILED_TRANSACTION"
+    },
+    {
+     "enum_field_value" : -75,
+     "name" : "android::BAD_INDEX"
+    },
+    {
+     "enum_field_value" : -61,
+     "name" : "android::NOT_ENOUGH_DATA"
+    },
+    {
+     "enum_field_value" : -11,
+     "name" : "android::WOULD_BLOCK"
+    },
+    {
+     "enum_field_value" : -110,
+     "name" : "android::TIMED_OUT"
+    },
+    {
+     "enum_field_value" : -74,
+     "name" : "android::UNKNOWN_TRANSACTION"
+    },
+    {
+     "enum_field_value" : -2147483641,
+     "name" : "android::FDS_NOT_ALLOWED"
+    },
+    {
+     "enum_field_value" : -2147483640,
+     "name" : "android::UNEXPECTED_NULL"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android15$ALREADY_EXISTSE",
+   "name" : "android::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/Errors.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<bool>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIbE6$valueE",
+   "name" : "android::trait_trivial_copy<bool>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIcE6$valueE",
+   "name" : "android::trait_trivial_copy<char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<double>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIdE6$valueE",
+   "name" : "android::trait_trivial_copy<double>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<float>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIfE6$valueE",
+   "name" : "android::trait_trivial_copy<float>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIhE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIiE6$valueE",
+   "name" : "android::trait_trivial_copy<int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIjE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIlE6$valueE",
+   "name" : "android::trait_trivial_copy<long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyImE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIsE6$valueE",
+   "name" : "android::trait_trivial_copy<short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyItE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<void>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIvE6$valueE",
+   "name" : "android::trait_trivial_copy<void>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIxE6$valueE",
+   "name" : "android::trait_trivial_copy<long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIyE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<bool>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIbE6$valueE",
+   "name" : "android::trait_trivial_ctor<bool>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIcE6$valueE",
+   "name" : "android::trait_trivial_ctor<char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<double>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIdE6$valueE",
+   "name" : "android::trait_trivial_ctor<double>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<float>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIfE6$valueE",
+   "name" : "android::trait_trivial_ctor<float>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIhE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIiE6$valueE",
+   "name" : "android::trait_trivial_ctor<int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIjE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIlE6$valueE",
+   "name" : "android::trait_trivial_ctor<long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorImE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIsE6$valueE",
+   "name" : "android::trait_trivial_ctor<short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorItE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<void>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIvE6$valueE",
+   "name" : "android::trait_trivial_ctor<void>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIxE6$valueE",
+   "name" : "android::trait_trivial_ctor<long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIyE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<bool>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIbE6$valueE",
+   "name" : "android::trait_trivial_dtor<bool>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIcE6$valueE",
+   "name" : "android::trait_trivial_dtor<char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<double>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIdE6$valueE",
+   "name" : "android::trait_trivial_dtor<double>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<float>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIfE6$valueE",
+   "name" : "android::trait_trivial_dtor<float>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIhE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIiE6$valueE",
+   "name" : "android::trait_trivial_dtor<int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIjE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIlE6$valueE",
+   "name" : "android::trait_trivial_dtor<long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorImE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIsE6$valueE",
+   "name" : "android::trait_trivial_dtor<short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorItE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<void>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIvE6$valueE",
+   "name" : "android::trait_trivial_dtor<void>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIxE6$valueE",
+   "name" : "android::trait_trivial_dtor<long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIyE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<android::String8>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_7String8EE6$valueE",
+   "name" : "android::trait_trivial_move<android::String8>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String8.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<android::String16>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_8String16EE6$valueE",
+   "name" : "android::trait_trivial_move<android::String16>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String16.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<bool>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIbE6$valueE",
+   "name" : "android::trait_trivial_move<bool>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIcE6$valueE",
+   "name" : "android::trait_trivial_move<char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<double>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIdE6$valueE",
+   "name" : "android::trait_trivial_move<double>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<float>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIfE6$valueE",
+   "name" : "android::trait_trivial_move<float>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIhE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIiE6$valueE",
+   "name" : "android::trait_trivial_move<int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIjE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIlE6$valueE",
+   "name" : "android::trait_trivial_move<long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveImE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIsE6$valueE",
+   "name" : "android::trait_trivial_move<short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveItE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<void>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIvE6$valueE",
+   "name" : "android::trait_trivial_move<void>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIxE6$valueE",
+   "name" : "android::trait_trivial_move<long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIyE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "access" : "private",
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::Parcel::READ_FLAG_NONE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::Parcel::READ_FLAG_SP_NULLABLE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6Parcel9ReadFlagsE",
+   "name" : "android::Parcel::ReadFlags",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::Parcel::RpcFields::TYPE_BINDER_NULL"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::Parcel::RpcFields::TYPE_BINDER"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::Parcel::RpcFields::TYPE_NATIVE_FILE_DESCRIPTOR"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6Parcel9RpcFields10ObjectTypeE",
+   "name" : "android::Parcel::RpcFields::ObjectType",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::binder::Status::EX_NONE"
+    },
+    {
+     "enum_field_value" : -1,
+     "name" : "android::binder::Status::EX_SECURITY"
+    },
+    {
+     "enum_field_value" : -2,
+     "name" : "android::binder::Status::EX_BAD_PARCELABLE"
+    },
+    {
+     "enum_field_value" : -3,
+     "name" : "android::binder::Status::EX_ILLEGAL_ARGUMENT"
+    },
+    {
+     "enum_field_value" : -4,
+     "name" : "android::binder::Status::EX_NULL_POINTER"
+    },
+    {
+     "enum_field_value" : -5,
+     "name" : "android::binder::Status::EX_ILLEGAL_STATE"
+    },
+    {
+     "enum_field_value" : -6,
+     "name" : "android::binder::Status::EX_NETWORK_MAIN_THREAD"
+    },
+    {
+     "enum_field_value" : -7,
+     "name" : "android::binder::Status::EX_UNSUPPORTED_OPERATION"
+    },
+    {
+     "enum_field_value" : -8,
+     "name" : "android::binder::Status::EX_SERVICE_SPECIFIC"
+    },
+    {
+     "enum_field_value" : -9,
+     "name" : "android::binder::Status::EX_PARCELABLE"
+    },
+    {
+     "enum_field_value" : -127,
+     "name" : "android::binder::Status::EX_HAS_NOTED_APPOPS_REPLY_HEADER"
+    },
+    {
+     "enum_field_value" : -128,
+     "name" : "android::binder::Status::EX_HAS_REPLY_HEADER"
+    },
+    {
+     "enum_field_value" : -129,
+     "name" : "android::binder::Status::EX_TRANSACTION_FAILED"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6binder6Status9ExceptionE",
+   "name" : "android::binder::Status::Exception",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Status.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::IBinder::FIRST_CALL_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 16777215,
+     "name" : "android::IBinder::LAST_CALL_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1599098439,
+     "name" : "android::IBinder::PING_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1599296068,
+     "name" : "android::IBinder::START_RECORDING_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1598378564,
+     "name" : "android::IBinder::STOP_RECORDING_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1598311760,
+     "name" : "android::IBinder::DUMP_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1598246212,
+     "name" : "android::IBinder::SHELL_COMMAND_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1598968902,
+     "name" : "android::IBinder::INTERFACE_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1599295570,
+     "name" : "android::IBinder::SYSPROPS_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1598380116,
+     "name" : "android::IBinder::EXTENSION_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1599097156,
+     "name" : "android::IBinder::DEBUG_PID_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1599230019,
+     "name" : "android::IBinder::SET_RPC_CLIENT_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1599362900,
+     "name" : "android::IBinder::TWEET_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1598835019,
+     "name" : "android::IBinder::LIKE_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::IBinder::FLAG_ONEWAY"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "android::IBinder::FLAG_CLEAR_BUF"
+    },
+    {
+     "enum_field_value" : 268435456,
+     "name" : "android::IBinder::FLAG_PRIVATE_VENDOR"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7IBinder22$DEBUG_PID_TRANSACTIONE",
+   "name" : "android::IBinder::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/IBinder.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::IBinder::FrozenStateChangeCallback::State::FROZEN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::IBinder::FrozenStateChangeCallback::State::UNFROZEN"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7IBinder25FrozenStateChangeCallback5StateE",
+   "name" : "android::IBinder::FrozenStateChangeCallback::State",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/IBinder.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "access" : "protected",
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::RefBase::FIRST_INC_STRONG"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7RefBase17$FIRST_INC_STRONGE",
+   "name" : "android::RefBase::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/RefBase.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "access" : "protected",
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::RefBase::OBJECT_LIFETIME_STRONG"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::RefBase::OBJECT_LIFETIME_WEAK"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::RefBase::OBJECT_LIFETIME_MASK"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7RefBase21$OBJECT_LIFETIME_MASKE",
+   "name" : "android::RefBase::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/RefBase.h",
+   "underlying_type" : "_ZTIj"
+  }
+ ],
+ "function_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIDoFNSt3__16chrono10time_pointINS0_12steady_clockENS0_8durationIxNS_5ratioILx1ELx1000000000EEEEEEEvE",
+   "name" : "std::chrono::time_point<std::chrono::steady_clock, std::chrono::duration<long long, std::ratio<1, 1000000000>>> () noexcept",
+   "return_type" : "_ZTINSt3__16chrono10time_pointINS0_12steady_clockENS0_8durationIxNS_5ratioILx1ELx1000000000EEEEEEE",
+   "source_file" : "frameworks/native/include/binder/ProcessState.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFbPKcE",
+   "name" : "bool (const char *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFbRK19android_net_contextPKcE",
+   "name" : "bool (const android_net_context &, const char *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIRK19android_net_context"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFiijjiE",
+   "name" : "int (int, unsigned int, unsigned int, int)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPKcE",
+   "name" : "void (const char *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPKhjPKyjE",
+   "name" : "void (const unsigned char *, unsigned int, const unsigned long long *, unsigned int)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKy"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvjjP19android_net_contextE",
+   "name" : "void (unsigned int, unsigned int, android_net_context *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIP19android_net_context"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  }
+ ],
+ "functions" :
+ [
+  {
+   "function_name" : "resolv_gethostbyaddr_from_cache",
+   "linker_set_key" : "resolv_gethostbyaddr_from_cache",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPc"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "function_name" : "resolv_has_nameservers",
+   "linker_set_key" : "resolv_has_nameservers",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "function_name" : "resolv_init",
+   "linker_set_key" : "resolv_init",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK21ResolverNetdCallbacks"
+    }
+   ],
+   "return_type" : "_ZTIb",
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  }
+ ],
+ "global_vars" : [],
+ "lvalue_reference_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRK19android_net_context",
+   "name" : "const android_net_context &",
+   "referenced_type" : "_ZTIK19android_net_context",
+   "size" : 4,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRK8log_time",
+   "name" : "const log_time &",
+   "referenced_type" : "_ZTIK8log_time",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRK8timespec",
+   "name" : "const timespec &",
+   "referenced_type" : "_ZTIK8timespec",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android10ParcelableE",
+   "name" : "const android::Parcelable &",
+   "referenced_type" : "_ZTIKN7android10ParcelableE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcelable.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
+   "name" : "const android::base::unique_fd_impl<android::base::DefaultCloser> &",
+   "referenced_type" : "_ZTIKN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android6ParcelE",
+   "name" : "const android::Parcel &",
+   "referenced_type" : "_ZTIKN7android6ParcelE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android6binder6StatusE",
+   "name" : "const android::binder::Status &",
+   "referenced_type" : "_ZTIKN7android6binder6StatusE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Status.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android7String8E",
+   "name" : "const android::String8 &",
+   "referenced_type" : "_ZTIKN7android7String8E",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android8String16E",
+   "name" : "const android::String16 &",
+   "referenced_type" : "_ZTIKN7android8String16E",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>> &",
+   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKa",
+   "name" : "const signed char &",
+   "referenced_type" : "_ZTIKa",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKb",
+   "name" : "const bool &",
+   "referenced_type" : "_ZTIKb",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKd",
+   "name" : "const double &",
+   "referenced_type" : "_ZTIKd",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKf",
+   "name" : "const float &",
+   "referenced_type" : "_ZTIKf",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKh",
+   "name" : "const unsigned char &",
+   "referenced_type" : "_ZTIKh",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKi",
+   "name" : "const int &",
+   "referenced_type" : "_ZTIKi",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKj",
+   "name" : "const unsigned int &",
+   "referenced_type" : "_ZTIKj",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKs",
+   "name" : "const short &",
+   "referenced_type" : "_ZTIKs",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKt",
+   "name" : "const unsigned short &",
+   "referenced_type" : "_ZTIKt",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKx",
+   "name" : "const long long &",
+   "referenced_type" : "_ZTIKx",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKy",
+   "name" : "const unsigned long long &",
+   "referenced_type" : "_ZTIKy",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRN7android6binder6StatusE",
+   "name" : "android::binder::Status &",
+   "referenced_type" : "_ZTIN7android6binder6StatusE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Status.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRN7android7String8E",
+   "name" : "android::String8 &",
+   "referenced_type" : "_ZTIN7android7String8E",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRN7android8String16E",
+   "name" : "android::String16 &",
+   "referenced_type" : "_ZTIN7android8String16E",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRNSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
+   "name" : "std::basic_ostream<char, std::char_traits<char>> &",
+   "referenced_type" : "_ZTINSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  }
+ ],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP19android_net_context",
+   "name" : "android_net_context *",
+   "referenced_type" : "_ZTI19android_net_context",
+   "size" : 4,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP8log_time",
+   "name" : "log_time *",
+   "referenced_type" : "_ZTI8log_time",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPDoFNSt3__16chrono10time_pointINS0_12steady_clockENS0_8durationIxNS_5ratioILx1ELx1000000000EEEEEEEvE",
+   "name" : "std::chrono::time_point<std::chrono::steady_clock, std::chrono::duration<long long, std::ratio<1, 1000000000>>> (*)() noexcept",
+   "referenced_type" : "_ZTIDoFNSt3__16chrono10time_pointINS0_12steady_clockENS0_8durationIxNS_5ratioILx1ELx1000000000EEEEEEEvE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/ProcessState.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPDs",
+   "name" : "char16_t *",
+   "referenced_type" : "_ZTIDs",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFbPKcE",
+   "name" : "bool (*)(const char *)",
+   "referenced_type" : "_ZTIFbPKcE",
+   "size" : 4,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFbRK19android_net_contextPKcE",
+   "name" : "bool (*)(const android_net_context &, const char *)",
+   "referenced_type" : "_ZTIFbRK19android_net_contextPKcE",
+   "size" : 4,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFiijjiE",
+   "name" : "int (*)(int, unsigned int, unsigned int, int)",
+   "referenced_type" : "_ZTIFiijjiE",
+   "size" : 4,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFvPKcE",
+   "name" : "void (*)(const char *)",
+   "referenced_type" : "_ZTIFvPKcE",
+   "size" : 4,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFvPKhjPKyjE",
+   "name" : "void (*)(const unsigned char *, unsigned int, const unsigned long long *, unsigned int)",
+   "referenced_type" : "_ZTIFvPKhjPKyjE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFvjjP19android_net_contextE",
+   "name" : "void (*)(unsigned int, unsigned int, android_net_context *)",
+   "referenced_type" : "_ZTIFvjjP19android_net_contextE",
+   "size" : 4,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK19android_net_context",
+   "name" : "const android_net_context *",
+   "referenced_type" : "_ZTIK19android_net_context",
+   "size" : 4,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK21ResolverNetdCallbacks",
+   "name" : "const ResolverNetdCallbacks *",
+   "referenced_type" : "_ZTIK21ResolverNetdCallbacks",
+   "size" : 4,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK8log_time",
+   "name" : "const log_time *",
+   "referenced_type" : "_ZTIK8log_time",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKDs",
+   "name" : "const char16_t *",
+   "referenced_type" : "_ZTIKDs",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android10ParcelableE",
+   "name" : "const android::Parcelable *",
+   "referenced_type" : "_ZTIKN7android10ParcelableE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcelable.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android10VectorImplE",
+   "name" : "const android::VectorImpl *",
+   "referenced_type" : "_ZTIKN7android10VectorImplE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/VectorImpl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android14IPCThreadState7SpGuardE",
+   "name" : "const android::IPCThreadState::SpGuard *",
+   "referenced_type" : "_ZTIKN7android14IPCThreadState7SpGuardE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/IPCThreadState.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android6Parcel12KernelFieldsE",
+   "name" : "const android::Parcel::KernelFields *",
+   "referenced_type" : "_ZTIKN7android6Parcel12KernelFieldsE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android6Parcel12ReadableBlobE",
+   "name" : "const android::Parcel::ReadableBlob *",
+   "referenced_type" : "_ZTIKN7android6Parcel12ReadableBlobE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android6Parcel4BlobE",
+   "name" : "const android::Parcel::Blob *",
+   "referenced_type" : "_ZTIKN7android6Parcel4BlobE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android6Parcel9RpcFieldsE",
+   "name" : "const android::Parcel::RpcFields *",
+   "referenced_type" : "_ZTIKN7android6Parcel9RpcFieldsE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android6ParcelE",
+   "name" : "const android::Parcel *",
+   "referenced_type" : "_ZTIKN7android6ParcelE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android6binder6StatusE",
+   "name" : "const android::binder::Status *",
+   "referenced_type" : "_ZTIKN7android6binder6StatusE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Status.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android7RefBaseE",
+   "name" : "const android::RefBase *",
+   "referenced_type" : "_ZTIKN7android7RefBaseE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/RefBase.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android7String8E",
+   "name" : "const android::String8 *",
+   "referenced_type" : "_ZTIKN7android7String8E",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android8String16E",
+   "name" : "const android::String16 *",
+   "referenced_type" : "_ZTIKN7android8String16E",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android9BpRefBaseE",
+   "name" : "const android::BpRefBase *",
+   "referenced_type" : "_ZTIKN7android9BpRefBaseE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Binder.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKPKc",
+   "name" : "const char *const *",
+   "referenced_type" : "_ZTIKPKc",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/IInterface.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKc",
+   "name" : "const char *",
+   "referenced_type" : "_ZTIKc",
+   "size" : 4,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKh",
+   "name" : "const unsigned char *",
+   "referenced_type" : "_ZTIKh",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKv",
+   "name" : "const void *",
+   "referenced_type" : "_ZTIKv",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/VectorImpl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKy",
+   "name" : "const unsigned long long *",
+   "referenced_type" : "_ZTIKy",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android10IInterfaceE",
+   "name" : "android::IInterface *",
+   "referenced_type" : "_ZTIN7android10IInterfaceE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/StrongPointer.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android10ParcelableE",
+   "name" : "android::Parcelable *",
+   "referenced_type" : "_ZTIN7android10ParcelableE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcelable.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android10RpcSessionE",
+   "name" : "android::RpcSession *",
+   "referenced_type" : "_ZTIN7android10RpcSessionE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/StrongPointer.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android12ProcessStateE",
+   "name" : "android::ProcessState *",
+   "referenced_type" : "_ZTIN7android12ProcessStateE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/StrongPointer.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android15IServiceManager25LocalRegistrationCallbackE",
+   "name" : "android::IServiceManager::LocalRegistrationCallback *",
+   "referenced_type" : "_ZTIN7android15IServiceManager25LocalRegistrationCallbackE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/IServiceManager.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android15IServiceManagerE",
+   "name" : "android::IServiceManager *",
+   "referenced_type" : "_ZTIN7android15IServiceManagerE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/StrongPointer.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android16ReferenceRenamerE",
+   "name" : "android::ReferenceRenamer *",
+   "referenced_type" : "_ZTIN7android16ReferenceRenamerE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/RefBase.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android19VirtualLightRefBaseE",
+   "name" : "android::VirtualLightRefBase *",
+   "referenced_type" : "_ZTIN7android19VirtualLightRefBaseE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/LightRefBase.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android2spINS_7IBinderEEE",
+   "name" : "android::sp<android::IBinder> *",
+   "referenced_type" : "_ZTIN7android2spINS_7IBinderEEE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/StrongPointer.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
+   "name" : "android::base::unique_fd_impl<android::base::DefaultCloser> *",
+   "referenced_type" : "_ZTIN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android6Parcel12KernelFieldsE",
+   "name" : "android::Parcel::KernelFields *",
+   "referenced_type" : "_ZTIN7android6Parcel12KernelFieldsE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android6Parcel12ReadableBlobE",
+   "name" : "android::Parcel::ReadableBlob *",
+   "referenced_type" : "_ZTIN7android6Parcel12ReadableBlobE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android6Parcel12WritableBlobE",
+   "name" : "android::Parcel::WritableBlob *",
+   "referenced_type" : "_ZTIN7android6Parcel12WritableBlobE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android6Parcel26FlattenableHelperInterfaceE",
+   "name" : "android::Parcel::FlattenableHelperInterface *",
+   "referenced_type" : "_ZTIN7android6Parcel26FlattenableHelperInterfaceE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android6Parcel9RpcFieldsE",
+   "name" : "android::Parcel::RpcFields *",
+   "referenced_type" : "_ZTIN7android6Parcel9RpcFieldsE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android6ParcelE",
+   "name" : "android::Parcel *",
+   "referenced_type" : "_ZTIN7android6ParcelE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android6binder6StatusE",
+   "name" : "android::binder::Status *",
+   "referenced_type" : "_ZTIN7android6binder6StatusE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Status.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android7BBinderE",
+   "name" : "android::BBinder *",
+   "referenced_type" : "_ZTIN7android7BBinderE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/Vector.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android7IBinderE",
+   "name" : "android::IBinder *",
+   "referenced_type" : "_ZTIN7android7IBinderE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/StrongPointer.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android7RefBase12weakref_implE",
+   "name" : "android::RefBase::weakref_impl *",
+   "referenced_type" : "_ZTIN7android7RefBase12weakref_implE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/RefBase.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android7RefBase12weakref_typeE",
+   "name" : "android::RefBase::weakref_type *",
+   "referenced_type" : "_ZTIN7android7RefBase12weakref_typeE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/Vector.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android7RefBaseE",
+   "name" : "android::RefBase *",
+   "referenced_type" : "_ZTIN7android7RefBaseE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/RefBase.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android7String8E",
+   "name" : "android::String8 *",
+   "referenced_type" : "_ZTIN7android7String8E",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android8String16E",
+   "name" : "android::String16 *",
+   "referenced_type" : "_ZTIN7android8String16E",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "std::basic_string<char, std::char_traits<char>, std::allocator<char>> *",
+   "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPa",
+   "name" : "signed char *",
+   "referenced_type" : "_ZTIa",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPb",
+   "name" : "bool *",
+   "referenced_type" : "_ZTIb",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPc",
+   "name" : "char *",
+   "referenced_type" : "_ZTIc",
+   "size" : 4,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPd",
+   "name" : "double *",
+   "referenced_type" : "_ZTId",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPf",
+   "name" : "float *",
+   "referenced_type" : "_ZTIf",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPh",
+   "name" : "unsigned char *",
+   "referenced_type" : "_ZTIh",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPi",
+   "name" : "int *",
+   "referenced_type" : "_ZTIi",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPj",
+   "name" : "unsigned int *",
+   "referenced_type" : "_ZTIj",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPv",
+   "name" : "void *",
+   "referenced_type" : "_ZTIv",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/VectorImpl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPx",
+   "name" : "long long *",
+   "referenced_type" : "_ZTIx",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPy",
+   "name" : "unsigned long long *",
+   "referenced_type" : "_ZTIy",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA1_KPKc",
+   "name" : "const char *const[1]",
+   "referenced_type" : "_ZTIA1_PKc",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/IInterface.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA53_KPKc",
+   "name" : "const char *const[53]",
+   "referenced_type" : "_ZTIA53_PKc",
+   "size" : 212,
+   "source_file" : "frameworks/native/include/binder/IInterface.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK19android_net_context",
+   "name" : "const android_net_context",
+   "referenced_type" : "_ZTI19android_net_context",
+   "size" : 28,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK21ResolverNetdCallbacks",
+   "name" : "const ResolverNetdCallbacks",
+   "referenced_type" : "_ZTI21ResolverNetdCallbacks",
+   "size" : 20,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK8log_time",
+   "name" : "const log_time",
+   "referenced_type" : "_ZTI8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK8timespec",
+   "name" : "const timespec",
+   "referenced_type" : "_ZTI8timespec",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 2,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKDs",
+   "name" : "const char16_t",
+   "referenced_type" : "_ZTIDs",
+   "size" : 2,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android10ParcelableE",
+   "name" : "const android::Parcelable",
+   "referenced_type" : "_ZTIN7android10ParcelableE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcelable.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android10VectorImplE",
+   "name" : "const android::VectorImpl",
+   "referenced_type" : "_ZTIN7android10VectorImplE",
+   "size" : 20,
+   "source_file" : "system/core/include/utils/VectorImpl.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android14IPCThreadState7SpGuardE",
+   "name" : "const android::IPCThreadState::SpGuard",
+   "referenced_type" : "_ZTIN7android14IPCThreadState7SpGuardE",
+   "size" : 8,
+   "source_file" : "frameworks/native/include/binder/IPCThreadState.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android2spINS_10RpcSessionEEE",
+   "name" : "const android::sp<android::RpcSession>",
+   "referenced_type" : "_ZTIN7android2spINS_10RpcSessionEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android2spINS_12ProcessStateEEE",
+   "name" : "const android::sp<android::ProcessState>",
+   "referenced_type" : "_ZTIN7android2spINS_12ProcessStateEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/IPCThreadState.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
+   "name" : "const android::base::unique_fd_impl<android::base::DefaultCloser>",
+   "referenced_type" : "_ZTIN7android4base14unique_fd_implINS0_13DefaultCloserEEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android6Parcel12KernelFieldsE",
+   "name" : "const android::Parcel::KernelFields",
+   "referenced_type" : "_ZTIN7android6Parcel12KernelFieldsE",
+   "size" : 24,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android6Parcel12ReadableBlobE",
+   "name" : "const android::Parcel::ReadableBlob",
+   "referenced_type" : "_ZTIN7android6Parcel12ReadableBlobE",
+   "size" : 16,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android6Parcel4BlobE",
+   "name" : "const android::Parcel::Blob",
+   "referenced_type" : "_ZTIN7android6Parcel4BlobE",
+   "size" : 16,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android6Parcel9RpcFieldsE",
+   "name" : "const android::Parcel::RpcFields",
+   "referenced_type" : "_ZTIN7android6Parcel9RpcFieldsE",
+   "size" : 20,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android6ParcelE",
+   "name" : "const android::Parcel",
+   "referenced_type" : "_ZTIN7android6ParcelE",
+   "size" : 60,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android6binder6StatusE",
+   "name" : "const android::binder::Status",
+   "referenced_type" : "_ZTIN7android6binder6StatusE",
+   "size" : 12,
+   "source_file" : "frameworks/native/include/binder/Status.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android7RefBaseE",
+   "name" : "const android::RefBase",
+   "referenced_type" : "_ZTIN7android7RefBaseE",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/RefBase.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android7String8E",
+   "name" : "const android::String8",
+   "referenced_type" : "_ZTIN7android7String8E",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android8String16E",
+   "name" : "const android::String16",
+   "referenced_type" : "_ZTIN7android8String16E",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android9BpRefBaseE",
+   "name" : "const android::BpRefBase",
+   "referenced_type" : "_ZTIN7android9BpRefBaseE",
+   "size" : 24,
+   "source_file" : "frameworks/native/include/binder/Binder.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>>",
+   "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 12,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__18optionalIiEE",
+   "name" : "const std::optional<int>",
+   "referenced_type" : "_ZTINSt3__18optionalIiEE",
+   "size" : 8,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKPDoFNSt3__16chrono10time_pointINS0_12steady_clockENS0_8durationIxNS_5ratioILx1ELx1000000000EEEEEEEvE",
+   "name" : "std::chrono::time_point<std::chrono::steady_clock, std::chrono::duration<long long, std::ratio<1, 1000000000>>> (*const)() noexcept",
+   "referenced_type" : "_ZTIPDoFNSt3__16chrono10time_pointINS0_12steady_clockENS0_8durationIxNS_5ratioILx1ELx1000000000EEEEEEEvE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/ProcessState.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKPKc",
+   "name" : "const char *const",
+   "referenced_type" : "_ZTIPKc",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/IInterface.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKPN7android7IBinderE",
+   "name" : "android::IBinder *const",
+   "referenced_type" : "_ZTIPN7android7IBinderE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Binder.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKPN7android7RefBase12weakref_implE",
+   "name" : "android::RefBase::weakref_impl *const",
+   "referenced_type" : "_ZTIPN7android7RefBase12weakref_implE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/RefBase.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKa",
+   "name" : "const signed char",
+   "referenced_type" : "_ZTIa",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKb",
+   "name" : "const bool",
+   "referenced_type" : "_ZTIb",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKc",
+   "name" : "const char",
+   "referenced_type" : "_ZTIc",
+   "size" : 1,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKd",
+   "name" : "const double",
+   "referenced_type" : "_ZTId",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKf",
+   "name" : "const float",
+   "referenced_type" : "_ZTIf",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKh",
+   "name" : "const unsigned char",
+   "referenced_type" : "_ZTIh",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKi",
+   "name" : "const int",
+   "referenced_type" : "_ZTIi",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKj",
+   "name" : "const unsigned int",
+   "referenced_type" : "_ZTIj",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 2,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKs",
+   "name" : "const short",
+   "referenced_type" : "_ZTIs",
+   "size" : 2,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 2,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKt",
+   "name" : "const unsigned short",
+   "referenced_type" : "_ZTIt",
+   "size" : 2,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKv",
+   "name" : "const void",
+   "referenced_type" : "_ZTIv",
+   "source_file" : "system/core/include/utils/VectorImpl.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKx",
+   "name" : "const long long",
+   "referenced_type" : "_ZTIx",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKy",
+   "name" : "const unsigned long long",
+   "referenced_type" : "_ZTIy",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  }
+ ],
+ "record_types" :
+ [
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "app_netid",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "app_mark",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "dns_netid",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "dns_mark",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "uid",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "flags",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "pid",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTI19android_net_context",
+   "name" : "android_net_context",
+   "size" : 28,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "check_calling_permission",
+     "referenced_type" : "_ZTIPFbPKcE"
+    },
+    {
+     "field_name" : "get_network_context",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPFvjjP19android_net_contextE"
+    },
+    {
+     "field_name" : "log",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIPFvPKcE"
+    },
+    {
+     "field_name" : "tagSocket",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIPFiijjiE"
+    },
+    {
+     "field_name" : "evaluate_domain_name",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIPFbRK19android_net_contextPKcE"
+    }
+   ],
+   "linker_set_key" : "_ZTI21ResolverNetdCallbacks",
+   "name" : "ResolverNetdCallbacks",
+   "size" : 20,
+   "source_file" : "packages/modules/DnsResolver/include/netd_resolv/resolv.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "struct_size",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "buffer_id",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "priority",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "tag",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "file",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "line",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "message",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "linker_set_key" : "_ZTI21__android_log_message",
+   "name" : "__android_log_message",
+   "size" : 28,
+   "source_file" : "system/logging/liblog/include/android/log.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "tv_sec",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "tv_nsec",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI8log_time",
+   "name" : "log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "is_virtual" : true,
+     "referenced_type" : "_ZTIN7android7RefBaseE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android10IInterfaceE",
+   "name" : "android::IInterface",
+   "record_kind" : "class",
+   "size" : 12,
+   "source_file" : "frameworks/native/include/binder/IInterface.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 4,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android10IInterfaceE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android10IInterfaceD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android10IInterfaceD0Ev"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android10IInterface10onAsBinderEv"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -4,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -4,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android10IInterfaceE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android10IInterfaceD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android10IInterfaceD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIN7android10ParcelableE",
+   "name" : "android::Parcelable",
+   "record_kind" : "class",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcelable.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android10ParcelableE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android10ParcelableD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android10ParcelableD0Ev"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android10Parcelable13writeToParcelEPNS_6ParcelE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android10Parcelable14readFromParcelEPKNS_6ParcelE"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android10Parcelable12getStabilityEv"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mStorage",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mCount",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mFlags",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIKj"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mItemSize",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIKj"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android10VectorImplE",
+   "name" : "android::VectorImpl",
+   "record_kind" : "class",
+   "size" : 20,
+   "source_file" : "system/core/include/utils/VectorImpl.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android10VectorImplE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android10VectorImplD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android10VectorImplD0Ev"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android10VectorImpl12do_constructEPvj"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android10VectorImpl10do_destroyEPvj"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android10VectorImpl7do_copyEPvPKvj"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android10VectorImpl8do_splatEPvPKvj"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android10VectorImpl15do_move_forwardEPvPKvj"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android10VectorImpl16do_move_backwardEPvPKvj"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mCount",
+     "referenced_type" : "_ZTINSt3__16atomicIiEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android12LightRefBaseINS_19VirtualLightRefBaseEEE",
+   "name" : "android::LightRefBase<android::VirtualLightRefBase>",
+   "record_kind" : "class",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/LightRefBase.h",
+   "template_args" :
+   [
+    "_ZTIN7android19VirtualLightRefBaseE"
+   ]
+  },
+  {
+   "access" : "private",
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "binder",
+     "referenced_type" : "_ZTIPN7android7IBinderE"
+    },
+    {
+     "field_name" : "refs",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPN7android7RefBase12weakref_typeE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android12ProcessState12handle_entryE",
+   "name" : "android::ProcessState::handle_entry",
+   "size" : 8,
+   "source_file" : "frameworks/native/include/binder/ProcessState.h"
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "is_virtual" : true,
+     "referenced_type" : "_ZTIN7android7RefBaseE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mDriverName",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIN7android7String8E"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mDriverFD",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mVMStart",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mOnThreadAvailableLock",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTINSt3__15mutexE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mOnThreadAvailableCondVar",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTINSt3__118condition_variableE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mOnThreadAvailableWaiting",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTINSt3__16atomicIxEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mExecutingThreadsCount",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTINSt3__16atomicIjEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mMaxThreads",
+     "field_offset" : 288,
+     "referenced_type" : "_ZTINSt3__16atomicIjEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mCurrentThreads",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTINSt3__16atomicIjEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mKernelStartedThreads",
+     "field_offset" : 352,
+     "referenced_type" : "_ZTINSt3__16atomicIjEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mStarvationStartTime",
+     "field_offset" : 384,
+     "referenced_type" : "_ZTINSt3__16atomicINS_6chrono10time_pointINS1_12steady_clockENS1_8durationIxNS_5ratioILx1ELx1000000000EEEEEEEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mLock",
+     "field_offset" : 448,
+     "referenced_type" : "_ZTINSt3__15mutexE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mHandleToObject",
+     "field_offset" : 480,
+     "referenced_type" : "_ZTIN7android6VectorINS_12ProcessState12handle_entryEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mForked",
+     "field_offset" : 640,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mThreadPoolStarted",
+     "field_offset" : 648,
+     "referenced_type" : "_ZTINSt3__16atomicIbEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mThreadPoolSeq",
+     "field_offset" : 672,
+     "referenced_type" : "_ZTINSt3__16atomicIiEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mCallRestriction",
+     "field_offset" : 704,
+     "referenced_type" : "_ZTIN7android12ProcessState15CallRestrictionE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android12ProcessStateE",
+   "name" : "android::ProcessState",
+   "record_kind" : "class",
+   "size" : 104,
+   "source_file" : "frameworks/native/include/binder/ProcessState.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 92,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android12ProcessStateE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android12ProcessStateD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android12ProcessStateD0Ev"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -92,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -92,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android12ProcessStateE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android12ProcessStateD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android12ProcessStateD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "address",
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "field_name" : "context",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android14IPCThreadState7SpGuardE",
+   "name" : "android::IPCThreadState::SpGuard",
+   "size" : 8,
+   "source_file" : "frameworks/native/include/binder/IPCThreadState.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mProcess",
+     "referenced_type" : "_ZTIKN7android2spINS_12ProcessStateEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mPendingStrongDerefs",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIN7android6VectorIPNS_7BBinderEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mPendingWeakDerefs",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIN7android6VectorIPNS_7RefBase12weakref_typeEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mPostWriteStrongDerefs",
+     "field_offset" : 352,
+     "referenced_type" : "_ZTIN7android6VectorIPNS_7RefBaseEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mPostWriteWeakDerefs",
+     "field_offset" : 512,
+     "referenced_type" : "_ZTIN7android6VectorIPNS_7RefBase12weakref_typeEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mIn",
+     "field_offset" : 672,
+     "referenced_type" : "_ZTIN7android6ParcelE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mOut",
+     "field_offset" : 1152,
+     "referenced_type" : "_ZTIN7android6ParcelE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mLastError",
+     "field_offset" : 1632,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mServingStackPointer",
+     "field_offset" : 1664,
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mServingStackPointerGuard",
+     "field_offset" : 1696,
+     "referenced_type" : "_ZTIPKN7android14IPCThreadState7SpGuardE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mCallingPid",
+     "field_offset" : 1728,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mCallingSid",
+     "field_offset" : 1760,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mCallingUid",
+     "field_offset" : 1792,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mWorkSource",
+     "field_offset" : 1824,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mPropagateWorkSource",
+     "field_offset" : 1856,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mIsLooper",
+     "field_offset" : 1864,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mIsFlushing",
+     "field_offset" : 1872,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mHasExplicitIdentity",
+     "field_offset" : 1880,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mStrictModePolicy",
+     "field_offset" : 1888,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mLastTransactionBinderFlags",
+     "field_offset" : 1920,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mCallRestriction",
+     "field_offset" : 1952,
+     "referenced_type" : "_ZTIN7android12ProcessState15CallRestrictionE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android14IPCThreadStateE",
+   "name" : "android::IPCThreadState",
+   "record_kind" : "class",
+   "size" : 248,
+   "source_file" : "frameworks/native/include/binder/IPCThreadState.h"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android14ReferenceMoverE",
+   "name" : "android::ReferenceMover",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/RefBase.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "ipAddress",
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "field_name" : "port",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android15IServiceManager14ConnectionInfoE",
+   "name" : "android::IServiceManager::ConnectionInfo",
+   "size" : 16,
+   "source_file" : "frameworks/native/include/binder/IServiceManager.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "name",
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "field_name" : "pid",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android15IServiceManager16ServiceDebugInfoE",
+   "name" : "android::IServiceManager::ServiceDebugInfo",
+   "size" : 16,
+   "source_file" : "frameworks/native/include/binder/IServiceManager.h"
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "is_virtual" : true,
+     "referenced_type" : "_ZTIN7android7RefBaseE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android15IServiceManager25LocalRegistrationCallbackE",
+   "name" : "android::IServiceManager::LocalRegistrationCallback",
+   "size" : 12,
+   "source_file" : "frameworks/native/include/binder/IServiceManager.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 4,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android15IServiceManager25LocalRegistrationCallbackE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager25LocalRegistrationCallback21onServiceRegistrationERKNS_8String16ERKNS_2spINS_7IBinderEEE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android15IServiceManager25LocalRegistrationCallbackD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android15IServiceManager25LocalRegistrationCallbackD0Ev"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -4,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -4,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android15IServiceManager25LocalRegistrationCallbackE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android15IServiceManager25LocalRegistrationCallbackD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android15IServiceManager25LocalRegistrationCallbackD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android10IInterfaceE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android15IServiceManagerE",
+   "name" : "android::IServiceManager",
+   "record_kind" : "class",
+   "size" : 12,
+   "source_file" : "frameworks/native/include/binder/IServiceManager.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 4,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android15IServiceManagerE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android15IServiceManagerD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android15IServiceManagerD0Ev"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android10IInterface10onAsBinderEv"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android15IServiceManager22getInterfaceDescriptorEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android15IServiceManager10getServiceERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android15IServiceManager12checkServiceERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager10addServiceERKNS_8String16ERKNS_2spINS_7IBinderEEEbi"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager12listServicesEi"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager14waitForServiceERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager10isDeclaredERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager20getDeclaredInstancesERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager16updatableViaApexERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager17getUpdatableNamesERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager17getConnectionInfoERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager24registerForNotificationsERKNS_8String16ERKNS_2spINS0_25LocalRegistrationCallbackEEE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager26unregisterForNotificationsERKNS_8String16ERKNS_2spINS0_25LocalRegistrationCallbackEEE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager19getServiceDebugInfoEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager21enableAddServiceCacheEb"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -4,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -4,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android15IServiceManagerE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android15IServiceManagerD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android15IServiceManagerD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIN7android16ReferenceRenamerE",
+   "name" : "android::ReferenceRenamer",
+   "record_kind" : "class",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/RefBase.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android16ReferenceRenamerE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android16ReferenceRenamerclEj"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android10VectorImplE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android16SortedVectorImplE",
+   "name" : "android::SortedVectorImpl",
+   "record_kind" : "class",
+   "size" : 20,
+   "source_file" : "system/core/include/utils/VectorImpl.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android16SortedVectorImplE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android16SortedVectorImplD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android16SortedVectorImplD0Ev"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android10VectorImpl12do_constructEPvj"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android10VectorImpl10do_destroyEPvj"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android10VectorImpl7do_copyEPvPKvj"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android10VectorImpl8do_splatEPvPKvj"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android10VectorImpl15do_move_forwardEPvPKvj"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android10VectorImpl16do_move_backwardEPvPKvj"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android16SortedVectorImpl10do_compareEPKvS2_"
+    }
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIbEE",
+   "name" : "android::trait_trivial_copy<bool>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIb"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIcEE",
+   "name" : "android::trait_trivial_copy<char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIdEE",
+   "name" : "android::trait_trivial_copy<double>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIfEE",
+   "name" : "android::trait_trivial_copy<float>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIhEE",
+   "name" : "android::trait_trivial_copy<unsigned char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIh"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIiEE",
+   "name" : "android::trait_trivial_copy<int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIjEE",
+   "name" : "android::trait_trivial_copy<unsigned int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIlEE",
+   "name" : "android::trait_trivial_copy<long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIl"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyImEE",
+   "name" : "android::trait_trivial_copy<unsigned long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIsEE",
+   "name" : "android::trait_trivial_copy<short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyItEE",
+   "name" : "android::trait_trivial_copy<unsigned short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIt"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIvEE",
+   "name" : "android::trait_trivial_copy<void>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIxEE",
+   "name" : "android::trait_trivial_copy<long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIx"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIyEE",
+   "name" : "android::trait_trivial_copy<unsigned long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIbEE",
+   "name" : "android::trait_trivial_ctor<bool>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIb"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIcEE",
+   "name" : "android::trait_trivial_ctor<char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIdEE",
+   "name" : "android::trait_trivial_ctor<double>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIfEE",
+   "name" : "android::trait_trivial_ctor<float>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIhEE",
+   "name" : "android::trait_trivial_ctor<unsigned char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIh"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIiEE",
+   "name" : "android::trait_trivial_ctor<int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIjEE",
+   "name" : "android::trait_trivial_ctor<unsigned int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIlEE",
+   "name" : "android::trait_trivial_ctor<long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIl"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorImEE",
+   "name" : "android::trait_trivial_ctor<unsigned long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIsEE",
+   "name" : "android::trait_trivial_ctor<short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorItEE",
+   "name" : "android::trait_trivial_ctor<unsigned short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIt"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIvEE",
+   "name" : "android::trait_trivial_ctor<void>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIxEE",
+   "name" : "android::trait_trivial_ctor<long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIx"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIyEE",
+   "name" : "android::trait_trivial_ctor<unsigned long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIbEE",
+   "name" : "android::trait_trivial_dtor<bool>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIb"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIcEE",
+   "name" : "android::trait_trivial_dtor<char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIdEE",
+   "name" : "android::trait_trivial_dtor<double>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIfEE",
+   "name" : "android::trait_trivial_dtor<float>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIhEE",
+   "name" : "android::trait_trivial_dtor<unsigned char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIh"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIiEE",
+   "name" : "android::trait_trivial_dtor<int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIjEE",
+   "name" : "android::trait_trivial_dtor<unsigned int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIlEE",
+   "name" : "android::trait_trivial_dtor<long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIl"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorImEE",
+   "name" : "android::trait_trivial_dtor<unsigned long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIsEE",
+   "name" : "android::trait_trivial_dtor<short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorItEE",
+   "name" : "android::trait_trivial_dtor<unsigned short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIt"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIvEE",
+   "name" : "android::trait_trivial_dtor<void>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIxEE",
+   "name" : "android::trait_trivial_dtor<long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIx"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIyEE",
+   "name" : "android::trait_trivial_dtor<unsigned long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_7String8EEE",
+   "name" : "android::trait_trivial_move<android::String8>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/String8.h",
+   "template_args" :
+   [
+    "_ZTIN7android7String8E"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_8String16EEE",
+   "name" : "android::trait_trivial_move<android::String16>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/String16.h",
+   "template_args" :
+   [
+    "_ZTIN7android8String16E"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIbEE",
+   "name" : "android::trait_trivial_move<bool>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIb"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIcEE",
+   "name" : "android::trait_trivial_move<char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIdEE",
+   "name" : "android::trait_trivial_move<double>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIfEE",
+   "name" : "android::trait_trivial_move<float>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIhEE",
+   "name" : "android::trait_trivial_move<unsigned char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIh"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIiEE",
+   "name" : "android::trait_trivial_move<int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIjEE",
+   "name" : "android::trait_trivial_move<unsigned int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIlEE",
+   "name" : "android::trait_trivial_move<long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIl"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveImEE",
+   "name" : "android::trait_trivial_move<unsigned long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIsEE",
+   "name" : "android::trait_trivial_move<short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveItEE",
+   "name" : "android::trait_trivial_move<unsigned short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIt"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIvEE",
+   "name" : "android::trait_trivial_move<void>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIxEE",
+   "name" : "android::trait_trivial_move<long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIx"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIyEE",
+   "name" : "android::trait_trivial_move<unsigned long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android12LightRefBaseINS_19VirtualLightRefBaseEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android19VirtualLightRefBaseE",
+   "name" : "android::VirtualLightRefBase",
+   "record_kind" : "class",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/LightRefBase.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android19VirtualLightRefBaseE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android19VirtualLightRefBaseD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android19VirtualLightRefBaseD0Ev"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "m_ptr",
+     "referenced_type" : "_ZTIPN7android10IInterfaceE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android2spINS_10IInterfaceEEE",
+   "name" : "android::sp<android::IInterface>",
+   "record_kind" : "class",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/StrongPointer.h",
+   "template_args" :
+   [
+    "_ZTIN7android10IInterfaceE"
+   ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "m_ptr",
+     "referenced_type" : "_ZTIPN7android10RpcSessionE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android2spINS_10RpcSessionEEE",
+   "name" : "android::sp<android::RpcSession>",
+   "record_kind" : "class",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/StrongPointer.h",
+   "template_args" :
+   [
+    "_ZTIN7android10RpcSessionE"
+   ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "m_ptr",
+     "referenced_type" : "_ZTIPN7android12ProcessStateE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android2spINS_12ProcessStateEEE",
+   "name" : "android::sp<android::ProcessState>",
+   "record_kind" : "class",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/StrongPointer.h",
+   "template_args" :
+   [
+    "_ZTIN7android12ProcessStateE"
+   ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "m_ptr",
+     "referenced_type" : "_ZTIPN7android15IServiceManagerE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android2spINS_15IServiceManagerEEE",
+   "name" : "android::sp<android::IServiceManager>",
+   "record_kind" : "class",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/StrongPointer.h",
+   "template_args" :
+   [
+    "_ZTIN7android15IServiceManagerE"
+   ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "m_ptr",
+     "referenced_type" : "_ZTIPN7android7IBinderE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android2spINS_7IBinderEEE",
+   "name" : "android::sp<android::IBinder>",
+   "record_kind" : "class",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/StrongPointer.h",
+   "template_args" :
+   [
+    "_ZTIN7android7IBinderE"
+   ]
+  },
+  {
+   "access" : "private",
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "mObjects",
+     "referenced_type" : "_ZTIPy"
+    },
+    {
+     "field_name" : "mObjectsSize",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "mObjectsCapacity",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "mNextObjectHint",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "mWorkSourceRequestHeaderPosition",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "mRequestHeaderPresent",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "field_name" : "mObjectsSorted",
+     "field_offset" : 168,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "field_name" : "mFdsKnown",
+     "field_offset" : 176,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "field_name" : "mHasFds",
+     "field_offset" : 184,
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6Parcel12KernelFieldsE",
+   "name" : "android::Parcel::KernelFields",
+   "size" : 24,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android6Parcel4BlobE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6Parcel12ReadableBlobE",
+   "name" : "android::Parcel::ReadableBlob",
+   "record_kind" : "class",
+   "size" : 16,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android6Parcel4BlobE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6Parcel12WritableBlobE",
+   "name" : "android::Parcel::WritableBlob",
+   "record_kind" : "class",
+   "size" : 16,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6Parcel17is_specializationIiNS_2spEEE",
+   "name" : "android::Parcel::is_specialization<int, android::sp>",
+   "size" : 1,
+   "source_file" : "frameworks/native/include/binder/Parcel.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6Parcel17is_specializationIiNSt3__110shared_ptrEEE",
+   "name" : "android::Parcel::is_specialization<int, std::shared_ptr>",
+   "size" : 1,
+   "source_file" : "frameworks/native/include/binder/Parcel.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6Parcel17is_specializationIiNSt3__110unique_ptrEEE",
+   "name" : "android::Parcel::is_specialization<int, std::unique_ptr>",
+   "size" : 1,
+   "source_file" : "frameworks/native/include/binder/Parcel.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6Parcel17is_specializationIiNSt3__16vectorEEE",
+   "name" : "android::Parcel::is_specialization<int, std::vector>",
+   "size" : 1,
+   "source_file" : "frameworks/native/include/binder/Parcel.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTINSt3__117integral_constantIbLb0EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6Parcel17is_specializationIiNSt3__18optionalEEE",
+   "name" : "android::Parcel::is_specialization<int, std::optional>",
+   "size" : 1,
+   "source_file" : "frameworks/native/include/binder/Parcel.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "access" : "private",
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIN7android6Parcel26FlattenableHelperInterfaceE",
+   "name" : "android::Parcel::FlattenableHelperInterface",
+   "record_kind" : "class",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcel.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android6Parcel26FlattenableHelperInterfaceE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android6Parcel26FlattenableHelperInterface16getFlattenedSizeEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android6Parcel26FlattenableHelperInterface10getFdCountEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android6Parcel26FlattenableHelperInterface7flattenEPvjPij"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android6Parcel26FlattenableHelperInterface9unflattenEPKvjPKij"
+    }
+   ]
+  },
+  {
+   "access" : "private",
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "protected",
+     "field_name" : "mFd",
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mData",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mSize",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "protected",
+     "field_name" : "mMutable",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6Parcel4BlobE",
+   "name" : "android::Parcel::Blob",
+   "record_kind" : "class",
+   "size" : 16,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "access" : "private",
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "mSession",
+     "referenced_type" : "_ZTIKN7android2spINS_10RpcSessionEEE"
+    },
+    {
+     "field_name" : "mObjectPositions",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTINSt3__16vectorIjNS_9allocatorIjEEEE"
+    },
+    {
+     "field_name" : "mFds",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTINSt3__110unique_ptrINS_6vectorINS_7variantIJN7android4base14unique_fd_implINS4_13DefaultCloserEEENS4_11borrowed_fdEEEENS_9allocatorIS9_EEEENS_14default_deleteISC_EEEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6Parcel9RpcFieldsE",
+   "name" : "android::Parcel::RpcFields",
+   "size" : 20,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mError",
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mData",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPh"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mDataSize",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mDataCapacity",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mDataPos",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mVariantFields",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTINSt3__17variantIJN7android6Parcel12KernelFieldsENS2_9RpcFieldsEEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mAllowFds",
+     "field_offset" : 384,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mDeallocZero",
+     "field_offset" : 392,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mEnforceNoDataAvail",
+     "field_offset" : 400,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mServiceFuzzing",
+     "field_offset" : 408,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mOwner",
+     "field_offset" : 416,
+     "referenced_type" : "_ZTIPFvPKhjPKyjE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mReserved",
+     "field_offset" : 448,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6ParcelE",
+   "name" : "android::Parcel",
+   "record_kind" : "class",
+   "size" : 60,
+   "source_file" : "frameworks/native/include/binder/Parcel.h"
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "access" : "private",
+     "referenced_type" : "_ZTIN7android10VectorImplE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6VectorINS_12ProcessState12handle_entryEEE",
+   "name" : "android::Vector<android::ProcessState::handle_entry>",
+   "record_kind" : "class",
+   "size" : 20,
+   "source_file" : "system/core/include/utils/Vector.h",
+   "template_args" :
+   [
+    "_ZTIN7android12ProcessState12handle_entryE"
+   ],
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android6VectorINS_12ProcessState12handle_entryEEE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android6VectorINS_12ProcessState12handle_entryEED1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android6VectorINS_12ProcessState12handle_entryEED0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorINS_12ProcessState12handle_entryEE12do_constructEPvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorINS_12ProcessState12handle_entryEE10do_destroyEPvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorINS_12ProcessState12handle_entryEE7do_copyEPvPKvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorINS_12ProcessState12handle_entryEE8do_splatEPvPKvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorINS_12ProcessState12handle_entryEE15do_move_forwardEPvPKvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorINS_12ProcessState12handle_entryEE16do_move_backwardEPvPKvj"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "access" : "private",
+     "referenced_type" : "_ZTIN7android10VectorImplE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6VectorIPNS_7BBinderEEE",
+   "name" : "android::Vector<android::BBinder *>",
+   "record_kind" : "class",
+   "size" : 20,
+   "source_file" : "system/core/include/utils/Vector.h",
+   "template_args" :
+   [
+    "_ZTIPN7android7BBinderE"
+   ],
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android6VectorIPNS_7BBinderEEE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android6VectorIPNS_7BBinderEED1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android6VectorIPNS_7BBinderEED0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7BBinderEE12do_constructEPvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7BBinderEE10do_destroyEPvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7BBinderEE7do_copyEPvPKvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7BBinderEE8do_splatEPvPKvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7BBinderEE15do_move_forwardEPvPKvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7BBinderEE16do_move_backwardEPvPKvj"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "access" : "private",
+     "referenced_type" : "_ZTIN7android10VectorImplE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6VectorIPNS_7RefBase12weakref_typeEEE",
+   "name" : "android::Vector<android::RefBase::weakref_type *>",
+   "record_kind" : "class",
+   "size" : 20,
+   "source_file" : "system/core/include/utils/Vector.h",
+   "template_args" :
+   [
+    "_ZTIPN7android7RefBase12weakref_typeE"
+   ],
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android6VectorIPNS_7RefBase12weakref_typeEEE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android6VectorIPNS_7RefBase12weakref_typeEED1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android6VectorIPNS_7RefBase12weakref_typeEED0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7RefBase12weakref_typeEE12do_constructEPvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7RefBase12weakref_typeEE10do_destroyEPvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7RefBase12weakref_typeEE7do_copyEPvPKvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7RefBase12weakref_typeEE8do_splatEPvPKvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7RefBase12weakref_typeEE15do_move_forwardEPvPKvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7RefBase12weakref_typeEE16do_move_backwardEPvPKvj"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "access" : "private",
+     "referenced_type" : "_ZTIN7android10VectorImplE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6VectorIPNS_7RefBaseEEE",
+   "name" : "android::Vector<android::RefBase *>",
+   "record_kind" : "class",
+   "size" : 20,
+   "source_file" : "system/core/include/utils/Vector.h",
+   "template_args" :
+   [
+    "_ZTIPN7android7RefBaseE"
+   ],
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android6VectorIPNS_7RefBaseEEE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android6VectorIPNS_7RefBaseEED1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android6VectorIPNS_7RefBaseEED0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7RefBaseEE12do_constructEPvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7RefBaseEE10do_destroyEPvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7RefBaseEE7do_copyEPvPKvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7RefBaseEE8do_splatEPvPKvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7RefBaseEE15do_move_forwardEPvPKvj"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android6VectorIPNS_7RefBaseEE16do_move_backwardEPvPKvj"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mException",
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mErrorCode",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mMessage",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIN7android7String8E"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android6binder6StatusE",
+   "name" : "android::binder::Status",
+   "record_kind" : "class",
+   "size" : 12,
+   "source_file" : "frameworks/native/include/binder/Status.h"
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android7IBinderE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mExtras",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTINSt3__16atomicIPN7android7BBinder6ExtrasEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mStability",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIs"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mParceled",
+     "field_offset" : 80,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mRecordingOn",
+     "field_offset" : 88,
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7BBinderE",
+   "name" : "android::BBinder",
+   "record_kind" : "class",
+   "size" : 20,
+   "source_file" : "frameworks/native/include/binder/Binder.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 12,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7BBinderE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7IBinder19queryLocalInterfaceERKNS_8String16E"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android7BBinder22getInterfaceDescriptorEv"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android7BBinder13isBinderAliveEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder10pingBinderEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder4dumpEiRKNS_6VectorINS_8String16EEE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder8transactEjRKNS_6ParcelEPS1_j"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder11linkToDeathERKNS_2spINS_7IBinder14DeathRecipientEEEPvj"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder13unlinkToDeathERKNS_2wpINS_7IBinder14DeathRecipientEEEPvjPS4_"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android7IBinder13checkSubclassEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder12attachObjectEPKvPvS3_PFvS2_S3_S3_E"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android7BBinder10findObjectEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder12detachObjectEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder11localBinderEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7IBinder12remoteBinderEv"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7BBinderD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7BBinderD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder10onTransactEjRKNS_6ParcelEPS1_j"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -12,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -12,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7BBinderE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android7BBinderD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android7BBinderD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "is_virtual" : true,
+     "referenced_type" : "_ZTIN7android7RefBaseE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7IBinder14DeathRecipientE",
+   "name" : "android::IBinder::DeathRecipient",
+   "record_kind" : "class",
+   "size" : 12,
+   "source_file" : "frameworks/native/include/binder/IBinder.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 4,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7IBinder14DeathRecipientE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder14DeathRecipient10binderDiedERKNS_2wpIS0_EE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7IBinder14DeathRecipientD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7IBinder14DeathRecipientD0Ev"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -4,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -4,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7IBinder14DeathRecipientE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android7IBinder14DeathRecipientD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android7IBinder14DeathRecipientD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "is_virtual" : true,
+     "referenced_type" : "_ZTIN7android7RefBaseE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7IBinder25FrozenStateChangeCallbackE",
+   "name" : "android::IBinder::FrozenStateChangeCallback",
+   "record_kind" : "class",
+   "size" : 12,
+   "source_file" : "frameworks/native/include/binder/IBinder.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 4,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7IBinder25FrozenStateChangeCallbackE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder25FrozenStateChangeCallback14onStateChangedERKNS_2wpIS0_EENS1_5StateE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7IBinder25FrozenStateChangeCallbackD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7IBinder25FrozenStateChangeCallbackD0Ev"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -4,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -4,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7IBinder25FrozenStateChangeCallbackE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android7IBinder25FrozenStateChangeCallbackD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android7IBinder25FrozenStateChangeCallbackD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "is_virtual" : true,
+     "referenced_type" : "_ZTIN7android7RefBaseE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7IBinderE",
+   "name" : "android::IBinder",
+   "record_kind" : "class",
+   "size" : 12,
+   "source_file" : "frameworks/native/include/binder/IBinder.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 4,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7IBinderE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7IBinder19queryLocalInterfaceERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android7IBinder22getInterfaceDescriptorEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android7IBinder13isBinderAliveEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder10pingBinderEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder4dumpEiRKNS_6VectorINS_8String16EEE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder8transactEjRKNS_6ParcelEPS1_j"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder11linkToDeathERKNS_2spINS0_14DeathRecipientEEEPvj"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder13unlinkToDeathERKNS_2wpINS0_14DeathRecipientEEEPvjPS3_"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android7IBinder13checkSubclassEPKv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder12attachObjectEPKvPvS3_PFvS2_S3_S3_E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android7IBinder10findObjectEPKv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder12detachObjectEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7IBinder11localBinderEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7IBinder12remoteBinderEv"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7IBinderD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7IBinderD0Ev"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -4,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -4,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7IBinderE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android7IBinderD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android7IBinderD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android7RefBase12weakref_typeE",
+   "name" : "android::RefBase::weakref_type",
+   "record_kind" : "class",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/RefBase.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mRefs",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIKPN7android7RefBase12weakref_implE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7RefBaseE",
+   "name" : "android::RefBase",
+   "record_kind" : "class",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/RefBase.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7RefBaseE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7RefBaseD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7RefBaseD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mString",
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7String8E",
+   "name" : "android::String8",
+   "record_kind" : "class",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mString",
+     "referenced_type" : "_ZTIPKDs"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8String16E",
+   "name" : "android::String16",
+   "record_kind" : "class",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 4,
+   "base_specifiers" :
+   [
+    {
+     "is_virtual" : true,
+     "referenced_type" : "_ZTIN7android7RefBaseE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mRemote",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIKPN7android7IBinderE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mRefs",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIPN7android7RefBase12weakref_typeE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mState",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTINSt3__16atomicIiEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android9BpRefBaseE",
+   "name" : "android::BpRefBase",
+   "record_kind" : "class",
+   "size" : 24,
+   "source_file" : "frameworks/native/include/binder/Binder.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 16,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android9BpRefBaseE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android9BpRefBaseD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android9BpRefBaseD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android9BpRefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android9BpRefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android9BpRefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -16,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -16,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -16,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -16,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -16,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android9BpRefBaseE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android9BpRefBaseD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n12_N7android9BpRefBaseD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZTv0_n16_N7android9BpRefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZTv0_n20_N7android9BpRefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZTv0_n24_N7android9BpRefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  }
+ ],
+ "rvalue_reference_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTION7android2spINS_7IBinderEEE",
+   "name" : "android::sp<android::IBinder> &&",
+   "referenced_type" : "_ZTIN7android2spINS_7IBinderEEE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/StrongPointer.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTION7android6binder6StatusE",
+   "name" : "android::binder::Status &&",
+   "referenced_type" : "_ZTIN7android6binder6StatusE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Status.h"
+  }
+ ]
+}

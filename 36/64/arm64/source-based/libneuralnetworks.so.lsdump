@@ -1,0 +1,6885 @@
+{
+ "array_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIA1_PKc",
+   "name" : "const char *[1]",
+   "referenced_type" : "_ZTIPKc",
+   "size" : 8,
+   "source_file" : "frameworks/native/include/binder/IInterface.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIA53_PKc",
+   "name" : "const char *[53]",
+   "referenced_type" : "_ZTIPKc",
+   "size" : 424,
+   "source_file" : "frameworks/native/include/binder/IInterface.h"
+  }
+ ],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 2,
+   "linker_set_key" : "_ZTIDF16_",
+   "name" : "_Float16",
+   "size" : 2
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDi",
+   "name" : "char32_t",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIDn",
+   "name" : "std::nullptr_t",
+   "size" : 8
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDs",
+   "name" : "char16_t",
+   "size" : 2
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDu",
+   "name" : "char8_t",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIa",
+   "name" : "signed char",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTId",
+   "name" : "double",
+   "size" : 8
+  },
+  {
+   "alignment" : 16,
+   "linker_set_key" : "_ZTIe",
+   "name" : "long double",
+   "size" : 16
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIf",
+   "name" : "float",
+   "size" : 4
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "size" : 8
+  },
+  {
+   "alignment" : 16,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIn",
+   "name" : "__int128",
+   "size" : 16
+  },
+  {
+   "alignment" : 16,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIo",
+   "name" : "unsigned __int128",
+   "size" : 16
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIs",
+   "name" : "short",
+   "size" : 2
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIt",
+   "name" : "unsigned short",
+   "size" : 2
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIw",
+   "name" : "wchar_t",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIx",
+   "name" : "long long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIy",
+   "name" : "unsigned long long",
+   "size" : 8
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "ANeuralNetworksBurst_create"
+  },
+  {
+   "name" : "ANeuralNetworksBurst_free"
+  },
+  {
+   "name" : "ANeuralNetworksCompilation_create"
+  },
+  {
+   "name" : "ANeuralNetworksCompilation_createForDevices"
+  },
+  {
+   "name" : "ANeuralNetworksCompilation_finish"
+  },
+  {
+   "name" : "ANeuralNetworksCompilation_free"
+  },
+  {
+   "name" : "ANeuralNetworksCompilation_getPreferredMemoryAlignmentForInput"
+  },
+  {
+   "name" : "ANeuralNetworksCompilation_getPreferredMemoryAlignmentForOutput"
+  },
+  {
+   "name" : "ANeuralNetworksCompilation_getPreferredMemoryPaddingForInput"
+  },
+  {
+   "name" : "ANeuralNetworksCompilation_getPreferredMemoryPaddingForOutput"
+  },
+  {
+   "name" : "ANeuralNetworksCompilation_setCaching"
+  },
+  {
+   "name" : "ANeuralNetworksCompilation_setPreference"
+  },
+  {
+   "name" : "ANeuralNetworksCompilation_setPriority"
+  },
+  {
+   "name" : "ANeuralNetworksCompilation_setTimeout"
+  },
+  {
+   "name" : "ANeuralNetworksDevice_getFeatureLevel"
+  },
+  {
+   "name" : "ANeuralNetworksDevice_getName"
+  },
+  {
+   "name" : "ANeuralNetworksDevice_getType"
+  },
+  {
+   "name" : "ANeuralNetworksDevice_getVersion"
+  },
+  {
+   "name" : "ANeuralNetworksDevice_wait"
+  },
+  {
+   "name" : "ANeuralNetworksEvent_createFromSyncFenceFd"
+  },
+  {
+   "name" : "ANeuralNetworksEvent_free"
+  },
+  {
+   "name" : "ANeuralNetworksEvent_getSyncFenceFd"
+  },
+  {
+   "name" : "ANeuralNetworksEvent_wait"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_burstCompute"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_compute"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_create"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_enableInputAndOutputPadding"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_free"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_getDuration"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_getOutputOperandDimensions"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_getOutputOperandRank"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_setInput"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_setInputFromMemory"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_setLoopTimeout"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_setMeasureTiming"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_setOutput"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_setOutputFromMemory"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_setReusable"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_setTimeout"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_startCompute"
+  },
+  {
+   "name" : "ANeuralNetworksExecution_startComputeWithDependencies"
+  },
+  {
+   "name" : "ANeuralNetworksMemoryDesc_addInputRole"
+  },
+  {
+   "name" : "ANeuralNetworksMemoryDesc_addOutputRole"
+  },
+  {
+   "name" : "ANeuralNetworksMemoryDesc_create"
+  },
+  {
+   "name" : "ANeuralNetworksMemoryDesc_finish"
+  },
+  {
+   "name" : "ANeuralNetworksMemoryDesc_free"
+  },
+  {
+   "name" : "ANeuralNetworksMemoryDesc_setDimensions"
+  },
+  {
+   "name" : "ANeuralNetworksMemory_copy"
+  },
+  {
+   "name" : "ANeuralNetworksMemory_createFromAHardwareBuffer"
+  },
+  {
+   "name" : "ANeuralNetworksMemory_createFromDesc"
+  },
+  {
+   "name" : "ANeuralNetworksMemory_createFromFd"
+  },
+  {
+   "name" : "ANeuralNetworksMemory_free"
+  },
+  {
+   "name" : "ANeuralNetworksModel_addOperand"
+  },
+  {
+   "name" : "ANeuralNetworksModel_addOperation"
+  },
+  {
+   "name" : "ANeuralNetworksModel_create"
+  },
+  {
+   "name" : "ANeuralNetworksModel_finish"
+  },
+  {
+   "name" : "ANeuralNetworksModel_free"
+  },
+  {
+   "name" : "ANeuralNetworksModel_getSupportedOperationsForDevices"
+  },
+  {
+   "name" : "ANeuralNetworksModel_identifyInputsAndOutputs"
+  },
+  {
+   "name" : "ANeuralNetworksModel_relaxComputationFloat32toFloat16"
+  },
+  {
+   "name" : "ANeuralNetworksModel_setOperandSymmPerChannelQuantParams"
+  },
+  {
+   "name" : "ANeuralNetworksModel_setOperandValue"
+  },
+  {
+   "name" : "ANeuralNetworksModel_setOperandValueFromMemory"
+  },
+  {
+   "name" : "ANeuralNetworksModel_setOperandValueFromModel"
+  },
+  {
+   "name" : "ANeuralNetworks_getDefaultLoopTimeout"
+  },
+  {
+   "name" : "ANeuralNetworks_getDevice"
+  },
+  {
+   "name" : "ANeuralNetworks_getDeviceCount"
+  },
+  {
+   "name" : "ANeuralNetworks_getMaximumLoopTimeout"
+  },
+  {
+   "name" : "ANeuralNetworks_getRuntimeFeatureLevel"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANEURALNETWORKS_NO_ERROR"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANEURALNETWORKS_OUT_OF_MEMORY"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANEURALNETWORKS_INCOMPLETE"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANEURALNETWORKS_UNEXPECTED_NULL"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANEURALNETWORKS_BAD_DATA"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "ANEURALNETWORKS_OP_FAILED"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "ANEURALNETWORKS_BAD_STATE"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "ANEURALNETWORKS_UNMAPPABLE"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ANEURALNETWORKS_OUTPUT_INSUFFICIENT_SIZE"
+    },
+    {
+     "enum_field_value" : 9,
+     "name" : "ANEURALNETWORKS_UNAVAILABLE_DEVICE"
+    },
+    {
+     "enum_field_value" : 10,
+     "name" : "ANEURALNETWORKS_MISSED_DEADLINE_TRANSIENT"
+    },
+    {
+     "enum_field_value" : 11,
+     "name" : "ANEURALNETWORKS_MISSED_DEADLINE_PERSISTENT"
+    },
+    {
+     "enum_field_value" : 12,
+     "name" : "ANEURALNETWORKS_RESOURCE_EXHAUSTED_TRANSIENT"
+    },
+    {
+     "enum_field_value" : 13,
+     "name" : "ANEURALNETWORKS_RESOURCE_EXHAUSTED_PERSISTENT"
+    },
+    {
+     "enum_field_value" : 14,
+     "name" : "ANEURALNETWORKS_DEAD_OBJECT"
+    }
+   ],
+   "linker_set_key" : "_ZTI10ResultCode",
+   "name" : "ResultCode",
+   "size" : 4,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANEURALNETWORKS_FLOAT32"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANEURALNETWORKS_INT32"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANEURALNETWORKS_UINT32"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANEURALNETWORKS_TENSOR_FLOAT32"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANEURALNETWORKS_TENSOR_INT32"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "ANEURALNETWORKS_TENSOR_QUANT8_ASYMM"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "ANEURALNETWORKS_BOOL"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "ANEURALNETWORKS_TENSOR_QUANT16_SYMM"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ANEURALNETWORKS_TENSOR_FLOAT16"
+    },
+    {
+     "enum_field_value" : 9,
+     "name" : "ANEURALNETWORKS_TENSOR_BOOL8"
+    },
+    {
+     "enum_field_value" : 10,
+     "name" : "ANEURALNETWORKS_FLOAT16"
+    },
+    {
+     "enum_field_value" : 11,
+     "name" : "ANEURALNETWORKS_TENSOR_QUANT8_SYMM_PER_CHANNEL"
+    },
+    {
+     "enum_field_value" : 12,
+     "name" : "ANEURALNETWORKS_TENSOR_QUANT16_ASYMM"
+    },
+    {
+     "enum_field_value" : 13,
+     "name" : "ANEURALNETWORKS_TENSOR_QUANT8_SYMM"
+    },
+    {
+     "enum_field_value" : 14,
+     "name" : "ANEURALNETWORKS_TENSOR_QUANT8_ASYMM_SIGNED"
+    },
+    {
+     "enum_field_value" : 15,
+     "name" : "ANEURALNETWORKS_MODEL"
+    }
+   ],
+   "linker_set_key" : "_ZTI11OperandCode",
+   "name" : "OperandCode",
+   "size" : 4,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "ANEURALNETWORKS_PADDING_SAME"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANEURALNETWORKS_PADDING_VALID"
+    }
+   ],
+   "linker_set_key" : "_ZTI11PaddingCode",
+   "name" : "PaddingCode",
+   "size" : 4,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANEURALNETWORKS_DURATION_ON_HARDWARE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANEURALNETWORKS_DURATION_IN_DRIVER"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANEURALNETWORKS_FENCED_DURATION_ON_HARDWARE"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANEURALNETWORKS_FENCED_DURATION_IN_DRIVER"
+    }
+   ],
+   "linker_set_key" : "_ZTI12DurationCode",
+   "name" : "DurationCode",
+   "size" : 4,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 90,
+     "name" : "ANEURALNETWORKS_PRIORITY_LOW"
+    },
+    {
+     "enum_field_value" : 100,
+     "name" : "ANEURALNETWORKS_PRIORITY_MEDIUM"
+    },
+    {
+     "enum_field_value" : 110,
+     "name" : "ANEURALNETWORKS_PRIORITY_HIGH"
+    },
+    {
+     "enum_field_value" : 100,
+     "name" : "ANEURALNETWORKS_PRIORITY_DEFAULT"
+    }
+   ],
+   "linker_set_key" : "_ZTI12PriorityCode",
+   "name" : "PriorityCode",
+   "size" : 4,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANEURALNETWORKS_ADD"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANEURALNETWORKS_AVERAGE_POOL_2D"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANEURALNETWORKS_CONCATENATION"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANEURALNETWORKS_CONV_2D"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANEURALNETWORKS_DEPTHWISE_CONV_2D"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "ANEURALNETWORKS_DEPTH_TO_SPACE"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "ANEURALNETWORKS_DEQUANTIZE"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "ANEURALNETWORKS_EMBEDDING_LOOKUP"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ANEURALNETWORKS_FLOOR"
+    },
+    {
+     "enum_field_value" : 9,
+     "name" : "ANEURALNETWORKS_FULLY_CONNECTED"
+    },
+    {
+     "enum_field_value" : 10,
+     "name" : "ANEURALNETWORKS_HASHTABLE_LOOKUP"
+    },
+    {
+     "enum_field_value" : 11,
+     "name" : "ANEURALNETWORKS_L2_NORMALIZATION"
+    },
+    {
+     "enum_field_value" : 12,
+     "name" : "ANEURALNETWORKS_L2_POOL_2D"
+    },
+    {
+     "enum_field_value" : 13,
+     "name" : "ANEURALNETWORKS_LOCAL_RESPONSE_NORMALIZATION"
+    },
+    {
+     "enum_field_value" : 14,
+     "name" : "ANEURALNETWORKS_LOGISTIC"
+    },
+    {
+     "enum_field_value" : 15,
+     "name" : "ANEURALNETWORKS_LSH_PROJECTION"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "ANEURALNETWORKS_LSTM"
+    },
+    {
+     "enum_field_value" : 17,
+     "name" : "ANEURALNETWORKS_MAX_POOL_2D"
+    },
+    {
+     "enum_field_value" : 18,
+     "name" : "ANEURALNETWORKS_MUL"
+    },
+    {
+     "enum_field_value" : 19,
+     "name" : "ANEURALNETWORKS_RELU"
+    },
+    {
+     "enum_field_value" : 20,
+     "name" : "ANEURALNETWORKS_RELU1"
+    },
+    {
+     "enum_field_value" : 21,
+     "name" : "ANEURALNETWORKS_RELU6"
+    },
+    {
+     "enum_field_value" : 22,
+     "name" : "ANEURALNETWORKS_RESHAPE"
+    },
+    {
+     "enum_field_value" : 23,
+     "name" : "ANEURALNETWORKS_RESIZE_BILINEAR"
+    },
+    {
+     "enum_field_value" : 24,
+     "name" : "ANEURALNETWORKS_RNN"
+    },
+    {
+     "enum_field_value" : 25,
+     "name" : "ANEURALNETWORKS_SOFTMAX"
+    },
+    {
+     "enum_field_value" : 26,
+     "name" : "ANEURALNETWORKS_SPACE_TO_DEPTH"
+    },
+    {
+     "enum_field_value" : 27,
+     "name" : "ANEURALNETWORKS_SVDF"
+    },
+    {
+     "enum_field_value" : 28,
+     "name" : "ANEURALNETWORKS_TANH"
+    },
+    {
+     "enum_field_value" : 29,
+     "name" : "ANEURALNETWORKS_BATCH_TO_SPACE_ND"
+    },
+    {
+     "enum_field_value" : 30,
+     "name" : "ANEURALNETWORKS_DIV"
+    },
+    {
+     "enum_field_value" : 31,
+     "name" : "ANEURALNETWORKS_MEAN"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "ANEURALNETWORKS_PAD"
+    },
+    {
+     "enum_field_value" : 33,
+     "name" : "ANEURALNETWORKS_SPACE_TO_BATCH_ND"
+    },
+    {
+     "enum_field_value" : 34,
+     "name" : "ANEURALNETWORKS_SQUEEZE"
+    },
+    {
+     "enum_field_value" : 35,
+     "name" : "ANEURALNETWORKS_STRIDED_SLICE"
+    },
+    {
+     "enum_field_value" : 36,
+     "name" : "ANEURALNETWORKS_SUB"
+    },
+    {
+     "enum_field_value" : 37,
+     "name" : "ANEURALNETWORKS_TRANSPOSE"
+    },
+    {
+     "enum_field_value" : 38,
+     "name" : "ANEURALNETWORKS_ABS"
+    },
+    {
+     "enum_field_value" : 39,
+     "name" : "ANEURALNETWORKS_ARGMAX"
+    },
+    {
+     "enum_field_value" : 40,
+     "name" : "ANEURALNETWORKS_ARGMIN"
+    },
+    {
+     "enum_field_value" : 41,
+     "name" : "ANEURALNETWORKS_AXIS_ALIGNED_BBOX_TRANSFORM"
+    },
+    {
+     "enum_field_value" : 42,
+     "name" : "ANEURALNETWORKS_BIDIRECTIONAL_SEQUENCE_LSTM"
+    },
+    {
+     "enum_field_value" : 43,
+     "name" : "ANEURALNETWORKS_BIDIRECTIONAL_SEQUENCE_RNN"
+    },
+    {
+     "enum_field_value" : 44,
+     "name" : "ANEURALNETWORKS_BOX_WITH_NMS_LIMIT"
+    },
+    {
+     "enum_field_value" : 45,
+     "name" : "ANEURALNETWORKS_CAST"
+    },
+    {
+     "enum_field_value" : 46,
+     "name" : "ANEURALNETWORKS_CHANNEL_SHUFFLE"
+    },
+    {
+     "enum_field_value" : 47,
+     "name" : "ANEURALNETWORKS_DETECTION_POSTPROCESSING"
+    },
+    {
+     "enum_field_value" : 48,
+     "name" : "ANEURALNETWORKS_EQUAL"
+    },
+    {
+     "enum_field_value" : 49,
+     "name" : "ANEURALNETWORKS_EXP"
+    },
+    {
+     "enum_field_value" : 50,
+     "name" : "ANEURALNETWORKS_EXPAND_DIMS"
+    },
+    {
+     "enum_field_value" : 51,
+     "name" : "ANEURALNETWORKS_GATHER"
+    },
+    {
+     "enum_field_value" : 52,
+     "name" : "ANEURALNETWORKS_GENERATE_PROPOSALS"
+    },
+    {
+     "enum_field_value" : 53,
+     "name" : "ANEURALNETWORKS_GREATER"
+    },
+    {
+     "enum_field_value" : 54,
+     "name" : "ANEURALNETWORKS_GREATER_EQUAL"
+    },
+    {
+     "enum_field_value" : 55,
+     "name" : "ANEURALNETWORKS_GROUPED_CONV_2D"
+    },
+    {
+     "enum_field_value" : 56,
+     "name" : "ANEURALNETWORKS_HEATMAP_MAX_KEYPOINT"
+    },
+    {
+     "enum_field_value" : 57,
+     "name" : "ANEURALNETWORKS_INSTANCE_NORMALIZATION"
+    },
+    {
+     "enum_field_value" : 58,
+     "name" : "ANEURALNETWORKS_LESS"
+    },
+    {
+     "enum_field_value" : 59,
+     "name" : "ANEURALNETWORKS_LESS_EQUAL"
+    },
+    {
+     "enum_field_value" : 60,
+     "name" : "ANEURALNETWORKS_LOG"
+    },
+    {
+     "enum_field_value" : 61,
+     "name" : "ANEURALNETWORKS_LOGICAL_AND"
+    },
+    {
+     "enum_field_value" : 62,
+     "name" : "ANEURALNETWORKS_LOGICAL_NOT"
+    },
+    {
+     "enum_field_value" : 63,
+     "name" : "ANEURALNETWORKS_LOGICAL_OR"
+    },
+    {
+     "enum_field_value" : 64,
+     "name" : "ANEURALNETWORKS_LOG_SOFTMAX"
+    },
+    {
+     "enum_field_value" : 65,
+     "name" : "ANEURALNETWORKS_MAXIMUM"
+    },
+    {
+     "enum_field_value" : 66,
+     "name" : "ANEURALNETWORKS_MINIMUM"
+    },
+    {
+     "enum_field_value" : 67,
+     "name" : "ANEURALNETWORKS_NEG"
+    },
+    {
+     "enum_field_value" : 68,
+     "name" : "ANEURALNETWORKS_NOT_EQUAL"
+    },
+    {
+     "enum_field_value" : 69,
+     "name" : "ANEURALNETWORKS_PAD_V2"
+    },
+    {
+     "enum_field_value" : 70,
+     "name" : "ANEURALNETWORKS_POW"
+    },
+    {
+     "enum_field_value" : 71,
+     "name" : "ANEURALNETWORKS_PRELU"
+    },
+    {
+     "enum_field_value" : 72,
+     "name" : "ANEURALNETWORKS_QUANTIZE"
+    },
+    {
+     "enum_field_value" : 73,
+     "name" : "ANEURALNETWORKS_QUANTIZED_16BIT_LSTM"
+    },
+    {
+     "enum_field_value" : 74,
+     "name" : "ANEURALNETWORKS_RANDOM_MULTINOMIAL"
+    },
+    {
+     "enum_field_value" : 75,
+     "name" : "ANEURALNETWORKS_REDUCE_ALL"
+    },
+    {
+     "enum_field_value" : 76,
+     "name" : "ANEURALNETWORKS_REDUCE_ANY"
+    },
+    {
+     "enum_field_value" : 77,
+     "name" : "ANEURALNETWORKS_REDUCE_MAX"
+    },
+    {
+     "enum_field_value" : 78,
+     "name" : "ANEURALNETWORKS_REDUCE_MIN"
+    },
+    {
+     "enum_field_value" : 79,
+     "name" : "ANEURALNETWORKS_REDUCE_PROD"
+    },
+    {
+     "enum_field_value" : 80,
+     "name" : "ANEURALNETWORKS_REDUCE_SUM"
+    },
+    {
+     "enum_field_value" : 81,
+     "name" : "ANEURALNETWORKS_ROI_ALIGN"
+    },
+    {
+     "enum_field_value" : 82,
+     "name" : "ANEURALNETWORKS_ROI_POOLING"
+    },
+    {
+     "enum_field_value" : 83,
+     "name" : "ANEURALNETWORKS_RSQRT"
+    },
+    {
+     "enum_field_value" : 84,
+     "name" : "ANEURALNETWORKS_SELECT"
+    },
+    {
+     "enum_field_value" : 85,
+     "name" : "ANEURALNETWORKS_SIN"
+    },
+    {
+     "enum_field_value" : 86,
+     "name" : "ANEURALNETWORKS_SLICE"
+    },
+    {
+     "enum_field_value" : 87,
+     "name" : "ANEURALNETWORKS_SPLIT"
+    },
+    {
+     "enum_field_value" : 88,
+     "name" : "ANEURALNETWORKS_SQRT"
+    },
+    {
+     "enum_field_value" : 89,
+     "name" : "ANEURALNETWORKS_TILE"
+    },
+    {
+     "enum_field_value" : 90,
+     "name" : "ANEURALNETWORKS_TOPK_V2"
+    },
+    {
+     "enum_field_value" : 91,
+     "name" : "ANEURALNETWORKS_TRANSPOSE_CONV_2D"
+    },
+    {
+     "enum_field_value" : 92,
+     "name" : "ANEURALNETWORKS_UNIDIRECTIONAL_SEQUENCE_LSTM"
+    },
+    {
+     "enum_field_value" : 93,
+     "name" : "ANEURALNETWORKS_UNIDIRECTIONAL_SEQUENCE_RNN"
+    },
+    {
+     "enum_field_value" : 94,
+     "name" : "ANEURALNETWORKS_RESIZE_NEAREST_NEIGHBOR"
+    },
+    {
+     "enum_field_value" : 95,
+     "name" : "ANEURALNETWORKS_QUANTIZED_LSTM"
+    },
+    {
+     "enum_field_value" : 96,
+     "name" : "ANEURALNETWORKS_IF"
+    },
+    {
+     "enum_field_value" : 97,
+     "name" : "ANEURALNETWORKS_WHILE"
+    },
+    {
+     "enum_field_value" : 98,
+     "name" : "ANEURALNETWORKS_ELU"
+    },
+    {
+     "enum_field_value" : 99,
+     "name" : "ANEURALNETWORKS_HARD_SWISH"
+    },
+    {
+     "enum_field_value" : 100,
+     "name" : "ANEURALNETWORKS_FILL"
+    },
+    {
+     "enum_field_value" : 101,
+     "name" : "ANEURALNETWORKS_RANK"
+    },
+    {
+     "enum_field_value" : 102,
+     "name" : "ANEURALNETWORKS_BATCH_MATMUL"
+    },
+    {
+     "enum_field_value" : 103,
+     "name" : "ANEURALNETWORKS_PACK"
+    },
+    {
+     "enum_field_value" : 104,
+     "name" : "ANEURALNETWORKS_MIRROR_PAD"
+    },
+    {
+     "enum_field_value" : 105,
+     "name" : "ANEURALNETWORKS_REVERSE"
+    }
+   ],
+   "linker_set_key" : "_ZTI13OperationCode",
+   "name" : "OperationCode",
+   "size" : 4,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANEURALNETWORKS_DEVICE_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANEURALNETWORKS_DEVICE_OTHER"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANEURALNETWORKS_DEVICE_CPU"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANEURALNETWORKS_DEVICE_GPU"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANEURALNETWORKS_DEVICE_ACCELERATOR"
+    }
+   ],
+   "linker_set_key" : "_ZTI14DeviceTypeCode",
+   "name" : "DeviceTypeCode",
+   "size" : 4,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANEURALNETWORKS_PREFER_LOW_POWER"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANEURALNETWORKS_PREFER_FAST_SINGLE_ANSWER"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANEURALNETWORKS_PREFER_SUSTAINED_SPEED"
+    }
+   ],
+   "linker_set_key" : "_ZTI14PreferenceCode",
+   "name" : "PreferenceCode",
+   "size" : 4,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 27,
+     "name" : "ANEURALNETWORKS_FEATURE_LEVEL_1"
+    },
+    {
+     "enum_field_value" : 28,
+     "name" : "ANEURALNETWORKS_FEATURE_LEVEL_2"
+    },
+    {
+     "enum_field_value" : 29,
+     "name" : "ANEURALNETWORKS_FEATURE_LEVEL_3"
+    },
+    {
+     "enum_field_value" : 30,
+     "name" : "ANEURALNETWORKS_FEATURE_LEVEL_4"
+    },
+    {
+     "enum_field_value" : 31,
+     "name" : "ANEURALNETWORKS_FEATURE_LEVEL_5"
+    },
+    {
+     "enum_field_value" : 1000006,
+     "name" : "ANEURALNETWORKS_FEATURE_LEVEL_6"
+    },
+    {
+     "enum_field_value" : 1000007,
+     "name" : "ANEURALNETWORKS_FEATURE_LEVEL_7"
+    },
+    {
+     "enum_field_value" : 1000008,
+     "name" : "ANEURALNETWORKS_FEATURE_LEVEL_8"
+    }
+   ],
+   "linker_set_key" : "_ZTI16FeatureLevelCode",
+   "name" : "FeatureLevelCode",
+   "size" : 4,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 10,
+     "name" : "EVENT_TYPE_LIST_STOP"
+    },
+    {
+     "enum_field_value" : 63,
+     "name" : "EVENT_TYPE_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "EVENT_TYPE_INT"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "EVENT_TYPE_LONG"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "EVENT_TYPE_STRING"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "EVENT_TYPE_LIST"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "EVENT_TYPE_FLOAT"
+    }
+   ],
+   "linker_set_key" : "_ZTI19AndroidEventLogType",
+   "name" : "AndroidEventLogType",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANDROID_LOG_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_LOG_DEFAULT"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANDROID_LOG_VERBOSE"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANDROID_LOG_DEBUG"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANDROID_LOG_INFO"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "ANDROID_LOG_WARN"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "ANDROID_LOG_ERROR"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "ANDROID_LOG_FATAL"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ANDROID_LOG_SILENT"
+    }
+   ],
+   "linker_set_key" : "_ZTI19android_LogPriority",
+   "name" : "android_LogPriority",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 10000,
+     "name" : "ANEURALNETWORKS_OEM_SCALAR"
+    },
+    {
+     "enum_field_value" : 10001,
+     "name" : "ANEURALNETWORKS_TENSOR_OEM_BYTE"
+    }
+   ],
+   "linker_set_key" : "_ZTI27$ANEURALNETWORKS_OEM_SCALAR",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksOEM.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 10000,
+     "name" : "ANEURALNETWORKS_OEM_OPERATION"
+    }
+   ],
+   "linker_set_key" : "_ZTI30$ANEURALNETWORKS_OEM_OPERATION",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksOEM.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 32,
+     "name" : "ANEURALNETWORKS_BYTE_SIZE_OF_CACHE_TOKEN"
+    }
+   ],
+   "linker_set_key" : "_ZTI41$ANEURALNETWORKS_BYTE_SIZE_OF_CACHE_TOKEN",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 128,
+     "name" : "ANEURALNETWORKS_MAX_SIZE_OF_IMMEDIATELY_COPIED_VALUES"
+    }
+   ],
+   "linker_set_key" : "_ZTI54$ANEURALNETWORKS_MAX_SIZE_OF_IMMEDIATELY_COPIED_VALUES",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "LOG_ID_MIN"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "LOG_ID_MAIN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "LOG_ID_RADIO"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "LOG_ID_EVENTS"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "LOG_ID_SYSTEM"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "LOG_ID_CRASH"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "LOG_ID_STATS"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "LOG_ID_SECURITY"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "LOG_ID_KERNEL"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "LOG_ID_MAX"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "LOG_ID_DEFAULT"
+    }
+   ],
+   "linker_set_key" : "_ZTI6log_id",
+   "name" : "log_id",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANEURALNETWORKS_FUSED_NONE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANEURALNETWORKS_FUSED_RELU"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANEURALNETWORKS_FUSED_RELU1"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANEURALNETWORKS_FUSED_RELU6"
+    }
+   ],
+   "linker_set_key" : "_ZTI8FuseCode",
+   "name" : "FuseCode",
+   "size" : 4,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::procpartition::Partition::UNKNOWN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::procpartition::Partition::SYSTEM"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "android::procpartition::Partition::SYSTEM_EXT"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "android::procpartition::Partition::PRODUCT"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "android::procpartition::Partition::VENDOR"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "android::procpartition::Partition::ODM"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android13procpartition9PartitionE",
+   "name" : "android::procpartition::Partition",
+   "size" : 4,
+   "source_file" : "frameworks/native/cmds/lshal/libprocpartition/include/procpartition/procpartition.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::OK"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "android::NO_ERROR"
+    },
+    {
+     "enum_field_value" : -2147483648,
+     "name" : "android::UNKNOWN_ERROR"
+    },
+    {
+     "enum_field_value" : -12,
+     "name" : "android::NO_MEMORY"
+    },
+    {
+     "enum_field_value" : -38,
+     "name" : "android::INVALID_OPERATION"
+    },
+    {
+     "enum_field_value" : -22,
+     "name" : "android::BAD_VALUE"
+    },
+    {
+     "enum_field_value" : -2147483647,
+     "name" : "android::BAD_TYPE"
+    },
+    {
+     "enum_field_value" : -2,
+     "name" : "android::NAME_NOT_FOUND"
+    },
+    {
+     "enum_field_value" : -1,
+     "name" : "android::PERMISSION_DENIED"
+    },
+    {
+     "enum_field_value" : -19,
+     "name" : "android::NO_INIT"
+    },
+    {
+     "enum_field_value" : -17,
+     "name" : "android::ALREADY_EXISTS"
+    },
+    {
+     "enum_field_value" : -32,
+     "name" : "android::DEAD_OBJECT"
+    },
+    {
+     "enum_field_value" : -2147483646,
+     "name" : "android::FAILED_TRANSACTION"
+    },
+    {
+     "enum_field_value" : -75,
+     "name" : "android::BAD_INDEX"
+    },
+    {
+     "enum_field_value" : -61,
+     "name" : "android::NOT_ENOUGH_DATA"
+    },
+    {
+     "enum_field_value" : -11,
+     "name" : "android::WOULD_BLOCK"
+    },
+    {
+     "enum_field_value" : -110,
+     "name" : "android::TIMED_OUT"
+    },
+    {
+     "enum_field_value" : -74,
+     "name" : "android::UNKNOWN_TRANSACTION"
+    },
+    {
+     "enum_field_value" : -2147483641,
+     "name" : "android::FDS_NOT_ALLOWED"
+    },
+    {
+     "enum_field_value" : -2147483640,
+     "name" : "android::UNEXPECTED_NULL"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android15$ALREADY_EXISTSE",
+   "name" : "android::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/Errors.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<bool>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIbE6$valueE",
+   "name" : "android::trait_trivial_copy<bool>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIcE6$valueE",
+   "name" : "android::trait_trivial_copy<char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<double>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIdE6$valueE",
+   "name" : "android::trait_trivial_copy<double>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<float>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIfE6$valueE",
+   "name" : "android::trait_trivial_copy<float>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIhE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIiE6$valueE",
+   "name" : "android::trait_trivial_copy<int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIjE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIlE6$valueE",
+   "name" : "android::trait_trivial_copy<long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyImE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIsE6$valueE",
+   "name" : "android::trait_trivial_copy<short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyItE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<void>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIvE6$valueE",
+   "name" : "android::trait_trivial_copy<void>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIxE6$valueE",
+   "name" : "android::trait_trivial_copy<long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIyE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<bool>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIbE6$valueE",
+   "name" : "android::trait_trivial_ctor<bool>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIcE6$valueE",
+   "name" : "android::trait_trivial_ctor<char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<double>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIdE6$valueE",
+   "name" : "android::trait_trivial_ctor<double>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<float>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIfE6$valueE",
+   "name" : "android::trait_trivial_ctor<float>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIhE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIiE6$valueE",
+   "name" : "android::trait_trivial_ctor<int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIjE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIlE6$valueE",
+   "name" : "android::trait_trivial_ctor<long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorImE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIsE6$valueE",
+   "name" : "android::trait_trivial_ctor<short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorItE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<void>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIvE6$valueE",
+   "name" : "android::trait_trivial_ctor<void>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIxE6$valueE",
+   "name" : "android::trait_trivial_ctor<long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIyE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<bool>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIbE6$valueE",
+   "name" : "android::trait_trivial_dtor<bool>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIcE6$valueE",
+   "name" : "android::trait_trivial_dtor<char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<double>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIdE6$valueE",
+   "name" : "android::trait_trivial_dtor<double>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<float>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIfE6$valueE",
+   "name" : "android::trait_trivial_dtor<float>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIhE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIiE6$valueE",
+   "name" : "android::trait_trivial_dtor<int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIjE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIlE6$valueE",
+   "name" : "android::trait_trivial_dtor<long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorImE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIsE6$valueE",
+   "name" : "android::trait_trivial_dtor<short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorItE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<void>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIvE6$valueE",
+   "name" : "android::trait_trivial_dtor<void>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIxE6$valueE",
+   "name" : "android::trait_trivial_dtor<long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIyE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<android::String8>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_7String8EE6$valueE",
+   "name" : "android::trait_trivial_move<android::String8>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String8.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<android::String16>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_8String16EE6$valueE",
+   "name" : "android::trait_trivial_move<android::String16>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/String16.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<bool>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIbE6$valueE",
+   "name" : "android::trait_trivial_move<bool>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIcE6$valueE",
+   "name" : "android::trait_trivial_move<char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<double>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIdE6$valueE",
+   "name" : "android::trait_trivial_move<double>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<float>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIfE6$valueE",
+   "name" : "android::trait_trivial_move<float>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIhE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIiE6$valueE",
+   "name" : "android::trait_trivial_move<int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIjE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIlE6$valueE",
+   "name" : "android::trait_trivial_move<long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveImE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIsE6$valueE",
+   "name" : "android::trait_trivial_move<short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveItE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<void>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIvE6$valueE",
+   "name" : "android::trait_trivial_move<void>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIxE6$valueE",
+   "name" : "android::trait_trivial_move<long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIyE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::IBinder::FIRST_CALL_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 16777215,
+     "name" : "android::IBinder::LAST_CALL_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1599098439,
+     "name" : "android::IBinder::PING_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1599296068,
+     "name" : "android::IBinder::START_RECORDING_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1598378564,
+     "name" : "android::IBinder::STOP_RECORDING_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1598311760,
+     "name" : "android::IBinder::DUMP_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1598246212,
+     "name" : "android::IBinder::SHELL_COMMAND_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1598968902,
+     "name" : "android::IBinder::INTERFACE_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1599295570,
+     "name" : "android::IBinder::SYSPROPS_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1598380116,
+     "name" : "android::IBinder::EXTENSION_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1599097156,
+     "name" : "android::IBinder::DEBUG_PID_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1599230019,
+     "name" : "android::IBinder::SET_RPC_CLIENT_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1599362900,
+     "name" : "android::IBinder::TWEET_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1598835019,
+     "name" : "android::IBinder::LIKE_TRANSACTION"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::IBinder::FLAG_ONEWAY"
+    },
+    {
+     "enum_field_value" : 32,
+     "name" : "android::IBinder::FLAG_CLEAR_BUF"
+    },
+    {
+     "enum_field_value" : 268435456,
+     "name" : "android::IBinder::FLAG_PRIVATE_VENDOR"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7IBinder22$DEBUG_PID_TRANSACTIONE",
+   "name" : "android::IBinder::(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/IBinder.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::IBinder::FrozenStateChangeCallback::State::FROZEN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::IBinder::FrozenStateChangeCallback::State::UNFROZEN"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7IBinder25FrozenStateChangeCallback5StateE",
+   "name" : "android::IBinder::FrozenStateChangeCallback::State",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/IBinder.h",
+   "underlying_type" : "_ZTIi"
+  }
+ ],
+ "function_types" : [],
+ "functions" :
+ [
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksBurst_create",
+   "linker_set_key" : "ANeuralNetworksBurst_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP26ANeuralNetworksCompilation"
+    },
+    {
+     "referenced_type" : "_ZTIPP20ANeuralNetworksBurst"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksBurst_free",
+   "linker_set_key" : "ANeuralNetworksBurst_free",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP20ANeuralNetworksBurst"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksCompilation_create",
+   "linker_set_key" : "ANeuralNetworksCompilation_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP20ANeuralNetworksModel"
+    },
+    {
+     "referenced_type" : "_ZTIPP26ANeuralNetworksCompilation"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksCompilation_createForDevices",
+   "linker_set_key" : "ANeuralNetworksCompilation_createForDevices",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP20ANeuralNetworksModel"
+    },
+    {
+     "referenced_type" : "_ZTIPKPK21ANeuralNetworksDevice"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPP26ANeuralNetworksCompilation"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksCompilation_finish",
+   "linker_set_key" : "ANeuralNetworksCompilation_finish",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP26ANeuralNetworksCompilation"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksCompilation_free",
+   "linker_set_key" : "ANeuralNetworksCompilation_free",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP26ANeuralNetworksCompilation"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksCompilation_getPreferredMemoryAlignmentForInput",
+   "linker_set_key" : "ANeuralNetworksCompilation_getPreferredMemoryAlignmentForInput",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK26ANeuralNetworksCompilation"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksCompilation_getPreferredMemoryAlignmentForOutput",
+   "linker_set_key" : "ANeuralNetworksCompilation_getPreferredMemoryAlignmentForOutput",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK26ANeuralNetworksCompilation"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksCompilation_getPreferredMemoryPaddingForInput",
+   "linker_set_key" : "ANeuralNetworksCompilation_getPreferredMemoryPaddingForInput",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK26ANeuralNetworksCompilation"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksCompilation_getPreferredMemoryPaddingForOutput",
+   "linker_set_key" : "ANeuralNetworksCompilation_getPreferredMemoryPaddingForOutput",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK26ANeuralNetworksCompilation"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksCompilation_setCaching",
+   "linker_set_key" : "ANeuralNetworksCompilation_setCaching",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP26ANeuralNetworksCompilation"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksCompilation_setPreference",
+   "linker_set_key" : "ANeuralNetworksCompilation_setPreference",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP26ANeuralNetworksCompilation"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksCompilation_setPriority",
+   "linker_set_key" : "ANeuralNetworksCompilation_setPriority",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP26ANeuralNetworksCompilation"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksCompilation_setTimeout",
+   "linker_set_key" : "ANeuralNetworksCompilation_setTimeout",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP26ANeuralNetworksCompilation"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksDevice_getFeatureLevel",
+   "linker_set_key" : "ANeuralNetworksDevice_getFeatureLevel",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK21ANeuralNetworksDevice"
+    },
+    {
+     "referenced_type" : "_ZTIPl"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksDevice_getName",
+   "linker_set_key" : "ANeuralNetworksDevice_getName",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK21ANeuralNetworksDevice"
+    },
+    {
+     "referenced_type" : "_ZTIPPKc"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksDevice_getType",
+   "linker_set_key" : "ANeuralNetworksDevice_getType",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK21ANeuralNetworksDevice"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksDevice_getVersion",
+   "linker_set_key" : "ANeuralNetworksDevice_getVersion",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK21ANeuralNetworksDevice"
+    },
+    {
+     "referenced_type" : "_ZTIPPKc"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksDevice_wait",
+   "linker_set_key" : "ANeuralNetworksDevice_wait",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK21ANeuralNetworksDevice"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksEvent_createFromSyncFenceFd",
+   "linker_set_key" : "ANeuralNetworksEvent_createFromSyncFenceFd",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPP20ANeuralNetworksEvent"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksEvent_free",
+   "linker_set_key" : "ANeuralNetworksEvent_free",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP20ANeuralNetworksEvent"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksEvent_getSyncFenceFd",
+   "linker_set_key" : "ANeuralNetworksEvent_getSyncFenceFd",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK20ANeuralNetworksEvent"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksEvent_wait",
+   "linker_set_key" : "ANeuralNetworksEvent_wait",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP20ANeuralNetworksEvent"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_burstCompute",
+   "linker_set_key" : "ANeuralNetworksExecution_burstCompute",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANeuralNetworksExecution"
+    },
+    {
+     "referenced_type" : "_ZTIP20ANeuralNetworksBurst"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_compute",
+   "linker_set_key" : "ANeuralNetworksExecution_compute",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANeuralNetworksExecution"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_create",
+   "linker_set_key" : "ANeuralNetworksExecution_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP26ANeuralNetworksCompilation"
+    },
+    {
+     "referenced_type" : "_ZTIPP24ANeuralNetworksExecution"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_enableInputAndOutputPadding",
+   "linker_set_key" : "ANeuralNetworksExecution_enableInputAndOutputPadding",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANeuralNetworksExecution"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_free",
+   "linker_set_key" : "ANeuralNetworksExecution_free",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANeuralNetworksExecution"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_getDuration",
+   "linker_set_key" : "ANeuralNetworksExecution_getDuration",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK24ANeuralNetworksExecution"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_getOutputOperandDimensions",
+   "linker_set_key" : "ANeuralNetworksExecution_getOutputOperandDimensions",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANeuralNetworksExecution"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_getOutputOperandRank",
+   "linker_set_key" : "ANeuralNetworksExecution_getOutputOperandRank",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANeuralNetworksExecution"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_setInput",
+   "linker_set_key" : "ANeuralNetworksExecution_setInput",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANeuralNetworksExecution"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPK26ANeuralNetworksOperandType"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_setInputFromMemory",
+   "linker_set_key" : "ANeuralNetworksExecution_setInputFromMemory",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANeuralNetworksExecution"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPK26ANeuralNetworksOperandType"
+    },
+    {
+     "referenced_type" : "_ZTIPK21ANeuralNetworksMemory"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_setLoopTimeout",
+   "linker_set_key" : "ANeuralNetworksExecution_setLoopTimeout",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANeuralNetworksExecution"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_setMeasureTiming",
+   "linker_set_key" : "ANeuralNetworksExecution_setMeasureTiming",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANeuralNetworksExecution"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_setOutput",
+   "linker_set_key" : "ANeuralNetworksExecution_setOutput",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANeuralNetworksExecution"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPK26ANeuralNetworksOperandType"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_setOutputFromMemory",
+   "linker_set_key" : "ANeuralNetworksExecution_setOutputFromMemory",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANeuralNetworksExecution"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPK26ANeuralNetworksOperandType"
+    },
+    {
+     "referenced_type" : "_ZTIPK21ANeuralNetworksMemory"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_setReusable",
+   "linker_set_key" : "ANeuralNetworksExecution_setReusable",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANeuralNetworksExecution"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_setTimeout",
+   "linker_set_key" : "ANeuralNetworksExecution_setTimeout",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANeuralNetworksExecution"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_startCompute",
+   "linker_set_key" : "ANeuralNetworksExecution_startCompute",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANeuralNetworksExecution"
+    },
+    {
+     "referenced_type" : "_ZTIPP20ANeuralNetworksEvent"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksExecution_startComputeWithDependencies",
+   "linker_set_key" : "ANeuralNetworksExecution_startComputeWithDependencies",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP24ANeuralNetworksExecution"
+    },
+    {
+     "referenced_type" : "_ZTIPKPK20ANeuralNetworksEvent"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIPP20ANeuralNetworksEvent"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksMemoryDesc_addInputRole",
+   "linker_set_key" : "ANeuralNetworksMemoryDesc_addInputRole",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP25ANeuralNetworksMemoryDesc"
+    },
+    {
+     "referenced_type" : "_ZTIPK26ANeuralNetworksCompilation"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksMemoryDesc_addOutputRole",
+   "linker_set_key" : "ANeuralNetworksMemoryDesc_addOutputRole",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP25ANeuralNetworksMemoryDesc"
+    },
+    {
+     "referenced_type" : "_ZTIPK26ANeuralNetworksCompilation"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksMemoryDesc_create",
+   "linker_set_key" : "ANeuralNetworksMemoryDesc_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPP25ANeuralNetworksMemoryDesc"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksMemoryDesc_finish",
+   "linker_set_key" : "ANeuralNetworksMemoryDesc_finish",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP25ANeuralNetworksMemoryDesc"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksMemoryDesc_free",
+   "linker_set_key" : "ANeuralNetworksMemoryDesc_free",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP25ANeuralNetworksMemoryDesc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksMemoryDesc_setDimensions",
+   "linker_set_key" : "ANeuralNetworksMemoryDesc_setDimensions",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP25ANeuralNetworksMemoryDesc"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksMemory_copy",
+   "linker_set_key" : "ANeuralNetworksMemory_copy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK21ANeuralNetworksMemory"
+    },
+    {
+     "referenced_type" : "_ZTIPK21ANeuralNetworksMemory"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksMemory_createFromAHardwareBuffer",
+   "linker_set_key" : "ANeuralNetworksMemory_createFromAHardwareBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK15AHardwareBuffer"
+    },
+    {
+     "referenced_type" : "_ZTIPP21ANeuralNetworksMemory"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksMemory_createFromDesc",
+   "linker_set_key" : "ANeuralNetworksMemory_createFromDesc",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK25ANeuralNetworksMemoryDesc"
+    },
+    {
+     "referenced_type" : "_ZTIPP21ANeuralNetworksMemory"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksMemory_createFromFd",
+   "linker_set_key" : "ANeuralNetworksMemory_createFromFd",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIPP21ANeuralNetworksMemory"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksMemory_free",
+   "linker_set_key" : "ANeuralNetworksMemory_free",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP21ANeuralNetworksMemory"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksModel_addOperand",
+   "linker_set_key" : "ANeuralNetworksModel_addOperand",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP20ANeuralNetworksModel"
+    },
+    {
+     "referenced_type" : "_ZTIPK26ANeuralNetworksOperandType"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksModel_addOperation",
+   "linker_set_key" : "ANeuralNetworksModel_addOperation",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP20ANeuralNetworksModel"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksModel_create",
+   "linker_set_key" : "ANeuralNetworksModel_create",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPP20ANeuralNetworksModel"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksModel_finish",
+   "linker_set_key" : "ANeuralNetworksModel_finish",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP20ANeuralNetworksModel"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksModel_free",
+   "linker_set_key" : "ANeuralNetworksModel_free",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP20ANeuralNetworksModel"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksModel_getSupportedOperationsForDevices",
+   "linker_set_key" : "ANeuralNetworksModel_getSupportedOperationsForDevices",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK20ANeuralNetworksModel"
+    },
+    {
+     "referenced_type" : "_ZTIPKPK21ANeuralNetworksDevice"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPb"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksModel_identifyInputsAndOutputs",
+   "linker_set_key" : "ANeuralNetworksModel_identifyInputsAndOutputs",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP20ANeuralNetworksModel"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKj"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 28
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksModel_relaxComputationFloat32toFloat16",
+   "linker_set_key" : "ANeuralNetworksModel_relaxComputationFloat32toFloat16",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP20ANeuralNetworksModel"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksModel_setOperandSymmPerChannelQuantParams",
+   "linker_set_key" : "ANeuralNetworksModel_setOperandSymmPerChannelQuantParams",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP20ANeuralNetworksModel"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPK40ANeuralNetworksSymmPerChannelQuantParams"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksModel_setOperandValue",
+   "linker_set_key" : "ANeuralNetworksModel_setOperandValue",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP20ANeuralNetworksModel"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPKv"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 27
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksModel_setOperandValueFromMemory",
+   "linker_set_key" : "ANeuralNetworksModel_setOperandValueFromMemory",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP20ANeuralNetworksModel"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPK21ANeuralNetworksMemory"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworksModel_setOperandValueFromModel",
+   "linker_set_key" : "ANeuralNetworksModel_setOperandValueFromModel",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP20ANeuralNetworksModel"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPK20ANeuralNetworksModel"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworks_getDefaultLoopTimeout",
+   "linker_set_key" : "ANeuralNetworks_getDefaultLoopTimeout",
+   "return_type" : "_ZTIm",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworks_getDevice",
+   "linker_set_key" : "ANeuralNetworks_getDevice",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPP21ANeuralNetworksDevice"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 29
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworks_getDeviceCount",
+   "linker_set_key" : "ANeuralNetworks_getDeviceCount",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPj"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 30
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworks_getMaximumLoopTimeout",
+   "linker_set_key" : "ANeuralNetworks_getMaximumLoopTimeout",
+   "return_type" : "_ZTIm",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 31
+    },
+    {
+     "deprecated_major" : 35
+    }
+   ],
+   "function_name" : "ANeuralNetworks_getRuntimeFeatureLevel",
+   "linker_set_key" : "ANeuralNetworks_getRuntimeFeatureLevel",
+   "return_type" : "_ZTIl",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  }
+ ],
+ "global_vars" : [],
+ "lvalue_reference_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRK8log_time",
+   "name" : "const log_time &",
+   "referenced_type" : "_ZTIK8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRK8timespec",
+   "name" : "const timespec &",
+   "referenced_type" : "_ZTIK8timespec",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKN7android7String8E",
+   "name" : "const android::String8 &",
+   "referenced_type" : "_ZTIKN7android7String8E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKN7android8String16E",
+   "name" : "const android::String16 &",
+   "referenced_type" : "_ZTIKN7android8String16E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>> &",
+   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 8,
+   "source_file" : "frameworks/native/cmds/lshal/libprocpartition/include/procpartition/procpartition.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKa",
+   "name" : "const signed char &",
+   "referenced_type" : "_ZTIKa",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKb",
+   "name" : "const bool &",
+   "referenced_type" : "_ZTIKb",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKd",
+   "name" : "const double &",
+   "referenced_type" : "_ZTIKd",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKf",
+   "name" : "const float &",
+   "referenced_type" : "_ZTIKf",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKh",
+   "name" : "const unsigned char &",
+   "referenced_type" : "_ZTIKh",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKi",
+   "name" : "const int &",
+   "referenced_type" : "_ZTIKi",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKj",
+   "name" : "const unsigned int &",
+   "referenced_type" : "_ZTIKj",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKl",
+   "name" : "const long &",
+   "referenced_type" : "_ZTIKl",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKm",
+   "name" : "const unsigned long &",
+   "referenced_type" : "_ZTIKm",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKs",
+   "name" : "const short &",
+   "referenced_type" : "_ZTIKs",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKt",
+   "name" : "const unsigned short &",
+   "referenced_type" : "_ZTIKt",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRN7android7String8E",
+   "name" : "android::String8 &",
+   "referenced_type" : "_ZTIN7android7String8E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRN7android8String16E",
+   "name" : "android::String16 &",
+   "referenced_type" : "_ZTIN7android8String16E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRNSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
+   "name" : "std::basic_ostream<char, std::char_traits<char>> &",
+   "referenced_type" : "_ZTINSt3__113basic_ostreamIcNS_11char_traitsIcEEEE",
+   "size" : 8,
+   "source_file" : "frameworks/native/cmds/lshal/libprocpartition/include/procpartition/procpartition.h"
+  }
+ ],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP20ANeuralNetworksBurst",
+   "name" : "ANeuralNetworksBurst *",
+   "referenced_type" : "_ZTI20ANeuralNetworksBurst",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP20ANeuralNetworksEvent",
+   "name" : "ANeuralNetworksEvent *",
+   "referenced_type" : "_ZTI20ANeuralNetworksEvent",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP20ANeuralNetworksModel",
+   "name" : "ANeuralNetworksModel *",
+   "referenced_type" : "_ZTI20ANeuralNetworksModel",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP21ANeuralNetworksDevice",
+   "name" : "ANeuralNetworksDevice *",
+   "referenced_type" : "_ZTI21ANeuralNetworksDevice",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP21ANeuralNetworksMemory",
+   "name" : "ANeuralNetworksMemory *",
+   "referenced_type" : "_ZTI21ANeuralNetworksMemory",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP24ANeuralNetworksExecution",
+   "name" : "ANeuralNetworksExecution *",
+   "referenced_type" : "_ZTI24ANeuralNetworksExecution",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP25ANeuralNetworksMemoryDesc",
+   "name" : "ANeuralNetworksMemoryDesc *",
+   "referenced_type" : "_ZTI25ANeuralNetworksMemoryDesc",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP26ANeuralNetworksCompilation",
+   "name" : "ANeuralNetworksCompilation *",
+   "referenced_type" : "_ZTI26ANeuralNetworksCompilation",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP8log_time",
+   "name" : "log_time *",
+   "referenced_type" : "_ZTI8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK15AHardwareBuffer",
+   "name" : "const AHardwareBuffer *",
+   "referenced_type" : "_ZTIK15AHardwareBuffer",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK20ANeuralNetworksEvent",
+   "name" : "const ANeuralNetworksEvent *",
+   "referenced_type" : "_ZTIK20ANeuralNetworksEvent",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK20ANeuralNetworksModel",
+   "name" : "const ANeuralNetworksModel *",
+   "referenced_type" : "_ZTIK20ANeuralNetworksModel",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK21ANeuralNetworksDevice",
+   "name" : "const ANeuralNetworksDevice *",
+   "referenced_type" : "_ZTIK21ANeuralNetworksDevice",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK21ANeuralNetworksMemory",
+   "name" : "const ANeuralNetworksMemory *",
+   "referenced_type" : "_ZTIK21ANeuralNetworksMemory",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK24ANeuralNetworksExecution",
+   "name" : "const ANeuralNetworksExecution *",
+   "referenced_type" : "_ZTIK24ANeuralNetworksExecution",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK25ANeuralNetworksMemoryDesc",
+   "name" : "const ANeuralNetworksMemoryDesc *",
+   "referenced_type" : "_ZTIK25ANeuralNetworksMemoryDesc",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK26ANeuralNetworksCompilation",
+   "name" : "const ANeuralNetworksCompilation *",
+   "referenced_type" : "_ZTIK26ANeuralNetworksCompilation",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK26ANeuralNetworksOperandType",
+   "name" : "const ANeuralNetworksOperandType *",
+   "referenced_type" : "_ZTIK26ANeuralNetworksOperandType",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK40ANeuralNetworksSymmPerChannelQuantParams",
+   "name" : "const ANeuralNetworksSymmPerChannelQuantParams *",
+   "referenced_type" : "_ZTIK40ANeuralNetworksSymmPerChannelQuantParams",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK8log_time",
+   "name" : "const log_time *",
+   "referenced_type" : "_ZTIK8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKDs",
+   "name" : "const char16_t *",
+   "referenced_type" : "_ZTIKDs",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN7android7String8E",
+   "name" : "const android::String8 *",
+   "referenced_type" : "_ZTIKN7android7String8E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN7android8String16E",
+   "name" : "const android::String16 *",
+   "referenced_type" : "_ZTIKN7android8String16E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN7android9BpRefBaseE",
+   "name" : "const android::BpRefBase *",
+   "referenced_type" : "_ZTIKN7android9BpRefBaseE",
+   "size" : 8,
+   "source_file" : "frameworks/native/include/binder/Binder.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKN7android9CallStackE",
+   "name" : "const android::CallStack *",
+   "referenced_type" : "_ZTIKN7android9CallStackE",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/CallStack.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKPK20ANeuralNetworksEvent",
+   "name" : "const ANeuralNetworksEvent *const *",
+   "referenced_type" : "_ZTIKPK20ANeuralNetworksEvent",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKPK21ANeuralNetworksDevice",
+   "name" : "const ANeuralNetworksDevice *const *",
+   "referenced_type" : "_ZTIKPK21ANeuralNetworksDevice",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKPKc",
+   "name" : "const char *const *",
+   "referenced_type" : "_ZTIKPKc",
+   "size" : 8,
+   "source_file" : "frameworks/native/include/binder/IInterface.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKc",
+   "name" : "const char *",
+   "referenced_type" : "_ZTIKc",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/android/log.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKf",
+   "name" : "const float *",
+   "referenced_type" : "_ZTIKf",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKh",
+   "name" : "const unsigned char *",
+   "referenced_type" : "_ZTIKh",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKj",
+   "name" : "const unsigned int *",
+   "referenced_type" : "_ZTIKj",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKv",
+   "name" : "const void *",
+   "referenced_type" : "_ZTIKv",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android15IServiceManager25LocalRegistrationCallbackE",
+   "name" : "android::IServiceManager::LocalRegistrationCallback *",
+   "referenced_type" : "_ZTIN7android15IServiceManager25LocalRegistrationCallbackE",
+   "size" : 8,
+   "source_file" : "frameworks/native/include/binder/IServiceManager.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android7IBinderE",
+   "name" : "android::IBinder *",
+   "referenced_type" : "_ZTIN7android7IBinderE",
+   "size" : 8,
+   "source_file" : "frameworks/native/include/binder/Binder.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android7RefBase12weakref_typeE",
+   "name" : "android::RefBase::weakref_type *",
+   "referenced_type" : "_ZTIN7android7RefBase12weakref_typeE",
+   "size" : 8,
+   "source_file" : "frameworks/native/include/binder/Binder.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android7String8E",
+   "name" : "android::String8 *",
+   "referenced_type" : "_ZTIN7android7String8E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android8String16E",
+   "name" : "android::String16 *",
+   "referenced_type" : "_ZTIN7android8String16E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android9CallStack12StackDeleterE",
+   "name" : "android::CallStack::StackDeleter *",
+   "referenced_type" : "_ZTIN7android9CallStack12StackDeleterE",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/CallStack.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPN7android9CallStackE",
+   "name" : "android::CallStack *",
+   "referenced_type" : "_ZTIN7android9CallStackE",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/CallStack.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP20ANeuralNetworksBurst",
+   "name" : "ANeuralNetworksBurst **",
+   "referenced_type" : "_ZTIP20ANeuralNetworksBurst",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP20ANeuralNetworksEvent",
+   "name" : "ANeuralNetworksEvent **",
+   "referenced_type" : "_ZTIP20ANeuralNetworksEvent",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP20ANeuralNetworksModel",
+   "name" : "ANeuralNetworksModel **",
+   "referenced_type" : "_ZTIP20ANeuralNetworksModel",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP21ANeuralNetworksDevice",
+   "name" : "ANeuralNetworksDevice **",
+   "referenced_type" : "_ZTIP21ANeuralNetworksDevice",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP21ANeuralNetworksMemory",
+   "name" : "ANeuralNetworksMemory **",
+   "referenced_type" : "_ZTIP21ANeuralNetworksMemory",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP24ANeuralNetworksExecution",
+   "name" : "ANeuralNetworksExecution **",
+   "referenced_type" : "_ZTIP24ANeuralNetworksExecution",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP25ANeuralNetworksMemoryDesc",
+   "name" : "ANeuralNetworksMemoryDesc **",
+   "referenced_type" : "_ZTIP25ANeuralNetworksMemoryDesc",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPP26ANeuralNetworksCompilation",
+   "name" : "ANeuralNetworksCompilation **",
+   "referenced_type" : "_ZTIP26ANeuralNetworksCompilation",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPPKc",
+   "name" : "const char **",
+   "referenced_type" : "_ZTIPKc",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPb",
+   "name" : "bool *",
+   "referenced_type" : "_ZTIb",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPi",
+   "name" : "int *",
+   "referenced_type" : "_ZTIi",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPj",
+   "name" : "unsigned int *",
+   "referenced_type" : "_ZTIj",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPl",
+   "name" : "long *",
+   "referenced_type" : "_ZTIl",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPm",
+   "name" : "unsigned long *",
+   "referenced_type" : "_ZTIm",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPv",
+   "name" : "void *",
+   "referenced_type" : "_ZTIv",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA1_KPKc",
+   "name" : "const char *const[1]",
+   "referenced_type" : "_ZTIA1_PKc",
+   "size" : 8,
+   "source_file" : "frameworks/native/include/binder/IInterface.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA53_KPKc",
+   "name" : "const char *const[53]",
+   "referenced_type" : "_ZTIA53_PKc",
+   "size" : 424,
+   "source_file" : "frameworks/native/include/binder/IInterface.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK15AHardwareBuffer",
+   "name" : "const AHardwareBuffer",
+   "referenced_type" : "_ZTI15AHardwareBuffer",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK20ANeuralNetworksEvent",
+   "name" : "const ANeuralNetworksEvent",
+   "referenced_type" : "_ZTI20ANeuralNetworksEvent",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK20ANeuralNetworksModel",
+   "name" : "const ANeuralNetworksModel",
+   "referenced_type" : "_ZTI20ANeuralNetworksModel",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK21ANeuralNetworksDevice",
+   "name" : "const ANeuralNetworksDevice",
+   "referenced_type" : "_ZTI21ANeuralNetworksDevice",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK21ANeuralNetworksMemory",
+   "name" : "const ANeuralNetworksMemory",
+   "referenced_type" : "_ZTI21ANeuralNetworksMemory",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK24ANeuralNetworksExecution",
+   "name" : "const ANeuralNetworksExecution",
+   "referenced_type" : "_ZTI24ANeuralNetworksExecution",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK25ANeuralNetworksMemoryDesc",
+   "name" : "const ANeuralNetworksMemoryDesc",
+   "referenced_type" : "_ZTI25ANeuralNetworksMemoryDesc",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK26ANeuralNetworksCompilation",
+   "name" : "const ANeuralNetworksCompilation",
+   "referenced_type" : "_ZTI26ANeuralNetworksCompilation",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK26ANeuralNetworksOperandType",
+   "name" : "const ANeuralNetworksOperandType",
+   "referenced_type" : "_ZTI26ANeuralNetworksOperandType",
+   "size" : 24,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK40ANeuralNetworksSymmPerChannelQuantParams",
+   "name" : "const ANeuralNetworksSymmPerChannelQuantParams",
+   "referenced_type" : "_ZTI40ANeuralNetworksSymmPerChannelQuantParams",
+   "size" : 16,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK8log_time",
+   "name" : "const log_time",
+   "referenced_type" : "_ZTI8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK8timespec",
+   "name" : "const timespec",
+   "referenced_type" : "_ZTI8timespec",
+   "size" : 16,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 2,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKDs",
+   "name" : "const char16_t",
+   "referenced_type" : "_ZTIDs",
+   "size" : 2,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android7String8E",
+   "name" : "const android::String8",
+   "referenced_type" : "_ZTIN7android7String8E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android8String16E",
+   "name" : "const android::String16",
+   "referenced_type" : "_ZTIN7android8String16E",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android9BpRefBaseE",
+   "name" : "const android::BpRefBase",
+   "referenced_type" : "_ZTIN7android9BpRefBaseE",
+   "size" : 48,
+   "source_file" : "frameworks/native/include/binder/Binder.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android9CallStackE",
+   "name" : "const android::CallStack",
+   "referenced_type" : "_ZTIN7android9CallStackE",
+   "size" : 40,
+   "source_file" : "system/core/include/utils/CallStack.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>>",
+   "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 24,
+   "source_file" : "frameworks/native/cmds/lshal/libprocpartition/include/procpartition/procpartition.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKPK20ANeuralNetworksEvent",
+   "name" : "const ANeuralNetworksEvent *const",
+   "referenced_type" : "_ZTIPK20ANeuralNetworksEvent",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKPK21ANeuralNetworksDevice",
+   "name" : "const ANeuralNetworksDevice *const",
+   "referenced_type" : "_ZTIPK21ANeuralNetworksDevice",
+   "size" : 8,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKPKc",
+   "name" : "const char *const",
+   "referenced_type" : "_ZTIPKc",
+   "size" : 8,
+   "source_file" : "frameworks/native/include/binder/IInterface.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKPN7android7IBinderE",
+   "name" : "android::IBinder *const",
+   "referenced_type" : "_ZTIPN7android7IBinderE",
+   "size" : 8,
+   "source_file" : "frameworks/native/include/binder/Binder.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKa",
+   "name" : "const signed char",
+   "referenced_type" : "_ZTIa",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKb",
+   "name" : "const bool",
+   "referenced_type" : "_ZTIb",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKc",
+   "name" : "const char",
+   "referenced_type" : "_ZTIc",
+   "size" : 1,
+   "source_file" : "system/logging/liblog/include/android/log.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKd",
+   "name" : "const double",
+   "referenced_type" : "_ZTId",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKf",
+   "name" : "const float",
+   "referenced_type" : "_ZTIf",
+   "size" : 4,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKh",
+   "name" : "const unsigned char",
+   "referenced_type" : "_ZTIh",
+   "size" : 1,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKi",
+   "name" : "const int",
+   "referenced_type" : "_ZTIi",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/IServiceManager.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKj",
+   "name" : "const unsigned int",
+   "referenced_type" : "_ZTIj",
+   "size" : 4,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKl",
+   "name" : "const long",
+   "referenced_type" : "_ZTIl",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKm",
+   "name" : "const unsigned long",
+   "referenced_type" : "_ZTIm",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 2,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKs",
+   "name" : "const short",
+   "referenced_type" : "_ZTIs",
+   "size" : 2,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 2,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKt",
+   "name" : "const unsigned short",
+   "referenced_type" : "_ZTIt",
+   "size" : 2,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKv",
+   "name" : "const void",
+   "referenced_type" : "_ZTIv",
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworks.h"
+  }
+ ],
+ "record_types" :
+ [
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "struct_size",
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "buffer_id",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "priority",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "tag",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "file",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "line",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "message",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "linker_set_key" : "_ZTI21__android_log_message",
+   "name" : "__android_log_message",
+   "size" : 48,
+   "source_file" : "system/logging/liblog/include/android/log.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "type",
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "dimensionCount",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "dimensions",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIPKj"
+    },
+    {
+     "field_name" : "scale",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIf"
+    },
+    {
+     "field_name" : "zeroPoint",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTI26ANeuralNetworksOperandType",
+   "name" : "ANeuralNetworksOperandType",
+   "size" : 24,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "channelDim",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "scaleCount",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "scales",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIPKf"
+    }
+   ],
+   "linker_set_key" : "_ZTI40ANeuralNetworksSymmPerChannelQuantParams",
+   "name" : "ANeuralNetworksSymmPerChannelQuantParams",
+   "size" : 16,
+   "source_file" : "packages/modules/NeuralNetworks/runtime/include/NeuralNetworksTypes.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "tv_sec",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "tv_nsec",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI8log_time",
+   "name" : "log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "is_virtual" : true,
+     "referenced_type" : "_ZTIN7android7RefBaseE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android10IInterfaceE",
+   "name" : "android::IInterface",
+   "record_kind" : "class",
+   "size" : 24,
+   "source_file" : "frameworks/native/include/binder/IInterface.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 8,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android10IInterfaceE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android10IInterfaceD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android10IInterfaceD0Ev"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android10IInterface10onAsBinderEv"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -8,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -8,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android10IInterfaceE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n24_N7android10IInterfaceD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n24_N7android10IInterfaceD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "ipAddress",
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "field_name" : "port",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android15IServiceManager14ConnectionInfoE",
+   "name" : "android::IServiceManager::ConnectionInfo",
+   "size" : 32,
+   "source_file" : "frameworks/native/include/binder/IServiceManager.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "name",
+     "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE"
+    },
+    {
+     "field_name" : "pid",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android15IServiceManager16ServiceDebugInfoE",
+   "name" : "android::IServiceManager::ServiceDebugInfo",
+   "size" : 32,
+   "source_file" : "frameworks/native/include/binder/IServiceManager.h"
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "is_virtual" : true,
+     "referenced_type" : "_ZTIN7android7RefBaseE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android15IServiceManager25LocalRegistrationCallbackE",
+   "name" : "android::IServiceManager::LocalRegistrationCallback",
+   "size" : 24,
+   "source_file" : "frameworks/native/include/binder/IServiceManager.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 8,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android15IServiceManager25LocalRegistrationCallbackE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager25LocalRegistrationCallback21onServiceRegistrationERKNS_8String16ERKNS_2spINS_7IBinderEEE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android15IServiceManager25LocalRegistrationCallbackD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android15IServiceManager25LocalRegistrationCallbackD0Ev"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -8,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -8,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android15IServiceManager25LocalRegistrationCallbackE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n24_N7android15IServiceManager25LocalRegistrationCallbackD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n24_N7android15IServiceManager25LocalRegistrationCallbackD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android10IInterfaceE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android15IServiceManagerE",
+   "name" : "android::IServiceManager",
+   "record_kind" : "class",
+   "size" : 24,
+   "source_file" : "frameworks/native/include/binder/IServiceManager.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 8,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android15IServiceManagerE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android15IServiceManagerD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android15IServiceManagerD0Ev"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android10IInterface10onAsBinderEv"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android15IServiceManager22getInterfaceDescriptorEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android15IServiceManager10getServiceERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android15IServiceManager12checkServiceERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager10addServiceERKNS_8String16ERKNS_2spINS_7IBinderEEEbi"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager12listServicesEi"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager14waitForServiceERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager10isDeclaredERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager20getDeclaredInstancesERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager16updatableViaApexERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager17getUpdatableNamesERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager17getConnectionInfoERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager24registerForNotificationsERKNS_8String16ERKNS_2spINS0_25LocalRegistrationCallbackEEE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager26unregisterForNotificationsERKNS_8String16ERKNS_2spINS0_25LocalRegistrationCallbackEEE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager19getServiceDebugInfoEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android15IServiceManager21enableAddServiceCacheEb"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -8,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -8,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android15IServiceManagerE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n24_N7android15IServiceManagerD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n24_N7android15IServiceManagerD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIbEE",
+   "name" : "android::trait_trivial_copy<bool>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIb"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIcEE",
+   "name" : "android::trait_trivial_copy<char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIdEE",
+   "name" : "android::trait_trivial_copy<double>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIfEE",
+   "name" : "android::trait_trivial_copy<float>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIhEE",
+   "name" : "android::trait_trivial_copy<unsigned char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIh"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIiEE",
+   "name" : "android::trait_trivial_copy<int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIjEE",
+   "name" : "android::trait_trivial_copy<unsigned int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIlEE",
+   "name" : "android::trait_trivial_copy<long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIl"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyImEE",
+   "name" : "android::trait_trivial_copy<unsigned long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIsEE",
+   "name" : "android::trait_trivial_copy<short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyItEE",
+   "name" : "android::trait_trivial_copy<unsigned short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIt"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIvEE",
+   "name" : "android::trait_trivial_copy<void>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIxEE",
+   "name" : "android::trait_trivial_copy<long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIx"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIyEE",
+   "name" : "android::trait_trivial_copy<unsigned long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIbEE",
+   "name" : "android::trait_trivial_ctor<bool>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIb"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIcEE",
+   "name" : "android::trait_trivial_ctor<char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIdEE",
+   "name" : "android::trait_trivial_ctor<double>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIfEE",
+   "name" : "android::trait_trivial_ctor<float>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIhEE",
+   "name" : "android::trait_trivial_ctor<unsigned char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIh"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIiEE",
+   "name" : "android::trait_trivial_ctor<int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIjEE",
+   "name" : "android::trait_trivial_ctor<unsigned int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIlEE",
+   "name" : "android::trait_trivial_ctor<long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIl"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorImEE",
+   "name" : "android::trait_trivial_ctor<unsigned long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIsEE",
+   "name" : "android::trait_trivial_ctor<short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorItEE",
+   "name" : "android::trait_trivial_ctor<unsigned short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIt"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIvEE",
+   "name" : "android::trait_trivial_ctor<void>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIxEE",
+   "name" : "android::trait_trivial_ctor<long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIx"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIyEE",
+   "name" : "android::trait_trivial_ctor<unsigned long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIbEE",
+   "name" : "android::trait_trivial_dtor<bool>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIb"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIcEE",
+   "name" : "android::trait_trivial_dtor<char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIdEE",
+   "name" : "android::trait_trivial_dtor<double>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIfEE",
+   "name" : "android::trait_trivial_dtor<float>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIhEE",
+   "name" : "android::trait_trivial_dtor<unsigned char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIh"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIiEE",
+   "name" : "android::trait_trivial_dtor<int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIjEE",
+   "name" : "android::trait_trivial_dtor<unsigned int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIlEE",
+   "name" : "android::trait_trivial_dtor<long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIl"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorImEE",
+   "name" : "android::trait_trivial_dtor<unsigned long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIsEE",
+   "name" : "android::trait_trivial_dtor<short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorItEE",
+   "name" : "android::trait_trivial_dtor<unsigned short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIt"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIvEE",
+   "name" : "android::trait_trivial_dtor<void>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIxEE",
+   "name" : "android::trait_trivial_dtor<long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIx"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIyEE",
+   "name" : "android::trait_trivial_dtor<unsigned long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_7String8EEE",
+   "name" : "android::trait_trivial_move<android::String8>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/String8.h",
+   "template_args" :
+   [
+    "_ZTIN7android7String8E"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveINS_8String16EEE",
+   "name" : "android::trait_trivial_move<android::String16>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/String16.h",
+   "template_args" :
+   [
+    "_ZTIN7android8String16E"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIbEE",
+   "name" : "android::trait_trivial_move<bool>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIb"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIcEE",
+   "name" : "android::trait_trivial_move<char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIdEE",
+   "name" : "android::trait_trivial_move<double>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIfEE",
+   "name" : "android::trait_trivial_move<float>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIhEE",
+   "name" : "android::trait_trivial_move<unsigned char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIh"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIiEE",
+   "name" : "android::trait_trivial_move<int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIjEE",
+   "name" : "android::trait_trivial_move<unsigned int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIlEE",
+   "name" : "android::trait_trivial_move<long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIl"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveImEE",
+   "name" : "android::trait_trivial_move<unsigned long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIsEE",
+   "name" : "android::trait_trivial_move<short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveItEE",
+   "name" : "android::trait_trivial_move<unsigned short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIt"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIvEE",
+   "name" : "android::trait_trivial_move<void>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIxEE",
+   "name" : "android::trait_trivial_move<long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIx"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIyEE",
+   "name" : "android::trait_trivial_move<unsigned long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTIN7android7IBinderE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mExtras",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTINSt3__16atomicIPN7android7BBinder6ExtrasEEE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mStability",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIs"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mParceled",
+     "field_offset" : 144,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mRecordingOn",
+     "field_offset" : 152,
+     "referenced_type" : "_ZTIb"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mReserved1",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7BBinderE",
+   "name" : "android::BBinder",
+   "record_kind" : "class",
+   "size" : 40,
+   "source_file" : "frameworks/native/include/binder/Binder.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 24,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7BBinderE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7IBinder19queryLocalInterfaceERKNS_8String16E"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android7BBinder22getInterfaceDescriptorEv"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android7BBinder13isBinderAliveEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder10pingBinderEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder4dumpEiRKNS_6VectorINS_8String16EEE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder8transactEjRKNS_6ParcelEPS1_j"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder11linkToDeathERKNS_2spINS_7IBinder14DeathRecipientEEEPvj"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder13unlinkToDeathERKNS_2wpINS_7IBinder14DeathRecipientEEEPvjPS4_"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android7IBinder13checkSubclassEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder12attachObjectEPKvPvS3_PFvS2_S3_S3_E"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android7BBinder10findObjectEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder12detachObjectEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder11localBinderEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7IBinder12remoteBinderEv"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7BBinderD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7BBinderD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7BBinder10onTransactEjRKNS_6ParcelEPS1_j"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -24,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -24,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7BBinderE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n24_N7android7BBinderD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n24_N7android7BBinderD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "is_virtual" : true,
+     "referenced_type" : "_ZTIN7android7RefBaseE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7IBinder14DeathRecipientE",
+   "name" : "android::IBinder::DeathRecipient",
+   "record_kind" : "class",
+   "size" : 24,
+   "source_file" : "frameworks/native/include/binder/IBinder.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 8,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7IBinder14DeathRecipientE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder14DeathRecipient10binderDiedERKNS_2wpIS0_EE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7IBinder14DeathRecipientD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7IBinder14DeathRecipientD0Ev"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -8,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -8,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7IBinder14DeathRecipientE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n24_N7android7IBinder14DeathRecipientD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n24_N7android7IBinder14DeathRecipientD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "is_virtual" : true,
+     "referenced_type" : "_ZTIN7android7RefBaseE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7IBinder25FrozenStateChangeCallbackE",
+   "name" : "android::IBinder::FrozenStateChangeCallback",
+   "record_kind" : "class",
+   "size" : 24,
+   "source_file" : "frameworks/native/include/binder/IBinder.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 8,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7IBinder25FrozenStateChangeCallbackE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder25FrozenStateChangeCallback14onStateChangedERKNS_2wpIS0_EENS1_5StateE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7IBinder25FrozenStateChangeCallbackD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7IBinder25FrozenStateChangeCallbackD0Ev"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -8,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -8,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7IBinder25FrozenStateChangeCallbackE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n24_N7android7IBinder25FrozenStateChangeCallbackD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n24_N7android7IBinder25FrozenStateChangeCallbackD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "is_virtual" : true,
+     "referenced_type" : "_ZTIN7android7RefBaseE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7IBinderE",
+   "name" : "android::IBinder",
+   "record_kind" : "class",
+   "size" : 24,
+   "source_file" : "frameworks/native/include/binder/IBinder.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 8,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7IBinderE"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7IBinder19queryLocalInterfaceERKNS_8String16E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android7IBinder22getInterfaceDescriptorEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android7IBinder13isBinderAliveEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder10pingBinderEv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder4dumpEiRKNS_6VectorINS_8String16EEE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder8transactEjRKNS_6ParcelEPS1_j"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder11linkToDeathERKNS_2spINS0_14DeathRecipientEEEPvj"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder13unlinkToDeathERKNS_2wpINS0_14DeathRecipientEEEPvjPS3_"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android7IBinder13checkSubclassEPKv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder12attachObjectEPKvPvS3_PFvS2_S3_S3_E"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android7IBinder10findObjectEPKv"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android7IBinder12detachObjectEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7IBinder11localBinderEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7IBinder12remoteBinderEv"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7IBinderD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android7IBinderD0Ev"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -8,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -8,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android7IBinderE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n24_N7android7IBinderD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n24_N7android7IBinderD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mString",
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android7String8E",
+   "name" : "android::String8",
+   "record_kind" : "class",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String8.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mString",
+     "referenced_type" : "_ZTIPKDs"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android8String16E",
+   "name" : "android::String16",
+   "record_kind" : "class",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/String16.h"
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "is_virtual" : true,
+     "referenced_type" : "_ZTIN7android7RefBaseE"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mRemote",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIKPN7android7IBinderE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mRefs",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIPN7android7RefBase12weakref_typeE"
+    },
+    {
+     "access" : "private",
+     "field_name" : "mState",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTINSt3__16atomicIiEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android9BpRefBaseE",
+   "name" : "android::BpRefBase",
+   "record_kind" : "class",
+   "size" : 48,
+   "source_file" : "frameworks/native/include/binder/Binder.h",
+   "vtable_components" :
+   [
+    {
+     "component_value" : 32,
+     "kind" : "vbase_offset"
+    },
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android9BpRefBaseE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android9BpRefBaseD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android9BpRefBaseD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZN7android9BpRefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android9BpRefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android9BpRefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -32,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -32,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -32,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -32,
+     "kind" : "vcall_offset"
+    },
+    {
+     "component_value" : -32,
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android9BpRefBaseE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n24_N7android9BpRefBaseD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZTv0_n24_N7android9BpRefBaseD0Ev"
+    },
+    {
+     "mangled_component_name" : "_ZTv0_n32_N7android9BpRefBase10onFirstRefEv"
+    },
+    {
+     "mangled_component_name" : "_ZTv0_n40_N7android9BpRefBase15onLastStrongRefEPKv"
+    },
+    {
+     "mangled_component_name" : "_ZTv0_n48_N7android9BpRefBase20onIncStrongAttemptedEjPKv"
+    },
+    {
+     "mangled_component_name" : "_ZN7android7RefBase13onLastWeakRefEPKv"
+    }
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android9CallStack12StackDeleterE",
+   "name" : "android::CallStack::StackDeleter",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/CallStack.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mFrameLines",
+     "referenced_type" : "_ZTIN7android6VectorINS_7String8EEE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android9CallStackE",
+   "name" : "android::CallStack",
+   "record_kind" : "class",
+   "size" : 40,
+   "source_file" : "system/core/include/utils/CallStack.h"
+  }
+ ],
+ "rvalue_reference_types" : []
+}
