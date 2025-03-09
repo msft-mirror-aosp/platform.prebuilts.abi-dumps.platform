@@ -1,0 +1,569 @@
+{
+ "array_types" : [],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "size" : 8
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "AIncidentReportArgs_addHeader"
+  },
+  {
+   "name" : "AIncidentReportArgs_addSection"
+  },
+  {
+   "name" : "AIncidentReportArgs_clone"
+  },
+  {
+   "name" : "AIncidentReportArgs_delete"
+  },
+  {
+   "name" : "AIncidentReportArgs_init"
+  },
+  {
+   "name" : "AIncidentReportArgs_setAll"
+  },
+  {
+   "name" : "AIncidentReportArgs_setPrivacyPolicy"
+  },
+  {
+   "name" : "AIncidentReportArgs_setReceiverClass"
+  },
+  {
+   "name" : "AIncidentReportArgs_setReceiverPackage"
+  },
+  {
+   "name" : "AIncidentReportArgs_takeReport"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 10,
+     "name" : "EVENT_TYPE_LIST_STOP"
+    },
+    {
+     "enum_field_value" : 63,
+     "name" : "EVENT_TYPE_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "EVENT_TYPE_INT"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "EVENT_TYPE_LONG"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "EVENT_TYPE_STRING"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "EVENT_TYPE_LIST"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "EVENT_TYPE_FLOAT"
+    }
+   ],
+   "linker_set_key" : "_ZTI19AndroidEventLogType",
+   "name" : "AndroidEventLogType",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANDROID_LOG_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_LOG_DEFAULT"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANDROID_LOG_VERBOSE"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANDROID_LOG_DEBUG"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANDROID_LOG_INFO"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "ANDROID_LOG_WARN"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "ANDROID_LOG_ERROR"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "ANDROID_LOG_FATAL"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ANDROID_LOG_SILENT"
+    }
+   ],
+   "linker_set_key" : "_ZTI19android_LogPriority",
+   "name" : "android_LogPriority",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "INCIDENT_REPORT_PRIVACY_POLICY_LOCAL"
+    },
+    {
+     "enum_field_value" : 100,
+     "name" : "INCIDENT_REPORT_PRIVACY_POLICY_EXPLICIT"
+    },
+    {
+     "enum_field_value" : 200,
+     "name" : "INCIDENT_REPORT_PRIVACY_POLICY_AUTOMATIC"
+    },
+    {
+     "enum_field_value" : 255,
+     "name" : "INCIDENT_REPORT_PRIVACY_POLICY_UNSET"
+    }
+   ],
+   "linker_set_key" : "_ZTI41$INCIDENT_REPORT_PRIVACY_POLICY_AUTOMATIC",
+   "name" : "(unnamed)",
+   "size" : 4,
+   "source_file" : "frameworks/base/libs/incident/include/incident/incident_report.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "LOG_ID_MIN"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "LOG_ID_MAIN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "LOG_ID_RADIO"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "LOG_ID_EVENTS"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "LOG_ID_SYSTEM"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "LOG_ID_CRASH"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "LOG_ID_STATS"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "LOG_ID_SECURITY"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "LOG_ID_KERNEL"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "LOG_ID_MAX"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "LOG_ID_DEFAULT"
+    }
+   ],
+   "linker_set_key" : "_ZTI6log_id",
+   "name" : "log_id",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h",
+   "underlying_type" : "_ZTIj"
+  }
+ ],
+ "function_types" : [],
+ "functions" :
+ [
+  {
+   "function_name" : "AIncidentReportArgs_addHeader",
+   "linker_set_key" : "AIncidentReportArgs_addHeader",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19AIncidentReportArgs"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/base/libs/incident/include/incident/incident_report.h"
+  },
+  {
+   "function_name" : "AIncidentReportArgs_addSection",
+   "linker_set_key" : "AIncidentReportArgs_addSection",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19AIncidentReportArgs"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/base/libs/incident/include/incident/incident_report.h"
+  },
+  {
+   "function_name" : "AIncidentReportArgs_clone",
+   "linker_set_key" : "AIncidentReportArgs_clone",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19AIncidentReportArgs"
+    }
+   ],
+   "return_type" : "_ZTIP19AIncidentReportArgs",
+   "source_file" : "frameworks/base/libs/incident/include/incident/incident_report.h"
+  },
+  {
+   "function_name" : "AIncidentReportArgs_delete",
+   "linker_set_key" : "AIncidentReportArgs_delete",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19AIncidentReportArgs"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/base/libs/incident/include/incident/incident_report.h"
+  },
+  {
+   "function_name" : "AIncidentReportArgs_init",
+   "linker_set_key" : "AIncidentReportArgs_init",
+   "return_type" : "_ZTIP19AIncidentReportArgs",
+   "source_file" : "frameworks/base/libs/incident/include/incident/incident_report.h"
+  },
+  {
+   "function_name" : "AIncidentReportArgs_setAll",
+   "linker_set_key" : "AIncidentReportArgs_setAll",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19AIncidentReportArgs"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/base/libs/incident/include/incident/incident_report.h"
+  },
+  {
+   "function_name" : "AIncidentReportArgs_setPrivacyPolicy",
+   "linker_set_key" : "AIncidentReportArgs_setPrivacyPolicy",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19AIncidentReportArgs"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/base/libs/incident/include/incident/incident_report.h"
+  },
+  {
+   "function_name" : "AIncidentReportArgs_setReceiverClass",
+   "linker_set_key" : "AIncidentReportArgs_setReceiverClass",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19AIncidentReportArgs"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/base/libs/incident/include/incident/incident_report.h"
+  },
+  {
+   "function_name" : "AIncidentReportArgs_setReceiverPackage",
+   "linker_set_key" : "AIncidentReportArgs_setReceiverPackage",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19AIncidentReportArgs"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/base/libs/incident/include/incident/incident_report.h"
+  },
+  {
+   "function_name" : "AIncidentReportArgs_takeReport",
+   "linker_set_key" : "AIncidentReportArgs_takeReport",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP19AIncidentReportArgs"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/base/libs/incident/include/incident/incident_report.h"
+  }
+ ],
+ "global_vars" : [],
+ "lvalue_reference_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRK8log_time",
+   "name" : "const log_time &",
+   "referenced_type" : "_ZTIK8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRK8timespec",
+   "name" : "const timespec &",
+   "referenced_type" : "_ZTIK8timespec",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  }
+ ],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP19AIncidentReportArgs",
+   "name" : "AIncidentReportArgs *",
+   "referenced_type" : "_ZTI19AIncidentReportArgs",
+   "size" : 8,
+   "source_file" : "frameworks/base/libs/incident/include/incident/incident_report.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP8log_time",
+   "name" : "log_time *",
+   "referenced_type" : "_ZTI8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK8log_time",
+   "name" : "const log_time *",
+   "referenced_type" : "_ZTIK8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKc",
+   "name" : "const char *",
+   "referenced_type" : "_ZTIKc",
+   "size" : 8,
+   "source_file" : "frameworks/base/libs/incident/include/incident/incident_report.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKh",
+   "name" : "const unsigned char *",
+   "referenced_type" : "_ZTIKh",
+   "size" : 8,
+   "source_file" : "frameworks/base/libs/incident/include/incident/incident_report.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK8log_time",
+   "name" : "const log_time",
+   "referenced_type" : "_ZTI8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK8timespec",
+   "name" : "const timespec",
+   "referenced_type" : "_ZTI8timespec",
+   "size" : 16,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKc",
+   "name" : "const char",
+   "referenced_type" : "_ZTIc",
+   "size" : 1,
+   "source_file" : "frameworks/base/libs/incident/include/incident/incident_report.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKh",
+   "name" : "const unsigned char",
+   "referenced_type" : "_ZTIh",
+   "size" : 1,
+   "source_file" : "frameworks/base/libs/incident/include/incident/incident_report.h"
+  }
+ ],
+ "record_types" :
+ [
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "struct_size",
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "buffer_id",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "priority",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "tag",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "file",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "line",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "message",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "linker_set_key" : "_ZTI21__android_log_message",
+   "name" : "__android_log_message",
+   "size" : 48,
+   "source_file" : "system/logging/liblog/include/android/log.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "tv_sec",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "tv_nsec",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI8log_time",
+   "name" : "log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  }
+ ],
+ "rvalue_reference_types" : []
+}

@@ -1,0 +1,1480 @@
+{
+ "array_types" :
+ [
+  {
+   "is_of_unknown_bound" : true,
+   "linker_set_key" : "_ZTIA_c",
+   "name" : "char[]",
+   "referenced_type" : "_ZTIc",
+   "source_file" : "system/logging/liblog/include/private/android_logger.h"
+  }
+ ],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDi",
+   "name" : "char32_t",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIDn",
+   "name" : "std::nullptr_t",
+   "size" : 8
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDs",
+   "name" : "char16_t",
+   "size" : 2
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIDu",
+   "name" : "char8_t",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIa",
+   "name" : "signed char",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTId",
+   "name" : "double",
+   "size" : 8
+  },
+  {
+   "alignment" : 16,
+   "linker_set_key" : "_ZTIe",
+   "name" : "long double",
+   "size" : 16
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIf",
+   "name" : "float",
+   "size" : 4
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "size" : 8
+  },
+  {
+   "alignment" : 16,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIn",
+   "name" : "__int128",
+   "size" : 16
+  },
+  {
+   "alignment" : 16,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIo",
+   "name" : "unsigned __int128",
+   "size" : 16
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIs",
+   "name" : "short",
+   "size" : 2
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIt",
+   "name" : "unsigned short",
+   "size" : 2
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIw",
+   "name" : "wchar_t",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIx",
+   "name" : "long long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIy",
+   "name" : "unsigned long long",
+   "size" : 8
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "AStatsEvent_addBoolAnnotation"
+  },
+  {
+   "name" : "AStatsEvent_addInt32Annotation"
+  },
+  {
+   "name" : "AStatsEvent_build"
+  },
+  {
+   "name" : "AStatsEvent_obtain"
+  },
+  {
+   "name" : "AStatsEvent_release"
+  },
+  {
+   "name" : "AStatsEvent_setAtomId"
+  },
+  {
+   "name" : "AStatsEvent_write"
+  },
+  {
+   "name" : "AStatsEvent_writeAttributionChain"
+  },
+  {
+   "name" : "AStatsEvent_writeBool"
+  },
+  {
+   "name" : "AStatsEvent_writeBoolArray"
+  },
+  {
+   "name" : "AStatsEvent_writeByteArray"
+  },
+  {
+   "name" : "AStatsEvent_writeFloat"
+  },
+  {
+   "name" : "AStatsEvent_writeFloatArray"
+  },
+  {
+   "name" : "AStatsEvent_writeInt32"
+  },
+  {
+   "name" : "AStatsEvent_writeInt32Array"
+  },
+  {
+   "name" : "AStatsEvent_writeInt64"
+  },
+  {
+   "name" : "AStatsEvent_writeInt64Array"
+  },
+  {
+   "name" : "AStatsEvent_writeString"
+  },
+  {
+   "name" : "AStatsEvent_writeStringArray"
+  },
+  {
+   "name" : "AStatsSocket_close"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 1,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "ASTATSLOG_ANNOTATION_ID_IS_UID"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ASTATSLOG_ANNOTATION_ID_TRUNCATE_TIMESTAMP"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ASTATSLOG_ANNOTATION_ID_PRIMARY_FIELD"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ASTATSLOG_ANNOTATION_ID_EXCLUSIVE_STATE"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "ASTATSLOG_ANNOTATION_ID_PRIMARY_FIELD_FIRST_UID"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "ASTATSLOG_ANNOTATION_ID_DEFAULT_STATE"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "ASTATSLOG_ANNOTATION_ID_TRIGGER_STATE_RESET"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ASTATSLOG_ANNOTATION_ID_STATE_NESTED"
+    },
+    {
+     "enum_field_value" : 9,
+     "name" : "ASTATSLOG_ANNOTATION_ID_RESTRICTION_CATEGORY"
+    },
+    {
+     "enum_field_value" : 10,
+     "name" : "ASTATSLOG_ANNOTATION_ID_FIELD_RESTRICTION_PERIPHERAL_DEVICE_INFO"
+    },
+    {
+     "enum_field_value" : 11,
+     "name" : "ASTATSLOG_ANNOTATION_ID_FIELD_RESTRICTION_APP_USAGE"
+    },
+    {
+     "enum_field_value" : 12,
+     "name" : "ASTATSLOG_ANNOTATION_ID_FIELD_RESTRICTION_APP_ACTIVITY"
+    },
+    {
+     "enum_field_value" : 13,
+     "name" : "ASTATSLOG_ANNOTATION_ID_FIELD_RESTRICTION_HEALTH_CONNECT"
+    },
+    {
+     "enum_field_value" : 14,
+     "name" : "ASTATSLOG_ANNOTATION_ID_FIELD_RESTRICTION_ACCESSIBILITY"
+    },
+    {
+     "enum_field_value" : 15,
+     "name" : "ASTATSLOG_ANNOTATION_ID_FIELD_RESTRICTION_SYSTEM_SEARCH"
+    },
+    {
+     "enum_field_value" : 16,
+     "name" : "ASTATSLOG_ANNOTATION_ID_FIELD_RESTRICTION_USER_ENGAGEMENT"
+    },
+    {
+     "enum_field_value" : 17,
+     "name" : "ASTATSLOG_ANNOTATION_ID_FIELD_RESTRICTION_AMBIENT_SENSING"
+    },
+    {
+     "enum_field_value" : 18,
+     "name" : "ASTATSLOG_ANNOTATION_ID_FIELD_RESTRICTION_DEMOGRAPHIC_CLASSIFICATION"
+    }
+   ],
+   "linker_set_key" : "_ZTI13AnnotationIds",
+   "name" : "AnnotationIds",
+   "size" : 1,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_annotations.h",
+   "underlying_type" : "_ZTIh"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 10,
+     "name" : "EVENT_TYPE_LIST_STOP"
+    },
+    {
+     "enum_field_value" : 63,
+     "name" : "EVENT_TYPE_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "EVENT_TYPE_INT"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "EVENT_TYPE_LONG"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "EVENT_TYPE_STRING"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "EVENT_TYPE_LIST"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "EVENT_TYPE_FLOAT"
+    }
+   ],
+   "linker_set_key" : "_ZTI19AndroidEventLogType",
+   "name" : "AndroidEventLogType",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANDROID_LOG_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_LOG_DEFAULT"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANDROID_LOG_VERBOSE"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANDROID_LOG_DEBUG"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANDROID_LOG_INFO"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "ANDROID_LOG_WARN"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "ANDROID_LOG_ERROR"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "ANDROID_LOG_FATAL"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ANDROID_LOG_SILENT"
+    }
+   ],
+   "linker_set_key" : "_ZTI19android_LogPriority",
+   "name" : "android_LogPriority",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "ASTATSLOG_RESTRICTION_CATEGORY_DIAGNOSTIC"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ASTATSLOG_RESTRICTION_CATEGORY_SYSTEM_INTELLIGENCE"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ASTATSLOG_RESTRICTION_CATEGORY_AUTHENTICATION"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ASTATSLOG_RESTRICTION_CATEGORY_FRAUD_AND_ABUSE"
+    }
+   ],
+   "linker_set_key" : "_ZTI28AStatsLogRestrictionCategory",
+   "name" : "AStatsLogRestrictionCategory",
+   "size" : 4,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_annotations.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "LOG_ID_MIN"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "LOG_ID_MAIN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "LOG_ID_RADIO"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "LOG_ID_EVENTS"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "LOG_ID_SYSTEM"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "LOG_ID_CRASH"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "LOG_ID_STATS"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "LOG_ID_SECURITY"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "LOG_ID_KERNEL"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "LOG_ID_MAX"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "LOG_ID_DEFAULT"
+    }
+   ],
+   "linker_set_key" : "_ZTI6log_id",
+   "name" : "log_id",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h",
+   "underlying_type" : "_ZTIj"
+  }
+ ],
+ "function_types" : [],
+ "functions" :
+ [
+  {
+   "function_name" : "AStatsEvent_addBoolAnnotation",
+   "linker_set_key" : "AStatsEvent_addBoolAnnotation",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    },
+    {
+     "referenced_type" : "_ZTIh"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_addInt32Annotation",
+   "linker_set_key" : "AStatsEvent_addInt32Annotation",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    },
+    {
+     "referenced_type" : "_ZTIh"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_build",
+   "linker_set_key" : "AStatsEvent_build",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_obtain",
+   "linker_set_key" : "AStatsEvent_obtain",
+   "return_type" : "_ZTIP11AStatsEvent",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_release",
+   "linker_set_key" : "AStatsEvent_release",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_setAtomId",
+   "linker_set_key" : "AStatsEvent_setAtomId",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_write",
+   "linker_set_key" : "AStatsEvent_write",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_writeAttributionChain",
+   "linker_set_key" : "AStatsEvent_writeAttributionChain",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    },
+    {
+     "referenced_type" : "_ZTIPKj"
+    },
+    {
+     "referenced_type" : "_ZTIPKPKc"
+    },
+    {
+     "referenced_type" : "_ZTIh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_writeBool",
+   "linker_set_key" : "AStatsEvent_writeBool",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_writeBoolArray",
+   "linker_set_key" : "AStatsEvent_writeBoolArray",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    },
+    {
+     "referenced_type" : "_ZTIPKb"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_writeByteArray",
+   "linker_set_key" : "AStatsEvent_writeByteArray",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_writeFloat",
+   "linker_set_key" : "AStatsEvent_writeFloat",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    },
+    {
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_writeFloatArray",
+   "linker_set_key" : "AStatsEvent_writeFloatArray",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    },
+    {
+     "referenced_type" : "_ZTIPKf"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_writeInt32",
+   "linker_set_key" : "AStatsEvent_writeInt32",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_writeInt32Array",
+   "linker_set_key" : "AStatsEvent_writeInt32Array",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_writeInt64",
+   "linker_set_key" : "AStatsEvent_writeInt64",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    },
+    {
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_writeInt64Array",
+   "linker_set_key" : "AStatsEvent_writeInt64Array",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    },
+    {
+     "referenced_type" : "_ZTIPKl"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_writeString",
+   "linker_set_key" : "AStatsEvent_writeString",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsEvent_writeStringArray",
+   "linker_set_key" : "AStatsEvent_writeStringArray",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP11AStatsEvent"
+    },
+    {
+     "referenced_type" : "_ZTIPKPKc"
+    },
+    {
+     "referenced_type" : "_ZTIm"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "function_name" : "AStatsSocket_close",
+   "linker_set_key" : "AStatsSocket_close",
+   "return_type" : "_ZTIv",
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_socket.h"
+  }
+ ],
+ "global_vars" : [],
+ "lvalue_reference_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIR22android_log_event_list",
+   "name" : "android_log_event_list &",
+   "referenced_type" : "_ZTI22android_log_event_list",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRK8log_time",
+   "name" : "const log_time &",
+   "referenced_type" : "_ZTIK8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRK8timespec",
+   "name" : "const timespec &",
+   "referenced_type" : "_ZTIK8timespec",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>> &",
+   "referenced_type" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_event_list.h"
+  }
+ ],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP11AStatsEvent",
+   "name" : "AStatsEvent *",
+   "referenced_type" : "_ZTI11AStatsEvent",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP22android_log_event_list",
+   "name" : "android_log_event_list *",
+   "referenced_type" : "_ZTI22android_log_event_list",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP28android_log_context_internal",
+   "name" : "android_log_context_internal *",
+   "referenced_type" : "_ZTI28android_log_context_internal",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIP8log_time",
+   "name" : "log_time *",
+   "referenced_type" : "_ZTI8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK22android_log_event_list",
+   "name" : "const android_log_event_list *",
+   "referenced_type" : "_ZTIK22android_log_event_list",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK8log_time",
+   "name" : "const log_time *",
+   "referenced_type" : "_ZTIK8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKPKc",
+   "name" : "const char *const *",
+   "referenced_type" : "_ZTIKPKc",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKb",
+   "name" : "const bool *",
+   "referenced_type" : "_ZTIKb",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKc",
+   "name" : "const char *",
+   "referenced_type" : "_ZTIKc",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKf",
+   "name" : "const float *",
+   "referenced_type" : "_ZTIKf",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKh",
+   "name" : "const unsigned char *",
+   "referenced_type" : "_ZTIKh",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKi",
+   "name" : "const int *",
+   "referenced_type" : "_ZTIKi",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKj",
+   "name" : "const unsigned int *",
+   "referenced_type" : "_ZTIKj",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPKl",
+   "name" : "const long *",
+   "referenced_type" : "_ZTIKl",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPc",
+   "name" : "char *",
+   "referenced_type" : "_ZTIc",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPh",
+   "name" : "unsigned char *",
+   "referenced_type" : "_ZTIh",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPm",
+   "name" : "unsigned long *",
+   "referenced_type" : "_ZTIm",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPv",
+   "name" : "void *",
+   "referenced_type" : "_ZTIv",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_buffer_writer.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK22android_log_event_list",
+   "name" : "const android_log_event_list",
+   "referenced_type" : "_ZTI22android_log_event_list",
+   "size" : 16,
+   "source_file" : "system/logging/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK8log_time",
+   "name" : "const log_time",
+   "referenced_type" : "_ZTI8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK8timespec",
+   "name" : "const timespec",
+   "referenced_type" : "_ZTI8timespec",
+   "size" : 16,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "name" : "const std::basic_string<char, std::char_traits<char>, std::allocator<char>>",
+   "referenced_type" : "_ZTINSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+   "size" : 24,
+   "source_file" : "system/logging/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKPKc",
+   "name" : "const char *const",
+   "referenced_type" : "_ZTIPKc",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKb",
+   "name" : "const bool",
+   "referenced_type" : "_ZTIb",
+   "size" : 1,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKc",
+   "name" : "const char",
+   "referenced_type" : "_ZTIc",
+   "size" : 1,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKf",
+   "name" : "const float",
+   "referenced_type" : "_ZTIf",
+   "size" : 4,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKh",
+   "name" : "const unsigned char",
+   "referenced_type" : "_ZTIh",
+   "size" : 1,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKi",
+   "name" : "const int",
+   "referenced_type" : "_ZTIi",
+   "size" : 4,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKj",
+   "name" : "const unsigned int",
+   "referenced_type" : "_ZTIj",
+   "size" : 4,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKl",
+   "name" : "const long",
+   "referenced_type" : "_ZTIl",
+   "size" : 8,
+   "source_file" : "packages/modules/StatsD/lib/libstatssocket/include/stats_event.h"
+  }
+ ],
+ "record_types" :
+ [
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "type",
+     "referenced_type" : "_ZTIa"
+    },
+    {
+     "field_name" : "data",
+     "field_offset" : 8,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTI19android_event_int_t",
+   "name" : "android_event_int_t",
+   "size" : 5,
+   "source_file" : "system/logging/liblog/include/private/android_logger.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "type",
+     "referenced_type" : "_ZTIa"
+    },
+    {
+     "field_name" : "element_count",
+     "field_offset" : 8,
+     "referenced_type" : "_ZTIa"
+    }
+   ],
+   "linker_set_key" : "_ZTI20android_event_list_t",
+   "name" : "android_event_list_t",
+   "size" : 2,
+   "source_file" : "system/logging/liblog/include/private/android_logger.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "type",
+     "referenced_type" : "_ZTIa"
+    },
+    {
+     "field_name" : "data",
+     "field_offset" : 8,
+     "referenced_type" : "_ZTIl"
+    }
+   ],
+   "linker_set_key" : "_ZTI20android_event_long_t",
+   "name" : "android_event_long_t",
+   "size" : 9,
+   "source_file" : "system/logging/liblog/include/private/android_logger.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "id",
+     "referenced_type" : "_ZTIh"
+    },
+    {
+     "field_name" : "tid",
+     "field_offset" : 8,
+     "referenced_type" : "_ZTIt"
+    },
+    {
+     "field_name" : "realtime",
+     "field_offset" : 24,
+     "referenced_type" : "_ZTI8log_time"
+    }
+   ],
+   "linker_set_key" : "_ZTI20android_log_header_t",
+   "name" : "android_log_header_t",
+   "size" : 11,
+   "source_file" : "system/logging/liblog/include/private/android_logger.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "struct_size",
+     "referenced_type" : "_ZTIm"
+    },
+    {
+     "field_name" : "buffer_id",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "priority",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "tag",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "file",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "line",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "message",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "linker_set_key" : "_ZTI21__android_log_message",
+   "name" : "__android_log_message",
+   "size" : 48,
+   "source_file" : "system/logging/liblog/include/android/log.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "type",
+     "referenced_type" : "_ZTIa"
+    },
+    {
+     "field_name" : "data",
+     "field_offset" : 8,
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "linker_set_key" : "_ZTI21android_event_float_t",
+   "name" : "android_event_float_t",
+   "size" : 5,
+   "source_file" : "system/logging/liblog/include/private/android_logger.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "tag",
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTI22android_event_header_t",
+   "name" : "android_event_header_t",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/private/android_logger.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "type",
+     "referenced_type" : "_ZTIa"
+    },
+    {
+     "field_name" : "length",
+     "field_offset" : 8,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "data",
+     "field_offset" : 40,
+     "referenced_type" : "_ZTIA_c"
+    }
+   ],
+   "linker_set_key" : "_ZTI22android_event_string_t",
+   "name" : "android_event_string_t",
+   "size" : 5,
+   "source_file" : "system/logging/liblog/include/private/android_logger.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "ctx",
+     "referenced_type" : "_ZTIP28android_log_context_internal"
+    },
+    {
+     "access" : "private",
+     "field_name" : "ret",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTI22android_log_event_list",
+   "name" : "android_log_event_list",
+   "record_kind" : "class",
+   "size" : 16,
+   "source_file" : "system/logging/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "header",
+     "referenced_type" : "_ZTI22android_event_header_t"
+    },
+    {
+     "field_name" : "payload",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTI19android_event_int_t"
+    }
+   ],
+   "linker_set_key" : "_ZTI23android_log_event_int_t",
+   "name" : "android_log_event_int_t",
+   "size" : 9,
+   "source_file" : "system/logging/liblog/include/private/android_logger.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "header",
+     "referenced_type" : "_ZTI22android_event_header_t"
+    },
+    {
+     "field_name" : "payload",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTI20android_event_long_t"
+    }
+   ],
+   "linker_set_key" : "_ZTI24android_log_event_long_t",
+   "name" : "android_log_event_long_t",
+   "size" : 13,
+   "source_file" : "system/logging/liblog/include/private/android_logger.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "type",
+     "referenced_type" : "_ZTI19AndroidEventLogType"
+    },
+    {
+     "field_name" : "complete",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIt"
+    },
+    {
+     "field_name" : "len",
+     "field_offset" : 48,
+     "referenced_type" : "_ZTIt"
+    },
+    {
+     "field_name" : "data",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIN24android_log_list_elementUt_E"
+    }
+   ],
+   "linker_set_key" : "_ZTI24android_log_list_element",
+   "name" : "android_log_list_element",
+   "size" : 16,
+   "source_file" : "system/logging/liblog/include/log/log_event_list.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "magic",
+     "referenced_type" : "_ZTIh"
+    },
+    {
+     "field_name" : "len",
+     "field_offset" : 8,
+     "referenced_type" : "_ZTIt"
+    },
+    {
+     "field_name" : "uid",
+     "field_offset" : 24,
+     "referenced_type" : "_ZTIt"
+    },
+    {
+     "field_name" : "pid",
+     "field_offset" : 40,
+     "referenced_type" : "_ZTIt"
+    }
+   ],
+   "linker_set_key" : "_ZTI25android_pmsg_log_header_t",
+   "name" : "android_pmsg_log_header_t",
+   "size" : 7,
+   "source_file" : "system/logging/liblog/include/private/android_logger.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "header",
+     "referenced_type" : "_ZTI22android_event_header_t"
+    },
+    {
+     "field_name" : "type",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIa"
+    },
+    {
+     "field_name" : "length",
+     "field_offset" : 40,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "data",
+     "field_offset" : 72,
+     "referenced_type" : "_ZTIA_c"
+    }
+   ],
+   "linker_set_key" : "_ZTI26android_log_event_string_t",
+   "name" : "android_log_event_string_t",
+   "size" : 9,
+   "source_file" : "system/logging/liblog/include/private/android_logger.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "tv_sec",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "tv_nsec",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI8log_time",
+   "name" : "log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "field_name" : "int32",
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "int64",
+     "referenced_type" : "_ZTIl"
+    },
+    {
+     "field_name" : "string",
+     "referenced_type" : "_ZTIPc"
+    },
+    {
+     "field_name" : "float32",
+     "referenced_type" : "_ZTIf"
+    }
+   ],
+   "is_anonymous" : true,
+   "linker_set_key" : "_ZTIN24android_log_list_elementUt_E",
+   "name" : "android_log_list_element::(unnamed)",
+   "record_kind" : "union",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_event_list.h"
+  }
+ ],
+ "rvalue_reference_types" : []
+}
