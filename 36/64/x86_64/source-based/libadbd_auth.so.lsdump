@@ -284,6 +284,10 @@
     {
      "enum_field_value" : 1,
      "name" : "kAdbTransportTypeWifi"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "kAdbTransportTypeVsock"
     }
    ],
    "linker_set_key" : "_ZTI16AdbTransportType",
