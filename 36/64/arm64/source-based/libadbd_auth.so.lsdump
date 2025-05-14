@@ -269,6 +269,13 @@
   },
   {
    "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "WifiLifeCycle"
+    }
+   ],
    "linker_set_key" : "_ZTI15AdbdAuthFeature",
    "name" : "AdbdAuthFeature",
    "size" : 4,
@@ -1605,6 +1612,13 @@
    ],
    "return_type" : "_ZTIv",
    "source_file" : "frameworks/native/libs/adbd_auth/include/adbd_auth.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvvE",
+   "name" : "void ()",
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/libs/adbd_auth/include/adbd_auth.h"
   }
  ],
  "functions" :
@@ -2078,6 +2092,14 @@
   },
   {
    "alignment" : 8,
+   "linker_set_key" : "_ZTIPFvvE",
+   "name" : "void (*)()",
+   "referenced_type" : "_ZTIFvvE",
+   "size" : 8,
+   "source_file" : "frameworks/native/libs/adbd_auth/include/adbd_auth.h"
+  },
+  {
+   "alignment" : 8,
    "linker_set_key" : "_ZTIPK11EventTagMap",
    "name" : "const EventTagMap *",
    "referenced_type" : "_ZTIK11EventTagMap",
@@ -2123,6 +2145,14 @@
    "referenced_type" : "_ZTIK8log_time",
    "size" : 8,
    "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPK8timespec",
+   "name" : "const timespec *",
+   "referenced_type" : "_ZTIK8timespec",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/android/log.h"
   },
   {
    "alignment" : 8,
@@ -2562,6 +2592,32 @@
    "linker_set_key" : "_ZTI19AdbdAuthCallbacksV1",
    "name" : "AdbdAuthCallbacksV1",
    "size" : 24,
+   "source_file" : "frameworks/native/libs/adbd_auth/include/adbd_auth.h"
+  },
+  {
+   "alignment" : 8,
+   "base_specifiers" :
+   [
+    {
+     "referenced_type" : "_ZTI19AdbdAuthCallbacksV1"
+    }
+   ],
+   "fields" :
+   [
+    {
+     "field_name" : "start_adbd_wifi",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIPFvvE"
+    },
+    {
+     "field_name" : "stop_adbd_wifi",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIPFvvE"
+    }
+   ],
+   "linker_set_key" : "_ZTI19AdbdAuthCallbacksV2",
+   "name" : "AdbdAuthCallbacksV2",
+   "size" : 40,
    "source_file" : "frameworks/native/libs/adbd_auth/include/adbd_auth.h"
   },
   {
