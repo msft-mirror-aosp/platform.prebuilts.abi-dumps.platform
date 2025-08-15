@@ -1089,6 +1089,29 @@
    "enum_fields" :
    [
     {
+     "enum_field_value" : 0,
+     "name" : "CHECK_ACCESS_PERMISSION_FIND"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "CHECK_ACCESS_PERMISSION_LIST"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "CHECK_ACCESS_PERMISSION_ADD"
+    }
+   ],
+   "linker_set_key" : "_ZTI30AServiceManager_PermissionType",
+   "name" : "AServiceManager_PermissionType",
+   "size" : 4,
+   "source_file" : "frameworks/native/libs/binder/ndk/include_platform/android/binder_manager.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
      "enum_field_value" : -1,
      "name" : "APERSISTABLEBUNDLE_KEY_NOT_FOUND"
     },
@@ -6534,7 +6557,7 @@
      "referenced_type" : "_ZTIP14AIBinder_Class"
     },
     {
-     "referenced_type" : "_ZTIPPKc"
+     "referenced_type" : "_ZTIPKPKc"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -12513,7 +12536,7 @@
    "name" : "const char *const *",
    "referenced_type" : "_ZTIKPKc",
    "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
    "alignment" : 4,
@@ -13039,7 +13062,7 @@
    "name" : "const char *const",
    "referenced_type" : "_ZTIPKc",
    "size" : 4,
-   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/persistable_bundle.h"
+   "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
    "alignment" : 1,
