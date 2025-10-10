@@ -6489,7 +6489,7 @@
    "parameters" :
    [
     {
-     "referenced_type" : "_ZTIP14AIBinder_Class"
+     "referenced_type" : "_ZTIPK14AIBinder_Class"
     },
     {
      "referenced_type" : "_ZTIj"
@@ -12901,12 +12901,12 @@
    "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
-   "alignment" : 4,
+   "alignment" : 16,
    "is_const" : true,
    "linker_set_key" : "_ZTIK14AIBinder_Class",
    "name" : "const AIBinder_Class",
    "referenced_type" : "_ZTI14AIBinder_Class",
-   "size" : 48,
+   "size" : 64,
    "source_file" : "frameworks/native/libs/binder/ndk/include_ndk/android/binder_ibinder.h"
   },
   {
