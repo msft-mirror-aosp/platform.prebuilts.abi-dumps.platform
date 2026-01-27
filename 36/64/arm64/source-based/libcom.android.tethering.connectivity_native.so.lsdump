@@ -66,6 +66,9 @@
    "name" : "AConnectivityNative_blockPortForBind"
   },
   {
+   "name" : "AConnectivityNative_getNetworkBlockedReason"
+  },
+  {
    "name" : "AConnectivityNative_getPortsBlockedForBind"
   },
   {
@@ -76,7 +79,51 @@
   }
  ],
  "elf_objects" : [],
- "enum_types" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_RESOLV_NO_RETRY"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANDROID_RESOLV_NO_CACHE_STORE"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANDROID_RESOLV_NO_CACHE_LOOKUP"
+    }
+   ],
+   "linker_set_key" : "_ZTI13ResNsendFlags",
+   "name" : "ResNsendFlags",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/multinetwork.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANDROID_NETWORK_BLOCKED_REASON_NONE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_NETWORK_BLOCKED_REASON_LNP"
+    }
+   ],
+   "linker_set_key" : "_ZTI20NetworkBlockedReason",
+   "name" : "NetworkBlockedReason",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/multinetwork.h",
+   "underlying_type" : "_ZTIi"
+  }
+ ],
  "function_types" : [],
  "functions" :
  [
@@ -93,6 +140,24 @@
    [
     {
      "referenced_type" : "_ZTIt"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/Connectivity/service/libconnectivity/include/connectivity_native.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "AConnectivityNative_getNetworkBlockedReason",
+   "linker_set_key" : "AConnectivityNative_getNetworkBlockedReason",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
     }
    ],
    "return_type" : "_ZTIi",
