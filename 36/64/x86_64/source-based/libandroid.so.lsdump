@@ -4197,10 +4197,6 @@
     {
      "enum_field_value" : 5,
      "name" : "APERF_HINT_AUTO_GPU"
-    },
-    {
-     "enum_field_value" : 6,
-     "name" : "APERF_HINT_AUDIO_PERFORMANCE"
     }
    ],
    "linker_set_key" : "_ZTI23APerformanceHintFeature",
