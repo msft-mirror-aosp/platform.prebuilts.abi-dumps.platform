@@ -2081,6 +2081,14 @@
     {
      "enum_field_value" : 32,
      "name" : "AAUDIO_DEVICE_BLE_HEARING_AID"
+    },
+    {
+     "enum_field_value" : 33,
+     "name" : "AAUDIO_DEVICE_BLE_CENTRAL"
+    },
+    {
+     "enum_field_value" : 34,
+     "name" : "AAUDIO_DEVICE_BLE_CENTRAL_BROADCAST"
     }
    ],
    "linker_set_key" : "_ZTI17AAudio_DeviceType",
