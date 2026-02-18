@@ -1,0 +1,242 @@
+{
+ "array_types" : [],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIDn",
+   "name" : "std::nullptr_t",
+   "size" : 8
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "size" : 4
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "size" : 8
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIt",
+   "name" : "unsigned short",
+   "size" : 2
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "AConnectivityNative_blockPortForBind"
+  },
+  {
+   "name" : "AConnectivityNative_getNetworkBlockedReason"
+  },
+  {
+   "name" : "AConnectivityNative_getPortsBlockedForBind"
+  },
+  {
+   "name" : "AConnectivityNative_unblockAllPortsForBind"
+  },
+  {
+   "name" : "AConnectivityNative_unblockPortForBind"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_RESOLV_NO_RETRY"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANDROID_RESOLV_NO_CACHE_STORE"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANDROID_RESOLV_NO_CACHE_LOOKUP"
+    }
+   ],
+   "linker_set_key" : "_ZTI13ResNsendFlags",
+   "name" : "ResNsendFlags",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/multinetwork.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANDROID_NETWORK_BLOCKED_REASON_NONE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_NETWORK_BLOCKED_REASON_LNP"
+    }
+   ],
+   "linker_set_key" : "_ZTI20NetworkBlockedReason",
+   "name" : "NetworkBlockedReason",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/android/multinetwork.h",
+   "underlying_type" : "_ZTIi"
+  }
+ ],
+ "function_types" : [],
+ "functions" :
+ [
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 34
+    }
+   ],
+   "function_name" : "AConnectivityNative_blockPortForBind",
+   "linker_set_key" : "AConnectivityNative_blockPortForBind",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIt"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/Connectivity/service/libconnectivity/include/connectivity_native.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 37
+    }
+   ],
+   "function_name" : "AConnectivityNative_getNetworkBlockedReason",
+   "linker_set_key" : "AConnectivityNative_getNetworkBlockedReason",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/Connectivity/service/libconnectivity/include/connectivity_native.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 34
+    }
+   ],
+   "function_name" : "AConnectivityNative_getPortsBlockedForBind",
+   "linker_set_key" : "AConnectivityNative_getPortsBlockedForBind",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPt"
+    },
+    {
+     "referenced_type" : "_ZTIPm"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/Connectivity/service/libconnectivity/include/connectivity_native.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 34
+    }
+   ],
+   "function_name" : "AConnectivityNative_unblockAllPortsForBind",
+   "linker_set_key" : "AConnectivityNative_unblockAllPortsForBind",
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/Connectivity/service/libconnectivity/include/connectivity_native.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 34
+    }
+   ],
+   "function_name" : "AConnectivityNative_unblockPortForBind",
+   "linker_set_key" : "AConnectivityNative_unblockPortForBind",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIt"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "packages/modules/Connectivity/service/libconnectivity/include/connectivity_native.h"
+  }
+ ],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPm",
+   "name" : "unsigned long *",
+   "referenced_type" : "_ZTIm",
+   "size" : 8,
+   "source_file" : "packages/modules/Connectivity/service/libconnectivity/include/connectivity_native.h"
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTIPt",
+   "name" : "unsigned short *",
+   "referenced_type" : "_ZTIt",
+   "size" : 8,
+   "source_file" : "packages/modules/Connectivity/service/libconnectivity/include/connectivity_native.h"
+  }
+ ],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}

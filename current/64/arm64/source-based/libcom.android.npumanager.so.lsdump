@@ -1,0 +1,71 @@
+{
+ "array_types" : [],
+ "builtin_types" : [],
+ "elf_functions" :
+ [
+  {
+   "name" : "ANpuManagerImpl_ANpuBuffer_free"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuBuffer_loadAsync"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuBuffer_map"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuBuffer_setPriority"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuBuffer_unmap"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuManager_AllocRequest_create"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuManager_AllocRequest_free"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuManager_AllocRequest_setBufferPriority"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuManager_AllocRequest_setBufferType"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuManager_AllocRequest_setCookie"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuManager_AllocRequest_setDeviceNumber"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuManager_AllocRequest_setFileSegmentToLoad"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuManager_AllocRequest_setOnAlloc"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuManager_AllocRequest_setOnPreempt"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuManager_AllocRequest_setProtectionFlags"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuManager_AllocRequest_setSize"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuManager_allocAsync"
+  },
+  {
+   "name" : "ANpuManagerImpl_ANpuManager_isSupported"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" : [],
+ "function_types" : [],
+ "functions" : [],
+ "global_vars" : [],
+ "lvalue_reference_types" : [],
+ "pointer_types" : [],
+ "qualified_types" : [],
+ "record_types" : [],
+ "rvalue_reference_types" : []
+}
