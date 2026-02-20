@@ -1,0 +1,4233 @@
+{
+ "array_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIA15_PKc",
+   "name" : "const char *[15]",
+   "referenced_type" : "_ZTIPKc",
+   "size" : 60,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  }
+ ],
+ "builtin_types" :
+ [
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIa",
+   "name" : "signed char",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIb",
+   "name" : "bool",
+   "size" : 1
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIc",
+   "name" : "char",
+   "size" : 1
+  },
+  {
+   "alignment" : 8,
+   "linker_set_key" : "_ZTId",
+   "name" : "double",
+   "size" : 8
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIf",
+   "name" : "float",
+   "size" : 4
+  },
+  {
+   "alignment" : 1,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIh",
+   "name" : "unsigned char",
+   "size" : 1
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIi",
+   "name" : "int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIj",
+   "name" : "unsigned int",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIl",
+   "name" : "long",
+   "size" : 4
+  },
+  {
+   "alignment" : 4,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIm",
+   "name" : "unsigned long",
+   "size" : 4
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIs",
+   "name" : "short",
+   "size" : 2
+  },
+  {
+   "alignment" : 2,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIt",
+   "name" : "unsigned short",
+   "size" : 2
+  },
+  {
+   "linker_set_key" : "_ZTIv",
+   "name" : "void"
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "linker_set_key" : "_ZTIx",
+   "name" : "long long",
+   "size" : 8
+  },
+  {
+   "alignment" : 8,
+   "is_integral" : true,
+   "is_unsigned" : true,
+   "linker_set_key" : "_ZTIy",
+   "name" : "unsigned long long",
+   "size" : 8
+  }
+ ],
+ "elf_functions" :
+ [
+  {
+   "name" : "eglBindAPI"
+  },
+  {
+   "name" : "eglBindTexImage"
+  },
+  {
+   "name" : "eglChooseConfig"
+  },
+  {
+   "name" : "eglClientWaitSync"
+  },
+  {
+   "name" : "eglClientWaitSyncKHR"
+  },
+  {
+   "name" : "eglCopyBuffers"
+  },
+  {
+   "name" : "eglCreateContext"
+  },
+  {
+   "name" : "eglCreateImage"
+  },
+  {
+   "name" : "eglCreateImageKHR"
+  },
+  {
+   "name" : "eglCreatePbufferFromClientBuffer"
+  },
+  {
+   "name" : "eglCreatePbufferSurface"
+  },
+  {
+   "name" : "eglCreatePixmapSurface"
+  },
+  {
+   "name" : "eglCreatePlatformPixmapSurface"
+  },
+  {
+   "name" : "eglCreatePlatformWindowSurface"
+  },
+  {
+   "name" : "eglCreateStreamFromFileDescriptorKHR"
+  },
+  {
+   "name" : "eglCreateStreamKHR"
+  },
+  {
+   "name" : "eglCreateStreamProducerSurfaceKHR"
+  },
+  {
+   "name" : "eglCreateSync"
+  },
+  {
+   "name" : "eglCreateSyncKHR"
+  },
+  {
+   "name" : "eglCreateWindowSurface"
+  },
+  {
+   "name" : "eglDestroyContext"
+  },
+  {
+   "name" : "eglDestroyImage"
+  },
+  {
+   "name" : "eglDestroyImageKHR"
+  },
+  {
+   "name" : "eglDestroyStreamKHR"
+  },
+  {
+   "name" : "eglDestroySurface"
+  },
+  {
+   "name" : "eglDestroySync"
+  },
+  {
+   "name" : "eglDestroySyncKHR"
+  },
+  {
+   "name" : "eglGetConfigAttrib"
+  },
+  {
+   "name" : "eglGetConfigs"
+  },
+  {
+   "name" : "eglGetCurrentContext"
+  },
+  {
+   "name" : "eglGetCurrentDisplay"
+  },
+  {
+   "name" : "eglGetCurrentSurface"
+  },
+  {
+   "name" : "eglGetDisplay"
+  },
+  {
+   "name" : "eglGetError"
+  },
+  {
+   "name" : "eglGetNativeClientBufferANDROID"
+  },
+  {
+   "name" : "eglGetPlatformDisplay"
+  },
+  {
+   "name" : "eglGetProcAddress"
+  },
+  {
+   "name" : "eglGetStreamFileDescriptorKHR"
+  },
+  {
+   "name" : "eglGetSyncAttrib"
+  },
+  {
+   "name" : "eglGetSyncAttribKHR"
+  },
+  {
+   "name" : "eglGetSystemTimeFrequencyNV"
+  },
+  {
+   "name" : "eglGetSystemTimeNV"
+  },
+  {
+   "name" : "eglInitialize"
+  },
+  {
+   "name" : "eglLockSurfaceKHR"
+  },
+  {
+   "name" : "eglMakeCurrent"
+  },
+  {
+   "name" : "eglPresentationTimeANDROID"
+  },
+  {
+   "name" : "eglQueryAPI"
+  },
+  {
+   "name" : "eglQueryContext"
+  },
+  {
+   "name" : "eglQueryStreamKHR"
+  },
+  {
+   "name" : "eglQueryStreamTimeKHR"
+  },
+  {
+   "name" : "eglQueryStreamu64KHR"
+  },
+  {
+   "name" : "eglQueryString"
+  },
+  {
+   "name" : "eglQuerySurface"
+  },
+  {
+   "name" : "eglReleaseTexImage"
+  },
+  {
+   "name" : "eglReleaseThread"
+  },
+  {
+   "name" : "eglSetDamageRegionKHR"
+  },
+  {
+   "name" : "eglSignalSyncKHR"
+  },
+  {
+   "name" : "eglStreamAttribKHR"
+  },
+  {
+   "name" : "eglStreamConsumerAcquireKHR"
+  },
+  {
+   "name" : "eglStreamConsumerGLTextureExternalKHR"
+  },
+  {
+   "name" : "eglStreamConsumerReleaseKHR"
+  },
+  {
+   "name" : "eglSurfaceAttrib"
+  },
+  {
+   "name" : "eglSwapBuffers"
+  },
+  {
+   "name" : "eglSwapBuffersWithDamageKHR"
+  },
+  {
+   "name" : "eglSwapInterval"
+  },
+  {
+   "name" : "eglTerminate"
+  },
+  {
+   "name" : "eglUnlockSurfaceKHR"
+  },
+  {
+   "name" : "eglWaitClient"
+  },
+  {
+   "name" : "eglWaitGL"
+  },
+  {
+   "name" : "eglWaitNative"
+  },
+  {
+   "name" : "eglWaitSync"
+  },
+  {
+   "name" : "eglWaitSyncKHR"
+  }
+ ],
+ "elf_objects" : [],
+ "enum_types" :
+ [
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 10,
+     "name" : "EVENT_TYPE_LIST_STOP"
+    },
+    {
+     "enum_field_value" : 63,
+     "name" : "EVENT_TYPE_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "EVENT_TYPE_INT"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "EVENT_TYPE_LONG"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "EVENT_TYPE_STRING"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "EVENT_TYPE_LIST"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "EVENT_TYPE_FLOAT"
+    }
+   ],
+   "linker_set_key" : "_ZTI19AndroidEventLogType",
+   "name" : "AndroidEventLogType",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "ANDROID_LOG_UNKNOWN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "ANDROID_LOG_DEFAULT"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "ANDROID_LOG_VERBOSE"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "ANDROID_LOG_DEBUG"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "ANDROID_LOG_INFO"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "ANDROID_LOG_WARN"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "ANDROID_LOG_ERROR"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "ANDROID_LOG_FATAL"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "ANDROID_LOG_SILENT"
+    }
+   ],
+   "linker_set_key" : "_ZTI19android_LogPriority",
+   "name" : "android_LogPriority",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "KHRONOS_FALSE"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "KHRONOS_TRUE"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "KHRONOS_BOOLEAN_ENUM_FORCE_SIZE"
+    }
+   ],
+   "linker_set_key" : "_ZTI22khronos_boolean_enum_t",
+   "name" : "khronos_boolean_enum_t",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/KHR/khrplatform.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "LOG_ID_MIN"
+    },
+    {
+     "enum_field_value" : 0,
+     "name" : "LOG_ID_MAIN"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "LOG_ID_RADIO"
+    },
+    {
+     "enum_field_value" : 2,
+     "name" : "LOG_ID_EVENTS"
+    },
+    {
+     "enum_field_value" : 3,
+     "name" : "LOG_ID_SYSTEM"
+    },
+    {
+     "enum_field_value" : 4,
+     "name" : "LOG_ID_CRASH"
+    },
+    {
+     "enum_field_value" : 5,
+     "name" : "LOG_ID_STATS"
+    },
+    {
+     "enum_field_value" : 6,
+     "name" : "LOG_ID_SECURITY"
+    },
+    {
+     "enum_field_value" : 7,
+     "name" : "LOG_ID_KERNEL"
+    },
+    {
+     "enum_field_value" : 8,
+     "name" : "LOG_ID_MAX"
+    },
+    {
+     "enum_field_value" : 2147483647,
+     "name" : "LOG_ID_DEFAULT"
+    }
+   ],
+   "linker_set_key" : "_ZTI6log_id",
+   "name" : "log_id",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 0,
+     "name" : "android::Parcelable::Stability::STABILITY_LOCAL"
+    },
+    {
+     "enum_field_value" : 1,
+     "name" : "android::Parcelable::Stability::STABILITY_VINTF"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android10Parcelable9StabilityE",
+   "name" : "android::Parcelable::Stability",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcelable.h",
+   "underlying_type" : "_ZTIi"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<bool>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIbE6$valueE",
+   "name" : "android::trait_trivial_copy<bool>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIcE6$valueE",
+   "name" : "android::trait_trivial_copy<char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<double>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIdE6$valueE",
+   "name" : "android::trait_trivial_copy<double>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<float>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIfE6$valueE",
+   "name" : "android::trait_trivial_copy<float>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIhE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIiE6$valueE",
+   "name" : "android::trait_trivial_copy<int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIjE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIlE6$valueE",
+   "name" : "android::trait_trivial_copy<long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyImE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIsE6$valueE",
+   "name" : "android::trait_trivial_copy<short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyItE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<void>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIvE6$valueE",
+   "name" : "android::trait_trivial_copy<void>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIxE6$valueE",
+   "name" : "android::trait_trivial_copy<long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_copy<unsigned long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIyE6$valueE",
+   "name" : "android::trait_trivial_copy<unsigned long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<bool>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIbE6$valueE",
+   "name" : "android::trait_trivial_ctor<bool>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIcE6$valueE",
+   "name" : "android::trait_trivial_ctor<char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<double>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIdE6$valueE",
+   "name" : "android::trait_trivial_ctor<double>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<float>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIfE6$valueE",
+   "name" : "android::trait_trivial_ctor<float>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIhE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIiE6$valueE",
+   "name" : "android::trait_trivial_ctor<int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIjE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIlE6$valueE",
+   "name" : "android::trait_trivial_ctor<long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorImE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIsE6$valueE",
+   "name" : "android::trait_trivial_ctor<short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorItE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<void>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIvE6$valueE",
+   "name" : "android::trait_trivial_ctor<void>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIxE6$valueE",
+   "name" : "android::trait_trivial_ctor<long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_ctor<unsigned long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIyE6$valueE",
+   "name" : "android::trait_trivial_ctor<unsigned long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<bool>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIbE6$valueE",
+   "name" : "android::trait_trivial_dtor<bool>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIcE6$valueE",
+   "name" : "android::trait_trivial_dtor<char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<double>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIdE6$valueE",
+   "name" : "android::trait_trivial_dtor<double>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<float>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIfE6$valueE",
+   "name" : "android::trait_trivial_dtor<float>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIhE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIiE6$valueE",
+   "name" : "android::trait_trivial_dtor<int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIjE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIlE6$valueE",
+   "name" : "android::trait_trivial_dtor<long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorImE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIsE6$valueE",
+   "name" : "android::trait_trivial_dtor<short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorItE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<void>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIvE6$valueE",
+   "name" : "android::trait_trivial_dtor<void>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIxE6$valueE",
+   "name" : "android::trait_trivial_dtor<long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_dtor<unsigned long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIyE6$valueE",
+   "name" : "android::trait_trivial_dtor<unsigned long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<bool>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIbE6$valueE",
+   "name" : "android::trait_trivial_move<bool>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIcE6$valueE",
+   "name" : "android::trait_trivial_move<char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<double>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIdE6$valueE",
+   "name" : "android::trait_trivial_move<double>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<float>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIfE6$valueE",
+   "name" : "android::trait_trivial_move<float>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned char>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIhE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned char>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIiE6$valueE",
+   "name" : "android::trait_trivial_move<int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned int>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIjE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned int>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIlE6$valueE",
+   "name" : "android::trait_trivial_move<long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveImE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIsE6$valueE",
+   "name" : "android::trait_trivial_move<short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned short>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveItE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned short>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<void>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIvE6$valueE",
+   "name" : "android::trait_trivial_move<void>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIxE6$valueE",
+   "name" : "android::trait_trivial_move<long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  },
+  {
+   "alignment" : 4,
+   "enum_fields" :
+   [
+    {
+     "enum_field_value" : 1,
+     "name" : "android::trait_trivial_move<unsigned long long>::value"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIyE6$valueE",
+   "name" : "android::trait_trivial_move<unsigned long long>::(unnamed)",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "underlying_type" : "_ZTIj"
+  }
+ ],
+ "function_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFPKhPN5angle15PlatformMethodsEPKcE",
+   "name" : "const unsigned char *(angle::PlatformMethods *, const char *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPN5angle15PlatformMethodsE"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIPKh",
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFdPN5angle15PlatformMethodsEE",
+   "name" : "double (angle::PlatformMethods *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPN5angle15PlatformMethodsE"
+    }
+   ],
+   "return_type" : "_ZTId",
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPN5angle15PlatformMethodsEPKcE",
+   "name" : "void (angle::PlatformMethods *, const char *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPN5angle15PlatformMethodsE"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPN5angle15PlatformMethodsEPKcbE",
+   "name" : "void (angle::PlatformMethods *, const char *, bool)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPN5angle15PlatformMethodsE"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIb"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPN5angle15PlatformMethodsEPKciE",
+   "name" : "void (angle::PlatformMethods *, const char *, int)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPN5angle15PlatformMethodsE"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPN5angle15PlatformMethodsEPKciiE",
+   "name" : "void (angle::PlatformMethods *, const char *, int, int)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPN5angle15PlatformMethodsE"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPN5angle15PlatformMethodsEPKciiiiE",
+   "name" : "void (angle::PlatformMethods *, const char *, int, int, int, int)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPN5angle15PlatformMethodsE"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPN5angle15PlatformMethodsEPKhPKcyE",
+   "name" : "void (angle::PlatformMethods *, const unsigned char *, const char *, unsigned long long)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPN5angle15PlatformMethodsE"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPN5angle15PlatformMethodsEPNS_10FeaturesVkEE",
+   "name" : "void (angle::PlatformMethods *, angle::FeaturesVk *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPN5angle15PlatformMethodsE"
+    },
+    {
+     "referenced_type" : "_ZTIPN5angle10FeaturesVkE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPN5angle15PlatformMethodsEPNS_14WorkaroundsD3DEE",
+   "name" : "void (angle::PlatformMethods *, angle::WorkaroundsD3D *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPN5angle15PlatformMethodsE"
+    },
+    {
+     "referenced_type" : "_ZTIPN5angle14WorkaroundsD3DE"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvPN5angle15PlatformMethodsERKNSt3__15arrayIhLj20EEEjPKhE",
+   "name" : "void (angle::PlatformMethods *, const std::array<unsigned char, 20> &, unsigned int, const unsigned char *)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPN5angle15PlatformMethodsE"
+    },
+    {
+     "referenced_type" : "_ZTIRKNSt3__15arrayIhLj20EEE"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    }
+   ],
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFvvE",
+   "name" : "void ()",
+   "return_type" : "_ZTIv",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIFyPN5angle15PlatformMethodsEcPKhPKcydiPS5_S3_PKyhE",
+   "name" : "unsigned long long (angle::PlatformMethods *, char, const unsigned char *, const char *, unsigned long long, double, int, const char **, const unsigned char *, const unsigned long long *, unsigned char)",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPN5angle15PlatformMethodsE"
+    },
+    {
+     "referenced_type" : "_ZTIc"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "referenced_type" : "_ZTIy"
+    },
+    {
+     "referenced_type" : "_ZTId"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPPKc"
+    },
+    {
+     "referenced_type" : "_ZTIPKh"
+    },
+    {
+     "referenced_type" : "_ZTIPKy"
+    },
+    {
+     "referenced_type" : "_ZTIh"
+    }
+   ],
+   "return_type" : "_ZTIy",
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  }
+ ],
+ "functions" :
+ [
+  {
+   "function_name" : "eglBindAPI",
+   "linker_set_key" : "eglBindAPI",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglBindTexImage",
+   "linker_set_key" : "eglBindTexImage",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglChooseConfig",
+   "linker_set_key" : "eglChooseConfig",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    },
+    {
+     "referenced_type" : "_ZTIPPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglClientWaitSync",
+   "linker_set_key" : "eglClientWaitSync",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglClientWaitSyncKHR",
+   "linker_set_key" : "eglClientWaitSyncKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglCopyBuffers",
+   "linker_set_key" : "eglCopyBuffers",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIP19egl_native_pixmap_t"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglCreateContext",
+   "linker_set_key" : "eglCreateContext",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglCreateImage",
+   "linker_set_key" : "eglCreateImage",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglCreateImageKHR",
+   "linker_set_key" : "eglCreateImageKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglCreatePbufferFromClientBuffer",
+   "linker_set_key" : "eglCreatePbufferFromClientBuffer",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglCreatePbufferSurface",
+   "linker_set_key" : "eglCreatePbufferSurface",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglCreatePixmapSurface",
+   "linker_set_key" : "eglCreatePixmapSurface",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIP19egl_native_pixmap_t"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglCreatePlatformPixmapSurface",
+   "linker_set_key" : "eglCreatePlatformPixmapSurface",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglCreatePlatformWindowSurface",
+   "linker_set_key" : "eglCreatePlatformWindowSurface",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglCreateStreamFromFileDescriptorKHR",
+   "linker_set_key" : "eglCreateStreamFromFileDescriptorKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglCreateStreamKHR",
+   "linker_set_key" : "eglCreateStreamKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglCreateStreamProducerSurfaceKHR",
+   "linker_set_key" : "eglCreateStreamProducerSurfaceKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglCreateSync",
+   "linker_set_key" : "eglCreateSync",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglCreateSyncKHR",
+   "linker_set_key" : "eglCreateSyncKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglCreateWindowSurface",
+   "linker_set_key" : "eglCreateWindowSurface",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIP13ANativeWindow"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglDestroyContext",
+   "linker_set_key" : "eglDestroyContext",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglDestroyImage",
+   "linker_set_key" : "eglDestroyImage",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglDestroyImageKHR",
+   "linker_set_key" : "eglDestroyImageKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglDestroyStreamKHR",
+   "linker_set_key" : "eglDestroyStreamKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglDestroySurface",
+   "linker_set_key" : "eglDestroySurface",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglDestroySync",
+   "linker_set_key" : "eglDestroySync",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglDestroySyncKHR",
+   "linker_set_key" : "eglDestroySyncKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglGetConfigAttrib",
+   "linker_set_key" : "eglGetConfigAttrib",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglGetConfigs",
+   "linker_set_key" : "eglGetConfigs",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglGetCurrentContext",
+   "linker_set_key" : "eglGetCurrentContext",
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglGetCurrentDisplay",
+   "linker_set_key" : "eglGetCurrentDisplay",
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglGetCurrentSurface",
+   "linker_set_key" : "eglGetCurrentSurface",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglGetDisplay",
+   "linker_set_key" : "eglGetDisplay",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglGetError",
+   "linker_set_key" : "eglGetError",
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglGetNativeClientBufferANDROID",
+   "linker_set_key" : "eglGetNativeClientBufferANDROID",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPK15AHardwareBuffer"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglGetPlatformDisplay",
+   "linker_set_key" : "eglGetPlatformDisplay",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIPv",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglGetProcAddress",
+   "linker_set_key" : "eglGetProcAddress",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTIPFvvE",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglGetStreamFileDescriptorKHR",
+   "linker_set_key" : "eglGetStreamFileDescriptorKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglGetSyncAttrib",
+   "linker_set_key" : "eglGetSyncAttrib",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglGetSyncAttribKHR",
+   "linker_set_key" : "eglGetSyncAttribKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglGetSystemTimeFrequencyNV",
+   "linker_set_key" : "eglGetSystemTimeFrequencyNV",
+   "return_type" : "_ZTIy",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglGetSystemTimeNV",
+   "linker_set_key" : "eglGetSystemTimeNV",
+   "return_type" : "_ZTIy",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglInitialize",
+   "linker_set_key" : "eglInitialize",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglLockSurfaceKHR",
+   "linker_set_key" : "eglLockSurfaceKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglMakeCurrent",
+   "linker_set_key" : "eglMakeCurrent",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglPresentationTimeANDROID",
+   "linker_set_key" : "eglPresentationTimeANDROID",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIx"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglQueryAPI",
+   "linker_set_key" : "eglQueryAPI",
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglQueryContext",
+   "linker_set_key" : "eglQueryContext",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglQueryStreamKHR",
+   "linker_set_key" : "eglQueryStreamKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglQueryStreamTimeKHR",
+   "linker_set_key" : "eglQueryStreamTimeKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPy"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglQueryStreamu64KHR",
+   "linker_set_key" : "eglQueryStreamu64KHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPy"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglQueryString",
+   "linker_set_key" : "eglQueryString",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIPKc",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglQuerySurface",
+   "linker_set_key" : "eglQuerySurface",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglReleaseTexImage",
+   "linker_set_key" : "eglReleaseTexImage",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglReleaseThread",
+   "linker_set_key" : "eglReleaseThread",
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglSetDamageRegionKHR",
+   "linker_set_key" : "eglSetDamageRegionKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglSignalSyncKHR",
+   "linker_set_key" : "eglSignalSyncKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglStreamAttribKHR",
+   "linker_set_key" : "eglStreamAttribKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglStreamConsumerAcquireKHR",
+   "linker_set_key" : "eglStreamConsumerAcquireKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglStreamConsumerGLTextureExternalKHR",
+   "linker_set_key" : "eglStreamConsumerGLTextureExternalKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglStreamConsumerReleaseKHR",
+   "linker_set_key" : "eglStreamConsumerReleaseKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglSurfaceAttrib",
+   "linker_set_key" : "eglSurfaceAttrib",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglSwapBuffers",
+   "linker_set_key" : "eglSwapBuffers",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglSwapBuffersWithDamageKHR",
+   "linker_set_key" : "eglSwapBuffersWithDamageKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPKi"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglSwapInterval",
+   "linker_set_key" : "eglSwapInterval",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglTerminate",
+   "linker_set_key" : "eglTerminate",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglUnlockSurfaceKHR",
+   "linker_set_key" : "eglUnlockSurfaceKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "function_name" : "eglWaitClient",
+   "linker_set_key" : "eglWaitClient",
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglWaitGL",
+   "linker_set_key" : "eglWaitGL",
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglWaitNative",
+   "linker_set_key" : "eglWaitNative",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglWaitSync",
+   "linker_set_key" : "eglWaitSync",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIj",
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "function_name" : "eglWaitSyncKHR",
+   "linker_set_key" : "eglWaitSyncKHR",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  }
+ ],
+ "global_vars" : [],
+ "lvalue_reference_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRK8log_time",
+   "name" : "const log_time &",
+   "referenced_type" : "_ZTIK8log_time",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRK8timespec",
+   "name" : "const timespec &",
+   "referenced_type" : "_ZTIK8timespec",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKN7android10ParcelableE",
+   "name" : "const android::Parcelable &",
+   "referenced_type" : "_ZTIKN7android10ParcelableE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcelable.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKNSt3__15arrayIhLj20EEE",
+   "name" : "const std::array<unsigned char, 20> &",
+   "referenced_type" : "_ZTIKNSt3__15arrayIhLj20EEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKa",
+   "name" : "const signed char &",
+   "referenced_type" : "_ZTIKa",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKb",
+   "name" : "const bool &",
+   "referenced_type" : "_ZTIKb",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKd",
+   "name" : "const double &",
+   "referenced_type" : "_ZTIKd",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKf",
+   "name" : "const float &",
+   "referenced_type" : "_ZTIKf",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKh",
+   "name" : "const unsigned char &",
+   "referenced_type" : "_ZTIKh",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKi",
+   "name" : "const int &",
+   "referenced_type" : "_ZTIKi",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKj",
+   "name" : "const unsigned int &",
+   "referenced_type" : "_ZTIKj",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKs",
+   "name" : "const short &",
+   "referenced_type" : "_ZTIKs",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKt",
+   "name" : "const unsigned short &",
+   "referenced_type" : "_ZTIKt",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKx",
+   "name" : "const long long &",
+   "referenced_type" : "_ZTIKx",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIRKy",
+   "name" : "const unsigned long long &",
+   "referenced_type" : "_ZTIKy",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  }
+ ],
+ "pointer_types" :
+ [
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP13ANativeWindow",
+   "name" : "ANativeWindow *",
+   "referenced_type" : "_ZTI13ANativeWindow",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP19egl_native_pixmap_t",
+   "name" : "egl_native_pixmap_t *",
+   "referenced_type" : "_ZTI19egl_native_pixmap_t",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP8log_time",
+   "name" : "log_time *",
+   "referenced_type" : "_ZTI8log_time",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFPKhPN5angle15PlatformMethodsEPKcE",
+   "name" : "const unsigned char *(*)(angle::PlatformMethods *, const char *)",
+   "referenced_type" : "_ZTIFPKhPN5angle15PlatformMethodsEPKcE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFdPN5angle15PlatformMethodsEE",
+   "name" : "double (*)(angle::PlatformMethods *)",
+   "referenced_type" : "_ZTIFdPN5angle15PlatformMethodsEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFvPN5angle15PlatformMethodsEPKcE",
+   "name" : "void (*)(angle::PlatformMethods *, const char *)",
+   "referenced_type" : "_ZTIFvPN5angle15PlatformMethodsEPKcE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFvPN5angle15PlatformMethodsEPKcbE",
+   "name" : "void (*)(angle::PlatformMethods *, const char *, bool)",
+   "referenced_type" : "_ZTIFvPN5angle15PlatformMethodsEPKcbE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFvPN5angle15PlatformMethodsEPKciE",
+   "name" : "void (*)(angle::PlatformMethods *, const char *, int)",
+   "referenced_type" : "_ZTIFvPN5angle15PlatformMethodsEPKciE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFvPN5angle15PlatformMethodsEPKciiE",
+   "name" : "void (*)(angle::PlatformMethods *, const char *, int, int)",
+   "referenced_type" : "_ZTIFvPN5angle15PlatformMethodsEPKciiE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFvPN5angle15PlatformMethodsEPKciiiiE",
+   "name" : "void (*)(angle::PlatformMethods *, const char *, int, int, int, int)",
+   "referenced_type" : "_ZTIFvPN5angle15PlatformMethodsEPKciiiiE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFvPN5angle15PlatformMethodsEPKhPKcyE",
+   "name" : "void (*)(angle::PlatformMethods *, const unsigned char *, const char *, unsigned long long)",
+   "referenced_type" : "_ZTIFvPN5angle15PlatformMethodsEPKhPKcyE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFvPN5angle15PlatformMethodsEPNS_10FeaturesVkEE",
+   "name" : "void (*)(angle::PlatformMethods *, angle::FeaturesVk *)",
+   "referenced_type" : "_ZTIFvPN5angle15PlatformMethodsEPNS_10FeaturesVkEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFvPN5angle15PlatformMethodsEPNS_14WorkaroundsD3DEE",
+   "name" : "void (*)(angle::PlatformMethods *, angle::WorkaroundsD3D *)",
+   "referenced_type" : "_ZTIFvPN5angle15PlatformMethodsEPNS_14WorkaroundsD3DEE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFvPN5angle15PlatformMethodsERKNSt3__15arrayIhLj20EEEjPKhE",
+   "name" : "void (*)(angle::PlatformMethods *, const std::array<unsigned char, 20> &, unsigned int, const unsigned char *)",
+   "referenced_type" : "_ZTIFvPN5angle15PlatformMethodsERKNSt3__15arrayIhLj20EEEjPKhE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFvvE",
+   "name" : "void (*)()",
+   "referenced_type" : "_ZTIFvvE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPFyPN5angle15PlatformMethodsEcPKhPKcydiPS5_S3_PKyhE",
+   "name" : "unsigned long long (*)(angle::PlatformMethods *, char, const unsigned char *, const char *, unsigned long long, double, int, const char **, const unsigned char *, const unsigned long long *, unsigned char)",
+   "referenced_type" : "_ZTIFyPN5angle15PlatformMethodsEcPKhPKcydiPS5_S3_PKyhE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK15AHardwareBuffer",
+   "name" : "const AHardwareBuffer *",
+   "referenced_type" : "_ZTIK15AHardwareBuffer",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPK8log_time",
+   "name" : "const log_time *",
+   "referenced_type" : "_ZTIK8log_time",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKN7android10ParcelableE",
+   "name" : "const android::Parcelable *",
+   "referenced_type" : "_ZTIKN7android10ParcelableE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcelable.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKc",
+   "name" : "const char *",
+   "referenced_type" : "_ZTIKc",
+   "size" : 4,
+   "source_file" : "system/logging/liblog/include/android/log.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKh",
+   "name" : "const unsigned char *",
+   "referenced_type" : "_ZTIKh",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKi",
+   "name" : "const int *",
+   "referenced_type" : "_ZTIKi",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPKy",
+   "name" : "const unsigned long long *",
+   "referenced_type" : "_ZTIKy",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN5angle10FeaturesVkE",
+   "name" : "angle::FeaturesVk *",
+   "referenced_type" : "_ZTIN5angle10FeaturesVkE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN5angle14WorkaroundsD3DE",
+   "name" : "angle::WorkaroundsD3D *",
+   "referenced_type" : "_ZTIN5angle14WorkaroundsD3DE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN5angle15PlatformMethodsE",
+   "name" : "angle::PlatformMethods *",
+   "referenced_type" : "_ZTIN5angle15PlatformMethodsE",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android10ParcelableE",
+   "name" : "android::Parcelable *",
+   "referenced_type" : "_ZTIN7android10ParcelableE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcelable.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPN7android11ScopedTraceE",
+   "name" : "android::ScopedTrace *",
+   "referenced_type" : "_ZTIN7android11ScopedTraceE",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/Trace.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPPKc",
+   "name" : "const char **",
+   "referenced_type" : "_ZTIPKc",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPPv",
+   "name" : "void **",
+   "referenced_type" : "_ZTIPv",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPi",
+   "name" : "int *",
+   "referenced_type" : "_ZTIi",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPv",
+   "name" : "void *",
+   "referenced_type" : "_ZTIv",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPx",
+   "name" : "long long *",
+   "referenced_type" : "_ZTIx",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPy",
+   "name" : "unsigned long long *",
+   "referenced_type" : "_ZTIy",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  }
+ ],
+ "qualified_types" :
+ [
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIA15_KPKc",
+   "name" : "const char *const[15]",
+   "referenced_type" : "_ZTIA15_PKc",
+   "size" : 60,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK15AHardwareBuffer",
+   "name" : "const AHardwareBuffer",
+   "referenced_type" : "_ZTI15AHardwareBuffer",
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK8log_time",
+   "name" : "const log_time",
+   "referenced_type" : "_ZTI8log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK8timespec",
+   "name" : "const timespec",
+   "referenced_type" : "_ZTI8timespec",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKN7android10ParcelableE",
+   "name" : "const android::Parcelable",
+   "referenced_type" : "_ZTIN7android10ParcelableE",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcelable.h"
+  },
+  {
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKNSt3__15arrayIhLj20EEE",
+   "name" : "const std::array<unsigned char, 20>",
+   "referenced_type" : "_ZTINSt3__15arrayIhLj20EEE",
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKa",
+   "name" : "const signed char",
+   "referenced_type" : "_ZTIa",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKb",
+   "name" : "const bool",
+   "referenced_type" : "_ZTIb",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKc",
+   "name" : "const char",
+   "referenced_type" : "_ZTIc",
+   "size" : 1,
+   "source_file" : "system/logging/liblog/include/android/log.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKd",
+   "name" : "const double",
+   "referenced_type" : "_ZTId",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKf",
+   "name" : "const float",
+   "referenced_type" : "_ZTIf",
+   "size" : 4,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 1,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKh",
+   "name" : "const unsigned char",
+   "referenced_type" : "_ZTIh",
+   "size" : 1,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKi",
+   "name" : "const int",
+   "referenced_type" : "_ZTIi",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/egl.h"
+  },
+  {
+   "alignment" : 4,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKj",
+   "name" : "const unsigned int",
+   "referenced_type" : "_ZTIj",
+   "size" : 4,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 2,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKs",
+   "name" : "const short",
+   "referenced_type" : "_ZTIs",
+   "size" : 2,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 2,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKt",
+   "name" : "const unsigned short",
+   "referenced_type" : "_ZTIt",
+   "size" : 2,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKx",
+   "name" : "const long long",
+   "referenced_type" : "_ZTIx",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/TypeHelpers.h"
+  },
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIKy",
+   "name" : "const unsigned long long",
+   "referenced_type" : "_ZTIy",
+   "size" : 8,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  }
+ ],
+ "record_types" :
+ [
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "pData",
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "iWidth",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "iHeight",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "iStride",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIi"
+    }
+   ],
+   "linker_set_key" : "_ZTI17EGLClientPixmapHI",
+   "name" : "EGLClientPixmapHI",
+   "size" : 16,
+   "source_file" : "frameworks/native/opengl/include/EGL/eglext.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "struct_size",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "buffer_id",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "priority",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIi"
+    },
+    {
+     "field_name" : "tag",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "file",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIPKc"
+    },
+    {
+     "field_name" : "line",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "message",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "linker_set_key" : "_ZTI21__android_log_message",
+   "name" : "__android_log_message",
+   "size" : 28,
+   "source_file" : "system/logging/liblog/include/android/log.h"
+  },
+  {
+   "alignment" : 1,
+   "fields" :
+   [
+    {
+     "field_name" : "tv_sec",
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "field_name" : "tv_nsec",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIj"
+    }
+   ],
+   "linker_set_key" : "_ZTI8log_time",
+   "name" : "log_time",
+   "size" : 8,
+   "source_file" : "system/logging/liblog/include/log/log_time.h"
+  },
+  {
+   "alignment" : 4,
+   "fields" :
+   [
+    {
+     "field_name" : "context",
+     "referenced_type" : "_ZTIPv"
+    },
+    {
+     "field_name" : "currentTime",
+     "field_offset" : 32,
+     "referenced_type" : "_ZTIPFdPN5angle15PlatformMethodsEE"
+    },
+    {
+     "field_name" : "monotonicallyIncreasingTime",
+     "field_offset" : 64,
+     "referenced_type" : "_ZTIPFdPN5angle15PlatformMethodsEE"
+    },
+    {
+     "field_name" : "logError",
+     "field_offset" : 96,
+     "referenced_type" : "_ZTIPFvPN5angle15PlatformMethodsEPKcE"
+    },
+    {
+     "field_name" : "logWarning",
+     "field_offset" : 128,
+     "referenced_type" : "_ZTIPFvPN5angle15PlatformMethodsEPKcE"
+    },
+    {
+     "field_name" : "logInfo",
+     "field_offset" : 160,
+     "referenced_type" : "_ZTIPFvPN5angle15PlatformMethodsEPKcE"
+    },
+    {
+     "field_name" : "getTraceCategoryEnabledFlag",
+     "field_offset" : 192,
+     "referenced_type" : "_ZTIPFPKhPN5angle15PlatformMethodsEPKcE"
+    },
+    {
+     "field_name" : "addTraceEvent",
+     "field_offset" : 224,
+     "referenced_type" : "_ZTIPFyPN5angle15PlatformMethodsEcPKhPKcydiPS5_S3_PKyhE"
+    },
+    {
+     "field_name" : "updateTraceEventDuration",
+     "field_offset" : 256,
+     "referenced_type" : "_ZTIPFvPN5angle15PlatformMethodsEPKhPKcyE"
+    },
+    {
+     "field_name" : "histogramCustomCounts",
+     "field_offset" : 288,
+     "referenced_type" : "_ZTIPFvPN5angle15PlatformMethodsEPKciiiiE"
+    },
+    {
+     "field_name" : "histogramEnumeration",
+     "field_offset" : 320,
+     "referenced_type" : "_ZTIPFvPN5angle15PlatformMethodsEPKciiE"
+    },
+    {
+     "field_name" : "histogramSparse",
+     "field_offset" : 352,
+     "referenced_type" : "_ZTIPFvPN5angle15PlatformMethodsEPKciE"
+    },
+    {
+     "field_name" : "histogramBoolean",
+     "field_offset" : 384,
+     "referenced_type" : "_ZTIPFvPN5angle15PlatformMethodsEPKcbE"
+    },
+    {
+     "field_name" : "overrideWorkaroundsD3D",
+     "field_offset" : 416,
+     "referenced_type" : "_ZTIPFvPN5angle15PlatformMethodsEPNS_14WorkaroundsD3DEE"
+    },
+    {
+     "field_name" : "overrideFeaturesVk",
+     "field_offset" : 448,
+     "referenced_type" : "_ZTIPFvPN5angle15PlatformMethodsEPNS_10FeaturesVkEE"
+    },
+    {
+     "field_name" : "cacheProgram",
+     "field_offset" : 480,
+     "referenced_type" : "_ZTIPFvPN5angle15PlatformMethodsERKNSt3__15arrayIhLj20EEEjPKhE"
+    }
+   ],
+   "linker_set_key" : "_ZTIN5angle15PlatformMethodsE",
+   "name" : "angle::PlatformMethods",
+   "size" : 64,
+   "source_file" : "frameworks/native/opengl/include/EGL/Platform.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIN7android10ParcelableE",
+   "name" : "android::Parcelable",
+   "record_kind" : "class",
+   "size" : 4,
+   "source_file" : "frameworks/native/include/binder/Parcelable.h",
+   "vtable_components" :
+   [
+    {
+     "kind" : "offset_to_top"
+    },
+    {
+     "kind" : "rtti",
+     "mangled_component_name" : "_ZTIN7android10ParcelableE"
+    },
+    {
+     "kind" : "complete_dtor_pointer",
+     "mangled_component_name" : "_ZN7android10ParcelableD1Ev"
+    },
+    {
+     "kind" : "deleting_dtor_pointer",
+     "mangled_component_name" : "_ZN7android10ParcelableD0Ev"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZNK7android10Parcelable13writeToParcelEPNS_6ParcelE"
+    },
+    {
+     "is_pure" : true,
+     "mangled_component_name" : "_ZN7android10Parcelable14readFromParcelEPKNS_6ParcelE"
+    },
+    {
+     "mangled_component_name" : "_ZNK7android10Parcelable12getStabilityEv"
+    }
+   ]
+  },
+  {
+   "alignment" : 8,
+   "fields" :
+   [
+    {
+     "access" : "private",
+     "field_name" : "mTag",
+     "referenced_type" : "_ZTIy"
+    }
+   ],
+   "linker_set_key" : "_ZTIN7android11ScopedTraceE",
+   "name" : "android::ScopedTrace",
+   "record_kind" : "class",
+   "size" : 8,
+   "source_file" : "system/core/include/utils/Trace.h"
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIbEE",
+   "name" : "android::trait_trivial_copy<bool>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIb"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIcEE",
+   "name" : "android::trait_trivial_copy<char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIdEE",
+   "name" : "android::trait_trivial_copy<double>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIfEE",
+   "name" : "android::trait_trivial_copy<float>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIhEE",
+   "name" : "android::trait_trivial_copy<unsigned char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIh"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIiEE",
+   "name" : "android::trait_trivial_copy<int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIjEE",
+   "name" : "android::trait_trivial_copy<unsigned int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIlEE",
+   "name" : "android::trait_trivial_copy<long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIl"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyImEE",
+   "name" : "android::trait_trivial_copy<unsigned long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIsEE",
+   "name" : "android::trait_trivial_copy<short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyItEE",
+   "name" : "android::trait_trivial_copy<unsigned short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIt"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIvEE",
+   "name" : "android::trait_trivial_copy<void>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIxEE",
+   "name" : "android::trait_trivial_copy<long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIx"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_copyIyEE",
+   "name" : "android::trait_trivial_copy<unsigned long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIbEE",
+   "name" : "android::trait_trivial_ctor<bool>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIb"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIcEE",
+   "name" : "android::trait_trivial_ctor<char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIdEE",
+   "name" : "android::trait_trivial_ctor<double>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIfEE",
+   "name" : "android::trait_trivial_ctor<float>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIhEE",
+   "name" : "android::trait_trivial_ctor<unsigned char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIh"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIiEE",
+   "name" : "android::trait_trivial_ctor<int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIjEE",
+   "name" : "android::trait_trivial_ctor<unsigned int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIlEE",
+   "name" : "android::trait_trivial_ctor<long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIl"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorImEE",
+   "name" : "android::trait_trivial_ctor<unsigned long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIsEE",
+   "name" : "android::trait_trivial_ctor<short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorItEE",
+   "name" : "android::trait_trivial_ctor<unsigned short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIt"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIvEE",
+   "name" : "android::trait_trivial_ctor<void>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIxEE",
+   "name" : "android::trait_trivial_ctor<long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIx"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_ctorIyEE",
+   "name" : "android::trait_trivial_ctor<unsigned long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIbEE",
+   "name" : "android::trait_trivial_dtor<bool>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIb"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIcEE",
+   "name" : "android::trait_trivial_dtor<char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIdEE",
+   "name" : "android::trait_trivial_dtor<double>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIfEE",
+   "name" : "android::trait_trivial_dtor<float>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIhEE",
+   "name" : "android::trait_trivial_dtor<unsigned char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIh"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIiEE",
+   "name" : "android::trait_trivial_dtor<int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIjEE",
+   "name" : "android::trait_trivial_dtor<unsigned int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIlEE",
+   "name" : "android::trait_trivial_dtor<long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIl"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorImEE",
+   "name" : "android::trait_trivial_dtor<unsigned long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIsEE",
+   "name" : "android::trait_trivial_dtor<short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorItEE",
+   "name" : "android::trait_trivial_dtor<unsigned short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIt"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIvEE",
+   "name" : "android::trait_trivial_dtor<void>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIxEE",
+   "name" : "android::trait_trivial_dtor<long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIx"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_dtorIyEE",
+   "name" : "android::trait_trivial_dtor<unsigned long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIy"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIbEE",
+   "name" : "android::trait_trivial_move<bool>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIb"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIcEE",
+   "name" : "android::trait_trivial_move<char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIc"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIdEE",
+   "name" : "android::trait_trivial_move<double>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTId"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIfEE",
+   "name" : "android::trait_trivial_move<float>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIf"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIhEE",
+   "name" : "android::trait_trivial_move<unsigned char>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIh"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIiEE",
+   "name" : "android::trait_trivial_move<int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIi"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIjEE",
+   "name" : "android::trait_trivial_move<unsigned int>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIj"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIlEE",
+   "name" : "android::trait_trivial_move<long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIl"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveImEE",
+   "name" : "android::trait_trivial_move<unsigned long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIm"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIsEE",
+   "name" : "android::trait_trivial_move<short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIs"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveItEE",
+   "name" : "android::trait_trivial_move<unsigned short>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIt"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIvEE",
+   "name" : "android::trait_trivial_move<void>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIv"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIxEE",
+   "name" : "android::trait_trivial_move<long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIx"
+   ]
+  },
+  {
+   "alignment" : 1,
+   "linker_set_key" : "_ZTIN7android18trait_trivial_moveIyEE",
+   "name" : "android::trait_trivial_move<unsigned long long>",
+   "size" : 1,
+   "source_file" : "system/core/include/utils/TypeHelpers.h",
+   "template_args" :
+   [
+    "_ZTIy"
+   ]
+  }
+ ],
+ "rvalue_reference_types" : []
+}
