@@ -1814,6 +1814,9 @@
    "name" : "clone"
   },
   {
+   "name" : "clone3"
+  },
+  {
    "name" : "close"
   },
   {
@@ -16163,6 +16166,33 @@
     },
     {
      "referenced_type" : "_ZTIi"
+    },
+    {
+     "referenced_type" : "_ZTIPv"
+    }
+   ],
+   "return_type" : "_ZTIi",
+   "source_file" : "bionic/libc/include/sched.h"
+  },
+  {
+   "availability_attrs" :
+   [
+    {
+     "introduced_major" : 38
+    }
+   ],
+   "function_name" : "clone3",
+   "linker_set_key" : "clone3",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP10clone_args"
+    },
+    {
+     "referenced_type" : "_ZTIj"
+    },
+    {
+     "referenced_type" : "_ZTIPFiPvE"
     },
     {
      "referenced_type" : "_ZTIPv"
@@ -30629,6 +30659,14 @@
    "referenced_type" : "_ZTI10__locale_t",
    "size" : 4,
    "source_file" : "bionic/libc/include/ctype.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIP10clone_args",
+   "name" : "clone_args *",
+   "referenced_type" : "_ZTI10clone_args",
+   "size" : 4,
+   "source_file" : "bionic/libc/include/sched.h"
   },
   {
    "alignment" : 4,
